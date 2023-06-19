@@ -1,0 +1,12409 @@
+{
+	inferno.Outside = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = true
+		dsp_preset = "reverb_22_outsideOpen"
+		enable_child_events = true
+		set_child_position = false
+		override_dsp_preset = true
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"inferno.Outside.Bees3",
+			"inferno.Outside.Exterior",
+			"inferno.Outside.Exterior2",
+			"inferno.Outside.WindowCreaks",
+			"inferno.Outside.WindowCreaks2",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+	}
+	inferno.Outside.Exterior = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = true
+		volume = 0.200000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		vsnd_files_track_01 = "sounds/ambient/inferno/exterior_01.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 32.445713
+	}
+	inferno.Outside.Exterior2 = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = true
+		volume = 0.500000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		vsnd_files_track_01 = "sounds/ambient/inferno/exterior_02.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 37.762447
+	}
+	inferno.Outside.WindowCreaks = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = false
+		volume_random_min = -0.900000
+		volume_random_max = -0.500000
+		pitch_random_min = -0.020000
+		position = 
+		[
+			1437.000000,
+			2714.000000,
+			339.000000,
+		]
+		enable_retrigger = true
+		retrigger_interval_min = 3.000000
+		retrigger_interval_max = 15.000000
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/inferno/window_01.vsnd",
+			"sounds/ambient/inferno/window_02.vsnd",
+			"sounds/ambient/inferno/window_03.vsnd",
+			"sounds/ambient/inferno/window_04.vsnd",
+			"sounds/ambient/inferno/window_05.vsnd",
+			"sounds/ambient/inferno/window_06.vsnd",
+			"sounds/ambient/inferno/window_07.vsnd",
+			"sounds/ambient/inferno/window_09.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				800.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.915737
+	}
+	inferno.Outside.WindowCreaks2 = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = false
+		volume_random_min = -0.900000
+		volume_random_max = -0.500000
+		pitch_random_min = -0.020000
+		enable_retrigger = true
+		retrigger_interval_min = 3.000000
+		retrigger_interval_max = 15.000000
+		position = 
+		[
+			2190.000000,
+			1249.000000,
+			431.000000,
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/inferno/window_01.vsnd",
+			"sounds/ambient/inferno/window_02.vsnd",
+			"sounds/ambient/inferno/window_03.vsnd",
+			"sounds/ambient/inferno/window_04.vsnd",
+			"sounds/ambient/inferno/window_05.vsnd",
+			"sounds/ambient/inferno/window_06.vsnd",
+			"sounds/ambient/inferno/window_07.vsnd",
+			"sounds/ambient/inferno/window_09.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				800.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.915737
+	}
+	inferno.Outside.Bees3 = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = false
+		volume_random_min = -0.900000
+		volume_random_max = -0.700000
+		pitch_random_min = -0.020000
+		position = 
+		[
+			1304.000000,
+			164.000000,
+			237.000000,
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/inferno/bees_01.vsnd",
+			"sounds/ambient/inferno/bees_02.vsnd",
+			"sounds/ambient/inferno/bees_03.vsnd",
+			"sounds/ambient/inferno/bees_04.vsnd",
+			"sounds/ambient/inferno/bees_05.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.522367,
+				0.626582,
+				-0.561423,
+				-0.561423,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.375347,
+				0.227848,
+				-0.349671,
+				-0.349671,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 4.000000
+	}
+	inferno.Inside = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = true
+		dsp_preset = "reverb_4_smallCarpetRoom"
+		enable_child_events = true
+		set_child_position = false
+		override_dsp_preset = true
+		position = 
+		[
+			0.000000,
+			0.000000,
+			0.000000,
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"inferno.Inside.Air",
+			"inferno.Inside.Exterior",
+			"inferno.Inside.HouseCreak",
+			"inferno.Inside.WindowCreaks",
+			"inferno.Inside.Flies",
+			"inferno.Inside.Birds",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+	}
+	inferno.Inside.Air = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = true
+		use_distance_unfiltered_stereo_mapping_curve = true
+		volume = 0.500000
+		vsnd_files_track_01 = "sounds/ambient/wind/dry_air_short_indoors.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.485714,
+				0.799107,
+				-0.612877,
+				-0.612877,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.325714,
+				0.187500,
+				-0.527712,
+				-0.527712,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.140000,
+				0.129464,
+				1.875000,
+				1.875000,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.357143,
+				0.669643,
+				1.404090,
+				1.404090,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				0.760000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 4.292971
+	}
+	inferno.Inside.Exterior = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = true
+		use_distance_unfiltered_stereo_mapping_curve = true
+		volume = 0.350000
+		vsnd_files_track_01 = "sounds/ambient/inferno/exterior_02.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 37.762447
+	}
+	inferno.Inside.HouseCreak = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = false
+		volume_random_min = -0.100000
+		pitch_random_min = -0.100000
+		position = 
+		[
+			2667.000000,
+			1314.000000,
+			289.000000,
+		]
+		enable_retrigger = true
+		retrigger_interval_max = 15.000000
+		retrigger_interval_min = 8.000000
+		position_relative_to_player = true
+		volume = 0.200000
+		randomize_position_min_radius = 0.000000
+		randomize_position_max_radius = 20.000000
+		vsnd_files_track_01 = 
+		[
+			"sounds/player/footsteps/new/wood_floor_creak_01.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_03.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_04.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_05.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_06.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_07.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_08.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				600.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+	}
+	inferno.CeilingFan.Squeak = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = false
+		volume = 0.450000
+		enable_retrigger = true
+		retrigger_interval_min = 2.000000
+		retrigger_interval_max = 2.000000
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/machines/squeak_2.vsnd",
+			"sounds/ambient/machines/squeak_3.vsnd",
+			"sounds/ambient/machines/squeak_4.vsnd",
+			"sounds/ambient/machines/squeak_5.vsnd",
+			"sounds/ambient/machines/squeak_6.vsnd",
+			"sounds/ambient/machines/squeak_7.vsnd",
+			"sounds/ambient/machines/squeak_8.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				400.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		metadata = "position fan"
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.485714,
+				0.799107,
+				-0.612877,
+				-0.612877,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.325714,
+				0.187500,
+				-0.527712,
+				-0.527712,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.140000,
+				0.129464,
+				1.875000,
+				1.875000,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.357143,
+				0.669643,
+				1.404090,
+				1.404090,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				0.760000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.502222
+	}
+	inferno.CeilingFan.ElectricHum = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = true
+		volume = 0.200000
+		vsnd_files_track_01 = "sounds/ambient/machines/electrical_hum_2.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				150.000000,
+				0.500000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		metadata = "position fan"
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.485714,
+				0.799107,
+				-0.612877,
+				-0.612877,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.325714,
+				0.187500,
+				-0.527712,
+				-0.527712,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.140000,
+				0.129464,
+				1.875000,
+				1.875000,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.357143,
+				0.669643,
+				1.404090,
+				1.404090,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				0.760000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.019955
+	}
+	inferno.RefrigeratorHum = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		volume = 0.600000
+		enable_retrigger = true
+		retrigger_interval_min = 40.000000
+		retrigger_interval_max = 40.000000
+		use_time_volume_mapping_curve = true
+		position = 
+		[
+			-256.000000,
+			72.000000,
+			221.000000,
+		]
+		vsnd_files_track_01 = "sounds/ambient/playonce/machines/refrigerator.vsnd"
+		metadata = "position_0 | used for all refridgerators in the map"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.051429,
+				0.387324,
+				7.640845,
+				7.640845,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.114286,
+				0.873239,
+				1.848591,
+				1.848591,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				0.382857,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 15.907211
+	}
+	inferno.Cricket = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = false
+		enable_retrigger = true
+		retrigger_interval_min = 0.800000
+		pitch_random_min = -0.020000
+		pitch_random_max = 0.020000
+		volume = 0.500000
+		position = 
+		[
+			1919.156738,
+			2211.921875,
+			148.916443,
+		]
+		vsnd_files_track_01 = "sounds/ambient/animal/cricket_chirp_1.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				243.428574,
+				0.245536,
+				-0.001667,
+				-0.001667,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				600.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.851128,
+				0.687321,
+				-0.485443,
+				-0.485443,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.591700,
+				0.227321,
+				-0.469752,
+				-0.469752,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.280000
+	}
+	inferno.Pigeons = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = true
+		mixgroup = "Inferno"
+		enable_child_events = true
+		override_dsp_preset = true
+		metadata = "70dB"
+		soundevent_01 = 
+		[
+			"inferno.Pigeons.Flaps",
+			"inferno.Pigeons.Idle",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.102857,
+				0.670833,
+				-1.977402,
+				-1.977402,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.505714,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+	}
+	inferno.Pigeons.Idle = 
+	{
+		type = "csgo_mega"
+		volume = 0.700000
+		use_time_volume_mapping_curve = false
+		mixgroup = "Inferno"
+		enable_retrigger = true
+		retrigger_interval_min = 3.000000
+		retrigger_interval_max = 10.000000
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/creatures/pigeon_idle1.vsnd",
+			"sounds/ambient/creatures/pigeon_idle2.vsnd",
+			"sounds/ambient/creatures/pigeon_idle3.vsnd",
+			"sounds/ambient/creatures/pigeon_idle4.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.382903
+	}
+	inferno.Pigeons.Flaps = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = false
+		mixgroup = "Inferno"
+		volume = 0.700000
+		enable_retrigger = true
+		retrigger_interval_min = 30.000000
+		retrigger_interval_max = 60.000000
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/bird_flapping_1.vsnd",
+			"sounds/ambient/animal/bird_flapping_2.vsnd",
+			"sounds/ambient/animal/bird_flapping_3.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.522367,
+				0.626582,
+				-0.561423,
+				-0.561423,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.375347,
+				0.227848,
+				-0.349671,
+				-0.349671,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 3.406349
+	}
+	inferno.TSpawn = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = true
+		enable_child_events = true
+		dsp_preset = "reverb_22_outsideOpen"
+		set_child_position = false
+		override_dsp_preset = true
+		metadata = "position: birds 0; birds 1; cricket 4"
+		soundevent_01 = 
+		[
+			"inferno.TSpawn.Bees",
+			"inferno.TSpawn.Exterior",
+			"inferno.TSpawn.Flamenco",
+			"inferno.TSpawn.LockedDoor",
+			"inferno.TSpawn.WaterStream",
+			"inferno.TSpawn.WaterWheel",
+			"inferno.TSpawn.Birds",
+			"inferno.TSpawn.Birds2",
+			"inferno.TSpawn.Cricket",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+	}
+	inferno.TSpawn.Exterior = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = true
+		volume = 0.450000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		vsnd_files_track_01 = "sounds/ambient/inferno/exterior_04.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 59.450565
+	}
+	inferno.TSpawn.WaterWheel = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = true
+		volume = 0.000000
+		position = 
+		[
+			-1843.000000,
+			-25.000000,
+			-16.000000,
+		]
+		vsnd_files_track_01 = "sounds/ambient/inferno/water_wheel_01.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				452.571411,
+				0.215247,
+				-0.001111,
+				-0.001111,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				900.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.522367,
+				0.626582,
+				-0.561423,
+				-0.561423,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.375347,
+				0.227848,
+				-0.349671,
+				-0.349671,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		metadata = "remove?"
+		vsnd_duration = 3.825918
+	}
+	inferno.TSpawn.WaterStream = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = true
+		position = 
+		[
+			-1852.000000,
+			-136.000000,
+			-6.000000,
+		]
+		volume = 0.000000
+		pitch = 0.900000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				700.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = "sounds/ambient/inferno/water_stream_01.vsnd"
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.522367,
+				0.626582,
+				-0.561423,
+				-0.561423,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.375347,
+				0.227848,
+				-0.349671,
+				-0.349671,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		metadata = "remove?"
+		vsnd_duration = 5.205329
+	}
+	inferno.TSpawn.LockedDoor = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = true
+		volume = 0.550000
+		metadata = "position_3"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.051429,
+				0.387324,
+				7.640845,
+				7.640845,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.114286,
+				0.873239,
+				1.848591,
+				1.848591,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				0.382857,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+	}
+	inferno.TSpawn.Flamenco = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = true
+		volume = 0.550000
+		position = 
+		[
+			0.000000,
+			0.000000,
+			0.000000,
+		]
+		use_entity_position_if_local_player = false
+		use_world_position = true
+		metadata = "position_5"
+		vsnd_files_track_01 = "sounds/ambient/flamenco.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				360.000000,
+				0.797297,
+				-0.001450,
+				-0.001450,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				492.257111,
+				0.286306,
+				-0.002044,
+				-0.002044,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				750.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.051429,
+				0.387324,
+				7.640845,
+				7.640845,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.114286,
+				0.873239,
+				1.848591,
+				1.848591,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				0.382857,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 33.229206
+	}
+	inferno.TSpawn.Bees = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = false
+		volume = 0.000000
+		enable_retrigger = true
+		retrigger_interval_min = 3.000000
+		retrigger_interval_max = 3.000000
+		position = 
+		[
+			-1586.520020,
+			384.000000,
+			-46.000000,
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.522367,
+				0.626582,
+				-0.561423,
+				-0.561423,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.375347,
+				0.227848,
+				-0.349671,
+				-0.349671,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/inferno/bees_01.vsnd",
+			"sounds/ambient/inferno/bees_02.vsnd",
+			"sounds/ambient/inferno/bees_03.vsnd",
+			"sounds/ambient/inferno/bees_04.vsnd",
+			"sounds/ambient/inferno/bees_05.vsnd",
+		]
+		metadata = "remove?"
+		vsnd_duration = 4.000000
+	}
+	inferno.CrawlTunnel = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = true
+		mixgroup = "Inferno"
+		enable_child_events = true
+		dsp_preset = "reverb_2_crawlSpace"
+		set_child_position = false
+		override_dsp_preset = true
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"inferno.CrawlTunnel.Exterior",
+			"inferno.CrawlTunnel.Exterior2",
+			"inferno.CrawlTunnel.Rats",
+		]
+	}
+	inferno.CrawlTunnel.Exterior = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = true
+		mixgroup = "Inferno"
+		volume = 0.500000
+		pitch = 0.800000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		vsnd_files_track_01 = "sounds/ambient/inferno/exterior_01.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				700.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 32.445713
+	}
+	inferno.CrawlTunnel.Exterior2 = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = true
+		mixgroup = "Inferno"
+		volume = 0.150000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		vsnd_files_track_01 = "sounds/ambient/inferno/exterior_05.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				700.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 29.391247
+	}
+	inferno.CrawlTunnel.Rats = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = false
+		mixgroup = "Inferno"
+		volume_random_min = -0.700000
+		volume_random_max = -0.300000
+		enable_retrigger = true
+		retrigger_interval_min = 10.000000
+		retrigger_interval_max = 30.000000
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/rodent_scratch_short_1.vsnd",
+			"sounds/ambient/animal/rodent_scratch_short_2.vsnd",
+			"sounds/ambient/creatures/rats4.vsnd",
+			"sounds/ambient/creatures/rats1.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				700.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.485714,
+				0.799107,
+				-0.612877,
+				-0.612877,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.325714,
+				0.187500,
+				-0.527712,
+				-0.527712,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.191429,
+				0.218750,
+				1.881379,
+				1.881379,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.420000,
+				0.790179,
+				1.183712,
+				1.183712,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				0.851429,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.457098
+	}
+	inferno.BombsiteA = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = true
+		mixgroup = "Inferno"
+		dsp_preset = "reverb_21_outsideStreet"
+		enable_child_events = true
+		set_child_position = false
+		override_dsp_preset = true
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"inferno.BombsiteA.Bees",
+			"inferno.BombsiteA.Exterior",
+			"inferno.BombsiteA.WindowCreaks",
+			"inferno.BombsiteA.Birds",
+			"inferno.BombsiteA.Birds2",
+			"inferno.BombsiteA.Cricket",
+			"inferno.BombsiteA.Cat",
+			"inferno.BombsiteA.WindChime",
+		]
+		metadata = "position: bird 1; bird 2; cricket 5"
+	}
+	inferno.BombsiteA.Exterior = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = true
+		mixgroup = "Inferno"
+		volume = 0.550000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = "sounds/ambient/inferno/exterior_03.vsnd"
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 31.695919
+	}
+	inferno.BombsiteA.WindowCreaks = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = false
+		mixgroup = "Inferno"
+		volume_random_min = -0.900000
+		volume_random_max = -0.500000
+		pitch_random_min = -0.020000
+		position = 
+		[
+			1826.000000,
+			-113.000000,
+			373.000000,
+		]
+		enable_retrigger = true
+		retrigger_interval_min = 3.000000
+		retrigger_interval_max = 15.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				800.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/inferno/window_01.vsnd",
+			"sounds/ambient/inferno/window_02.vsnd",
+			"sounds/ambient/inferno/window_03.vsnd",
+			"sounds/ambient/inferno/window_04.vsnd",
+			"sounds/ambient/inferno/window_05.vsnd",
+			"sounds/ambient/inferno/window_06.vsnd",
+			"sounds/ambient/inferno/window_07.vsnd",
+			"sounds/ambient/inferno/window_09.vsnd",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.485714,
+				0.799107,
+				-0.612877,
+				-0.612877,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.325714,
+				0.187500,
+				-0.527712,
+				-0.527712,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.140000,
+				0.129464,
+				1.875000,
+				1.875000,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.357143,
+				0.669643,
+				1.404090,
+				1.404090,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				0.760000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.915737
+	}
+	inferno.BombsiteA.Bees = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = false
+		mixgroup = "Inferno"
+		volume_random_min = -0.900000
+		volume_random_max = -0.700000
+		enable_retrigger = true
+		retrigger_interval_min = 3.000000
+		retrigger_interval_max = 3.000000
+		position = 
+		[
+			2386.339600,
+			-488.665466,
+			115.807571,
+		]
+		pitch_random_min = -0.020000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.522367,
+				0.626582,
+				-0.561423,
+				-0.561423,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.375347,
+				0.227848,
+				-0.349671,
+				-0.349671,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/inferno/bees_01.vsnd",
+			"sounds/ambient/inferno/bees_02.vsnd",
+			"sounds/ambient/inferno/bees_03.vsnd",
+			"sounds/ambient/inferno/bees_04.vsnd",
+			"sounds/ambient/inferno/bees_05.vsnd",
+		]
+		vsnd_duration = 4.000000
+	}
+	inferno.CTSpawn = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = true
+		enable_child_events = true
+		set_child_position = false
+		override_dsp_preset = true
+		dsp_preset = "reverb_22_outsideOpen"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"inferno.CTSpawn.Exterior",
+			"inferno.CTSpawn.Music",
+			"inferno.CTSpawn.Truck",
+			"inferno.CTSpawn.WellDrip",
+			"inferno.CTSpawn.WindowCreaks",
+			"inferno.Cricket",
+			"inferno.CTSpawn.Birds",
+			"inferno.CTSpawn.Birds2",
+			"inferno.CTSpawn.DogBarks",
+		]
+		metadata = "position: birds 0, tree by apartment; birds 4, tree by church; cricket 5, flowerbed"
+	}
+	inferno.CTSpawn.Exterior = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = true
+		volume = 0.200000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		vsnd_files_track_01 = "sounds/ambient/inferno/exterior_02.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 37.762447
+	}
+	inferno.CTSpawn.Truck = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = true
+		volume = 0.600000
+		position = 
+		[
+			3221.181152,
+			2046.956787,
+			-65.912415,
+		]
+		vsnd_files_track_01 = "sounds/ambient/machines/truck_idle_loop.vsnd"
+		metadata = "position_1"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				285.428558,
+				0.657658,
+				-0.001030,
+				-0.001030,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				542.285706,
+				0.441176,
+				-0.000648,
+				-0.000648,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				1300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.851128,
+				0.687321,
+				-0.485443,
+				-0.485443,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.591700,
+				0.227321,
+				-0.469752,
+				-0.469752,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.051429,
+				0.387324,
+				7.640845,
+				7.640845,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.114286,
+				0.873239,
+				1.848591,
+				1.848591,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				0.382857,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 2.266735
+	}
+	inferno.CTSpawn.WellDrip = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = false
+		volume = 0.000000
+		enable_retrigger = true
+		retrigger_interval_max = 2.000000
+		position = 
+		[
+			1955.000000,
+			2562.000000,
+			163.000000,
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/water/distant_drip1.vsnd",
+			"sounds/ambient/water/distant_drip2.vsnd",
+			"sounds/ambient/water/distant_drip3.vsnd",
+			"sounds/ambient/water/distant_drip4.vsnd",
+		]
+		metadata = "remove?"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				205.714279,
+				0.192469,
+				-0.002500,
+				-0.002500,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				400.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.851128,
+				0.687321,
+				-0.485443,
+				-0.485443,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.591700,
+				0.227321,
+				-0.469752,
+				-0.469752,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.051429,
+				0.387324,
+				7.640845,
+				7.640845,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.114286,
+				0.873239,
+				1.848591,
+				1.848591,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				0.382857,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.062540
+	}
+	inferno.CTSpawn.Music = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = true
+		volume = 0.500000
+		position = 
+		[
+			0.000000,
+			0.000000,
+			0.000000,
+		]
+		use_world_position = true
+		use_entity_position_if_local_player = false
+		vsnd_files_track_01 = "sounds/ambient/latin.vsnd"
+		metadata = "position_3"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				276.857117,
+				1.000000,
+				-0.001005,
+				-0.001005,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				673.200317,
+				0.323604,
+				-0.000818,
+				-0.000818,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1500.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.851128,
+				0.687321,
+				-0.485443,
+				-0.485443,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.591700,
+				0.227321,
+				-0.469752,
+				-0.469752,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.051429,
+				0.387324,
+				7.640845,
+				7.640845,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.114286,
+				0.873239,
+				1.848591,
+				1.848591,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				0.382857,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 21.401451
+	}
+	inferno.CTSpawn.WindowCreaks = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = true
+		position = 
+		[
+			1834.570068,
+			2128.872314,
+			475.623871,
+		]
+		pitch_random_min = -0.020000
+		enable_retrigger = true
+		retrigger_interval_min = 3.000000
+		retrigger_interval_max = 15.000000
+		volume = 0.400000
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/inferno/window_01.vsnd",
+			"sounds/ambient/inferno/window_02.vsnd",
+			"sounds/ambient/inferno/window_03.vsnd",
+			"sounds/ambient/inferno/window_04.vsnd",
+			"sounds/ambient/inferno/window_05.vsnd",
+			"sounds/ambient/inferno/window_06.vsnd",
+			"sounds/ambient/inferno/window_07.vsnd",
+			"sounds/ambient/inferno/window_09.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				625.714294,
+				0.205882,
+				-0.001000,
+				-0.001000,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1000.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.851128,
+				0.687321,
+				-0.485443,
+				-0.485443,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.591700,
+				0.227321,
+				-0.469752,
+				-0.469752,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.140000,
+				0.129464,
+				1.875000,
+				1.875000,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.357143,
+				0.669643,
+				1.404090,
+				1.404090,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				0.760000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.915737
+	}
+	inferno.Church = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = true
+		dsp_preset = "reverb_7_mediumHall"
+		enable_child_events = true
+		set_child_position = false
+		override_dsp_preset = true
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"inferno.Church.Interior",
+			"inferno.Church.Scaffolding",
+		]
+	}
+	inferno.Church.Interior = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = true
+		use_distance_unfiltered_stereo_mapping_curve = true
+		volume = 0.900000
+		vsnd_files_track_01 = "sounds/ambient/inferno/interior_church.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 26.375532
+	}
+	inferno.Church.Scaffolding = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = false
+		volume_random_min = -0.800000
+		volume_random_max = -0.600000
+		enable_retrigger = true
+		retrigger_interval_min = 10.000000
+		retrigger_interval_max = 30.000000
+		position = 
+		[
+			982.000000,
+			3008.000000,
+			300.000000,
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/inferno/church_01.vsnd",
+			"sounds/ambient/inferno/church_02.vsnd",
+			"sounds/ambient/inferno/church_03.vsnd",
+			"sounds/ambient/inferno/church_04.vsnd",
+			"sounds/ambient/inferno/church_05.vsnd",
+		]
+		metadata = "position_0"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				800.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.485714,
+				0.799107,
+				-0.612877,
+				-0.612877,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.325714,
+				0.187500,
+				-0.527712,
+				-0.527712,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.411429,
+				0.515695,
+				0.738397,
+				0.738397,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.354286,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 7.431111
+	}
+	inferno.BombsiteB = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = true
+		dsp_preset = "reverb_21_outsideStreet"
+		enable_child_events = true
+		set_child_position = false
+		override_dsp_preset = true
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"inferno.BombsiteB.Bees",
+			"inferno.BombsiteB.Cicadas",
+			"inferno.BombsiteB.Exterior",
+			"inferno.BombsiteB.Horse",
+			"inferno.BombsiteB.WaterStream",
+			"inferno.BombsiteB.WindowCreaks",
+			"inferno.BombsiteB.Birds",
+			"inferno.BombsiteB.Cricket",
+		]
+		metadata = "position: birds 1, tree in skybox; cricket 3, dark corner"
+	}
+	inferno.BombsiteB.Exterior = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = true
+		use_distance_unfiltered_stereo_mapping_curve = true
+		volume = 0.200000
+		vsnd_files_track_01 = "sounds/ambient/inferno/exterior_06.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 18.370975
+	}
+	inferno.BombsiteB.Horse = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = true
+		enable_retrigger = true
+		retrigger_interval_min = 10.000000
+		retrigger_interval_max = 30.000000
+		position = 
+		[
+			-184.000000,
+			3008.000000,
+			472.000000,
+		]
+		volume = 0.600000
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/horse_1.vsnd",
+			"sounds/ambient/animal/horse_2.vsnd",
+			"sounds/ambient/animal/horse_3.vsnd",
+			"sounds/ambient/animal/horse_4.vsnd",
+			"sounds/ambient/animal/horse_5.vsnd",
+			"sounds/ambient/animal/horse_6.vsnd",
+			"sounds/ambient/animal/horse_eat_1.vsnd",
+			"sounds/ambient/animal/horse_eat_2.vsnd",
+		]
+		metadata = "position_0, behind garden gate"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1000.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.522367,
+				0.626582,
+				-0.561423,
+				-0.561423,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.375347,
+				0.227848,
+				-0.349671,
+				-0.349671,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.051429,
+				0.387324,
+				7.640845,
+				7.640845,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.114286,
+				0.873239,
+				1.848591,
+				1.848591,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				0.382857,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 4.793107
+	}
+	inferno.BombsiteB.WaterStream = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = true
+		volume = 0.000000
+		pitch = 1.100000
+		position = 
+		[
+			353.000000,
+			2767.000000,
+			190.000000,
+		]
+		vsnd_files_track_01 = "sounds/ambient/inferno/water_stream_01.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				195.428574,
+				0.900901,
+				-0.000995,
+				-0.000995,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				416.571411,
+				0.585586,
+				-0.001279,
+				-0.001279,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				900.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.522367,
+				0.626582,
+				-0.561423,
+				-0.561423,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.375347,
+				0.227848,
+				-0.349671,
+				-0.349671,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		metadata = "remove?"
+		vsnd_duration = 5.205329
+	}
+	inferno.BombsiteB.Cicadas = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = true
+		volume_random_min = -0.500000
+		volume_random_max = 0.000000
+		pitch_random_min = -0.100000
+		enable_retrigger = true
+		retrigger_interval_min = 5.000000
+		retrigger_interval_max = 15.000000
+		position = 
+		[
+			460.000000,
+			3722.000000,
+			270.000000,
+		]
+		vsnd_files_track_01 = "sounds/ambient/inferno/cicadas.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.522367,
+				0.626582,
+				-0.561423,
+				-0.561423,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.375347,
+				0.227848,
+				-0.349671,
+				-0.349671,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 5.418685
+	}
+	inferno.BombsiteB.WindowCreaks = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = false
+		volume = 0.000000
+		volume_random_min = -0.900000
+		volume_random_max = -0.700000
+		pitch_random_min = -0.020000
+		position = 
+		[
+			48.000000,
+			3261.000000,
+			242.000000,
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/inferno/window_01.vsnd",
+			"sounds/ambient/inferno/window_02.vsnd",
+			"sounds/ambient/inferno/window_03.vsnd",
+			"sounds/ambient/inferno/window_04.vsnd",
+			"sounds/ambient/inferno/window_05.vsnd",
+			"sounds/ambient/inferno/window_06.vsnd",
+			"sounds/ambient/inferno/window_07.vsnd",
+			"sounds/ambient/inferno/window_09.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				600.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.485714,
+				0.799107,
+				-0.612877,
+				-0.612877,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.325714,
+				0.187500,
+				-0.527712,
+				-0.527712,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.140000,
+				0.129464,
+				1.875000,
+				1.875000,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.357143,
+				0.669643,
+				1.404090,
+				1.404090,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				0.760000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.915737
+	}
+	inferno.BombsiteB.Bees = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = false
+		volume_random_min = -0.900000
+		volume_random_max = -0.700000
+		pitch_random_min = -0.020000
+		position = 
+		[
+			1045.000000,
+			2634.000000,
+			217.000000,
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/inferno/bees_01.vsnd",
+			"sounds/ambient/inferno/bees_02.vsnd",
+			"sounds/ambient/inferno/bees_03.vsnd",
+			"sounds/ambient/inferno/bees_04.vsnd",
+			"sounds/ambient/inferno/bees_05.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				200.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.522367,
+				0.626582,
+				-0.561423,
+				-0.561423,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.375347,
+				0.227848,
+				-0.349671,
+				-0.349671,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 4.000000
+	}
+	inferno.Banana = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = true
+		mixgroup = "Inferno"
+		dsp_preset = "reverb_20_outsideAlley"
+		enable_child_events = true
+		set_child_position = false
+		override_dsp_preset = true
+		position = 
+		[
+			0.000000,
+			0.000000,
+			0.000000,
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"inferno.Banana.Bees",
+			"inferno.Banana.Cicadas",
+			"inferno.Banana.Exterior",
+			"inferno.Banana.Exterior2",
+			"inferno.Banana.WindowCreaks",
+			"inferno.BombsiteB.WaterStream",
+			"inferno.Banana.RoofCreaks",
+			"inferno.Banana.DogBarks",
+		]
+	}
+	inferno.Banana.Exterior = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = true
+		mixgroup = "Inferno"
+		volume = 0.300000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		vsnd_files_track_01 = "sounds/ambient/inferno/exterior_06.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 18.370975
+	}
+	inferno.Banana.Exterior2 = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = true
+		mixgroup = "Inferno"
+		volume = 0.060000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		vsnd_files_track_01 = "sounds/ambient/inferno/exterior_07.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 21.271656
+	}
+	inferno.Banana.Cicadas = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = true
+		mixgroup = "Inferno"
+		volume_random_min = -0.500000
+		pitch_random_min = -0.100000
+		position = 
+		[
+			6.000000,
+			3722.000000,
+			312.000000,
+		]
+		enable_retrigger = true
+		retrigger_interval_min = 3.000000
+		retrigger_interval_max = 15.000000
+		vsnd_files_track_01 = "sounds/ambient/inferno/cicadas.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				600.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.040441,
+				0.633036,
+				-0.404314,
+				-0.404314,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				2.071412,
+				0.162500,
+				-0.323050,
+				-0.323050,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.340000,
+				0.495536,
+				1.508621,
+				1.508621,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.662857,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 5.418685
+	}
+	inferno.Banana.WindowCreaks = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = false
+		mixgroup = "Inferno"
+		volume_random_min = -0.900000
+		volume_random_max = -0.500000
+		pitch_random_min = -0.020000
+		position = 
+		[
+			1067.296997,
+			1910.357300,
+			414.383636,
+		]
+		enable_retrigger = true
+		retrigger_interval_min = 3.000000
+		retrigger_interval_max = 15.000000
+		volume = 1.000000
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/inferno/window_01.vsnd",
+			"sounds/ambient/inferno/window_02.vsnd",
+			"sounds/ambient/inferno/window_03.vsnd",
+			"sounds/ambient/inferno/window_04.vsnd",
+			"sounds/ambient/inferno/window_05.vsnd",
+			"sounds/ambient/inferno/window_06.vsnd",
+			"sounds/ambient/inferno/window_07.vsnd",
+			"sounds/ambient/inferno/window_09.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				600.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.040441,
+				0.633036,
+				-0.404314,
+				-0.404314,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				2.071412,
+				0.162500,
+				-0.323050,
+				-0.323050,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.340000,
+				0.495536,
+				1.508621,
+				1.508621,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.662857,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.915737
+	}
+	inferno.Banana.Bees = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = false
+		mixgroup = "Inferno"
+		volume_random_min = -0.900000
+		volume_random_max = -0.700000
+		pitch_random_min = -0.020000
+		enable_retrigger = true
+		retrigger_interval_min = 3.000000
+		retrigger_interval_max = 3.000000
+		position = 
+		[
+			967.742249,
+			2108.612793,
+			169.767853,
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/inferno/bees_01.vsnd",
+			"sounds/ambient/inferno/bees_02.vsnd",
+			"sounds/ambient/inferno/bees_03.vsnd",
+			"sounds/ambient/inferno/bees_04.vsnd",
+			"sounds/ambient/inferno/bees_05.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				200.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.040441,
+				0.633036,
+				-0.404314,
+				-0.404314,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				2.071412,
+				0.162500,
+				-0.323050,
+				-0.323050,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.340000,
+				0.495536,
+				1.508621,
+				1.508621,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.662857,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 4.000000
+	}
+	inferno.Mid = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = true
+		mixgroup = "Inferno"
+		dsp_preset = "reverb_20_outsideAlley"
+		enable_child_events = true
+		set_child_position = false
+		override_dsp_preset = true
+		soundevent_01 = 
+		[
+			"inferno.Mid.Bees",
+			"inferno.Mid.Exterior",
+			"inferno.Mid.Birds",
+			"inferno.Mid.Cricket",
+			"inferno.Mid.Birds2",
+		]
+		metadata = "position: birds 0, tree; crickets 1, flowers by barrels"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+	}
+	inferno.Mid.Exterior = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = true
+		mixgroup = "Inferno"
+		use_distance_unfiltered_stereo_mapping_curve = true
+		volume = 0.300000
+		vsnd_files_track_01 = "sounds/ambient/inferno/exterior_05.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 29.391247
+	}
+	inferno.Mid.Bees = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = false
+		mixgroup = "Inferno"
+		volume_random_min = -0.900000
+		volume_random_max = -0.700000
+		pitch_random_min = -0.020000
+		position = 
+		[
+			-850.000000,
+			686.000000,
+			-4.000000,
+		]
+		enable_retrigger = true
+		retrigger_interval_min = 3.000000
+		retrigger_interval_max = 3.000000
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/inferno/bees_01.vsnd",
+			"sounds/ambient/inferno/bees_02.vsnd",
+			"sounds/ambient/inferno/bees_03.vsnd",
+			"sounds/ambient/inferno/bees_04.vsnd",
+			"sounds/ambient/inferno/bees_05.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.522367,
+				0.626582,
+				-0.561423,
+				-0.561423,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.375347,
+				0.227848,
+				-0.349671,
+				-0.349671,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.340000,
+				0.495536,
+				1.508621,
+				1.508621,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.662857,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 4.000000
+	}
+	inferno.AltMid = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = true
+		mixgroup = "Inferno"
+		dsp_preset = "reverb_21_outsideStreet"
+		enable_child_events = true
+		set_child_position = false
+		override_dsp_preset = true
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"inferno.AltMid.Bees",
+			"inferno.AltMid.Exterior",
+			"inferno.AltMid.Exterior2",
+			"inferno.AltMid.HouseCreaks",
+			"inferno.AltMid.RadioMusic",
+			"inferno.AltMid.WindowCreaks",
+			"inferno.AltMid.Birds",
+			"inferno.AltMid.Birds2",
+			"inferno.AltMid.Cricket",
+			"inferno.AltMid.Flies",
+			"inferno.AltMid.Flies2",
+		]
+		metadata = "position: birds 0, skybox trees; birds 1, same; cricket 4, near car"
+	}
+	inferno.AltMid.Exterior = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = true
+		mixgroup = "Inferno"
+		volume = 0.100000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = "sounds/ambient/inferno/exterior_05.vsnd"
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 29.391247
+	}
+	inferno.AltMid.Exterior2 = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = true
+		mixgroup = "Inferno"
+		volume = 0.200000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		vsnd_files_track_01 = "sounds/ambient/inferno/exterior_01.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 32.445713
+	}
+	inferno.AltMid.RadioMusic = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = true
+		mixgroup = "Inferno"
+		volume = 0.350000
+		position = 
+		[
+			502.000000,
+			34.000000,
+			155.000000,
+		]
+		vsnd_files_track_01 = "sounds/ambient/mirame_radio_thru_wall.vsnd"
+		metadata = "position_5"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				600.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.485714,
+				0.799107,
+				-0.612877,
+				-0.612877,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.325714,
+				0.187500,
+				-0.527712,
+				-0.527712,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.051429,
+				0.387324,
+				7.640845,
+				7.640845,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.114286,
+				0.873239,
+				1.848591,
+				1.848591,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				0.382857,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 44.291065
+	}
+	inferno.AltMid.Bees = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = true
+		pitch_random_min = -0.020000
+		volume_random_min = -0.900000
+		volume_random_max = -0.700000
+		position = 
+		[
+			697.424194,
+			130.298477,
+			164.464844,
+		]
+		enable_retrigger = true
+		retrigger_interval_min = 3.000000
+		retrigger_interval_max = 3.000000
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/inferno/bees_01.vsnd",
+			"sounds/ambient/inferno/bees_02.vsnd",
+			"sounds/ambient/inferno/bees_03.vsnd",
+			"sounds/ambient/inferno/bees_04.vsnd",
+			"sounds/ambient/inferno/bees_05.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				200.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.522367,
+				0.626582,
+				-0.561423,
+				-0.561423,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.375347,
+				0.227848,
+				-0.349671,
+				-0.349671,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 4.000000
+	}
+	inferno.AltMid.HouseCreaks = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = false
+		volume_random_min = -0.500000
+		pitch_random_min = -0.100000
+		enable_retrigger = true
+		retrigger_interval_max = 10.000000
+		position = 
+		[
+			250.000000,
+			152.000000,
+			349.000000,
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/inferno/house_creak_01.vsnd",
+			"sounds/ambient/inferno/house_creak_02.vsnd",
+			"sounds/ambient/inferno/house_creak_03.vsnd",
+			"sounds/ambient/inferno/house_creak_04.vsnd",
+			"sounds/ambient/inferno/house_creak_05.vsnd",
+			"sounds/ambient/inferno/house_creak_06.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.485714,
+				0.799107,
+				-0.612877,
+				-0.612877,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.325714,
+				0.187500,
+				-0.527712,
+				-0.527712,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.025714,
+				0.263393,
+				7.251603,
+				7.251603,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.111429,
+				0.808036,
+				3.144055,
+				3.144055,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				0.260000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 4.330884
+	}
+	inferno.AltMid.WindowCreaks = 
+	{
+		type = "csgo_mega"
+		volume = 0.000000
+		volume_random_min = -0.900000
+		volume_random_max = -0.500000
+		pitch_random_min = -0.020000
+		position = 
+		[
+			-1020.000000,
+			-169.000000,
+			83.000000,
+		]
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = true
+		enable_retrigger = true
+		retrigger_interval_min = 3.000000
+		retrigger_interval_max = 15.000000
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/inferno/window_01.vsnd",
+			"sounds/ambient/inferno/window_02.vsnd",
+			"sounds/ambient/inferno/window_03.vsnd",
+			"sounds/ambient/inferno/window_04.vsnd",
+			"sounds/ambient/inferno/window_05.vsnd",
+			"sounds/ambient/inferno/window_06.vsnd",
+			"sounds/ambient/inferno/window_07.vsnd",
+			"sounds/ambient/inferno/window_09.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				217.839966,
+				0.258296,
+				-0.001429,
+				-0.001429,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				700.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.485714,
+				0.799107,
+				-0.612877,
+				-0.612877,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.325714,
+				0.187500,
+				-0.527712,
+				-0.527712,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.140000,
+				0.129464,
+				1.875000,
+				1.875000,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.357143,
+				0.669643,
+				1.404090,
+				1.404090,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				0.760000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.915737
+	}
+	inferno.TApp = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = true
+		mixgroup = "Inferno"
+		dsp_preset = "reverb_4_smallCarpetRoom"
+		enable_child_events = true
+		set_child_position = false
+		override_dsp_preset = true
+		metadata = "position: fan 0; fridge 1"
+		soundevent_01 = 
+		[
+			"inferno.TApp.Exterior",
+			"inferno.TApp.HouseCreaks",
+			"inferno.TApp.CeilingFan",
+			"inferno.RefrigeratorHum",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+	}
+	inferno.TApp.Exterior = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = true
+		mixgroup = "Inferno"
+		use_distance_unfiltered_stereo_mapping_curve = true
+		volume = 0.400000
+		vsnd_files_track_01 = "sounds/ambient/inferno/exterior_05.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 29.391247
+	}
+	inferno.TApp.HouseCreaks = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = false
+		mixgroup = "Inferno"
+		volume_random_min = -0.500000
+		pitch_random_min = -0.100000
+		position = 
+		[
+			-465.000000,
+			369.000000,
+			309.000000,
+		]
+		enable_retrigger = true
+		retrigger_interval_max = 10.000000
+		position_relative_to_player = true
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/inferno/house_creak_01.vsnd",
+			"sounds/ambient/inferno/house_creak_02.vsnd",
+			"sounds/ambient/inferno/house_creak_03.vsnd",
+			"sounds/ambient/inferno/house_creak_04.vsnd",
+			"sounds/ambient/inferno/house_creak_05.vsnd",
+			"sounds/ambient/inferno/house_creak_06.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				600.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 4.330884
+	}
+	inferno.ApartmentA = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = true
+		mixgroup = "Inferno"
+		dsp_preset = "reverb_4_smallCarpetRoom"
+		enable_child_events = true
+		set_child_position = false
+		override_dsp_preset = true
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		metadata = "position: fan 0, sniper room; dog 2, last door to bombB"
+		soundevent_01 = 
+		[
+			"inferno.ApartmentA.Exterior",
+			"inferno.ApartmentA.HouseCreaks",
+			"inferno.ApartmentA.HouseCreaks2",
+			"inferno.ApartmentA.Interior",
+			"inferno.ApartmentA.WaterHeater",
+			"inferno.ApartmentA.AngryDog",
+			"inferno.ApartmentA.CeilingFan.Squeak",
+			"inferno.ApartmentA.CeilingFan.Squeak2",
+		]
+	}
+	inferno.ApartmentA.Interior = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = true
+		mixgroup = "Inferno"
+		use_distance_unfiltered_stereo_mapping_curve = true
+		volume = 0.700000
+		vsnd_files_track_01 = "sounds/ambient/wind/dry_air_short_indoors.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 4.292971
+	}
+	inferno.ApartmentA.Exterior = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = true
+		mixgroup = "Inferno"
+		volume = 0.200000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		vsnd_files_track_01 = "sounds/ambient/inferno/exterior_02.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 37.762447
+	}
+	inferno.ApartmentA.WaterHeater = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = true
+		mixgroup = "Inferno"
+		volume = 0.000000
+		position = 
+		[
+			1120.000000,
+			364.000000,
+			171.000000,
+		]
+		vsnd_files_track_01 = "sounds/ambient/machines/gas_loop_1.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				147.428574,
+				0.260090,
+				-0.002500,
+				-0.002500,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				400.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		metadata = "remove?"
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.485714,
+				0.799107,
+				-0.612877,
+				-0.612877,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.325714,
+				0.187500,
+				-0.527712,
+				-0.527712,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.131429,
+				0.112108,
+				1.775344,
+				1.775344,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.348571,
+				0.618834,
+				1.966850,
+				1.966850,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				0.582857,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.509070
+	}
+	inferno.ApartmentA.HouseCreaks = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = false
+		mixgroup = "Inferno"
+		volume_random_min = -0.200000
+		pitch_random_min = -0.100000
+		enable_retrigger = true
+		retrigger_interval_max = 15.000000
+		position = 
+		[
+			1216.000000,
+			-576.000000,
+			448.000000,
+		]
+		volume = 0.300000
+		retrigger_interval_min = 8.000000
+		vsnd_files_track_01 = 
+		[
+			"sounds/player/footsteps/new/wood_floor_creak_01.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_03.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_05.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_06.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_07.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_08.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				312.000000,
+				0.286624,
+				-0.001667,
+				-0.001667,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				600.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.485714,
+				0.799107,
+				-0.612877,
+				-0.612877,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.325714,
+				0.187500,
+				-0.527712,
+				-0.527712,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.140000,
+				0.129464,
+				1.875000,
+				1.875000,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.357143,
+				0.669643,
+				1.404090,
+				1.404090,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				0.760000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+	}
+	inferno.ApartmentA.HouseCreaks2 = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = false
+		mixgroup = "Inferno"
+		volume_random_min = -0.200000
+		pitch_random_min = -0.100000
+		enable_retrigger = true
+		retrigger_interval_max = 15.000000
+		position = 
+		[
+			1216.000000,
+			64.000000,
+			448.000000,
+		]
+		volume = 0.300000
+		retrigger_interval_min = 8.000000
+		vsnd_files_track_01 = 
+		[
+			"sounds/player/footsteps/new/wood_floor_creak_01.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_03.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_05.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_06.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_07.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_08.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				312.000000,
+				0.286624,
+				-0.001667,
+				-0.001667,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				600.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.485714,
+				0.799107,
+				-0.612877,
+				-0.612877,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.325714,
+				0.187500,
+				-0.527712,
+				-0.527712,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.140000,
+				0.129464,
+				1.875000,
+				1.875000,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.357143,
+				0.669643,
+				1.404090,
+				1.404090,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				0.760000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+	}
+	inferno.CTSpawn.Birds = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = false
+		mixgroup = "Inferno"
+		volume = 0.100000
+		enable_retrigger = true
+		retrigger_interval_min = 11.000000
+		retrigger_interval_max = 23.000000
+		pitch_random_min = -0.150000
+		pitch_random_max = 0.050000
+		position = 
+		[
+			2899.000000,
+			2096.000000,
+			282.000000,
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/inferno_bird_01.vsnd",
+			"sounds/ambient/animal/inferno_bird_02.vsnd",
+			"sounds/ambient/animal/inferno_bird_03.vsnd",
+			"sounds/ambient/animal/inferno_bird_04.vsnd",
+			"sounds/ambient/animal/inferno_bird_05.vsnd",
+			"sounds/ambient/animal/inferno_bird_06.vsnd",
+			"sounds/ambient/animal/inferno_bird_07.vsnd",
+			"sounds/ambient/animal/inferno_bird_08.vsnd",
+			"sounds/ambient/animal/inferno_bird_09.vsnd",
+			"sounds/ambient/animal/inferno_bird_10.vsnd",
+			"sounds/ambient/animal/inferno_bird_11.vsnd",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.851128,
+				0.687321,
+				-0.485443,
+				-0.485443,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.591700,
+				0.227321,
+				-0.469752,
+				-0.469752,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				408.000000,
+				0.811715,
+				-0.001111,
+				-0.001111,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				900.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		metadata = "position_0"
+	}
+	inferno.CTSpawn.Birds2 = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = false
+		mixgroup = "Inferno"
+		volume = 0.100000
+		enable_retrigger = true
+		retrigger_interval_min = 11.000000
+		retrigger_interval_max = 23.000000
+		pitch_random_min = -0.150000
+		pitch_random_max = 0.050000
+		position = 
+		[
+			1908.000000,
+			3154.489990,
+			252.000000,
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/inferno_bird_01.vsnd",
+			"sounds/ambient/animal/inferno_bird_02.vsnd",
+			"sounds/ambient/animal/inferno_bird_03.vsnd",
+			"sounds/ambient/animal/inferno_bird_04.vsnd",
+			"sounds/ambient/animal/inferno_bird_05.vsnd",
+			"sounds/ambient/animal/inferno_bird_06.vsnd",
+			"sounds/ambient/animal/inferno_bird_07.vsnd",
+			"sounds/ambient/animal/inferno_bird_08.vsnd",
+			"sounds/ambient/animal/inferno_bird_09.vsnd",
+			"sounds/ambient/animal/inferno_bird_10.vsnd",
+			"sounds/ambient/animal/inferno_bird_11.vsnd",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.851128,
+				0.687321,
+				-0.485443,
+				-0.485443,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.591700,
+				0.227321,
+				-0.469752,
+				-0.469752,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				408.000000,
+				0.811715,
+				-0.001111,
+				-0.001111,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				900.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		metadata = "position_4"
+	}
+	inferno.BombsiteB.Birds = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = false
+		mixgroup = "Inferno"
+		volume = 0.100000
+		enable_retrigger = true
+		retrigger_interval_min = 11.000000
+		retrigger_interval_max = 23.000000
+		pitch_random_min = -0.150000
+		pitch_random_max = 0.050000
+		position = 
+		[
+			-177.000000,
+			2553.000000,
+			580.000000,
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/inferno_bird_01.vsnd",
+			"sounds/ambient/animal/inferno_bird_02.vsnd",
+			"sounds/ambient/animal/inferno_bird_03.vsnd",
+			"sounds/ambient/animal/inferno_bird_04.vsnd",
+			"sounds/ambient/animal/inferno_bird_05.vsnd",
+			"sounds/ambient/animal/inferno_bird_06.vsnd",
+			"sounds/ambient/animal/inferno_bird_07.vsnd",
+			"sounds/ambient/animal/inferno_bird_08.vsnd",
+			"sounds/ambient/animal/inferno_bird_09.vsnd",
+			"sounds/ambient/animal/inferno_bird_10.vsnd",
+			"sounds/ambient/animal/inferno_bird_11.vsnd",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.851128,
+				0.687321,
+				-0.485443,
+				-0.485443,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.591700,
+				0.227321,
+				-0.469752,
+				-0.469752,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				408.000000,
+				0.811715,
+				-0.001111,
+				-0.001111,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				900.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		metadata = "position birds"
+	}
+	inferno.BombsiteB.Cricket = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = false
+		enable_retrigger = true
+		retrigger_interval_min = 0.800000
+		pitch_random_min = -0.020000
+		pitch_random_max = 0.020000
+		volume = 0.700000
+		position = 
+		[
+			78.000000,
+			3235.780029,
+			177.000000,
+		]
+		vsnd_files_track_01 = "sounds/ambient/animal/cricket_chirp_1.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				243.428574,
+				0.245536,
+				-0.001667,
+				-0.001667,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				600.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.851128,
+				0.687321,
+				-0.485443,
+				-0.485443,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.591700,
+				0.227321,
+				-0.469752,
+				-0.469752,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.280000
+	}
+	inferno.Mid.Birds = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = false
+		mixgroup = "Inferno"
+		volume = 0.100000
+		enable_retrigger = true
+		retrigger_interval_min = 11.000000
+		retrigger_interval_max = 23.000000
+		pitch_random_min = -0.150000
+		pitch_random_max = 0.050000
+		position = 
+		[
+			766.000977,
+			849.000000,
+			271.000000,
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/inferno_bird_01.vsnd",
+			"sounds/ambient/animal/inferno_bird_02.vsnd",
+			"sounds/ambient/animal/inferno_bird_03.vsnd",
+			"sounds/ambient/animal/inferno_bird_04.vsnd",
+			"sounds/ambient/animal/inferno_bird_05.vsnd",
+			"sounds/ambient/animal/inferno_bird_06.vsnd",
+			"sounds/ambient/animal/inferno_bird_07.vsnd",
+			"sounds/ambient/animal/inferno_bird_08.vsnd",
+			"sounds/ambient/animal/inferno_bird_09.vsnd",
+			"sounds/ambient/animal/inferno_bird_10.vsnd",
+			"sounds/ambient/animal/inferno_bird_11.vsnd",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.851128,
+				0.687321,
+				-0.485443,
+				-0.485443,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.591700,
+				0.227321,
+				-0.469752,
+				-0.469752,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				408.000000,
+				0.811715,
+				-0.001111,
+				-0.001111,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				900.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		metadata = "position birds"
+	}
+	inferno.Mid.Cricket = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = false
+		enable_retrigger = true
+		retrigger_interval_min = 0.800000
+		pitch_random_min = -0.020000
+		pitch_random_max = 0.020000
+		volume = 0.700000
+		position = 
+		[
+			48.322472,
+			441.834106,
+			99.721771,
+		]
+		vsnd_files_track_01 = "sounds/ambient/animal/cricket_chirp_1.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				243.428574,
+				0.245536,
+				-0.001667,
+				-0.001667,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				600.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.753796,
+				0.686192,
+				-0.537430,
+				-0.537430,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.448082,
+				0.221757,
+				-0.439729,
+				-0.439729,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.280000
+	}
+	inferno.AltMid.Birds = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = false
+		mixgroup = "Inferno"
+		volume = 0.100000
+		enable_retrigger = true
+		retrigger_interval_min = 11.000000
+		retrigger_interval_max = 23.000000
+		pitch_random_min = -0.150000
+		pitch_random_max = 0.050000
+		position = 
+		[
+			-907.000000,
+			-878.325012,
+			242.000000,
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/inferno_bird_01.vsnd",
+			"sounds/ambient/animal/inferno_bird_02.vsnd",
+			"sounds/ambient/animal/inferno_bird_03.vsnd",
+			"sounds/ambient/animal/inferno_bird_04.vsnd",
+			"sounds/ambient/animal/inferno_bird_05.vsnd",
+			"sounds/ambient/animal/inferno_bird_06.vsnd",
+			"sounds/ambient/animal/inferno_bird_07.vsnd",
+			"sounds/ambient/animal/inferno_bird_08.vsnd",
+			"sounds/ambient/animal/inferno_bird_09.vsnd",
+			"sounds/ambient/animal/inferno_bird_10.vsnd",
+			"sounds/ambient/animal/inferno_bird_11.vsnd",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.851128,
+				0.687321,
+				-0.485443,
+				-0.485443,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.591700,
+				0.227321,
+				-0.469752,
+				-0.469752,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				408.000000,
+				0.811715,
+				-0.001111,
+				-0.001111,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				900.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		metadata = "position birds"
+	}
+	inferno.AltMid.Birds2 = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = false
+		mixgroup = "Inferno"
+		volume = 0.100000
+		enable_retrigger = true
+		retrigger_interval_min = 11.000000
+		retrigger_interval_max = 23.000000
+		pitch_random_min = -0.150000
+		pitch_random_max = 0.050000
+		position = 
+		[
+			941.000000,
+			-1050.939941,
+			285.000000,
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/inferno_bird_01.vsnd",
+			"sounds/ambient/animal/inferno_bird_02.vsnd",
+			"sounds/ambient/animal/inferno_bird_03.vsnd",
+			"sounds/ambient/animal/inferno_bird_04.vsnd",
+			"sounds/ambient/animal/inferno_bird_05.vsnd",
+			"sounds/ambient/animal/inferno_bird_06.vsnd",
+			"sounds/ambient/animal/inferno_bird_07.vsnd",
+			"sounds/ambient/animal/inferno_bird_08.vsnd",
+			"sounds/ambient/animal/inferno_bird_09.vsnd",
+			"sounds/ambient/animal/inferno_bird_10.vsnd",
+			"sounds/ambient/animal/inferno_bird_11.vsnd",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.851128,
+				0.687321,
+				-0.485443,
+				-0.485443,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.591700,
+				0.227321,
+				-0.469752,
+				-0.469752,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				408.000000,
+				0.811715,
+				-0.001111,
+				-0.001111,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				900.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		metadata = "position birds"
+	}
+	inferno.AltMid.Cricket = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = false
+		enable_retrigger = true
+		retrigger_interval_min = 0.800000
+		pitch_random_min = -0.020000
+		pitch_random_max = 0.020000
+		volume = 0.700000
+		position = 
+		[
+			-210.000000,
+			-271.000000,
+			33.000000,
+		]
+		vsnd_files_track_01 = "sounds/ambient/animal/cricket_chirp_1.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				243.428574,
+				0.245536,
+				-0.001667,
+				-0.001667,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				600.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.851128,
+				0.687321,
+				-0.485443,
+				-0.485443,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.591700,
+				0.227321,
+				-0.469752,
+				-0.469752,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.280000
+	}
+	inferno.TApp.CeilingFan = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = true
+		position = 
+		[
+			-182.000000,
+			307.000000,
+			287.000000,
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.140000,
+				0.129464,
+				1.875000,
+				1.875000,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.357143,
+				0.669643,
+				1.404090,
+				1.404090,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				0.760000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.485714,
+				0.799107,
+				-0.612877,
+				-0.612877,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.325714,
+				0.187500,
+				-0.527712,
+				-0.527712,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"inferno.CeilingFan.ElectricHum",
+			"inferno.CeilingFan.Squeak",
+		]
+	}
+	inferno.ApartmentA.AngryDog = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = false
+		enable_retrigger = true
+		retrigger_interval_min = 8.000000
+		retrigger_interval_max = 12.000000
+		volume = 0.400000
+		pitch_random_min = -0.020000
+		pitch_random_max = 0.020000
+		position = 
+		[
+			1875.339966,
+			-386.000000,
+			310.000000,
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/dog_growl_behind_wall_1.vsnd",
+			"sounds/ambient/animal/dog_growl_behind_wall_2.vsnd",
+			"sounds/ambient/animal/dog_growl_behind_wall_3.vsnd",
+			"sounds/ambient/animal/dog_growl_behind_wall_1.vsnd",
+			"sounds/ambient/animal/dog_growl_behind_wall_2.vsnd",
+			"sounds/ambient/animal/dog_scratch_behind_wall_1.vsnd",
+		]
+		metadata = "growling behind a door"
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.522367,
+				0.626582,
+				-0.561423,
+				-0.561423,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.375347,
+				0.227848,
+				-0.349671,
+				-0.349671,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 4.694603
+	}
+	inferno.TSpawn.Birds = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = false
+		mixgroup = "Inferno"
+		volume = 0.100000
+		enable_retrigger = true
+		retrigger_interval_min = 11.000000
+		retrigger_interval_max = 23.000000
+		pitch_random_min = -0.150000
+		pitch_random_max = 0.050000
+		position = 
+		[
+			-1377.000000,
+			1202.959961,
+			141.000000,
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/inferno_bird_01.vsnd",
+			"sounds/ambient/animal/inferno_bird_02.vsnd",
+			"sounds/ambient/animal/inferno_bird_03.vsnd",
+			"sounds/ambient/animal/inferno_bird_04.vsnd",
+			"sounds/ambient/animal/inferno_bird_05.vsnd",
+			"sounds/ambient/animal/inferno_bird_06.vsnd",
+			"sounds/ambient/animal/inferno_bird_07.vsnd",
+			"sounds/ambient/animal/inferno_bird_08.vsnd",
+			"sounds/ambient/animal/inferno_bird_09.vsnd",
+			"sounds/ambient/animal/inferno_bird_10.vsnd",
+			"sounds/ambient/animal/inferno_bird_11.vsnd",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.851128,
+				0.687321,
+				-0.485443,
+				-0.485443,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.591700,
+				0.227321,
+				-0.469752,
+				-0.469752,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				408.000000,
+				0.811715,
+				-0.001111,
+				-0.001111,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				900.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		metadata = "position birds"
+	}
+	inferno.TSpawn.Birds2 = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = false
+		mixgroup = "Inferno"
+		volume = 0.100000
+		enable_retrigger = true
+		retrigger_interval_min = 11.000000
+		retrigger_interval_max = 23.000000
+		pitch_random_min = -0.150000
+		pitch_random_max = 0.050000
+		position = 
+		[
+			-1601.000000,
+			-436.869995,
+			178.000000,
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/inferno_bird_01.vsnd",
+			"sounds/ambient/animal/inferno_bird_02.vsnd",
+			"sounds/ambient/animal/inferno_bird_03.vsnd",
+			"sounds/ambient/animal/inferno_bird_04.vsnd",
+			"sounds/ambient/animal/inferno_bird_05.vsnd",
+			"sounds/ambient/animal/inferno_bird_06.vsnd",
+			"sounds/ambient/animal/inferno_bird_07.vsnd",
+			"sounds/ambient/animal/inferno_bird_08.vsnd",
+			"sounds/ambient/animal/inferno_bird_09.vsnd",
+			"sounds/ambient/animal/inferno_bird_10.vsnd",
+			"sounds/ambient/animal/inferno_bird_11.vsnd",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.851128,
+				0.687321,
+				-0.485443,
+				-0.485443,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.591700,
+				0.227321,
+				-0.469752,
+				-0.469752,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				408.000000,
+				0.811715,
+				-0.001111,
+				-0.001111,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				900.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		metadata = "position birds"
+	}
+	inferno.TSpawn.Cricket = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = false
+		enable_retrigger = true
+		retrigger_interval_min = 0.800000
+		pitch_random_min = -0.020000
+		pitch_random_max = 0.020000
+		volume = 0.700000
+		position = 
+		[
+			-1771.000000,
+			-187.434998,
+			25.000000,
+		]
+		vsnd_files_track_01 = "sounds/ambient/animal/cricket_chirp_1.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				243.428574,
+				0.245536,
+				-0.001667,
+				-0.001667,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				600.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.851128,
+				0.687321,
+				-0.485443,
+				-0.485443,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.591700,
+				0.227321,
+				-0.469752,
+				-0.469752,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.280000
+	}
+	inferno.BombsiteA.Birds = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = false
+		mixgroup = "Inferno"
+		volume = 0.100000
+		enable_retrigger = true
+		retrigger_interval_min = 11.000000
+		retrigger_interval_max = 23.000000
+		pitch_random_min = -0.150000
+		pitch_random_max = 0.050000
+		position = 
+		[
+			3099.276123,
+			579.799377,
+			604.546509,
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/inferno_bird_01.vsnd",
+			"sounds/ambient/animal/inferno_bird_02.vsnd",
+			"sounds/ambient/animal/inferno_bird_03.vsnd",
+			"sounds/ambient/animal/inferno_bird_04.vsnd",
+			"sounds/ambient/animal/inferno_bird_05.vsnd",
+			"sounds/ambient/animal/inferno_bird_06.vsnd",
+			"sounds/ambient/animal/inferno_bird_07.vsnd",
+			"sounds/ambient/animal/inferno_bird_08.vsnd",
+			"sounds/ambient/animal/inferno_bird_09.vsnd",
+			"sounds/ambient/animal/inferno_bird_10.vsnd",
+			"sounds/ambient/animal/inferno_bird_11.vsnd",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.851128,
+				0.687321,
+				-0.485443,
+				-0.485443,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.591700,
+				0.227321,
+				-0.469752,
+				-0.469752,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				408.000000,
+				0.811715,
+				-0.001111,
+				-0.001111,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				900.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		metadata = "position birds"
+	}
+	inferno.BombsiteA.Birds2 = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = false
+		mixgroup = "Inferno"
+		volume = 0.100000
+		enable_retrigger = true
+		retrigger_interval_min = 11.000000
+		retrigger_interval_max = 23.000000
+		pitch_random_min = -0.150000
+		pitch_random_max = 0.050000
+		position = 
+		[
+			2546.000000,
+			-616.000000,
+			406.000000,
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/bird1.vsnd",
+			"sounds/ambient/animal/bird10.vsnd",
+			"sounds/ambient/animal/bird11.vsnd",
+			"sounds/ambient/animal/bird12.vsnd",
+			"sounds/ambient/animal/bird13.vsnd",
+			"sounds/ambient/animal/bird14.vsnd",
+			"sounds/ambient/animal/bird15.vsnd",
+			"sounds/ambient/animal/bird16.vsnd",
+			"sounds/ambient/animal/bird17.vsnd",
+			"sounds/ambient/animal/bird18.vsnd",
+			"sounds/ambient/animal/bird19.vsnd",
+			"sounds/ambient/animal/bird2.vsnd",
+			"sounds/ambient/animal/bird20.vsnd",
+			"sounds/ambient/animal/bird3.vsnd",
+			"sounds/ambient/animal/bird4.vsnd",
+			"sounds/ambient/animal/bird5.vsnd",
+			"sounds/ambient/animal/bird6.vsnd",
+			"sounds/ambient/animal/bird7.vsnd",
+			"sounds/ambient/animal/bird8.vsnd",
+			"sounds/ambient/animal/bird9.vsnd",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.851128,
+				0.687321,
+				-0.485443,
+				-0.485443,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.591700,
+				0.227321,
+				-0.469752,
+				-0.469752,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				408.000000,
+				0.811715,
+				-0.001111,
+				-0.001111,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				900.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		metadata = "position birds"
+		vsnd_duration = 4.009773
+	}
+	inferno.BombsiteA.Cricket = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = false
+		enable_retrigger = true
+		retrigger_interval_min = 0.800000
+		pitch_random_min = -0.020000
+		pitch_random_max = 0.020000
+		volume = 0.700000
+		position = 
+		[
+			2066.849121,
+			-511.582397,
+			113.174728,
+		]
+		vsnd_files_track_01 = "sounds/ambient/animal/cricket_chirp_1.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				200.000000,
+				0.230126,
+				-0.001429,
+				-0.001429,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				700.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.851128,
+				0.687321,
+				-0.485443,
+				-0.485443,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.591700,
+				0.227321,
+				-0.469752,
+				-0.469752,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.280000
+	}
+	inferno.ApartmentA.CeilingFan.Squeak = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = false
+		volume = 0.100000
+		enable_retrigger = true
+		retrigger_interval_min = 0.340000
+		retrigger_interval_max = 0.340000
+		position = 
+		[
+			1038.154419,
+			-140.455688,
+			389.838440,
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/machines/ceilingfan_clink_01.vsnd",
+			"sounds/ambient/machines/ceilingfan_clink_02.vsnd",
+			"sounds/ambient/machines/ceilingfan_clink_03.vsnd",
+			"sounds/ambient/machines/ceilingfan_clink_04.vsnd",
+			"sounds/ambient/machines/ceilingfan_clink_05.vsnd",
+			"sounds/ambient/machines/ceilingfan_clink_06.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				193.142853,
+				0.242678,
+				-0.002500,
+				-0.002500,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				400.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		metadata = "position fan"
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.485714,
+				0.799107,
+				-0.612877,
+				-0.612877,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.325714,
+				0.187500,
+				-0.527712,
+				-0.527712,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.140000,
+				0.129464,
+				1.875000,
+				1.875000,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.357143,
+				0.669643,
+				1.404090,
+				1.404090,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				0.760000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.567959
+	}
+	de_inferno.Bell = 
+	{
+		type = "csgo_mega"
+		volume = 0.299805
+		pitch = 1.000000
+		use_distance_volume_mapping_curve = true
+		reverb_wet = 0.300000
+		mixgroup = "Inferno"
+		vsnd_files_track_01 = "sounds/ambient/inferno/church_bell_01.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1200.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 3.334188
+	}
+	de_inferno.Radio_01 = 
+	{
+		type = "csgo_mega"
+		volume = 0.400000
+		pitch = 1.000000
+		use_distance_volume_mapping_curve = true
+		reverb_wet = 0.300000
+		mixgroup = "Inferno"
+		vsnd_files_track_01 = "sounds/ambient/inferno/inferno_radio_01.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				464.013062,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 93.458687
+	}
+	inferno.bell_c = 
+	{
+		type = "csgo_mega"
+		mixgroup = "World"
+		use_fadetime_volume_mapping_curve = false
+		volume = 1.000000
+		delay = 0.100000
+		block_duration = 0.100000
+		block_distance = 40.000000
+		vsnd_files_track_01 = "sounds/ambient/misc/brass_bell_c.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				1097.142822,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				4000.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 2.015964
+	}
+	inferno.bell_d = 
+	{
+		type = "csgo_mega"
+		mixgroup = "World"
+		use_fadetime_volume_mapping_curve = false
+		volume = 1.000000
+		delay = 0.100000
+		block_duration = 0.100000
+		block_distance = 40.000000
+		vsnd_files_track_01 = "sounds/ambient/misc/brass_bell_d.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				1097.142822,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				4000.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.795941
+	}
+	inferno.bell_e = 
+	{
+		type = "csgo_mega"
+		mixgroup = "World"
+		use_fadetime_volume_mapping_curve = false
+		volume = 1.000000
+		delay = 0.100000
+		block_duration = 0.100000
+		block_distance = 40.000000
+		vsnd_files_track_01 = "sounds/ambient/misc/brass_bell_e.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				1097.142822,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				4000.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.599932
+	}
+	inferno.bell_f = 
+	{
+		type = "csgo_mega"
+		mixgroup = "World"
+		use_fadetime_volume_mapping_curve = false
+		volume = 1.000000
+		delay = 0.100000
+		block_duration = 0.100000
+		block_distance = 40.000000
+		vsnd_files_track_01 = "sounds/ambient/misc/brass_bell_f.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				1097.142822,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				4000.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.510023
+	}
+	inferno.AltMid.Flies = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = true
+		pitch_random_min = -0.020000
+		volume_random_min = -0.300000
+		volume_random_max = 0.000000
+		position = 
+		[
+			574.271179,
+			-587.785034,
+			111.641922,
+		]
+		enable_retrigger = true
+		retrigger_interval_min = 1.500000
+		retrigger_interval_max = 5.000000
+		volume = 0.500000
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/flies1.vsnd",
+			"sounds/ambient/animal/flies2.vsnd",
+			"sounds/ambient/animal/flies3.vsnd",
+			"sounds/ambient/animal/flies4.vsnd",
+			"sounds/ambient/animal/flies5.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.522367,
+				0.626582,
+				-0.561423,
+				-0.561423,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.375347,
+				0.227848,
+				-0.349671,
+				-0.349671,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.074807
+	}
+	inferno.AltMid.Flies2 = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = true
+		pitch_random_min = -0.020000
+		volume_random_min = -0.300000
+		volume_random_max = 0.000000
+		position = 
+		[
+			402.259216,
+			-735.101624,
+			127.483826,
+		]
+		enable_retrigger = true
+		retrigger_interval_min = 1.500000
+		retrigger_interval_max = 5.000000
+		volume = 0.500000
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/flies1.vsnd",
+			"sounds/ambient/animal/flies2.vsnd",
+			"sounds/ambient/animal/flies3.vsnd",
+			"sounds/ambient/animal/flies4.vsnd",
+			"sounds/ambient/animal/flies5.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.522367,
+				0.626582,
+				-0.561423,
+				-0.561423,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.375347,
+				0.227848,
+				-0.349671,
+				-0.349671,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.074807
+	}
+	inferno.Mid.Birds2 = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = false
+		mixgroup = "Inferno"
+		volume = 0.100000
+		enable_retrigger = true
+		retrigger_interval_min = 11.000000
+		retrigger_interval_max = 23.000000
+		pitch_random_min = 0.000000
+		pitch_random_max = 0.050000
+		position = 
+		[
+			-283.723145,
+			928.471985,
+			296.694397,
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/inferno_bird_01.vsnd",
+			"sounds/ambient/animal/inferno_bird_02.vsnd",
+			"sounds/ambient/animal/inferno_bird_03.vsnd",
+			"sounds/ambient/animal/inferno_bird_04.vsnd",
+			"sounds/ambient/animal/inferno_bird_05.vsnd",
+			"sounds/ambient/animal/inferno_bird_06.vsnd",
+			"sounds/ambient/animal/inferno_bird_07.vsnd",
+			"sounds/ambient/animal/inferno_bird_08.vsnd",
+			"sounds/ambient/animal/inferno_bird_09.vsnd",
+			"sounds/ambient/animal/inferno_bird_10.vsnd",
+			"sounds/ambient/animal/inferno_bird_11.vsnd",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.851128,
+				0.687321,
+				-0.485443,
+				-0.485443,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.591700,
+				0.227321,
+				-0.469752,
+				-0.469752,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				408.000000,
+				0.811715,
+				-0.001111,
+				-0.001111,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				900.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		metadata = "position birds"
+	}
+	inferno.Inside.Flies = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = true
+		pitch_random_min = -0.020000
+		volume_random_min = -0.300000
+		volume_random_max = 0.000000
+		position = 
+		[
+			-1302.498169,
+			581.832153,
+			21.215088,
+		]
+		enable_retrigger = true
+		retrigger_interval_min = 1.500000
+		retrigger_interval_max = 5.000000
+		volume = 0.500000
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/flies1.vsnd",
+			"sounds/ambient/animal/flies2.vsnd",
+			"sounds/ambient/animal/flies3.vsnd",
+			"sounds/ambient/animal/flies4.vsnd",
+			"sounds/ambient/animal/flies5.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.522367,
+				0.626582,
+				-0.561423,
+				-0.561423,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.375347,
+				0.227848,
+				-0.349671,
+				-0.349671,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.074807
+	}
+	inferno.Inside.WindowCreaks = 
+	{
+		type = "csgo_mega"
+		volume = 1.000000
+		volume_random_min = -0.900000
+		volume_random_max = -0.500000
+		pitch_random_min = -0.020000
+		position = 
+		[
+			-1168.048828,
+			300.332520,
+			312.754089,
+		]
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = true
+		enable_retrigger = true
+		retrigger_interval_min = 3.000000
+		retrigger_interval_max = 15.000000
+		randomize_position_min_radius = 0.000000
+		randomize_position_max_radius = 50.000000
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/inferno/window_01.vsnd",
+			"sounds/ambient/inferno/window_02.vsnd",
+			"sounds/ambient/inferno/window_03.vsnd",
+			"sounds/ambient/inferno/window_04.vsnd",
+			"sounds/ambient/inferno/window_05.vsnd",
+			"sounds/ambient/inferno/window_06.vsnd",
+			"sounds/ambient/inferno/window_07.vsnd",
+			"sounds/ambient/inferno/window_09.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				217.839966,
+				0.258296,
+				-0.001429,
+				-0.001429,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				700.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.485714,
+				0.799107,
+				-0.612877,
+				-0.612877,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.325714,
+				0.187500,
+				-0.527712,
+				-0.527712,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.140000,
+				0.129464,
+				1.875000,
+				1.875000,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.357143,
+				0.669643,
+				1.404090,
+				1.404090,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				0.760000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.915737
+	}
+	inferno.Inside.Birds = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = false
+		mixgroup = "Inferno"
+		volume = 0.100000
+		enable_retrigger = true
+		retrigger_interval_min = 11.000000
+		retrigger_interval_max = 23.000000
+		pitch_random_min = -0.150000
+		pitch_random_max = 0.050000
+		position = 
+		[
+			1877.055176,
+			-896.883911,
+			458.221497,
+		]
+		randomize_position_max_radius = 50.000000
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/inferno_bird_01.vsnd",
+			"sounds/ambient/animal/inferno_bird_02.vsnd",
+			"sounds/ambient/animal/inferno_bird_03.vsnd",
+			"sounds/ambient/animal/inferno_bird_04.vsnd",
+			"sounds/ambient/animal/inferno_bird_05.vsnd",
+			"sounds/ambient/animal/inferno_bird_06.vsnd",
+			"sounds/ambient/animal/inferno_bird_07.vsnd",
+			"sounds/ambient/animal/inferno_bird_08.vsnd",
+			"sounds/ambient/animal/inferno_bird_09.vsnd",
+			"sounds/ambient/animal/inferno_bird_10.vsnd",
+			"sounds/ambient/animal/inferno_bird_11.vsnd",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.851128,
+				0.687321,
+				-0.485443,
+				-0.485443,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.591700,
+				0.227321,
+				-0.469752,
+				-0.469752,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				408.000000,
+				0.811715,
+				-0.000833,
+				-0.000833,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1200.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		metadata = "position_0"
+	}
+	inferno.ApartmentA.CeilingFan.Squeak2 = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		use_time_volume_mapping_curve = false
+		volume = 0.150000
+		enable_retrigger = true
+		retrigger_interval_min = 0.340000
+		retrigger_interval_max = 0.340000
+		position = 
+		[
+			1229.062378,
+			-124.389099,
+			404.428192,
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/machines/ceilingfan_clink_01.vsnd",
+			"sounds/ambient/machines/ceilingfan_clink_02.vsnd",
+			"sounds/ambient/machines/ceilingfan_clink_03.vsnd",
+			"sounds/ambient/machines/ceilingfan_clink_04.vsnd",
+			"sounds/ambient/machines/ceilingfan_clink_05.vsnd",
+			"sounds/ambient/machines/ceilingfan_clink_06.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				193.142853,
+				0.242678,
+				-0.002500,
+				-0.002500,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				400.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		metadata = "position fan"
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.485714,
+				0.799107,
+				-0.612877,
+				-0.612877,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.325714,
+				0.187500,
+				-0.527712,
+				-0.527712,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.140000,
+				0.129464,
+				1.875000,
+				1.875000,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.357143,
+				0.669643,
+				1.404090,
+				1.404090,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				0.760000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.567959
+	}
+	inferno.BombsiteA.Cat = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = false
+		mixgroup = "Inferno"
+		volume = 0.050000
+		enable_retrigger = true
+		retrigger_interval_min = 25.000000
+		retrigger_interval_max = 120.000000
+		pitch_random_min = -0.050000
+		pitch_random_max = 0.050000
+		position = 
+		[
+			3052.454590,
+			287.177704,
+			564.356079,
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/cat_01.vsnd",
+			"sounds/ambient/animal/cat_02.vsnd",
+			"sounds/ambient/animal/cat_03.vsnd",
+			"sounds/ambient/animal/cat_04.vsnd",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.851128,
+				0.687321,
+				-0.485443,
+				-0.485443,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.591700,
+				0.227321,
+				-0.469752,
+				-0.469752,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				408.000000,
+				0.811715,
+				-0.001207,
+				-0.001207,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				570.857117,
+				0.310924,
+				-0.001650,
+				-0.001650,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				900.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		metadata = "position birds"
+		vsnd_duration = 0.754490
+	}
+	inferno.CTSpawn.DogBarks = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = false
+		mixgroup = "Inferno"
+		volume = 1.000000
+		enable_retrigger = true
+		retrigger_interval_min = 3.000000
+		retrigger_interval_max = 15.000000
+		pitch_random_min = -0.050000
+		pitch_random_max = 0.050000
+		position = 
+		[
+			2380.846436,
+			3699.742188,
+			49.224609,
+		]
+		randomize_position_max_radius = 120.000000
+		retrigger_radius = 10000.000000
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/creatures/dog_bark_distant_01.vsnd",
+			"sounds/ambient/creatures/dog_bark_distant_02.vsnd",
+			"sounds/ambient/creatures/dog_bark_distant_03.vsnd",
+			"sounds/ambient/creatures/dog_bark_distant_04.vsnd",
+			"sounds/ambient/creatures/dog_bark_distant_05.vsnd",
+			"sounds/ambient/creatures/dog_bark_distant_06.vsnd",
+			"sounds/ambient/creatures/dog_bark_distant_07.vsnd",
+			"sounds/ambient/creatures/dog_bark_distant_08.vsnd",
+			"sounds/ambient/creatures/dog_bark_distant_09.vsnd",
+			"sounds/ambient/creatures/dog_bark_distant_10.vsnd",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.851128,
+				0.687321,
+				-0.485443,
+				-0.485443,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.591700,
+				0.227321,
+				-0.469752,
+				-0.469752,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.094286,
+				0.762500,
+				3.333333,
+				3.333333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				840.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2000.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		metadata = "position birds"
+		vsnd_duration = 4.668186
+	}
+	inferno.Banana.RoofCreaks = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		volume = 0.200000
+		pitch_random_min = -0.150000
+		enable_retrigger = true
+		retrigger_interval_min = 8.000000
+		retrigger_interval_max = 25.000000
+		position = 
+		[
+			273.461975,
+			1745.781738,
+			453.282623,
+		]
+		volume_random_min = -0.050000
+		vsnd_files_track_01 = 
+		[
+			"sounds/player/footsteps/new/wood_floor_creak_01.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_03.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_05.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_06.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_07.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_08.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				352.285706,
+				0.315126,
+				-0.001111,
+				-0.001111,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				900.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+	}
+	inferno.Banana.DogBarks = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		pitch_random_min = -0.050000
+		retrigger_interval_min = 3.000000
+		retrigger_interval_max = 15.000000
+		enable_retrigger = true
+		position = 
+		[
+			-603.749573,
+			2128.169678,
+			456.048401,
+		]
+		retrigger_radius = 10000.000000
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/creatures/dog_bark_distant_01.vsnd",
+			"sounds/ambient/creatures/dog_bark_distant_02.vsnd",
+			"sounds/ambient/creatures/dog_bark_distant_03.vsnd",
+			"sounds/ambient/creatures/dog_bark_distant_04.vsnd",
+			"sounds/ambient/creatures/dog_bark_distant_05.vsnd",
+			"sounds/ambient/creatures/dog_bark_distant_06.vsnd",
+			"sounds/ambient/creatures/dog_bark_distant_07.vsnd",
+			"sounds/ambient/creatures/dog_bark_distant_08.vsnd",
+			"sounds/ambient/creatures/dog_bark_distant_09.vsnd",
+			"sounds/ambient/creatures/dog_bark_distant_10.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 4.668186
+	}
+	inferno.Banana_Quiet = null
+	inferno.Banana_Quiet.Exterior = null
+	inferno.Banana_Quiet.Exterior2 = null
+	inferno.BombsiteA.WindChime = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Inferno"
+		position = 
+		[
+			2933.119873,
+			-478.290222,
+			356.232880,
+		]
+		enable_retrigger = true
+		retrigger_interval_min = 5.000000
+		retrigger_interval_max = 15.000000
+		retrigger_radius = 10000.000000
+		volume = 0.500000
+		occlusion_intensity = 0.350000
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/inferno/inferno_windchime_01.vsnd",
+			"sounds/ambient/inferno/inferno_windchime_02.vsnd",
+			"sounds/ambient/inferno/inferno_windchime_03.vsnd",
+			"sounds/ambient/inferno/inferno_windchime_04.vsnd",
+			"sounds/ambient/inferno/inferno_windchime_05.vsnd",
+			"sounds/ambient/inferno/inferno_windchime_06.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				445.714294,
+				0.928571,
+				-0.000799,
+				-0.000799,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				862.857178,
+				0.310924,
+				-0.000597,
+				-0.000597,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				2000.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+	}
+}

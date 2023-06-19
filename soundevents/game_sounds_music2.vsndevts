@@ -1,0 +1,17 @@
+{
+	Music.StopSelection = 
+	{
+		type = "csgo_music"
+		stop_selection_music = "true"
+	}
+	Music.StopAllExceptMusic = 
+	{
+		type = "csgo_music"
+		stop_all_non_music = "true"
+	}
+	Music.StopAllMusic = 
+	{
+		type = "csgo_music"
+		stop_music = "true"
+	}
+}

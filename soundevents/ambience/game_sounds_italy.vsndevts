@@ -1,0 +1,7571 @@
+{
+	italy.indoor = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		enable_child_events = true
+		set_child_position = false
+		dsp_preset = "reverb_11_smallBright"
+		override_dsp_preset = true
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.285714,
+				0.816667,
+				-1.072658,
+				-1.072658,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.691429,
+				0.258333,
+				-0.618687,
+				-0.618687,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				1.605714,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"italy.indoor.room",
+			"italy.indoor.wind",
+			"italy.indoor.wood",
+			"italy.smallalley.crickettone",
+			"italy.indoor.wind1",
+		]
+	}
+	italy.indoor.room = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		volume = 0.300000
+		use_time_volume_mapping_curve = true
+		use_distance_unfiltered_stereo_mapping_curve = true
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.485714,
+				0.799107,
+				-0.612877,
+				-0.612877,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.325714,
+				0.187500,
+				-0.527712,
+				-0.527712,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.140000,
+				0.129464,
+				1.875000,
+				1.875000,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.357143,
+				0.669643,
+				1.404090,
+				1.404090,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				0.760000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = "sounds/ambient/tones/roomtone1.vsnd"
+		vsnd_duration = 2.461225
+	}
+	italy.indoor.wind = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		volume = 0.100000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		use_time_volume_mapping_curve = true
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.485714,
+				0.799107,
+				-0.612877,
+				-0.612877,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.325714,
+				0.187500,
+				-0.527712,
+				-0.527712,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = "sounds/ambient/wind/csgo_dust_wind_lp_02.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.140000,
+				0.129464,
+				1.875000,
+				1.875000,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.357143,
+				0.669643,
+				1.404090,
+				1.404090,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				0.760000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 7.148299
+	}
+	italy.indoor.wood = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		pitch_random_min = -0.300000
+		pitch_random_max = 0.100000
+		enable_retrigger = true
+		retrigger_interval_min = 6.000000
+		retrigger_interval_max = 10.000000
+		volume = 0.150000
+		volume_random_min = -0.050000
+		volume_random_max = 0.050000
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		position_relative_to_player = true
+		randomize_position_min_radius = 300.000000
+		randomize_position_max_radius = 300.000000
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.485714,
+				0.799107,
+				-0.612877,
+				-0.612877,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.325714,
+				0.187500,
+				-0.527712,
+				-0.527712,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/misc/wood1.vsnd",
+			"sounds/ambient/misc/wood2.vsnd",
+			"sounds/ambient/misc/wood3.vsnd",
+			"sounds/ambient/misc/wood4.vsnd",
+			"sounds/ambient/misc/wood5.vsnd",
+			"sounds/ambient/misc/wood6.vsnd",
+		]
+		vsnd_duration = 1.566893
+	}
+	italy.indoorb = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		enable_child_events = true
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		dsp_preset = "reverb_5_smallRoom"
+		override_dsp_preset = true
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"italy.indoorb.tunnel",
+			"italy.indoorb.wind",
+			"italy.wood",
+			"italy.rats",
+			"italy.indoorb.light_01",
+			"italy.indoorb.light_02",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.285714,
+				0.816667,
+				-1.072658,
+				-1.072658,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.691429,
+				0.258333,
+				-0.618687,
+				-0.618687,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				1.605714,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+	}
+	italy.indoorb.tunnel = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		volume = 0.200000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		use_time_volume_mapping_curve = true
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = "sounds/ambient/wind/wind_tunnel1.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.485714,
+				0.799107,
+				-0.612877,
+				-0.612877,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.325714,
+				0.187500,
+				-0.527712,
+				-0.527712,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.140000,
+				0.129464,
+				1.875000,
+				1.875000,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.357143,
+				0.669643,
+				1.404090,
+				1.404090,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				0.760000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 4.712925
+	}
+	italy.indoorb.wind = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		volume = 0.200000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		use_time_volume_mapping_curve = true
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = "sounds/ambient/wind/csgo_dust_wind_lp_01.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.485714,
+				0.799107,
+				-0.612877,
+				-0.612877,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.325714,
+				0.187500,
+				-0.527712,
+				-0.527712,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.140000,
+				0.129464,
+				1.875000,
+				1.875000,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.357143,
+				0.669643,
+				1.404090,
+				1.404090,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				0.760000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 7.745669
+	}
+	italy.wood = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		randomize_position_hemisphere = true
+		randomize_position_min_radius = 1000.000000
+		randomize_position_max_radius = 1200.000000
+		enable_retrigger = true
+		retrigger_interval_min = 7.000000
+		retrigger_interval_max = 20.000000
+		pitch_random_min = -0.300000
+		pitch_random_max = 0.100000
+		volume = 1.000000
+		volume_random_min = -0.950000
+		volume_random_max = -0.500000
+		set_child_position = false
+		retrigger_radius = 10000.000000
+		position_relative_to_player = true
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				800.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.522367,
+				0.626582,
+				-0.561423,
+				-0.561423,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.375347,
+				0.227848,
+				-0.349671,
+				-0.349671,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/inferno/house_creak_01.vsnd",
+			"sounds/ambient/inferno/house_creak_02.vsnd",
+			"sounds/ambient/inferno/house_creak_03.vsnd",
+			"sounds/ambient/inferno/house_creak_04.vsnd",
+			"sounds/ambient/inferno/house_creak_05.vsnd",
+			"sounds/ambient/inferno/house_creak_06.vsnd",
+		]
+		vsnd_duration = 4.330884
+	}
+	italy.indoort = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		volume = 0.200000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		use_time_volume_mapping_curve = true
+		enable_child_events = true
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		dsp_preset = "reverb_17_smallConcrete"
+		override_dsp_preset = true
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = "sounds/common/null.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.285714,
+				0.816667,
+				-1.072658,
+				-1.072658,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.691429,
+				0.258333,
+				-0.618687,
+				-0.618687,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				1.605714,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"italy.indoort.airplane",
+			"italy.indoort.dog",
+			"italy.indoort.tunnel",
+			"italy.indoort.wind",
+			"italy.indoort.birdamb_02",
+			"italy.indoort.cricketbed_01",
+			"italy.indoort.cricketbed_02",
+			"italy.indoort.nightingale",
+			"italy.indoort.cricket",
+		]
+		vsnd_duration = 0.100045
+	}
+	italy.indoort.tunnel = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		volume = 0.050000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		use_time_volume_mapping_curve = true
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = "sounds/ambient/wind/wind_tunnel1.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.485714,
+				0.799107,
+				-0.612877,
+				-0.612877,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.325714,
+				0.187500,
+				-0.527712,
+				-0.527712,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.140000,
+				0.129464,
+				1.875000,
+				1.875000,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.357143,
+				0.669643,
+				1.404090,
+				1.404090,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				0.760000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 4.712925
+	}
+	italy.indoort.wind = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		volume = 0.200000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		use_time_volume_mapping_curve = true
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = "sounds/ambient/wind/csgo_dust_wind_lp_02.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.485714,
+				0.799107,
+				-0.612877,
+				-0.612877,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.325714,
+				0.187500,
+				-0.527712,
+				-0.527712,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.140000,
+				0.129464,
+				1.875000,
+				1.875000,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.357143,
+				0.669643,
+				1.404090,
+				1.404090,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				0.760000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 7.148299
+	}
+	italy.indoort.airplane = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		volume = 0.150000
+		volume_random_min = 0.000000
+		volume_random_max = 0.000000
+		enable_retrigger = true
+		retrigger_interval_min = 20.000000
+		retrigger_interval_max = 40.000000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		use_time_volume_mapping_curve = true
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/nuke/airplane_01.vsnd",
+			"sounds/ambient/nuke/airplane_02.vsnd",
+			"sounds/ambient/nuke/airplane_03.vsnd",
+			"sounds/ambient/nuke/airplane_04.vsnd",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.485714,
+				0.799107,
+				-0.612877,
+				-0.612877,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.325714,
+				0.187500,
+				-0.527712,
+				-0.527712,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.140000,
+				0.129464,
+				1.875000,
+				1.875000,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.357143,
+				0.669643,
+				1.404090,
+				1.404090,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				0.760000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 29.254648
+	}
+	italy.indoort.dog = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		randomize_position_hemisphere = true
+		randomize_position_min_radius = 1000.000000
+		randomize_position_max_radius = 1200.000000
+		enable_retrigger = true
+		retrigger_interval_min = 7.000000
+		retrigger_interval_max = 20.000000
+		pitch_random_min = -0.050000
+		pitch_random_max = 0.050000
+		volume = 0.100000
+		volume_random_min = -0.050000
+		volume_random_max = 0.050000
+		pitch = 0.750000
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		position_relative_to_player = true
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/dog1.vsnd",
+			"sounds/ambient/animal/dog2.vsnd",
+			"sounds/ambient/animal/dog3.vsnd",
+			"sounds/ambient/animal/dog4.vsnd",
+			"sounds/ambient/animal/dog5.vsnd",
+			"sounds/ambient/animal/dog6.vsnd",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.485714,
+				0.799107,
+				-0.612877,
+				-0.612877,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.325714,
+				0.187500,
+				-0.527712,
+				-0.527712,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 3.292880
+	}
+	italy.outdoors = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		enable_child_events = true
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		dsp_preset = "reverb_20_outsideAlley"
+		override_dsp_preset = true
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.102857,
+				0.670833,
+				-1.977402,
+				-1.977402,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.505714,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"italy.outdoors.bird",
+			"italy.outdoors.dog",
+			"italy.outdoors.shutter",
+			"italy.outdoors.wind1",
+			"italy.outdoors.wind2",
+			"italy.outdoors.crickettone",
+			"italy.outdoors.airplane",
+		]
+	}
+	italy.outdoors.wind1 = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		volume = 0.200000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		use_time_volume_mapping_curve = true
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = "sounds/ambient/wind/csgo_dust_wind_lp_02.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.522367,
+				0.626582,
+				-0.561423,
+				-0.561423,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.375347,
+				0.227848,
+				-0.349671,
+				-0.349671,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.479714,
+				0.645390,
+				0.942537,
+				0.942537,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.060967,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 7.148299
+	}
+	italy.outdoors.wind2 = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		volume = 0.200000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		use_time_volume_mapping_curve = true
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = "sounds/ambient/wind/tree_sway_wind_lp_03.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.522367,
+				0.626582,
+				-0.561423,
+				-0.561423,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.375347,
+				0.227848,
+				-0.349671,
+				-0.349671,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.479714,
+				0.645390,
+				0.549364,
+				0.549364,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.820286,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 11.209524
+	}
+	italy.outdoors.bird = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		randomize_position_hemisphere = true
+		randomize_position_min_radius = 1000.000000
+		randomize_position_max_radius = 1200.000000
+		enable_retrigger = true
+		retrigger_interval_min = 13.000000
+		retrigger_interval_max = 29.000000
+		pitch_random_min = -0.200000
+		pitch_random_max = 0.100000
+		volume = 1.000000
+		volume_random_min = -0.950000
+		volume_random_max = -0.900000
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		position_relative_to_player = false
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/bird1.vsnd",
+			"sounds/ambient/animal/bird10.vsnd",
+			"sounds/ambient/animal/bird11.vsnd",
+			"sounds/ambient/animal/bird12.vsnd",
+			"sounds/ambient/animal/bird13.vsnd",
+			"sounds/ambient/animal/bird14.vsnd",
+			"sounds/ambient/animal/bird15.vsnd",
+			"sounds/ambient/animal/bird16.vsnd",
+			"sounds/ambient/animal/bird17.vsnd",
+			"sounds/ambient/animal/bird18.vsnd",
+			"sounds/ambient/animal/bird19.vsnd",
+			"sounds/ambient/animal/bird2.vsnd",
+			"sounds/ambient/animal/bird20.vsnd",
+			"sounds/ambient/animal/bird3.vsnd",
+			"sounds/ambient/animal/bird4.vsnd",
+			"sounds/ambient/animal/bird5.vsnd",
+			"sounds/ambient/animal/bird6.vsnd",
+			"sounds/ambient/animal/bird7.vsnd",
+			"sounds/ambient/animal/bird8.vsnd",
+			"sounds/ambient/animal/bird9.vsnd",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.522367,
+				0.626582,
+				-0.561423,
+				-0.561423,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.375347,
+				0.227848,
+				-0.349671,
+				-0.349671,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 4.009773
+	}
+	italy.outdoors.dog = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		randomize_position_hemisphere = true
+		randomize_position_min_radius = 1000.000000
+		randomize_position_max_radius = 1200.000000
+		enable_retrigger = true
+		retrigger_interval_min = 3.000000
+		retrigger_interval_max = 15.000000
+		pitch_random_min = -0.300000
+		pitch_random_max = 0.100000
+		volume = 0.300000
+		volume_random_min = -0.050000
+		volume_random_max = 0.050000
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		position_relative_to_player = true
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				2000.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/dog1.vsnd",
+			"sounds/ambient/animal/dog2.vsnd",
+			"sounds/ambient/animal/dog3.vsnd",
+			"sounds/ambient/animal/dog4.vsnd",
+			"sounds/ambient/animal/dog5.vsnd",
+			"sounds/ambient/animal/dog6.vsnd",
+			"sounds/ambient/animal/dog7.vsnd",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.522367,
+				0.626582,
+				-0.561423,
+				-0.561423,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.375347,
+				0.227848,
+				-0.349671,
+				-0.349671,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 3.292880
+	}
+	italy.outdoors.shutter = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		randomize_position_hemisphere = true
+		randomize_position_min_radius = 1000.000000
+		randomize_position_max_radius = 1200.000000
+		enable_retrigger = true
+		retrigger_interval_min = 9.000000
+		retrigger_interval_max = 21.000000
+		pitch_random_min = -0.300000
+		pitch_random_max = 0.100000
+		volume = 0.100000
+		volume_random_min = -0.050000
+		volume_random_max = 0.100000
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		position_relative_to_player = true
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/misc/shutter1.vsnd",
+			"sounds/ambient/misc/shutter2.vsnd",
+			"sounds/ambient/misc/shutter3.vsnd",
+			"sounds/ambient/misc/shutter4.vsnd",
+			"sounds/ambient/misc/shutter5.vsnd",
+			"sounds/ambient/misc/shutter6.vsnd",
+			"sounds/ambient/misc/shutter7.vsnd",
+			"sounds/ambient/misc/shutter8.vsnd",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.522367,
+				0.626582,
+				-0.561423,
+				-0.561423,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.375347,
+				0.227848,
+				-0.349671,
+				-0.349671,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.917687
+	}
+	italy.waterdrip = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		position = 
+		[
+			1025.000000,
+			-40.000000,
+			-152.985001,
+		]
+		reverb_wet = 1.000000
+		volume = 0.000000
+		vsnd_files_track_01 = "sounds/ambient/atmosphere/amb_water_drip_02.vsnd"
+		metadata = "note: replace position: water hose drips"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				244.000000,
+				0.305439,
+				-0.001429,
+				-0.001429,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				700.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 9.853923
+	}
+	italy.outdoors.tunnel = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		enable_child_events = true
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		dsp_preset = "reverb_17_smallConcrete"
+		override_dsp_preset = true
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.102857,
+				0.670833,
+				-1.977402,
+				-1.977402,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.505714,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"italy.outdoors.bird",
+			"italy.outdoors.dog",
+			"italy.outdoors.shutter",
+			"italy.outdoors.wind1",
+			"italy.outdoors.wind2",
+		]
+	}
+	italy.outdoors.smallalley = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		enable_child_events = true
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		dsp_preset = "reverb_11_smallBright"
+		override_dsp_preset = true
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.102857,
+				0.670833,
+				-1.977402,
+				-1.977402,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.505714,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"italy.outdoors.bird",
+			"italy.outdoors.dog",
+			"italy.outdoors.shutter",
+			"italy.smallalley.wind2",
+			"italy.smallalley.crickettone",
+			"italy.smallalley.wind1",
+		]
+	}
+	italy.outdoors.shop = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		enable_child_events = true
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		dsp_preset = "reverb_22_outsideOpen"
+		override_dsp_preset = true
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.102857,
+				0.670833,
+				-1.977402,
+				-1.977402,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.505714,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"italy.outdoors.bird",
+			"italy.outdoors.dog",
+			"italy.outdoors.shutter",
+			"italy.outdoors.wind1",
+			"italy.outdoors.wind2",
+			"italy.waterdrip",
+			"italy.outdoors_shop.flies",
+			"italy.outdoors_shop.bird_01",
+			"italy.outdoors_shop.bird_02",
+			"italy.outdoors_shop.cat",
+			"italy.outdoors_shop.cricket_01",
+			"italy.outdoors_shop.cricket_02",
+			"italy.outdoors_shop.cricketbed",
+			"italy.outdoors_shop.nightingale",
+			"italy.outdoors_shop.birdamb",
+		]
+	}
+	italy.outdoors.ctstart = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		enable_child_events = true
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		dsp_preset = "reverb_21_outsideStreet"
+		override_dsp_preset = true
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.102857,
+				0.670833,
+				-1.977402,
+				-1.977402,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.505714,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"italy.outdoors.bird",
+			"italy.outdoors.dog",
+			"italy.outdoors.shutter",
+			"italy.outdoors.wind1",
+			"italy.outdoors.wind2",
+			"italy.ctstart.truck",
+			"italy.ctstart.cricket",
+			"italy.ctstart.nightingale",
+		]
+	}
+	italy.outdoors.tstart = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		enable_child_events = true
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		dsp_preset = "reverb_22_outsideOpen"
+		override_dsp_preset = true
+		use_time_volume_mapping_curve = true
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.102857,
+				0.670833,
+				-1.977402,
+				-1.977402,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.505714,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"italy.outdoors",
+			"italy.tstart.cricket",
+			"italy.tstart.cat",
+			"italy.tstart.birdamb",
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.197143,
+				0.381166,
+				2.134146,
+				2.134146,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.468571,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+	}
+	italy.tstart.churchbell = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		randomize_position_hemisphere = true
+		randomize_position_min_radius = 0.000000
+		randomize_position_max_radius = 0.000000
+		enable_retrigger = true
+		retrigger_interval_min = 70.000000
+		retrigger_interval_max = 70.000000
+		pitch_random_min = 0.000000
+		pitch_random_max = 0.000000
+		volume = 1.500000
+		volume_random_min = 0.000000
+		volume_random_max = 0.000000
+		pitch = 1.000000
+		retrigger_radius = 10000.000000
+		set_child_position = false
+		enable_child_events = false
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1400.000000,
+				0.873950,
+				-0.000356,
+				-0.000356,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				2457.142822,
+				0.126126,
+				-0.000527,
+				-0.000527,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				3057.142822,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = "sounds/ambient/italy/amb_italy_churchbell.vsnd"
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.485714,
+				0.799107,
+				-0.612877,
+				-0.612877,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.325714,
+				0.187500,
+				-0.527712,
+				-0.527712,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 31.000000
+	}
+	italy.frogtone = 
+	{
+		type = "csgo_mega"
+		enable_retrigger = false
+		mixgroup = "Italy"
+		volume = 0.000000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				557.142883,
+				0.242152,
+				-0.000667,
+				-0.000667,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1500.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = "sounds/ambient/animal/frogbed1.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.847534,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				262.857147,
+				0.816144,
+				-0.001059,
+				-0.001059,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				800.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 14.775510
+	}
+	italy.windtree = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		volume = 1.000000
+		reverb_wet = 1.000000
+		vsnd_files_track_01 = "sounds/ambient/wind/tree_sway_wind_lp_01.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				274.285706,
+				0.288703,
+				-0.001000,
+				-0.001000,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1000.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 6.465215
+	}
+	italy.frogtone2 = 
+	{
+		type = "csgo_mega"
+		enable_retrigger = false
+		mixgroup = "Italy"
+		volume = 0.000000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				363.428589,
+				0.345291,
+				-0.000833,
+				-0.000833,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1200.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = "sounds/ambient/animal/frogbed1.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.847534,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				262.857147,
+				0.816144,
+				-0.001059,
+				-0.001059,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				800.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 14.775510
+	}
+	italy.rats = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		enable_retrigger = true
+		retrigger_interval_max = 20.000000
+		position = 
+		[
+			600.000000,
+			1536.000000,
+			10.000000,
+		]
+		retrigger_interval_min = 8.000000
+		randomize_position_min_radius = 300.000000
+		randomize_position_max_radius = 100.000000
+		retrigger_radius = 10000.000000
+		volume_random_min = -0.800000
+		volume_random_max = -0.600000
+		pitch_random_min = -0.020000
+		pitch_random_max = 0.020000
+		reverb_wet = 1.000000
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/rodent_scratch_short_1.vsnd",
+			"sounds/ambient/animal/rodent_scratch_short_2.vsnd",
+			"sounds/ambient/animal/rodent_scratch_short_3.vsnd",
+			"sounds/ambient/creatures/rats4.vsnd",
+			"sounds/ambient/creatures/rats1.vsnd",
+			"sounds/ambient/creatures/rats5.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				700.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		metadata = ""
+		vsnd_duration = 1.630000
+	}
+	italy.smallalley.wind1 = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		volume = 0.250000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		use_time_volume_mapping_curve = true
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = "sounds/ambient/wind/csgo_dust_wind_lp_02.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.522367,
+				0.626582,
+				-0.561423,
+				-0.561423,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.375347,
+				0.227848,
+				-0.349671,
+				-0.349671,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.479714,
+				0.645390,
+				0.549364,
+				0.549364,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.820286,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 7.148299
+	}
+	italy.smallalley.wind2 = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		volume = 0.200000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		use_time_volume_mapping_curve = true
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = "sounds/ambient/wind/tree_sway_wind_lp_03.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.522367,
+				0.626582,
+				-0.561423,
+				-0.561423,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.375347,
+				0.227848,
+				-0.349671,
+				-0.349671,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.479714,
+				0.645390,
+				0.549364,
+				0.549364,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.820286,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 11.209524
+	}
+	italy.outdoors.crickettone = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		use_distance_unfiltered_stereo_mapping_curve = true
+		use_time_volume_mapping_curve = true
+		volume = 0.050000
+		reverb_wet = 1.000000
+		vsnd_files_track_01 = "sounds/ambient/inferno/exterior_05.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.242000,
+				0.292793,
+				-0.434783,
+				-0.434783,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				2.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.814857,
+				0.590090,
+				0.434783,
+				0.434783,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				2.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 29.391247
+	}
+	italy.smallalley.crickettone = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		use_distance_unfiltered_stereo_mapping_curve = true
+		use_time_volume_mapping_curve = true
+		volume = 0.040000
+		reverb_wet = 1.000000
+		vsnd_files_track_01 = "sounds/ambient/inferno/exterior_05.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.242000,
+				0.292793,
+				-0.434783,
+				-0.434783,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				2.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.814857,
+				0.590090,
+				0.434783,
+				0.434783,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				2.300000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 29.391247
+	}
+	italy.indoorquiet = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		enable_child_events = true
+		set_child_position = false
+		dsp_preset = "reverb_11_smallBright"
+		override_dsp_preset = true
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.285714,
+				0.816667,
+				-1.072658,
+				-1.072658,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.691429,
+				0.258333,
+				-0.618687,
+				-0.618687,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				1.605714,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"italy.indoor.room",
+			"italy.indoor.wind",
+			"italy.indoor.wood",
+		]
+	}
+	italy.indoorquiet.room = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		volume = 0.500000
+		use_time_volume_mapping_curve = true
+		use_distance_unfiltered_stereo_mapping_curve = true
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.485714,
+				0.799107,
+				-0.612877,
+				-0.612877,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.325714,
+				0.187500,
+				-0.527712,
+				-0.527712,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.140000,
+				0.129464,
+				1.875000,
+				1.875000,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.357143,
+				0.669643,
+				1.404090,
+				1.404090,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				0.760000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = "sounds/ambient/tones/roomtone1.vsnd"
+		vsnd_duration = 2.461225
+	}
+	italy.indoor.wind1 = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		volume = 0.100000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		use_time_volume_mapping_curve = true
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = "sounds/ambient/wind/csgo_dust_wind_lp_02.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.522367,
+				0.626582,
+				-0.561423,
+				-0.561423,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.375347,
+				0.227848,
+				-0.349671,
+				-0.349671,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.522367,
+				0.626582,
+				-0.561423,
+				-0.561423,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.375347,
+				0.227848,
+				-0.349671,
+				-0.349671,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.479714,
+				0.645390,
+				0.549364,
+				0.549364,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.820286,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.479714,
+				0.645390,
+				0.549364,
+				0.549364,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.820286,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 7.148299
+	}
+	italy.indoor.wind2 = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		volume = 0.200000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		use_time_volume_mapping_curve = true
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = "sounds/ambient/wind/tree_sway_wind_lp_03.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.522367,
+				0.626582,
+				-0.561423,
+				-0.561423,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.375347,
+				0.227848,
+				-0.349671,
+				-0.349671,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.479714,
+				0.645390,
+				0.549364,
+				0.549364,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.820286,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 11.209524
+	}
+	italy.outdoorstight = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		enable_child_events = true
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		dsp_preset = "reverb_11_smallBright"
+		override_dsp_preset = true
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.102857,
+				0.670833,
+				-1.977402,
+				-1.977402,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.505714,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"italy.outdoors.bird",
+			"italy.outdoors.dog",
+			"italy.outdoors.shutter",
+			"italy.outdoors.wind1",
+			"italy.outdoors.crickettone",
+			"italy.smallalley.wind2",
+		]
+	}
+	cs_italy.radio = 
+	{
+		type = "csgo_mega"
+		volume = 0.400000
+		pitch = 1.000000
+		use_distance_volume_mapping_curve = true
+		reverb_wet = 1.000000
+		mixgroup = "Italy"
+		vsnd_files_track_01 = "sounds/ambient/inferno/inferno_radio_01.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				545.142883,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 93.458687
+	}
+	italy.outdoors.airplane = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		volume = 0.150000
+		volume_random_min = 0.000000
+		volume_random_max = 0.000000
+		enable_retrigger = true
+		retrigger_interval_min = 20.000000
+		retrigger_interval_max = 40.000000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		use_time_volume_mapping_curve = true
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/nuke/airplane_01.vsnd",
+			"sounds/ambient/nuke/airplane_02.vsnd",
+			"sounds/ambient/nuke/airplane_03.vsnd",
+			"sounds/ambient/nuke/airplane_04.vsnd",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.485714,
+				0.799107,
+				-0.612877,
+				-0.612877,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.325714,
+				0.187500,
+				-0.527712,
+				-0.527712,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.140000,
+				0.129464,
+				1.875000,
+				1.875000,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.357143,
+				0.669643,
+				1.404090,
+				1.404090,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				0.760000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 29.254648
+	}
+	italy.tstart.cricket = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		enable_retrigger = true
+		retrigger_interval_max = 1.000000
+		position = 
+		[
+			-285.350006,
+			2347.699951,
+			56.599998,
+		]
+		retrigger_interval_min = 0.800000
+		volume = 0.500000
+		reverb_wet = 1.000000
+		vsnd_files_track_01 = "sounds/ambient/animal/cricket_chirp_1.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				111.428574,
+				0.225941,
+				-0.001429,
+				-0.001429,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				700.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		metadata = "position: in some grass"
+		vsnd_duration = 0.280000
+	}
+	italy.tstart.cat = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		position = 
+		[
+			-448.000000,
+			2548.000000,
+			173.500000,
+		]
+		enable_retrigger = true
+		retrigger_interval_max = 20.000000
+		volume_random_min = -0.900000
+		volume_random_max = -0.750000
+		retrigger_interval_min = 10.000000
+		pitch_random_min = -0.050000
+		reverb_wet = 1.000000
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/cat_01.vsnd",
+			"sounds/ambient/animal/cat_02.vsnd",
+			"sounds/ambient/animal/cat_03.vsnd",
+			"sounds/ambient/animal/cat_04.vsnd",
+		]
+		metadata = ""
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				286.000000,
+				0.334728,
+				-0.001429,
+				-0.001429,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				700.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.754490
+	}
+	italy.tstart.birdamb = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		volume = 0.250000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		pitch = 0.980000
+		position = 
+		[
+			1088.000000,
+			1984.000000,
+			448.000000,
+		]
+		reverb_wet = 1.000000
+		vsnd_files_track_01 = "sounds/ambient/animal/birdbed1.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				178.285706,
+				0.771300,
+				-0.002016,
+				-0.002016,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				449.428558,
+				0.094170,
+				-0.000688,
+				-0.000688,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.560538,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				248.571426,
+				0.192825,
+				-0.000867,
+				-0.000867,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				574.285706,
+				0.062780,
+				-0.000257,
+				-0.000257,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				1000.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 55.650951
+	}
+	italy.thouse_frontdoor = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		enable_child_events = true
+		set_child_position = false
+		dsp_preset = "reverb_11_smallBright"
+		override_dsp_preset = true
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.285714,
+				0.816667,
+				-1.072658,
+				-1.072658,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.691429,
+				0.258333,
+				-0.618687,
+				-0.618687,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				1.605714,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"italy.indoor.room",
+			"italy.indoor.wind",
+			"italy.indoor.wood",
+			"italy.smallalley.crickettone",
+			"italy.indoor.wind1",
+			"italy.indoor.wind2",
+			"italy.thouse_frontdoor.light_01",
+			"italy.thouse_frontdoor.light_02",
+		]
+	}
+	italy.connector = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		enable_child_events = true
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		dsp_preset = "reverb_11_smallBright"
+		override_dsp_preset = true
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.102857,
+				0.670833,
+				-1.977402,
+				-1.977402,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.505714,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"italy.outdoors.bird",
+			"italy.outdoors.dog",
+			"italy.outdoors.shutter",
+			"italy.smallalley.wind2",
+			"italy.smallalley.crickettone",
+			"italy.connector.light",
+		]
+	}
+	italy.thouse_frontdoor.light_01 = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		volume = 0.020000
+		position = 
+		[
+			658.260010,
+			2198.040039,
+			110.000000,
+		]
+		reverb_wet = 1.000000
+		vsnd_files_track_01 = "sounds/ambient/machines/fluorescent_hum_1.vsnd"
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				150.857147,
+				0.260090,
+				-0.001667,
+				-0.001667,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				600.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.016667
+	}
+	italy.thouse_frontdoor.light_02 = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		volume = 0.020000
+		position = 
+		[
+			934.900024,
+			2197.040039,
+			121.699997,
+		]
+		reverb_wet = 1.000000
+		vsnd_files_track_01 = "sounds/ambient/machines/fluorescent_hum_1.vsnd"
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				150.857147,
+				0.260090,
+				-0.001667,
+				-0.001667,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				600.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.016667
+	}
+	italy.thouse_downstairs = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		enable_child_events = true
+		set_child_position = false
+		dsp_preset = "reverb_11_smallBright"
+		override_dsp_preset = true
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.285714,
+				0.816667,
+				-1.072658,
+				-1.072658,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.691429,
+				0.258333,
+				-0.618687,
+				-0.618687,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				1.605714,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"italy.indoor.room",
+			"italy.indoor.wind",
+			"italy.indoor.wood",
+			"italy.thouse_downstairs.light_01",
+		]
+	}
+	italy.thouse_upstairs = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		enable_child_events = true
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		dsp_preset = "reverb_20_outsideAlley"
+		override_dsp_preset = true
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.102857,
+				0.670833,
+				-1.977402,
+				-1.977402,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.505714,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"italy.outdoors.bird",
+			"italy.outdoors.dog",
+			"italy.outdoors.shutter",
+			"italy.indoor.wind1",
+			"italy.indoor.wind2",
+			"italy.indoort.airplane",
+			"italy.tstart.birdamb",
+			"italy.thouse_upstairs.light_01",
+		]
+	}
+	italy.thouse_downstairs.light_01 = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		volume = 0.020000
+		position = 
+		[
+			935.000000,
+			2405.600098,
+			104.000000,
+		]
+		reverb_wet = 1.000000
+		vsnd_files_track_01 = "sounds/ambient/machines/fluorescent_hum_1.vsnd"
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				150.857147,
+				0.260090,
+				-0.001667,
+				-0.001667,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				600.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.016667
+	}
+	italy.thouse_upstairs.light_01 = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		volume = 0.020000
+		position = 
+		[
+			715.299988,
+			2444.199951,
+			243.000000,
+		]
+		reverb_wet = 1.000000
+		vsnd_files_track_01 = "sounds/ambient/machines/fluorescent_hum_1.vsnd"
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				150.857147,
+				0.260090,
+				-0.001667,
+				-0.001667,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				600.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.016667
+	}
+	italy.indoort.birdamb_02 = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		volume = 0.100000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		pitch = 0.980000
+		position = 
+		[
+			896.000000,
+			1148.000000,
+			192.000000,
+		]
+		reverb_wet = 1.000000
+		vsnd_files_track_01 = "sounds/ambient/animal/birdbed1.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				178.285706,
+				0.771300,
+				-0.002016,
+				-0.002016,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				449.428558,
+				0.094170,
+				-0.000688,
+				-0.000688,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.560538,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				248.571426,
+				0.192825,
+				-0.000867,
+				-0.000867,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				574.285706,
+				0.062780,
+				-0.000257,
+				-0.000257,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				1000.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 55.650951
+	}
+	italy.indoort.cricketbed_01 = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		volume = 0.100000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		position = 
+		[
+			960.000000,
+			1556.199951,
+			265.500000,
+		]
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				345.428558,
+				0.188341,
+				-0.000769,
+				-0.000769,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = "sounds/ambient/animal/crickets.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.704036,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				226.285721,
+				0.228700,
+				-0.000880,
+				-0.000880,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				800.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 4.256190
+	}
+	italy.indoort.nightingale = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		use_time_volume_mapping_curve = false
+		enable_retrigger = true
+		retrigger_interval_min = 15.000000
+		retrigger_interval_max = 25.000000
+		volume_random_min = -0.800000
+		volume_random_max = -0.700000
+		pitch_random_min = -0.100000
+		pitch_random_max = 0.100000
+		reverb_wet = 1.000000
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/nightingale_01.vsnd",
+			"sounds/ambient/animal/nightingale_02.vsnd",
+			"sounds/ambient/animal/nightingale_03.vsnd",
+			"sounds/ambient/animal/nightingale_04.vsnd",
+			"sounds/ambient/animal/nightingale_05.vsnd",
+			"sounds/ambient/animal/nightingale_06.vsnd",
+			"sounds/ambient/animal/nightingale_07.vsnd",
+			"sounds/ambient/animal/nightingale_08.vsnd",
+			"sounds/ambient/animal/nightingale_09.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				282.857147,
+				0.364017,
+				-0.001111,
+				-0.001111,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				900.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 3.265261
+	}
+	italy.indoort.cricketbed_02 = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		volume = 0.100000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		position = 
+		[
+			960.000000,
+			1097.199951,
+			192.000000,
+		]
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				345.428558,
+				0.188341,
+				-0.000769,
+				-0.000769,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = "sounds/ambient/animal/crickets.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.704036,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				226.285721,
+				0.228700,
+				-0.000880,
+				-0.000880,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				800.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 4.256190
+	}
+	italy.indoort.cricket = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		enable_retrigger = true
+		retrigger_interval_max = 1.000000
+		position = 
+		[
+			600.000000,
+			1536.000000,
+			10.000000,
+		]
+		retrigger_interval_min = 0.800000
+		volume = 0.500000
+		reverb_wet = 1.000000
+		vsnd_files_track_01 = "sounds/ambient/animal/cricket_chirp_1.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				111.428574,
+				0.225941,
+				-0.001429,
+				-0.001429,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				700.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		metadata = "position: in some grass"
+		vsnd_duration = 0.280000
+	}
+	italy.sewer = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		enable_child_events = true
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		dsp_preset = "reverb_11_smallBright"
+		override_dsp_preset = true
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.102857,
+				0.670833,
+				-1.977402,
+				-1.977402,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.505714,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"italy.outdoors.bird",
+			"italy.outdoors.dog",
+			"italy.outdoors.shutter",
+			"italy.outdoors.wind1",
+			"italy.outdoors.crickettone",
+			"italy.smallalley.wind2",
+			"italy.waterdrip",
+			"italy.sewer.frog",
+		]
+	}
+	italy.outdoors_shop.cricket_01 = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		enable_retrigger = true
+		retrigger_interval_max = 1.000000
+		position = 
+		[
+			1087.500000,
+			-184.800003,
+			-137.199997,
+		]
+		retrigger_interval_min = 0.800000
+		volume = 0.500000
+		reverb_wet = 1.000000
+		vsnd_files_track_01 = "sounds/ambient/animal/cricket_chirp_1.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				111.428574,
+				0.225941,
+				-0.001429,
+				-0.001429,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				700.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		metadata = "position: in some grass"
+		vsnd_duration = 0.280000
+	}
+	italy.outdoors_shop.cricket_02 = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		enable_retrigger = true
+		retrigger_interval_max = 1.000000
+		position = 
+		[
+			1216.000000,
+			-768.000000,
+			-64.000000,
+		]
+		retrigger_interval_min = 0.800000
+		volume = 0.500000
+		reverb_wet = 1.000000
+		vsnd_files_track_01 = "sounds/ambient/animal/cricket_chirp_1.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				111.428574,
+				0.225941,
+				-0.001429,
+				-0.001429,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				700.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		metadata = "position: in some grass"
+		vsnd_duration = 0.280000
+	}
+	italy.outdoors_shop.bird_01 = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		randomize_position_hemisphere = true
+		randomize_position_min_radius = 1000.000000
+		randomize_position_max_radius = 1200.000000
+		enable_retrigger = true
+		retrigger_interval_min = 13.000000
+		retrigger_interval_max = 29.000000
+		pitch_random_min = -0.200000
+		pitch_random_max = 0.100000
+		volume = 0.100000
+		volume_random_min = -0.050000
+		volume_random_max = 0.050000
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		position_relative_to_player = true
+		position = 
+		[
+			1152.420044,
+			-715.145020,
+			167.000000,
+		]
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1067.142700,
+				0.306306,
+				-0.000667,
+				-0.000667,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1500.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/bird1.vsnd",
+			"sounds/ambient/animal/bird10.vsnd",
+			"sounds/ambient/animal/bird11.vsnd",
+			"sounds/ambient/animal/bird12.vsnd",
+			"sounds/ambient/animal/bird13.vsnd",
+			"sounds/ambient/animal/bird14.vsnd",
+			"sounds/ambient/animal/bird15.vsnd",
+			"sounds/ambient/animal/bird16.vsnd",
+			"sounds/ambient/animal/bird17.vsnd",
+			"sounds/ambient/animal/bird18.vsnd",
+			"sounds/ambient/animal/bird19.vsnd",
+			"sounds/ambient/animal/bird2.vsnd",
+			"sounds/ambient/animal/bird20.vsnd",
+			"sounds/ambient/animal/bird3.vsnd",
+			"sounds/ambient/animal/bird4.vsnd",
+			"sounds/ambient/animal/bird5.vsnd",
+			"sounds/ambient/animal/bird6.vsnd",
+			"sounds/ambient/animal/bird7.vsnd",
+			"sounds/ambient/animal/bird8.vsnd",
+			"sounds/ambient/animal/bird9.vsnd",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.522367,
+				0.626582,
+				-0.561423,
+				-0.561423,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.375347,
+				0.227848,
+				-0.349671,
+				-0.349671,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 4.009773
+	}
+	italy.outdoors_shop.bird_02 = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		randomize_position_hemisphere = true
+		randomize_position_min_radius = 1000.000000
+		randomize_position_max_radius = 1200.000000
+		enable_retrigger = true
+		retrigger_interval_min = 13.000000
+		retrigger_interval_max = 29.000000
+		pitch_random_min = -0.200000
+		pitch_random_max = 0.100000
+		volume = 0.100000
+		volume_random_min = -0.050000
+		volume_random_max = 0.050000
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		position_relative_to_player = true
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1067.142700,
+				0.306306,
+				-0.000667,
+				-0.000667,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1500.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/bird1.vsnd",
+			"sounds/ambient/animal/bird10.vsnd",
+			"sounds/ambient/animal/bird11.vsnd",
+			"sounds/ambient/animal/bird12.vsnd",
+			"sounds/ambient/animal/bird13.vsnd",
+			"sounds/ambient/animal/bird14.vsnd",
+			"sounds/ambient/animal/bird15.vsnd",
+			"sounds/ambient/animal/bird16.vsnd",
+			"sounds/ambient/animal/bird17.vsnd",
+			"sounds/ambient/animal/bird18.vsnd",
+			"sounds/ambient/animal/bird19.vsnd",
+			"sounds/ambient/animal/bird2.vsnd",
+			"sounds/ambient/animal/bird20.vsnd",
+			"sounds/ambient/animal/bird3.vsnd",
+			"sounds/ambient/animal/bird4.vsnd",
+			"sounds/ambient/animal/bird5.vsnd",
+			"sounds/ambient/animal/bird6.vsnd",
+			"sounds/ambient/animal/bird7.vsnd",
+			"sounds/ambient/animal/bird8.vsnd",
+			"sounds/ambient/animal/bird9.vsnd",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.522367,
+				0.626582,
+				-0.561423,
+				-0.561423,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.375347,
+				0.227848,
+				-0.349671,
+				-0.349671,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 4.009773
+	}
+	italy.outdoors_shop.cat = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		position = 
+		[
+			384.000000,
+			-983.700012,
+			140.600006,
+		]
+		enable_retrigger = true
+		retrigger_interval_max = 20.000000
+		volume_random_min = -0.900000
+		volume_random_max = -0.750000
+		retrigger_interval_min = 10.000000
+		pitch_random_min = -0.050000
+		reverb_wet = 1.000000
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/cat_01.vsnd",
+			"sounds/ambient/animal/cat_02.vsnd",
+			"sounds/ambient/animal/cat_03.vsnd",
+			"sounds/ambient/animal/cat_04.vsnd",
+		]
+		metadata = ""
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				286.000000,
+				0.334728,
+				-0.001429,
+				-0.001429,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				700.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.754490
+	}
+	italy.outdoors_shop.birdamb = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		volume = 0.250000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		pitch = 0.980000
+		position = 
+		[
+			1152.000000,
+			-896.000000,
+			192.000000,
+		]
+		reverb_wet = 1.000000
+		vsnd_files_track_01 = "sounds/ambient/animal/birdbed1.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				178.285706,
+				0.771300,
+				-0.002016,
+				-0.002016,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				449.428558,
+				0.094170,
+				-0.000688,
+				-0.000688,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.560538,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				248.571426,
+				0.192825,
+				-0.000867,
+				-0.000867,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				574.285706,
+				0.062780,
+				-0.000257,
+				-0.000257,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				1000.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 55.650951
+	}
+	italy.outdoors_shop.nightingale = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		use_time_volume_mapping_curve = false
+		enable_retrigger = true
+		retrigger_interval_min = 15.000000
+		retrigger_interval_max = 25.000000
+		volume_random_min = -0.800000
+		volume_random_max = -0.700000
+		pitch_random_min = -0.100000
+		pitch_random_max = 0.100000
+		position = 
+		[
+			1220.000000,
+			-795.000000,
+			225.800003,
+		]
+		reverb_wet = 1.000000
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/nightingale_01.vsnd",
+			"sounds/ambient/animal/nightingale_02.vsnd",
+			"sounds/ambient/animal/nightingale_03.vsnd",
+			"sounds/ambient/animal/nightingale_04.vsnd",
+			"sounds/ambient/animal/nightingale_05.vsnd",
+			"sounds/ambient/animal/nightingale_06.vsnd",
+			"sounds/ambient/animal/nightingale_07.vsnd",
+			"sounds/ambient/animal/nightingale_08.vsnd",
+			"sounds/ambient/animal/nightingale_09.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				282.857147,
+				0.364017,
+				-0.001111,
+				-0.001111,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				900.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 3.265261
+	}
+	italy.outdoors_shop.cricketbed = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		volume = 0.300000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		position = 
+		[
+			1280.000000,
+			-896.000000,
+			-64.000000,
+		]
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				345.428558,
+				0.188341,
+				-0.000769,
+				-0.000769,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = "sounds/ambient/animal/crickets.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.704036,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				226.285721,
+				0.228700,
+				-0.000880,
+				-0.000880,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				800.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 4.256190
+	}
+	italy.sewer.frog = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		use_time_volume_mapping_curve = false
+		enable_retrigger = true
+		retrigger_interval_min = 15.000000
+		retrigger_interval_max = 25.000000
+		retrigger_radius = 10000.000000
+		volume_random_min = 0.000000
+		pitch_random_max = 0.050000
+		pitch_random_min = 0.000000
+		volume_random_max = 0.000000
+		randomize_position_min_radius = 0.000000
+		randomize_position_max_radius = 0.000000
+		position_relative_to_player = false
+		reverb_wet = 1.000000
+		volume = 0.020000
+		position = 
+		[
+			1200.811523,
+			278.912628,
+			-56.102905,
+		]
+		vsnd_files_track_01 = "sounds/ambient/animal/treefrog_1.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				564.571411,
+				0.554622,
+				-0.000769,
+				-0.000769,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 7.955850
+	}
+	italy.ctstart.cricket = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		enable_retrigger = true
+		retrigger_interval_max = 1.000000
+		position = 
+		[
+			-1084.609985,
+			-1518.199951,
+			-104.599998,
+		]
+		retrigger_interval_min = 0.800000
+		volume = 0.500000
+		reverb_wet = 1.000000
+		vsnd_files_track_01 = "sounds/ambient/animal/cricket_chirp_1.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				111.428574,
+				0.225941,
+				-0.001429,
+				-0.001429,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				700.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		metadata = "position: in some grass"
+		vsnd_duration = 0.280000
+	}
+	italy.ctstart.truck = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		position = 
+		[
+			-390.329987,
+			-1920.000000,
+			-153.199997,
+		]
+		volume = 0.600000
+		reverb_wet = 1.000000
+		vsnd_files_track_01 = "sounds/ambient/machines/truck_idle_loop.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				134.285721,
+				0.905405,
+				-0.002083,
+				-0.002083,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				320.000000,
+				0.333333,
+				-0.001046,
+				-0.001046,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1000.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 2.266735
+	}
+	italy.alley_left = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		enable_child_events = true
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		dsp_preset = "reverb_20_outsideAlley"
+		override_dsp_preset = true
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.102857,
+				0.670833,
+				-1.977402,
+				-1.977402,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.505714,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"italy.outdoors.bird",
+			"italy.outdoors.dog",
+			"italy.outdoors.shutter",
+			"italy.outdoors.wind1",
+			"italy.outdoors.wind2",
+			"italy.outdoors.crickettone",
+			"italy.outdoors.airplane",
+			"italy.alley_left.bird_01",
+			"italy.alley_left.flies",
+			"italy.alley_left.light",
+		]
+	}
+	italy.alley_right_nook = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		enable_child_events = true
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		dsp_preset = "reverb_11_smallBright"
+		override_dsp_preset = true
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.102857,
+				0.670833,
+				-1.977402,
+				-1.977402,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.505714,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"italy.outdoors.bird",
+			"italy.outdoors.dog",
+			"italy.outdoors.shutter",
+			"italy.smallalley.wind2",
+			"italy.smallalley.crickettone",
+			"italy.alley_right_nook.flies_01",
+			"italy.alley_right_nook.flies_02",
+			"italy.alley_right_nook.light",
+			"italy.smallalley.wind1",
+		]
+	}
+	italy.alley_right_nook.flies_01 = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		position = 
+		[
+			-416.000000,
+			-120.699997,
+			-78.300003,
+		]
+		enable_retrigger = true
+		retrigger_interval_max = 2.000000
+		volume_random_min = -0.300000
+		volume_random_max = 0.000000
+		volume = 0.400000
+		reverb_wet = 1.000000
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/flies1.vsnd",
+			"sounds/ambient/animal/flies2.vsnd",
+			"sounds/ambient/animal/flies3.vsnd",
+			"sounds/ambient/animal/flies4.vsnd",
+			"sounds/ambient/animal/flies5.vsnd",
+		]
+		metadata = ""
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				154.000000,
+				0.305439,
+				-0.002000,
+				-0.002000,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				500.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.074807
+	}
+	italy.alley_right_nook.flies_02 = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		position = 
+		[
+			-431.299988,
+			-150.199997,
+			-130.199997,
+		]
+		enable_retrigger = true
+		retrigger_interval_max = 2.000000
+		volume_random_min = -0.300000
+		volume_random_max = 0.000000
+		volume = 0.400000
+		reverb_wet = 1.000000
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/flies1.vsnd",
+			"sounds/ambient/animal/flies2.vsnd",
+			"sounds/ambient/animal/flies3.vsnd",
+			"sounds/ambient/animal/flies4.vsnd",
+			"sounds/ambient/animal/flies5.vsnd",
+		]
+		metadata = ""
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				154.000000,
+				0.305439,
+				-0.002000,
+				-0.002000,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				500.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.074807
+	}
+	italy.alley_right_nook.light = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		volume = 0.020000
+		position = 
+		[
+			-287.700012,
+			-142.600006,
+			-50.400002,
+		]
+		reverb_wet = 1.000000
+		vsnd_files_track_01 = "sounds/ambient/machines/fluorescent_hum_1.vsnd"
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				150.857147,
+				0.260090,
+				-0.001667,
+				-0.001667,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				600.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.016667
+	}
+	italy.alley_left.light = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		volume = 0.020000
+		position = 
+		[
+			-1114.250000,
+			-236.500000,
+			-52.500000,
+		]
+		reverb_wet = 1.000000
+		vsnd_files_track_01 = "sounds/ambient/machines/fluorescent_hum_1.vsnd"
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				150.857147,
+				0.260090,
+				-0.001667,
+				-0.001667,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				600.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.016667
+	}
+	italy.alley_left.flies = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		position = 
+		[
+			-880.200012,
+			-513.200012,
+			-109.900002,
+		]
+		enable_retrigger = true
+		retrigger_interval_max = 2.000000
+		volume_random_min = -0.300000
+		volume_random_max = 0.000000
+		volume = 0.400000
+		reverb_wet = 1.000000
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/flies1.vsnd",
+			"sounds/ambient/animal/flies2.vsnd",
+			"sounds/ambient/animal/flies3.vsnd",
+			"sounds/ambient/animal/flies4.vsnd",
+			"sounds/ambient/animal/flies5.vsnd",
+		]
+		metadata = ""
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				154.000000,
+				0.305439,
+				-0.002000,
+				-0.002000,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				500.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.074807
+	}
+	italy.alley_left.bird_01 = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		randomize_position_hemisphere = true
+		randomize_position_min_radius = 1000.000000
+		randomize_position_max_radius = 1200.000000
+		enable_retrigger = true
+		retrigger_interval_min = 13.000000
+		retrigger_interval_max = 29.000000
+		pitch_random_min = -0.200000
+		pitch_random_max = 0.100000
+		volume = 0.100000
+		volume_random_min = -0.050000
+		volume_random_max = 0.050000
+		retrigger_radius = 4000.000000
+		set_child_position = false
+		position_relative_to_player = true
+		position = 
+		[
+			-1557.500000,
+			310.200012,
+			280.799988,
+		]
+		reverb_wet = 1.000000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1067.142700,
+				0.306306,
+				-0.000667,
+				-0.000667,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1500.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/bird1.vsnd",
+			"sounds/ambient/animal/bird10.vsnd",
+			"sounds/ambient/animal/bird11.vsnd",
+			"sounds/ambient/animal/bird12.vsnd",
+			"sounds/ambient/animal/bird13.vsnd",
+			"sounds/ambient/animal/bird14.vsnd",
+			"sounds/ambient/animal/bird15.vsnd",
+			"sounds/ambient/animal/bird16.vsnd",
+			"sounds/ambient/animal/bird17.vsnd",
+			"sounds/ambient/animal/bird18.vsnd",
+			"sounds/ambient/animal/bird19.vsnd",
+			"sounds/ambient/animal/bird2.vsnd",
+			"sounds/ambient/animal/bird20.vsnd",
+			"sounds/ambient/animal/bird3.vsnd",
+			"sounds/ambient/animal/bird4.vsnd",
+			"sounds/ambient/animal/bird5.vsnd",
+			"sounds/ambient/animal/bird6.vsnd",
+			"sounds/ambient/animal/bird7.vsnd",
+			"sounds/ambient/animal/bird8.vsnd",
+			"sounds/ambient/animal/bird9.vsnd",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.522367,
+				0.626582,
+				-0.561423,
+				-0.561423,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.375347,
+				0.227848,
+				-0.349671,
+				-0.349671,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 4.009773
+	}
+	italy.outdoors_shop.flies = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		position = 
+		[
+			516.599976,
+			-278.899994,
+			-118.599998,
+		]
+		enable_retrigger = true
+		retrigger_interval_max = 2.000000
+		volume_random_min = -0.300000
+		volume_random_max = 0.000000
+		volume = 0.400000
+		reverb_wet = 1.000000
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/flies1.vsnd",
+			"sounds/ambient/animal/flies2.vsnd",
+			"sounds/ambient/animal/flies3.vsnd",
+			"sounds/ambient/animal/flies4.vsnd",
+			"sounds/ambient/animal/flies5.vsnd",
+		]
+		metadata = ""
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				154.000000,
+				0.305439,
+				-0.002000,
+				-0.002000,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				500.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.074807
+	}
+	italy.connector.light = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		volume = 0.020000
+		position = 
+		[
+			163.000000,
+			1445.699951,
+			76.099998,
+		]
+		reverb_wet = 1.000000
+		vsnd_files_track_01 = "sounds/ambient/machines/fluorescent_hum_1.vsnd"
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				150.857147,
+				0.260090,
+				-0.001667,
+				-0.001667,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				600.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.016667
+	}
+	italy.indoorb.light_01 = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		volume = 0.020000
+		position = 
+		[
+			-379.299988,
+			1554.099976,
+			25.900000,
+		]
+		reverb_wet = 1.000000
+		vsnd_files_track_01 = "sounds/ambient/machines/fluorescent_hum_1.vsnd"
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				150.857147,
+				0.260090,
+				-0.001667,
+				-0.001667,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				600.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.016667
+	}
+	italy.indoorb.light_02 = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		volume = 0.020000
+		position = 
+		[
+			-312.000000,
+			1920.800049,
+			-42.500000,
+		]
+		reverb_wet = 1.000000
+		vsnd_files_track_01 = "sounds/ambient/machines/fluorescent_hum_1.vsnd"
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				150.857147,
+				0.260090,
+				-0.001667,
+				-0.001667,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				600.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.016667
+	}
+	italy.ctstart.nightingale = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Italy"
+		use_time_volume_mapping_curve = false
+		enable_retrigger = true
+		retrigger_interval_min = 15.000000
+		retrigger_interval_max = 25.000000
+		volume_random_min = -0.800000
+		volume_random_max = -0.700000
+		pitch_random_min = -0.100000
+		pitch_random_max = 0.100000
+		position = 
+		[
+			-1232.900024,
+			-2112.000000,
+			405.799988,
+		]
+		reverb_wet = 1.000000
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/animal/nightingale_01.vsnd",
+			"sounds/ambient/animal/nightingale_02.vsnd",
+			"sounds/ambient/animal/nightingale_03.vsnd",
+			"sounds/ambient/animal/nightingale_04.vsnd",
+			"sounds/ambient/animal/nightingale_05.vsnd",
+			"sounds/ambient/animal/nightingale_06.vsnd",
+			"sounds/ambient/animal/nightingale_07.vsnd",
+			"sounds/ambient/animal/nightingale_08.vsnd",
+			"sounds/ambient/animal/nightingale_09.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				282.857147,
+				0.364017,
+				-0.001111,
+				-0.001111,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				900.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 3.265261
+	}
+}
