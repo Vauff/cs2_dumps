@@ -1,3 +1,4 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	dust.Indoors = 
 	{
@@ -17,6 +18,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -99,6 +101,7 @@
 		volume = 0.300000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\atmosphere\csgo_dust_indoors_lp_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -201,6 +204,7 @@
 		randomize_position_max_radius = 300.000000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/misc/rock1.vsnd",
@@ -290,16 +294,17 @@
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		position_relative_to_player = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
-			"sounds/player/footsteps/wood_floor_creak_01.vsnd",
-			"sounds/player/footsteps/wood_floor_creak_02.vsnd",
-			"sounds/player/footsteps/wood_floor_creak_03.vsnd",
-			"sounds/player/footsteps/wood_floor_creak_04.vsnd",
-			"sounds/player/footsteps/wood_floor_creak_05.vsnd",
-			"sounds/player/footsteps/wood_floor_creak_06.vsnd",
-			"sounds/player/footsteps/wood_floor_creak_07.vsnd",
-			"sounds/player/footsteps/wood_floor_creak_08.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_01.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_02.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_03.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_04.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_05.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_06.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_07.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_08.vsnd",
 		]
 		distance_volume_mapping_curve = 
 		[
@@ -383,6 +388,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -482,6 +488,7 @@
 		volume = 0.300000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\wind\tree_sway_wind_lp_02.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -595,6 +602,7 @@
 		volume = 0.400000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\wind\csgo_dust_wind_lp_02.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -717,6 +725,7 @@
 		pitch_random_max = 0.050000
 		set_child_position = false
 		retrigger_radius = 10000.000000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/atmosphere/csgo_dust_car_driveby_05.vsnd",
@@ -804,6 +813,7 @@
 		use_time_volume_mapping_curve = true
 		pitch_random_max = 0.050000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/playonce/overhead/hel1.vsnd",
@@ -895,6 +905,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -978,6 +989,7 @@
 		volume = 0.300000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\wind\tree_sway_wind_lp_03.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -1073,6 +1085,7 @@
 		volume = 0.400000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\wind\csgo_dust_wind_lp_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -1181,6 +1194,7 @@
 			56.250435,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/fire/fire_med_loop1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1269,6 +1283,7 @@
 			28.876511,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/fire/fire_med_loop1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1352,6 +1367,7 @@
 		pitch_random_max = 0.100000
 		set_child_position = false
 		retrigger_radius = 10000.000000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/atmosphere/csgo_dust_car_driveby_05.vsnd",
@@ -1439,6 +1455,7 @@
 		use_time_volume_mapping_curve = true
 		pitch_random_max = 0.050000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/playonce/overhead/hel1.vsnd",
@@ -1520,6 +1537,7 @@
 		volume = 0.200000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\wind\csgo_dust_wind_lp_02.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -1633,6 +1651,7 @@
 		volume = 0.200000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\wind\tree_sway_wind_lp_02.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[

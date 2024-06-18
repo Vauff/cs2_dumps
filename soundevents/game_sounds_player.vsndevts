@@ -1,3 +1,4 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	BaseCombatCharacter.AmmoPickup = 
 	{
@@ -47,13 +48,34 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-2.108865,
+				-2.108865,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.540000
 	}
 	Player.Swim = 
 	{
 		type = "csgo_mega"
 		preload_vsnds = true
-		volume = 0.549805
+		volume = 0.550000
 		pitch = 1.000000
 		mixgroup = "World"
 		block_distance = 69.000000
@@ -92,6 +114,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 2.986667
 	}
 	Player.Death = 
@@ -111,9 +154,10 @@
 			0.000000,
 			60.000000,
 		]
-		reverb_source_wet = 1.000000
+		reverb_source_wet = 0.500000
 		occlusion_intensity = 0.900000
 		use_fadetime_volume_mapping_curve = false
+		use_distance_unfiltered_stereo_mapping_curve = false
 		vsnd_files_track_01 = 
 		[
 			"sounds/player/death1.vsnd",
@@ -159,8 +203,8 @@
 			[
 				0.000000,
 				1.000000,
-				0.000000,
-				0.000000,
+				-2.108865,
+				-2.108865,
 				2.000000,
 				3.000000,
 			],
@@ -174,13 +218,52 @@
 				3.000000,
 			],
 		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				12.000000,
+				1.000000,
+				-0.003528,
+				-0.003528,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				179.142868,
+				0.441176,
+				-0.003472,
+				-0.003472,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				-0.003650,
+				-0.003650,
+				1.000000,
+				1.000000,
+			],
+		]
 		vsnd_duration = 1.568571
 	}
 	Player.PickupWeapon = 
 	{
 		type = "csgo_mega"
 		preload_vsnds = true
-		volume = 0.300000
+		volume = 0.700000
 		pitch = 1.000000
 		pitch_random_min = -0.100000
 		pitch_random_max = 0.100000
@@ -189,9 +272,9 @@
 		block_duration = 0.100000
 		block_distance = 69.000000
 		use_distance_volume_mapping_curve = true
-		reverb_wet = 1.000000
+		reverb_wet = 0.200000
 		display_broadcast = false
-		reverb_source_wet = 1.000000
+		reverb_source_wet = 0.200000
 		occlusion_intensity = 0.750000
 		use_fadetime_volume_mapping_curve = false
 		vsnd_files_track_01 = "sounds/items/pickup_weapon_02.vsnd"
@@ -221,6 +304,27 @@
 			"meta",
 			"localplayeronly",
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.805805
 	}
 	Player.PickupWeaponSilent = 
@@ -232,7 +336,7 @@
 		mixgroup = "Foley"
 		block_distance = 69.000000
 		use_distance_volume_mapping_curve = true
-		reverb_wet = 1.000000
+		reverb_wet = 0.200000
 		display_broadcast = false
 		reverb_source_wet = 1.000000
 		use_fadetime_volume_mapping_curve = false
@@ -262,6 +366,27 @@
 		[
 			"meta",
 			"localplayeronly",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
 		]
 		vsnd_duration = 0.784626
 	}
@@ -349,7 +474,28 @@
 				1.000000,
 			],
 		]
-		vsnd_duration = 1.334195
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.902313
 	}
 	Player.WeaponSelected_T = 
 	{
@@ -437,7 +583,28 @@
 				1.000000,
 			],
 		]
-		vsnd_duration = 1.215964
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.884853
 	}
 	Player.EquipArmor_CT = 
 	{
@@ -448,7 +615,7 @@
 		mixgroup = "Foley"
 		block_distance = 69.000000
 		use_distance_volume_mapping_curve = true
-		reverb_wet = 1.000000
+		reverb_wet = 0.500000
 		pitch_random_min = -0.060000
 		pitch_random_max = 0.060000
 		block_duration = 1.000000
@@ -498,7 +665,28 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 1.334195
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.902313
 	}
 	Player.EquipArmor_T = 
 	{
@@ -509,7 +697,7 @@
 		mixgroup = "Foley"
 		block_distance = 69.000000
 		use_distance_volume_mapping_curve = true
-		reverb_wet = 1.000000
+		reverb_wet = 0.500000
 		pitch_random_min = -0.100000
 		pitch_random_max = 0.100000
 		block_duration = 1.000000
@@ -561,7 +749,28 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 1.215964
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.884853
 	}
 	Player.WeaponSelectionOpen_CT = 
 	{
@@ -647,7 +856,28 @@
 				1.000000,
 			],
 		]
-		vsnd_duration = 1.334195
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.902313
 	}
 	Player.WeaponSelectionOpen_T = 
 	{
@@ -735,7 +965,28 @@
 				1.000000,
 			],
 		]
-		vsnd_duration = 1.215964
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.884853
 	}
 	Player.WeaponSelectionClose_T = 
 	{
@@ -823,7 +1074,28 @@
 				1.000000,
 			],
 		]
-		vsnd_duration = 1.215964
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.884853
 	}
 	Player.WeaponSelectionClose_CT = 
 	{
@@ -909,7 +1181,28 @@
 				1.000000,
 			],
 		]
-		vsnd_duration = 1.334195
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.902313
 	}
 	Player.DeathTaser = 
 	{
@@ -924,6 +1217,7 @@
 		display_broadcast = true
 		occlusion_intensity = 1.000000
 		use_fadetime_volume_mapping_curve = false
+		reverb_source_wet = 0.500000
 		vsnd_files_track_01 = 
 		[
 			"sounds/player/death_taser_m_01.vsnd",
@@ -972,6 +1266,27 @@
 				1.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.586757
 	}
 	Player.HitByThrownWeapon = 
@@ -1014,13 +1329,34 @@
 			"meta",
 			"localplayeronly",
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.100045
 	}
 	Player.DamageKevlar = 
 	{
 		type = "csgo_mega"
 		preload_vsnds = true
-		volume = 1.000000
+		volume = 0.500000
 		pitch = 1.000000
 		mixgroup = "PlayerDamage"
 		block_distance = 69.000000
@@ -1034,6 +1370,8 @@
 			60.000000,
 		]
 		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		occlusion_intensity = 0.600000
 		vsnd_files_track_01 = 
 		[
 			"sounds/player/kevlar1.vsnd",
@@ -1064,7 +1402,7 @@
 			],
 			
 			[
-				1100.000000,
+				594.000000,
 				0.000000,
 				-0.000364,
 				-0.000364,
@@ -1078,8 +1416,8 @@
 			[
 				0.000000,
 				1.000000,
-				0.000000,
-				0.000000,
+				-2.108865,
+				-2.108865,
 				2.000000,
 				3.000000,
 			],
@@ -1093,6 +1431,7 @@
 				3.000000,
 			],
 		]
+		metadata = "friendly fire hit"
 		vsnd_duration = 0.384059
 	}
 	Player.BurnDamageKevlar = 
@@ -1115,6 +1454,7 @@
 		]
 		occlusion_intensity = 0.800000
 		use_fadetime_volume_mapping_curve = false
+		use_distance_unfiltered_stereo_mapping_curve = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/player/burn_damage1.vsnd",
@@ -1153,6 +1493,48 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-2.108865,
+				-2.108865,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				40.285717,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				78.857147,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.907937
 	}
 	Player.BurnDamage = 
@@ -1170,6 +1552,7 @@
 		display_broadcast = true
 		occlusion_intensity = 0.700000
 		use_fadetime_volume_mapping_curve = false
+		use_distance_unfiltered_stereo_mapping_curve = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/player/burn_damage1.vsnd",
@@ -1204,6 +1587,48 @@
 				0.000000,
 				-0.000364,
 				-0.000364,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-2.108865,
+				-2.108865,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				40.285717,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				78.857147,
+				0.000000,
+				0.000000,
+				0.000000,
 				2.000000,
 				3.000000,
 			],
@@ -1260,6 +1685,27 @@
 			"meta",
 			"localplayeronly",
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.686463
 	}
 	Splash.SplashSound = 
@@ -1295,6 +1741,27 @@
 			
 			[
 				900.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
 				0.000000,
 				0.000000,
 				0.000000,
@@ -1338,13 +1805,34 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 1.201542
 	}
 	Player.AmbientUnderWater = 
 	{
 		type = "csgo_mega"
 		preload_vsnds = true
-		volume = 1.000000
+		volume = 0.000000
 		pitch = 1.000000
 		mixgroup = "World"
 		block_distance = 69.000000
@@ -1378,19 +1866,10 @@
 		[
 			
 			[
-				0.005714,
+				0.000000,
 				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				0.425714,
-				0.458333,
-				0.000000,
-				0.000000,
+				-2.108865,
+				-2.108865,
 				2.000000,
 				3.000000,
 			],
@@ -1413,23 +1892,33 @@
 		volume = 1.000000
 		pitch = 1.000000
 		mixgroup = "World"
-		block_distance = 69.000000
+		block_distance = 10000.000000
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.000000
 		display_broadcast = true
 		reverb_source_wet = 0.000000
 		distance_multiplier = 1.500000
-		occlusion_intensity = 0.900000
+		occlusion_intensity = 0.200000
 		use_fadetime_volume_mapping_curve = false
+		use_distance_unfiltered_stereo_mapping_curve = true
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			0.000000,
+		]
+		instance_limit = 0.000000
+		block_match_entity = false
+		block_duration = 0.200000
 		vsnd_files_track_01 = "sounds/player/pl_respawn.vsnd"
 		distance_volume_mapping_curve = 
 		[
 			
 			[
 				0.000000,
-				1.000000,
+				0.797794,
 				0.000000,
-				-0.000518,
+				-0.000381,
 				0.000000,
 				0.000000,
 			],
@@ -1437,7 +1926,7 @@
 			[
 				1476.571411,
 				0.235294,
-				-0.000230,
+				-0.000184,
 				-0.000082,
 				1.000000,
 				0.000000,
@@ -1458,6 +1947,27 @@
 			[
 				0.000000,
 				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				70.315102,
+				1.000000,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -1465,7 +1975,7 @@
 			],
 			
 			[
-				1.000000,
+				76.476738,
 				0.000000,
 				0.000000,
 				0.000000,
@@ -1509,6 +2019,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.886621
 	}
 	SprayCan.Paint = 
@@ -1538,6 +2069,27 @@
 			
 			[
 				1400.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
 				0.000000,
 				0.000000,
 				0.000000,
@@ -1587,6 +2139,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 3.166667
 	}
 	SprayCan.PaintGhost = 
@@ -1622,6 +2195,27 @@
 			
 			[
 				1400.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
 				0.000000,
 				0.000000,
 				0.000000,
@@ -1665,6 +2259,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-2.108865,
+				-2.108865,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 4.856712
 	}
 	Player.GhostIdle = 
@@ -1695,6 +2310,27 @@
 			
 			[
 				1400.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
 				0.000000,
 				0.000000,
 				0.000000,
@@ -1736,6 +2372,27 @@
 			
 			[
 				1400.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
 				0.000000,
 				0.000000,
 				0.000000,
@@ -1786,6 +2443,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 3.035284
 	}
 	Player.GhostTaserShoot = 
@@ -1822,6 +2500,27 @@
 			
 			[
 				1400.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
 				0.000000,
 				0.000000,
 				0.000000,
@@ -1871,6 +2570,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 1.080680
 	}
 	Player.SnowballHit = 
@@ -1907,6 +2627,27 @@
 			
 			[
 				1400.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
 				0.000000,
 				0.000000,
 				0.000000,
@@ -1965,6 +2706,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 1.128912
 	}
 	Player.SnowballThrow = 
@@ -2007,6 +2769,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 1.148435
 	}
 	Player.PickupWeaponAudible = 
@@ -2022,11 +2805,12 @@
 		block_duration = 0.100000
 		block_distance = 69.000000
 		use_distance_volume_mapping_curve = true
-		reverb_wet = 1.000000
+		reverb_wet = 0.100000
 		display_broadcast = true
-		reverb_source_wet = 1.000000
+		reverb_source_wet = 0.100000
 		occlusion_intensity = 0.750000
 		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = false
 		vsnd_files_track_01 = "sounds/items/pickup_weapon_02.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -2064,8 +2848,8 @@
 			[
 				0.000000,
 				1.000000,
-				0.000000,
-				0.000000,
+				-1.790098,
+				-1.790098,
 				2.000000,
 				3.000000,
 			],
@@ -2090,10 +2874,10 @@
 		mixgroup = "Foley"
 		block_distance = 69.000000
 		use_distance_volume_mapping_curve = true
-		reverb_wet = 1.000000
+		reverb_wet = 0.100000
 		pitch_random_max = 0.060000
 		display_broadcast = true
-		reverb_source_wet = 1.000000
+		reverb_source_wet = 0.100000
 		occlusion_intensity = 0.800000
 		use_fadetime_volume_mapping_curve = false
 		vsnd_files_track_01 = "sounds/items/pickup_grenade_03.vsnd"
@@ -2127,6 +2911,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.625011
 	}
 	Player.DeathFem = 
@@ -2146,7 +2951,7 @@
 			0.000000,
 			60.000000,
 		]
-		reverb_source_wet = 1.000000
+		reverb_source_wet = 0.500000
 		occlusion_intensity = 0.900000
 		use_fadetime_volume_mapping_curve = false
 		vsnd_files_track_01 = 
@@ -2185,6 +2990,27 @@
 				0.000000,
 				-0.000364,
 				-0.000364,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.996704,
+				-1.996704,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
 				2.000000,
 				3.000000,
 			],
@@ -2245,8 +3071,8 @@
 			[
 				0.000000,
 				1.000000,
-				0.000000,
-				0.000000,
+				-1.790098,
+				-1.790098,
 				2.000000,
 				3.000000,
 			],
@@ -2315,6 +3141,27 @@
 			"meta",
 			"localplayeronly",
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.839365
 	}
 	Player.PickupShotgun = 
@@ -2369,6 +3216,27 @@
 		[
 			"meta",
 			"localplayeronly",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
 		]
 		vsnd_duration = 1.022336
 	}
@@ -2425,6 +3293,27 @@
 			"meta",
 			"localplayeronly",
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 1.022336
 	}
 	Player.PickupRifle = 
@@ -2479,6 +3368,27 @@
 		[
 			"meta",
 			"localplayeronly",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
 		]
 		vsnd_duration = 1.337279
 	}
@@ -2535,76 +3445,14 @@
 			"meta",
 			"localplayeronly",
 		]
-		vsnd_duration = 1.337279
-	}
-	Player.DeathBody = 
-	{
-		type = "csgo_mega"
-		preload_vsnds = true
-		volume = 1.500000
-		pitch = 1.000000
-		mixgroup = "PlayerDamage"
-		block_distance = 69.000000
-		use_distance_volume_mapping_curve = true
-		reverb_wet = 0.300000
-		occlusion_intensity = 0.700000
-		display_broadcast = true
-		position_offset = 
-		[
-			0.000000,
-			0.000000,
-			60.000000,
-		]
-		use_distance_unfiltered_stereo_mapping_curve = true
-		enable_child_events = true
-		use_fadetime_volume_mapping_curve = false
-		reverb_source_wet = 0.300000
-		vsnd_files_track_01 = 
-		[
-			"sounds/player/player_damagebody_04.vsnd",
-			"sounds/player/player_damagebody_05.vsnd",
-			"sounds/player/player_damagebody_06.vsnd",
-			"sounds/player/player_damagebody_07.vsnd",
-			"sounds/player/player_damagebody_08.vsnd",
-		]
-		distance_volume_mapping_curve = 
-		[
-			
-			[
-				51.971428,
-				1.000000,
-				-0.001582,
-				-0.001582,
-				1.000000,
-				1.000000,
-			],
-			
-			[
-				400.485718,
-				0.448529,
-				-0.000982,
-				-0.000982,
-				1.000000,
-				1.000000,
-			],
-			
-			[
-				1070.000000,
-				0.000000,
-				-0.000670,
-				-0.000670,
-				1.000000,
-				1.000000,
-			],
-		]
 		fadetime_volume_mapping_curve = 
 		[
 			
 			[
 				0.000000,
 				1.000000,
-				0.000000,
-				0.000000,
+				-1.790098,
+				-1.790098,
 				2.000000,
 				3.000000,
 			],
@@ -2618,38 +3466,7 @@
 				3.000000,
 			],
 		]
-		distance_unfiltered_stereo_mapping_curve = 
-		[
-			
-			[
-				126.857147,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				150.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				300.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		soundevent_01 = "Player.DeathBody.Flesh"
-		vsnd_duration = 0.617846
+		vsnd_duration = 1.337279
 	}
 	Player.DamageGrenadeBounce = 
 	{
@@ -2713,8 +3530,8 @@
 			[
 				0.000000,
 				1.000000,
-				0.000000,
-				0.000000,
+				-2.108865,
+				-2.108865,
 				2.000000,
 				3.000000,
 			],
@@ -2743,9 +3560,9 @@
 		block_duration = 0.100000
 		block_distance = 69.000000
 		use_distance_volume_mapping_curve = true
-		reverb_wet = 1.000000
+		reverb_wet = 0.100000
 		display_broadcast = true
-		reverb_source_wet = 1.000000
+		reverb_source_wet = 0.000000
 		enable_child_events = true
 		occlusion_intensity = 0.700000
 		use_fadetime_volume_mapping_curve = false
@@ -2786,8 +3603,8 @@
 			[
 				0.000000,
 				1.000000,
-				0.000000,
-				0.000000,
+				-1.790098,
+				-1.790098,
 				2.000000,
 				3.000000,
 			],
@@ -2817,9 +3634,9 @@
 		block_duration = 0.100000
 		block_distance = 69.000000
 		use_distance_volume_mapping_curve = true
-		reverb_wet = 1.000000
+		reverb_wet = 0.100000
 		display_broadcast = true
-		reverb_source_wet = 1.000000
+		reverb_source_wet = 0.000000
 		enable_child_events = false
 		occlusion_intensity = 0.700000
 		use_fadetime_volume_mapping_curve = false
@@ -2864,8 +3681,8 @@
 			[
 				0.000000,
 				1.000000,
-				0.000000,
-				0.000000,
+				-1.790098,
+				-1.790098,
 				2.000000,
 				3.000000,
 			],
@@ -2961,7 +3778,28 @@
 				1.000000,
 			],
 		]
-		vsnd_duration = 1.089138
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.823764
 	}
 	Default.WalkJump = 
 	{
@@ -3015,6 +3853,27 @@
 			],
 		]
 		vsnd_files_track_01 = "sounds/player/footsteps/jump_launch_01.vsnd"
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-2.108865,
+				-2.108865,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.539138
 	}
 	Player.DeathTaser_F = 
@@ -3030,6 +3889,7 @@
 		display_broadcast = true
 		occlusion_intensity = 1.000000
 		use_fadetime_volume_mapping_curve = false
+		reverb_source_wet = 0.500000
 		vsnd_files_track_01 = 
 		[
 			"sounds/player/death_taser_fem_01.vsnd",
@@ -3077,6 +3937,27 @@
 				1.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.790098,
+				-1.790098,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.591043
 	}
 	Player.DamageBody.AttackerFeedback = 
@@ -3095,6 +3976,13 @@
 		delay = 0.150000
 		instance_limit = 3.000000
 		reverb_source_wet = 0.500000
+		distance_effect_mix = 0.000000
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			60.000000,
+		]
 		vsnd_files_track_01 = 
 		[
 			"sounds/physics/surfaces/mud_impact_bullet1.vsnd",
@@ -3124,18 +4012,39 @@
 			],
 		]
 		metadata = "attacker only"
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-2.108865,
+				-2.108865,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 1.828730
 	}
 	Player.DeathBody.AttackerFeedback = 
 	{
 		type = "csgo_mega"
 		preload_vsnds = true
-		volume = 1.000000
+		volume = 0.000000
 		pitch = 1.000000
 		mixgroup = "PlayerDamage"
 		block_distance = 69.000000
 		use_distance_volume_mapping_curve = true
-		reverb_wet = 0.500000
+		reverb_wet = 1.000000
 		occlusion_intensity = 0.000000
 		display_broadcast = true
 		position_offset = 
@@ -3148,7 +4057,9 @@
 		enable_child_events = false
 		delay = 0.000000
 		use_fadetime_volume_mapping_curve = false
-		reverb_source_wet = 0.500000
+		reverb_source_wet = 1.000000
+		distance_effect_mix = 0.000000
+		block_duration = 0.100000
 		vsnd_files_track_01 = 
 		[
 			"sounds/physics/surfaces/mud_impact_bullet1.vsnd",
@@ -3160,21 +4071,21 @@
 		[
 			
 			[
-				21.400000,
+				91.714287,
 				1.000000,
-				-0.002334,
-				-0.002334,
-				2.000000,
-				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
 			],
 			
 			[
 				1070.000000,
-				0.191176,
-				-0.000525,
-				-0.000771,
-				2.000000,
 				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
 			],
 		]
 		fadetime_volume_mapping_curve = 
@@ -3183,8 +4094,8 @@
 			[
 				0.000000,
 				1.000000,
-				0.000000,
-				0.000000,
+				-2.108865,
+				-2.108865,
 				2.000000,
 				3.000000,
 			],
@@ -3203,7 +4114,7 @@
 			
 			[
 				0.000000,
-				0.000000,
+				0.937500,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -3212,7 +4123,7 @@
 			
 			[
 				300.000000,
-				0.000000,
+				0.930147,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -3227,12 +4138,12 @@
 	{
 		type = "csgo_mega"
 		preload_vsnds = true
-		volume = 1.000000
+		volume = 0.000000
 		pitch = 1.000000
 		mixgroup = "PlayerDamage"
 		block_distance = 69.000000
 		use_distance_volume_mapping_curve = true
-		reverb_wet = 0.500000
+		reverb_wet = 1.000000
 		occlusion_intensity = 0.000000
 		display_broadcast = true
 		position_offset = 
@@ -3245,7 +4156,9 @@
 		enable_child_events = false
 		delay = 0.000000
 		use_fadetime_volume_mapping_curve = false
-		reverb_source_wet = 0.500000
+		reverb_source_wet = 1.000000
+		distance_effect_mix = 0.000000
+		block_duration = 0.100000
 		vsnd_files_track_01 = 
 		[
 			"sounds/physics/surfaces/mud_impact_bullet1.vsnd",
@@ -3257,21 +4170,21 @@
 		[
 			
 			[
-				21.400000,
+				91.714287,
 				1.000000,
-				-0.002334,
-				-0.002334,
-				2.000000,
-				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
 			],
 			
 			[
 				1070.000000,
-				0.191176,
-				-0.000525,
-				-0.000771,
-				2.000000,
 				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
 			],
 		]
 		fadetime_volume_mapping_curve = 
@@ -3280,8 +4193,8 @@
 			[
 				0.000000,
 				1.000000,
-				0.000000,
-				0.000000,
+				-2.108865,
+				-2.108865,
 				2.000000,
 				3.000000,
 			],
@@ -3300,7 +4213,7 @@
 			
 			[
 				0.000000,
-				0.000000,
+				0.937500,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -3309,7 +4222,7 @@
 			
 			[
 				300.000000,
-				0.000000,
+				0.930147,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -3337,6 +4250,13 @@
 		instance_limit = 3.000000
 		reverb_source_wet = 0.500000
 		enable_child_events = true
+		distance_effect_mix = 0.000000
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			60.000000,
+		]
 		vsnd_files_track_01 = 
 		[
 			"sounds/player/kevlar_01.vsnd",
@@ -3371,17 +4291,38 @@
 		]
 		metadata = "attacler only"
 		soundevent_01 = "Player.DamageBodyArmor.AttackerFeedbackFlesh"
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-2.108865,
+				-2.108865,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.309977
 	}
 	BaseGrenade.JumpThrowM = 
 	{
 		type = "csgo_mega"
 		preload_vsnds = true
-		volume = 1.000000
+		volume = 0.900000
 		pitch = 1.000000
 		block_distance = 69.000000
 		use_distance_volume_mapping_curve = true
-		reverb_wet = 1.000000
+		reverb_wet = 0.200000
 		mixgroup = "PlayerDamage"
 		display_broadcast = true
 		volume_random_min = 0.000000
@@ -3389,7 +4330,7 @@
 		pitch_random_max = 0.000000
 		pitch_random_min = 0.000000
 		use_distance_unfiltered_stereo_mapping_curve = true
-		reverb_source_wet = 1.000000
+		reverb_source_wet = 0.300000
 		use_fadetime_volume_mapping_curve = false
 		vsnd_files_track_01 = 
 		[
@@ -3456,17 +4397,38 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-2.108865,
+				-2.108865,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.535034
 	}
 	BaseGrenade.JumpThrowF = 
 	{
 		type = "csgo_mega"
 		preload_vsnds = true
-		volume = 1.000000
+		volume = 0.900000
 		pitch = 1.000000
 		block_distance = 69.000000
 		use_distance_volume_mapping_curve = true
-		reverb_wet = 1.000000
+		reverb_wet = 0.200000
 		mixgroup = "PlayerDamage"
 		display_broadcast = true
 		volume_random_min = 0.000000
@@ -3474,7 +4436,7 @@
 		pitch_random_max = 0.000000
 		pitch_random_min = 0.000000
 		use_distance_unfiltered_stereo_mapping_curve = true
-		reverb_source_wet = 1.000000
+		reverb_source_wet = 0.300000
 		use_fadetime_volume_mapping_curve = false
 		vsnd_files_track_01 = 
 		[
@@ -3538,13 +4500,34 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 0.499705
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-2.108865,
+				-2.108865,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.497846
 	}
 	Player.DeathHeadShot.AttackerFeedback = 
 	{
 		type = "csgo_mega"
 		preload_vsnds = true
-		volume = 0.500000
+		volume = 0.400000
 		pitch = 1.000000
 		mixgroup = "PlayerDamage"
 		block_distance = 69.000000
@@ -3555,6 +4538,14 @@
 		enable_child_events = false
 		reverb_source_wet = 0.500000
 		use_fadetime_volume_mapping_curve = false
+		distance_effect_mix = 0.000000
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			60.000000,
+		]
+		block_duration = 0.100000
 		vsnd_files_track_01 = 
 		[
 			"sounds/player/headshot_noarmor_01.vsnd",
@@ -3576,8 +4567,8 @@
 			],
 			
 			[
-				1100.000000,
-				1.000000,
+				738.571411,
+				0.805147,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -3592,8 +4583,8 @@
 			[
 				0.000000,
 				1.000000,
-				0.000000,
-				0.000000,
+				-1.996704,
+				-1.996704,
 				2.000000,
 				3.000000,
 			],
@@ -3607,13 +4598,13 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 1.227687
+		vsnd_duration = 1.230000
 	}
 	Player.DeathHeadShotArmor.AttackerFeedback = 
 	{
 		type = "csgo_mega"
 		preload_vsnds = true
-		volume = 0.200000
+		volume = 0.000000
 		pitch = 1.000000
 		mixgroup = "PlayerDamage"
 		block_distance = 69.000000
@@ -3624,6 +4615,14 @@
 		enable_child_events = true
 		reverb_source_wet = 0.300000
 		use_fadetime_volume_mapping_curve = false
+		distance_effect_mix = 0.000000
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			60.000000,
+		]
+		block_duration = 0.100000
 		vsnd_files_track_01 = "sounds/player/headshot_armor_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -3658,8 +4657,8 @@
 			[
 				0.000000,
 				1.000000,
-				0.000000,
-				0.000000,
+				-1.996704,
+				-1.996704,
 				2.000000,
 				3.000000,
 			],
@@ -3673,156 +4672,13 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 0.748367
-	}
-	Player.DeathHeadShotArmor = 
-	{
-		type = "csgo_mega"
-		preload_vsnds = true
-		volume = 0.000000
-		pitch = 1.000000
-		mixgroup = "PlayerDamage"
-		block_distance = 69.000000
-		use_distance_volume_mapping_curve = true
-		reverb_wet = 0.300000
-		occlusion_intensity = 0.700000
-		display_broadcast = true
-		enable_child_events = true
-		pitch_random_min = -0.030000
-		position_offset = 
-		[
-			0.000000,
-			0.000000,
-			60.000000,
-		]
-		reverb_source_wet = 0.300000
-		use_fadetime_volume_mapping_curve = false
-		vsnd_files_track_01 = "sounds/player/headshot_armor_01.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			
-			[
-				22.000000,
-				1.000000,
-				-0.002066,
-				-0.002066,
-				1.000000,
-				1.000000,
-			],
-			
-			[
-				298.285736,
-				0.429185,
-				-0.000954,
-				-0.000954,
-				1.000000,
-				1.000000,
-			],
-			
-			[
-				1070.000000,
-				0.000000,
-				-0.000556,
-				-0.000556,
-				1.000000,
-				1.000000,
-			],
-		]
-		soundevent_01 = 
-		[
-			"Player.DeathHeadShot.Flesh",
-			"Player.DeathHeadShot.Dink",
-		]
-		metadata = "plays for victim and onlookers"
-		fadetime_volume_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		vsnd_duration = 0.748367
-	}
-	Player.DeathHeadShot = 
-	{
-		type = "csgo_mega"
-		preload_vsnds = true
-		volume = 0.700000
-		pitch = 1.000000
-		mixgroup = "PlayerDamage"
-		block_distance = 69.000000
-		use_distance_volume_mapping_curve = true
-		reverb_wet = 0.100000
-		occlusion_intensity = 0.500000
-		display_broadcast = true
-		position_offset = 
-		[
-			0.000000,
-			0.000000,
-			60.000000,
-		]
-		reverb_source_wet = 0.300000
-		use_fadetime_volume_mapping_curve = false
-		vsnd_files_track_01 = 
-		[
-			"sounds/player/headshot_noarmor_01.vsnd",
-			"sounds/player/headshot_noarmor_02.vsnd",
-			"sounds/player/headshot_noarmor_03.vsnd",
-			"sounds/player/headshot_noarmor_04.vsnd",
-			"sounds/player/headshot_noarmor_05.vsnd",
-		]
-		distance_volume_mapping_curve = 
-		[
-			
-			[
-				22.000000,
-				1.000000,
-				-0.002066,
-				-0.002066,
-				1.000000,
-				1.000000,
-			],
-			
-			[
-				298.285736,
-				0.429185,
-				-0.000954,
-				-0.000954,
-				1.000000,
-				1.000000,
-			],
-			
-			[
-				1070.000000,
-				0.000000,
-				-0.000556,
-				-0.000556,
-				1.000000,
-				1.000000,
-			],
-		]
-		metadata = "plays for victim and onlookers"
-		vsnd_duration = 1.227687
+		vsnd_duration = 0.959773
 	}
 	Player.DamageHeadShotArmor.AttackerFeedback = 
 	{
 		type = "csgo_mega"
 		preload_vsnds = true
-		volume = 0.700000
+		volume = 0.500000
 		pitch = 1.000000
 		mixgroup = "PlayerDamage"
 		block_distance = 69.000000
@@ -3835,6 +4691,18 @@
 		enable_child_events = false
 		reverb_source_wet = 0.200000
 		use_fadetime_volume_mapping_curve = false
+		distance_effect_mix = 0.000000
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			60.000000,
+		]
+		block_duration = 0.100000
+		block_other = true
+		block_other_name = "DeathHeadShotArmor"
+		block_other_duration = 0.300000
+		block_other_distance = 30.000000
 		vsnd_files_track_01 = "sounds/player/headshot_armor_e1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -3863,8 +4731,8 @@
 			[
 				0.000000,
 				1.000000,
-				0.000000,
-				0.000000,
+				-2.108865,
+				-2.108865,
 				2.000000,
 				3.000000,
 			],
@@ -3885,8 +4753,8 @@
 	{
 		type = "csgo_mega"
 		preload_vsnds = true
-		volume = 1.000000
-		pitch = 1.000000
+		volume = 0.700000
+		pitch = 1.300000
 		mixgroup = "PlayerDamage"
 		block_distance = 69.000000
 		use_distance_volume_mapping_curve = true
@@ -3950,8 +4818,8 @@
 			[
 				0.000000,
 				1.000000,
-				0.000000,
-				0.000000,
+				-2.108865,
+				-2.108865,
 				2.000000,
 				3.000000,
 			],
@@ -4024,16 +4892,37 @@
 			],
 		]
 		metadata = "onlookers only"
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-2.108865,
+				-2.108865,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 1.828730
 	}
 	Player.DamageBodyArmor.Victim = 
 	{
 		type = "csgo_mega"
 		preload_vsnds = true
-		volume = 1.000000
+		volume = 1.500000
 		pitch = 1.000000
-		mixgroup = "PlayerDamage"
-		block_distance = 69.000000
+		mixgroup = "PlayerVictim"
+		block_distance = 20.000000
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.000000
 		display_broadcast = true
@@ -4047,6 +4936,9 @@
 		delay = 0.050000
 		occlusion_intensity = 0.000000
 		reverb_source_wet = 0.000000
+		restrict_source_reverb = true
+		use_distance_unfiltered_stereo_mapping_curve = true
+		block_duration = 0.100000
 		vsnd_files_track_01 = 
 		[
 			"sounds/player/kevlar_01.vsnd",
@@ -4085,8 +4977,8 @@
 			[
 				0.000000,
 				1.000000,
-				0.000000,
-				0.000000,
+				-2.108865,
+				-2.108865,
 				2.000000,
 				3.000000,
 			],
@@ -4101,15 +4993,36 @@
 			],
 		]
 		metadata = "victim only"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.838462,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.830769,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.309977
 	}
 	Player.DamageBody.Victim = 
 	{
 		type = "csgo_mega"
-		volume = 1.000000
+		volume = 1.500000
 		pitch = 1.000000
-		mixgroup = "PlayerDamage"
-		block_duration = 0.050000
+		mixgroup = "PlayerVictim"
+		block_duration = 0.100000
 		use_distance_volume_mapping_curve = true
 		pitch_random_min = -0.010000
 		pitch_random_max = 0.010000
@@ -4127,7 +5040,8 @@
 		]
 		occlusion_intensity = 0.000000
 		enable_child_events = true
-		use_distance_unfiltered_stereo_mapping_curve = false
+		use_distance_unfiltered_stereo_mapping_curve = true
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/player/player_damagebody_04.vsnd",
@@ -4163,7 +5077,7 @@
 			
 			[
 				0.000000,
-				0.000000,
+				0.900000,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -4172,7 +5086,7 @@
 			
 			[
 				300.000000,
-				0.000000,
+				0.900000,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -4180,6 +5094,27 @@
 			],
 		]
 		metadata = "victim only"
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-2.108865,
+				-2.108865,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.617846
 	}
 	Player.DamageBody.VictimFlesh = 
@@ -4188,7 +5123,7 @@
 		volume = 1.000000
 		pitch = 1.300000
 		mixgroup = "PlayerDamage"
-		block_duration = 0.050000
+		block_duration = 0.100000
 		use_distance_volume_mapping_curve = true
 		pitch_random_min = -0.010000
 		pitch_random_max = 0.010000
@@ -4205,6 +5140,7 @@
 			0.000000,
 		]
 		occlusion_intensity = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/physics/surfaces/mud_impact_bullet1.vsnd",
@@ -4234,6 +5170,27 @@
 			],
 		]
 		metadata = "victim only"
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-2.108865,
+				-2.108865,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 1.828730
 	}
 	Player.DamageBodyArmor.OnlookerFlesh = 
@@ -4241,7 +5198,7 @@
 		type = "csgo_mega"
 		preload_vsnds = true
 		volume = 0.300000
-		pitch = 1.000000
+		pitch = 1.100000
 		mixgroup = "PlayerDamage"
 		block_distance = 69.000000
 		use_distance_volume_mapping_curve = true
@@ -4301,8 +5258,8 @@
 			[
 				0.000000,
 				1.000000,
-				0.000000,
-				0.000000,
+				-2.108865,
+				-2.108865,
 				2.000000,
 				3.000000,
 			],
@@ -4320,166 +5277,6 @@
 		metadata = "onlookers only"
 		vsnd_duration = 1.828730
 	}
-	Player.DamageHeadShot = 
-	{
-		type = "csgo_mega"
-		preload_vsnds = true
-		volume = 0.500000
-		pitch = 1.000000
-		mixgroup = "PlayerDamage"
-		block_distance = 69.000000
-		use_distance_volume_mapping_curve = true
-		reverb_wet = 0.300000
-		occlusion_intensity = 0.500000
-		display_broadcast = true
-		position_offset = 
-		[
-			0.000000,
-			0.000000,
-			60.000000,
-		]
-		reverb_source_wet = 0.300000
-		use_fadetime_volume_mapping_curve = false
-		vsnd_files_track_01 = 
-		[
-			"sounds/player/headshot_noarmor_01.vsnd",
-			"sounds/player/headshot_noarmor_02.vsnd",
-			"sounds/player/headshot_noarmor_03.vsnd",
-			"sounds/player/headshot_noarmor_04.vsnd",
-			"sounds/player/headshot_noarmor_05.vsnd",
-		]
-		distance_volume_mapping_curve = 
-		[
-			
-			[
-				22.000000,
-				1.000000,
-				-0.002066,
-				-0.002066,
-				1.000000,
-				1.000000,
-			],
-			
-			[
-				298.285736,
-				0.429185,
-				-0.000954,
-				-0.000954,
-				1.000000,
-				1.000000,
-			],
-			
-			[
-				1070.000000,
-				0.000000,
-				-0.000556,
-				-0.000556,
-				1.000000,
-				1.000000,
-			],
-		]
-		fadetime_volume_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		metadata = "plays on victim and onlookers"
-		vsnd_duration = 1.227687
-	}
-	Player.DamageHeadShotArmor = 
-	{
-		type = "csgo_mega"
-		preload_vsnds = true
-		volume = 0.700000
-		pitch = 1.000000
-		mixgroup = "PlayerDamage"
-		block_duration = 0.100000
-		block_distance = 69.000000
-		use_distance_volume_mapping_curve = true
-		reverb_wet = 0.300000
-		display_broadcast = true
-		position_offset = 
-		[
-			0.000000,
-			0.000000,
-			60.000000,
-		]
-		enable_child_events = false
-		reverb_source_wet = 1.000000
-		occlusion_intensity = 0.500000
-		use_fadetime_volume_mapping_curve = false
-		vsnd_files_track_01 = "sounds/player/headshot_armor_e1.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			
-			[
-				22.000000,
-				1.000000,
-				-0.002066,
-				-0.002066,
-				1.000000,
-				1.000000,
-			],
-			
-			[
-				298.285736,
-				0.429185,
-				-0.000782,
-				-0.000782,
-				1.000000,
-				1.000000,
-			],
-			
-			[
-				1300.000000,
-				0.000000,
-				-0.000428,
-				-0.000428,
-				1.000000,
-				1.000000,
-			],
-		]
-		fadetime_volume_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				1.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		soundevent_01 = ""
-		metadata = "plays on victim and onlookers"
-		vsnd_duration = 0.404444
-	}
 	Player.DeathHeadShot.AttackerFeedback.Flesh = 
 	{
 		type = "csgo_mega"
@@ -4495,6 +5292,13 @@
 		enable_child_events = false
 		use_fadetime_volume_mapping_curve = false
 		reverb_source_wet = 0.500000
+		distance_effect_mix = 0.000000
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			60.000000,
+		]
 		vsnd_files_track_01 = "sounds/player/headshot_armor_flesh.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -4519,14 +5323,35 @@
 		]
 		soundevent_01 = ""
 		metadata = "attacker only"
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.996704,
+				-1.996704,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.854694
 	}
 	Player.DeathHeadShot.AttackerFeedback.Dink = 
 	{
 		type = "csgo_mega"
 		preload_vsnds = true
-		volume = 0.700000
-		pitch = 1.000000
+		volume = 0.600000
+		pitch = 1.100000
 		mixgroup = "PlayerDamage"
 		block_distance = 69.000000
 		use_distance_volume_mapping_curve = true
@@ -4536,6 +5361,13 @@
 		enable_child_events = false
 		use_fadetime_volume_mapping_curve = false
 		reverb_source_wet = 0.500000
+		distance_effect_mix = 0.000000
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			60.000000,
+		]
 		vsnd_files_track_01 = "sounds/player/headshot_armor_e1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -4560,12 +5392,33 @@
 		]
 		soundevent_01 = ""
 		metadata = "attacker only"
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.996704,
+				-1.996704,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.404444
 	}
 	Player.DeathBody.Flesh = 
 	{
 		type = "csgo_mega"
-		volume = 1.000000
+		volume = 2.000000
 		pitch = 1.300000
 		mixgroup = "PlayerDamage"
 		block_duration = 0.050000
@@ -4585,6 +5438,7 @@
 			0.000000,
 		]
 		occlusion_intensity = 0.700000
+		use_distance_unfiltered_stereo_mapping_curve = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/physics/surfaces/mud_impact_bullet1.vsnd",
@@ -4622,6 +5476,48 @@
 				0.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-2.108865,
+				-2.108865,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				27.428572,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				50.571430,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 1.828730
 	}
 	Player.DeathHeadShot.Flesh = 
@@ -4644,6 +5540,7 @@
 		]
 		reverb_source_wet = 0.300000
 		use_fadetime_volume_mapping_curve = false
+		use_distance_unfiltered_stereo_mapping_curve = true
 		vsnd_files_track_01 = "sounds/player/headshot_armor_flesh.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -4675,13 +5572,55 @@
 				1.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.996704,
+				-1.996704,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				39.428574,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				66.857147,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.854694
 	}
 	Player.DeathHeadShot.Dink = 
 	{
 		type = "csgo_mega"
 		preload_vsnds = true
-		volume = 0.500000
+		volume = 0.700000
 		pitch = 1.000000
 		mixgroup = "PlayerDamage"
 		block_distance = 69.000000
@@ -4697,6 +5636,7 @@
 		]
 		reverb_source_wet = 0.300000
 		use_fadetime_volume_mapping_curve = false
+		use_distance_unfiltered_stereo_mapping_curve = true
 		vsnd_files_track_01 = "sounds/player/headshot_armor_e1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -4728,6 +5668,48 @@
 				1.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.996704,
+				-1.996704,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				45.428574,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				72.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.404444
 	}
 	Player.DamageBodyArmor.AttackerFeedbackFlesh = 
@@ -4751,6 +5733,7 @@
 		delay = 0.150000
 		reverb_source_wet = 0.500000
 		enable_child_events = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/physics/surfaces/mud_impact_bullet1.vsnd",
@@ -4785,8 +5768,8 @@
 			[
 				0.000000,
 				1.000000,
-				0.000000,
-				0.000000,
+				-2.108865,
+				-2.108865,
 				2.000000,
 				3.000000,
 			],
@@ -4808,8 +5791,8 @@
 	{
 		type = "csgo_mega"
 		preload_vsnds = true
-		volume = 0.200000
-		pitch = 1.100000
+		volume = 0.500000
+		pitch = 1.000000
 		mixgroup = "PlayerDamage"
 		block_distance = 69.000000
 		use_distance_volume_mapping_curve = true
@@ -4821,6 +5804,14 @@
 		reverb_source_wet = 0.500000
 		use_distance_unfiltered_stereo_mapping_curve = true
 		use_fadetime_volume_mapping_curve = false
+		distance_effect_mix = 0.000000
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			60.000000,
+		]
+		block_duration = 0.100000
 		vsnd_files_track_01 = 
 		[
 			"sounds/player/headshot_noarmor_01.vsnd",
@@ -4856,8 +5847,8 @@
 			[
 				0.000000,
 				1.000000,
-				0.000000,
-				0.000000,
+				-2.108865,
+				-2.108865,
 				2.000000,
 				3.000000,
 			],
@@ -4892,7 +5883,7 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 1.227687
+		vsnd_duration = 1.230000
 	}
 	Player.DamageFall = 
 	{
@@ -4902,7 +5893,7 @@
 		pitch = 1.000000
 		block_distance = 69.000000
 		use_distance_volume_mapping_curve = true
-		reverb_wet = 1.000000
+		reverb_wet = 0.500000
 		mixgroup = "PlayerDamage"
 		display_broadcast = true
 		volume_random_min = 0.000000
@@ -4976,6 +5967,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-2.108865,
+				-2.108865,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.539365
 	}
 	Player.DamageFall.Fem = 
@@ -4986,7 +5998,7 @@
 		pitch = 1.000000
 		block_distance = 69.000000
 		use_distance_volume_mapping_curve = true
-		reverb_wet = 1.000000
+		reverb_wet = 0.500000
 		mixgroup = "PlayerDamage"
 		display_broadcast = true
 		volume_random_min = 0.000000
@@ -5063,6 +6075,1575 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-2.108865,
+				-2.108865,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.523946
+	}
+	Player.DamageHeadShot.Onlooker = 
+	{
+		type = "csgo_mega"
+		preload_vsnds = true
+		volume = 0.500000
+		pitch = 1.000000
+		mixgroup = "PlayerDamage"
+		block_distance = 69.000000
+		use_distance_volume_mapping_curve = true
+		reverb_wet = 0.300000
+		occlusion_intensity = 0.500000
+		display_broadcast = true
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			60.000000,
+		]
+		reverb_source_wet = 0.300000
+		use_fadetime_volume_mapping_curve = false
+		vsnd_files_track_01 = 
+		[
+			"sounds/player/headshot_noarmor_01.vsnd",
+			"sounds/player/headshot_noarmor_02.vsnd",
+			"sounds/player/headshot_noarmor_03.vsnd",
+			"sounds/player/headshot_noarmor_04.vsnd",
+			"sounds/player/headshot_noarmor_05.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				22.000000,
+				1.000000,
+				-0.002066,
+				-0.002066,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				298.285736,
+				0.429185,
+				-0.000954,
+				-0.000954,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				1070.000000,
+				0.000000,
+				-0.000556,
+				-0.000556,
+				1.000000,
+				1.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-2.108865,
+				-2.108865,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		metadata = "plays on victim and onlookers"
+		vsnd_duration = 1.230000
+	}
+	Player.DamageHeadShot.Victim = 
+	{
+		type = "csgo_mega"
+		preload_vsnds = true
+		volume = 0.490000
+		pitch = 1.000000
+		mixgroup = "PlayerVictim"
+		block_distance = 70.000000
+		use_distance_volume_mapping_curve = true
+		reverb_wet = 0.000000
+		occlusion_intensity = 0.500000
+		display_broadcast = true
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			60.000000,
+		]
+		reverb_source_wet = 0.000000
+		use_fadetime_volume_mapping_curve = false
+		use_distance_unfiltered_stereo_mapping_curve = true
+		block_duration = 0.100000
+		vsnd_files_track_01 = 
+		[
+			"sounds/player/headshot_noarmor_01.vsnd",
+			"sounds/player/headshot_noarmor_02.vsnd",
+			"sounds/player/headshot_noarmor_03.vsnd",
+			"sounds/player/headshot_noarmor_04.vsnd",
+			"sounds/player/headshot_noarmor_05.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				22.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				1070.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+				1.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-2.108865,
+				-2.108865,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		metadata = ""
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.230000
+	}
+	Player.DamageHeadShotArmor.Onlooker = 
+	{
+		type = "csgo_mega"
+		preload_vsnds = true
+		volume = 0.500000
+		pitch = 1.000000
+		mixgroup = "PlayerDamage"
+		block_duration = 0.100000
+		block_distance = 69.000000
+		use_distance_volume_mapping_curve = true
+		reverb_wet = 0.300000
+		display_broadcast = true
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			60.000000,
+		]
+		enable_child_events = false
+		reverb_source_wet = 1.000000
+		occlusion_intensity = 0.500000
+		use_fadetime_volume_mapping_curve = false
+		vsnd_files_track_01 = "sounds/player/headshot_armor_e1.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				22.000000,
+				1.000000,
+				-0.002066,
+				-0.002066,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				298.285736,
+				0.429185,
+				-0.000944,
+				-0.000944,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				1070.000000,
+				0.000000,
+				-0.000548,
+				-0.000548,
+				1.000000,
+				1.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-2.108865,
+				-2.108865,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = ""
+		metadata = "plays on victim and onlookers"
+		vsnd_duration = 0.404444
+	}
+	Player.DamageHeadShotArmor.Victim = 
+	{
+		type = "csgo_mega"
+		preload_vsnds = true
+		volume = 0.750000
+		pitch = 1.000000
+		mixgroup = "PlayerVictim"
+		block_duration = 0.100000
+		block_distance = 100.000000
+		use_distance_volume_mapping_curve = true
+		reverb_wet = 0.000000
+		display_broadcast = true
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			60.000000,
+		]
+		enable_child_events = false
+		reverb_source_wet = 0.000000
+		occlusion_intensity = 0.500000
+		use_fadetime_volume_mapping_curve = false
+		use_distance_unfiltered_stereo_mapping_curve = true
+		vsnd_files_track_01 = "sounds/player/headshot_armor_e1.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				22.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				1300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+				1.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-2.108865,
+				-2.108865,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = ""
+		metadata = "plays on victim and onlookers"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.404444
+	}
+	Player.DeathBody.Victim = 
+	{
+		type = "csgo_mega"
+		preload_vsnds = true
+		volume = 2.000000
+		pitch = 0.800000
+		mixgroup = "PlayerVictim"
+		block_distance = 70.000000
+		use_distance_volume_mapping_curve = true
+		reverb_wet = 0.000000
+		occlusion_intensity = 0.700000
+		display_broadcast = true
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			60.000000,
+		]
+		use_distance_unfiltered_stereo_mapping_curve = true
+		enable_child_events = true
+		use_fadetime_volume_mapping_curve = false
+		reverb_source_wet = 0.000000
+		block_duration = 1.000000
+		vsnd_files_track_01 = 
+		[
+			"sounds/player/player_damagebody_04.vsnd",
+			"sounds/player/player_damagebody_05.vsnd",
+			"sounds/player/player_damagebody_06.vsnd",
+			"sounds/player/player_damagebody_07.vsnd",
+			"sounds/player/player_damagebody_08.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				51.971428,
+				1.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				1070.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+				1.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-2.108865,
+				-2.108865,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				74.285713,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				100.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = "Player.DeathBody.Flesh"
+		vsnd_duration = 0.617846
+	}
+	Player.DeathBody.Onlooker = 
+	{
+		type = "csgo_mega"
+		preload_vsnds = true
+		volume = 2.000000
+		pitch = 0.800000
+		mixgroup = "PlayerDamage"
+		block_distance = 69.000000
+		use_distance_volume_mapping_curve = true
+		reverb_wet = 0.300000
+		occlusion_intensity = 0.700000
+		display_broadcast = true
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			60.000000,
+		]
+		use_distance_unfiltered_stereo_mapping_curve = true
+		enable_child_events = true
+		use_fadetime_volume_mapping_curve = false
+		reverb_source_wet = 0.300000
+		vsnd_files_track_01 = 
+		[
+			"sounds/player/player_damagebody_04.vsnd",
+			"sounds/player/player_damagebody_05.vsnd",
+			"sounds/player/player_damagebody_06.vsnd",
+			"sounds/player/player_damagebody_07.vsnd",
+			"sounds/player/player_damagebody_08.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				51.971428,
+				1.000000,
+				-0.001582,
+				-0.001582,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				400.485718,
+				0.448529,
+				-0.000982,
+				-0.000982,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				1070.000000,
+				0.000000,
+				-0.000670,
+				-0.000670,
+				1.000000,
+				1.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-2.108865,
+				-2.108865,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				74.285713,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				100.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = "Player.DeathBody.Flesh"
+		vsnd_duration = 0.617846
+	}
+	Player.DeathBodyArmor.Onlooker = 
+	{
+		type = "csgo_mega"
+		preload_vsnds = true
+		volume = 2.000000
+		pitch = 0.800000
+		mixgroup = "PlayerDamage"
+		block_distance = 69.000000
+		use_distance_volume_mapping_curve = true
+		reverb_wet = 0.300000
+		occlusion_intensity = 0.700000
+		display_broadcast = true
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			60.000000,
+		]
+		use_distance_unfiltered_stereo_mapping_curve = true
+		enable_child_events = true
+		use_fadetime_volume_mapping_curve = false
+		reverb_source_wet = 0.300000
+		vsnd_files_track_01 = 
+		[
+			"sounds/player/player_damagebody_04.vsnd",
+			"sounds/player/player_damagebody_05.vsnd",
+			"sounds/player/player_damagebody_06.vsnd",
+			"sounds/player/player_damagebody_07.vsnd",
+			"sounds/player/player_damagebody_08.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				51.971428,
+				1.000000,
+				-0.001582,
+				-0.001582,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				400.485718,
+				0.448529,
+				-0.000982,
+				-0.000982,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				1070.000000,
+				0.000000,
+				-0.000670,
+				-0.000670,
+				1.000000,
+				1.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-2.108865,
+				-2.108865,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				74.285713,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				100.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = "Player.DeathBody.Flesh"
+		vsnd_duration = 0.617846
+	}
+	Player.DeathBodyArmor.Victim = 
+	{
+		type = "csgo_mega"
+		preload_vsnds = true
+		volume = 2.000000
+		pitch = 0.800000
+		mixgroup = "PlayerVictim"
+		block_distance = 70.000000
+		use_distance_volume_mapping_curve = true
+		reverb_wet = 0.000000
+		occlusion_intensity = 0.700000
+		display_broadcast = true
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			60.000000,
+		]
+		use_distance_unfiltered_stereo_mapping_curve = true
+		enable_child_events = true
+		use_fadetime_volume_mapping_curve = false
+		reverb_source_wet = 0.000000
+		block_duration = 1.000000
+		vsnd_files_track_01 = 
+		[
+			"sounds/player/player_damagebody_04.vsnd",
+			"sounds/player/player_damagebody_05.vsnd",
+			"sounds/player/player_damagebody_06.vsnd",
+			"sounds/player/player_damagebody_07.vsnd",
+			"sounds/player/player_damagebody_08.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				51.971428,
+				1.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				1070.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+				1.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-2.108865,
+				-2.108865,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				74.285713,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				100.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = "Player.DeathBody.Flesh"
+		vsnd_duration = 0.617846
+	}
+	Player.DeathHeadShot.Victim = 
+	{
+		type = "csgo_mega"
+		preload_vsnds = true
+		volume = 0.550000
+		pitch = 1.000000
+		mixgroup = "PlayerVictim"
+		block_distance = 70.000000
+		use_distance_volume_mapping_curve = true
+		reverb_wet = 0.000000
+		occlusion_intensity = 0.500000
+		display_broadcast = true
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			60.000000,
+		]
+		reverb_source_wet = 0.000000
+		use_fadetime_volume_mapping_curve = false
+		use_distance_unfiltered_stereo_mapping_curve = true
+		block_duration = 1.000000
+		vsnd_files_track_01 = 
+		[
+			"sounds/player/headshot_noarmor_02.vsnd",
+			"sounds/player/headshot_noarmor_04.vsnd",
+			"sounds/player/headshot_noarmor_05.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				22.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				1070.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+				1.000000,
+			],
+		]
+		metadata = "plays for victim and onlookers"
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.996704,
+				-1.996704,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				40.359188,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				61.126537,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.230000
+	}
+	Player.DeathHeadShot.Onlooker = 
+	{
+		type = "csgo_mega"
+		preload_vsnds = true
+		volume = 0.500000
+		pitch = 1.000000
+		mixgroup = "PlayerDamage"
+		block_distance = 69.000000
+		use_distance_volume_mapping_curve = true
+		reverb_wet = 0.100000
+		occlusion_intensity = 0.500000
+		display_broadcast = true
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			60.000000,
+		]
+		reverb_source_wet = 0.300000
+		use_fadetime_volume_mapping_curve = false
+		use_distance_unfiltered_stereo_mapping_curve = true
+		vsnd_files_track_01 = 
+		[
+			"sounds/player/headshot_noarmor_01.vsnd",
+			"sounds/player/headshot_noarmor_02.vsnd",
+			"sounds/player/headshot_noarmor_03.vsnd",
+			"sounds/player/headshot_noarmor_04.vsnd",
+			"sounds/player/headshot_noarmor_05.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				22.000000,
+				1.000000,
+				-0.002066,
+				-0.002066,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				298.285736,
+				0.429185,
+				-0.000954,
+				-0.000954,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				1070.000000,
+				0.000000,
+				-0.000556,
+				-0.000556,
+				1.000000,
+				1.000000,
+			],
+		]
+		metadata = "plays for victim and onlookers"
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.996704,
+				-1.996704,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				40.359188,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				61.126537,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.230000
+	}
+	Player.DeathHeadShotArmor.Onlooker = 
+	{
+		type = "csgo_mega"
+		preload_vsnds = true
+		volume = 0.500000
+		pitch = 1.000000
+		mixgroup = "PlayerDamage"
+		block_distance = 69.000000
+		use_distance_volume_mapping_curve = true
+		reverb_wet = 0.300000
+		occlusion_intensity = 0.700000
+		display_broadcast = true
+		enable_child_events = true
+		pitch_random_min = -0.030000
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			60.000000,
+		]
+		reverb_source_wet = 0.300000
+		use_fadetime_volume_mapping_curve = false
+		use_distance_unfiltered_stereo_mapping_curve = true
+		vsnd_files_track_01 = 
+		[
+			"sounds/player/player_damagebody_05.vsnd",
+			"sounds/player/player_damagebody_06.vsnd",
+			"sounds/player/player_damagebody_07.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				22.000000,
+				1.000000,
+				-0.002066,
+				-0.002066,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				298.285736,
+				0.429185,
+				-0.000954,
+				-0.000954,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				1070.000000,
+				0.000000,
+				-0.000556,
+				-0.000556,
+				1.000000,
+				1.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"Player.DeathHeadShot.Flesh",
+			"Player.DeathHeadShot.Dink",
+		]
+		metadata = "plays for victim and onlookers"
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.996704,
+				-1.996704,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				48.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				67.714287,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.617846
+	}
+	Player.DeathHeadShotArmor.Victim = 
+	{
+		type = "csgo_mega"
+		preload_vsnds = true
+		volume = 0.700000
+		pitch = 1.000000
+		mixgroup = "PlayerVictim"
+		block_distance = 70.000000
+		use_distance_volume_mapping_curve = true
+		reverb_wet = 0.000000
+		occlusion_intensity = 0.700000
+		display_broadcast = true
+		enable_child_events = true
+		pitch_random_min = -0.030000
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			60.000000,
+		]
+		reverb_source_wet = 0.000000
+		use_fadetime_volume_mapping_curve = false
+		use_distance_unfiltered_stereo_mapping_curve = true
+		block_duration = 1.000000
+		vsnd_files_track_01 = 
+		[
+			"sounds/player/player_damagebody_05.vsnd",
+			"sounds/player/player_damagebody_06.vsnd",
+			"sounds/player/player_damagebody_07.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				22.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				1070.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+				1.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"Player.DeathHeadShot.Victim.Flesh",
+			"Player.DeathHeadShot.Victim.Dink",
+		]
+		metadata = "plays for victim and onlookers"
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.996704,
+				-1.996704,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				48.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				67.714287,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.617846
+	}
+	Player.DeathHeadShotArmor.Spectator = 
+	{
+		type = "csgo_mega"
+		preload_vsnds = true
+		volume = 0.500000
+		pitch = 1.000000
+		mixgroup = "PlayerDamage"
+		block_distance = 69.000000
+		use_distance_volume_mapping_curve = true
+		reverb_wet = 0.300000
+		occlusion_intensity = 0.700000
+		display_broadcast = true
+		enable_child_events = true
+		pitch_random_min = -0.030000
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			60.000000,
+		]
+		reverb_source_wet = 0.300000
+		use_fadetime_volume_mapping_curve = false
+		use_distance_unfiltered_stereo_mapping_curve = true
+		vsnd_files_track_01 = 
+		[
+			"sounds/player/player_damagebody_05.vsnd",
+			"sounds/player/player_damagebody_06.vsnd",
+			"sounds/player/player_damagebody_07.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				22.000000,
+				1.000000,
+				-0.002066,
+				-0.002066,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				298.285736,
+				0.429185,
+				-0.000954,
+				-0.000954,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				1070.000000,
+				0.000000,
+				-0.000556,
+				-0.000556,
+				1.000000,
+				1.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"Player.DeathHeadShot.Flesh",
+			"Player.DeathHeadShot.Dink",
+		]
+		metadata = "plays for victim and onlookers"
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.996704,
+				-1.996704,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				48.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				67.714287,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.617846
+	}
+	Player.DeathHeadShot.Spectator = 
+	{
+		type = "csgo_mega"
+		preload_vsnds = true
+		volume = 0.500000
+		pitch = 1.000000
+		mixgroup = "PlayerDamage"
+		block_distance = 69.000000
+		use_distance_volume_mapping_curve = true
+		reverb_wet = 0.100000
+		occlusion_intensity = 0.500000
+		display_broadcast = true
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			60.000000,
+		]
+		reverb_source_wet = 0.300000
+		use_fadetime_volume_mapping_curve = false
+		use_distance_unfiltered_stereo_mapping_curve = true
+		vsnd_files_track_01 = 
+		[
+			"sounds/player/headshot_noarmor_01.vsnd",
+			"sounds/player/headshot_noarmor_02.vsnd",
+			"sounds/player/headshot_noarmor_03.vsnd",
+			"sounds/player/headshot_noarmor_04.vsnd",
+			"sounds/player/headshot_noarmor_05.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				22.000000,
+				1.000000,
+				-0.002066,
+				-0.002066,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				298.285736,
+				0.429185,
+				-0.000954,
+				-0.000954,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				1070.000000,
+				0.000000,
+				-0.000556,
+				-0.000556,
+				1.000000,
+				1.000000,
+			],
+		]
+		metadata = "plays for victim and onlookers"
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.996704,
+				-1.996704,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				40.359188,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				61.126537,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.230000
+	}
+	Player.DeathHeadShot.Victim.Dink = 
+	{
+		type = "csgo_mega"
+		preload_vsnds = true
+		volume = 0.700000
+		pitch = 1.000000
+		mixgroup = "PlayerDamage"
+		block_distance = 70.000000
+		use_distance_volume_mapping_curve = true
+		reverb_wet = 0.000000
+		occlusion_intensity = 0.700000
+		display_broadcast = true
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			60.000000,
+		]
+		reverb_source_wet = 0.000000
+		use_fadetime_volume_mapping_curve = false
+		use_distance_unfiltered_stereo_mapping_curve = true
+		block_duration = 1.000000
+		vsnd_files_track_01 = "sounds/player/headshot_armor_e1.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				22.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				1200.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+				1.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.996704,
+				-1.996704,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				45.428574,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				72.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.404444
+	}
+	Player.DeathHeadShot.Victim.Flesh = 
+	{
+		type = "csgo_mega"
+		preload_vsnds = true
+		volume = 0.200000
+		pitch = 1.000000
+		mixgroup = "PlayerDamage"
+		block_distance = 70.000000
+		use_distance_volume_mapping_curve = true
+		reverb_wet = 0.000000
+		occlusion_intensity = 0.700000
+		display_broadcast = true
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			60.000000,
+		]
+		reverb_source_wet = 0.000000
+		use_fadetime_volume_mapping_curve = false
+		use_distance_unfiltered_stereo_mapping_curve = true
+		block_duration = 1.000000
+		vsnd_files_track_01 = "sounds/player/headshot_armor_flesh.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				22.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				1200.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				1.000000,
+				1.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.996704,
+				-1.996704,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				39.428574,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				66.857147,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.854694
 	}
 }

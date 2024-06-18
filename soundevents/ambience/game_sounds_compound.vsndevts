@@ -1,11 +1,14 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	_stereo_template = 
 	{
 		type = "csgo_mega"
-		mixgroup = "Compound"
+		mixgroup = "Ambient"
 		use_distance_unfiltered_stereo_mapping_curve = true
-		volume = 0.100000
-		vsnd_files_track_01 = "sounds/ambient/machines/lab_loop1.vsnd"
+		volume = 0.200000
+		use_time_volume_mapping_curve = true
+		distance_effect_mix = 0.000000
+		vsnd_files_track_01 = "sounds/ambient/wind/wind_tunnel1.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
 			
@@ -48,12 +51,54 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 3.434240
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 4.712925
 	}
 	_retrigger_randomposition_template = 
 	{
 		type = "csgo_mega"
-		mixgroup = "Compound"
+		mixgroup = "Ambient"
 		volume = 0.300000
 		volume_random_min = -0.100000
 		volume_random_max = 0.150000
@@ -63,6 +108,8 @@
 		retrigger_interval_max = 12.000000
 		randomize_position_min_radius = 300.000000
 		randomize_position_max_radius = 300.000000
+		use_time_volume_mapping_curve = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/misc/rock1.vsnd",
@@ -84,6 +131,48 @@
 			[
 				300.000000,
 				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -95,7 +184,7 @@
 	_basicpositional_template = 
 	{
 		type = "csgo_mega"
-		mixgroup = "Compound"
+		mixgroup = "Ambient"
 		volume = 0.300000
 		volume_random_min = -0.100000
 		volume_random_max = 0.150000
@@ -105,6 +194,8 @@
 		retrigger_interval_max = 0.000000
 		randomize_position_min_radius = 0.000000
 		randomize_position_max_radius = 0.000000
+		use_time_volume_mapping_curve = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/misc/rock1.vsnd",
@@ -125,6 +216,48 @@
 			
 			[
 				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
 				0.000000,
 				0.000000,
 				0.000000,
@@ -152,6 +285,7 @@
 		dsp_preset = "reverb_21_outsideStreet"
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = ""
 		distance_volume_mapping_curve = 
 		[
@@ -239,6 +373,7 @@
 		randomize_position_max_radius = 300.000000
 		pitch_random_max = 0.100000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/wind/smallgust2.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -277,6 +412,7 @@
 		randomize_position_min_radius = 300.000000
 		randomize_position_max_radius = 300.000000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/misc/metal_rattle1.vsnd",
@@ -322,6 +458,7 @@
 		randomize_position_max_radius = 300.000000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/overhead/plane1.vsnd",
@@ -407,6 +544,7 @@
 		randomize_position_min_radius = 300.000000
 		randomize_position_max_radius = 300.000000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/misc/car1.vsnd",
@@ -453,6 +591,7 @@
 		dsp_preset = "reverb_6_largeRoom"
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = ""
 		distance_volume_mapping_curve = 
 		[
@@ -535,6 +674,7 @@
 		use_distance_unfiltered_stereo_mapping_curve = true
 		volume = 0.800000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/tones/garage.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -587,6 +727,7 @@
 		use_distance_unfiltered_stereo_mapping_curve = true
 		volume = 0.200000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/wind/wind1.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -639,6 +780,7 @@
 		use_distance_unfiltered_stereo_mapping_curve = true
 		volume = 0.300000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/wind/wind_bass.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -698,6 +840,7 @@
 		randomize_position_min_radius = 300.000000
 		randomize_position_max_radius = 300.000000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/playonce/tones/pipes.vsnd",
@@ -741,6 +884,7 @@
 		randomize_position_max_radius = 300.000000
 		pitch_random_max = 0.100000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/flies1.vsnd",
@@ -788,6 +932,7 @@
 		randomize_position_max_radius = 300.000000
 		pitch_random_max = 0.100000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/flies1.vsnd",
@@ -835,6 +980,7 @@
 		randomize_position_max_radius = 300.000000
 		pitch_random_max = 0.100000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/flies1.vsnd",

@@ -1,22 +1,25 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	aztec.Birds = 
 	{
 		type = "csgo_mega"
 		pitch_random_min = -0.150000
 		pitch_random_max = 0.050000
-		volume = 0.100000
+		volume = 0.500000
 		use_time_volume_mapping_curve = true
 		enable_retrigger = true
 		retrigger_interval_min = 11.000000
 		retrigger_interval_max = 18.000000
-		randomize_position_max_radius = 1000.000000
+		randomize_position_max_radius = 4000.000000
 		mixgroup = "Aztec"
 		set_child_position = false
 		position_relative_to_player = true
 		reverb_wet = 1.000000
-		randomize_position_min_radius = 30.000000
+		randomize_position_min_radius = 2000.000000
 		retrigger_radius = 10000.000000
 		volume_random_max = 0.100000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/trop_bird_01.vsnd",
@@ -29,6 +32,13 @@
 			"sounds/ambient/animal/trop_bird_08.vsnd",
 			"sounds/ambient/animal/trop_bird_09.vsnd",
 			"sounds/ambient/animal/trop_bird_10.vsnd",
+			"sounds/ambient/animal/shoots_jungle_bird_01.vsnd",
+			"sounds/ambient/animal/shoots_jungle_bird_02.vsnd",
+			"sounds/ambient/animal/shoots_jungle_bird_03.vsnd",
+			"sounds/ambient/animal/shoots_jungle_bird_04.vsnd",
+			"sounds/ambient/animal/shoots_jungle_bird_05.vsnd",
+			"sounds/ambient/animal/shoots_jungle_bird_06.vsnd",
+			"sounds/ambient/animal/shoots_jungle_bird_07.vsnd",
 		]
 		distance_volume_mapping_curve = 
 		[
@@ -129,7 +139,7 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 3.500680
+		vsnd_duration = 3.790023
 	}
 	aztec.TSpawn = 
 	{
@@ -141,6 +151,9 @@
 		set_child_position = false
 		override_dsp_preset = true
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		volume = 1.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -167,6 +180,7 @@
 			"aztec.TSpawn.Exterior",
 			"aztec.Birds",
 			"aztec.Tspawn.Waterfall",
+			"aztec.TSpawn.Ambience",
 		]
 		time_volume_mapping_curve = 
 		[
@@ -228,6 +242,8 @@
 				3.000000,
 			],
 		]
+		vsnd_files_track_01 = "sounds/common/null.vsnd"
+		vsnd_duration = 0.100045
 	}
 	aztec.TSpawn.Exterior = 
 	{
@@ -238,6 +254,8 @@
 		mixgroup = "Aztec"
 		set_child_position = false
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds\ambient\aztec2\swamp_exterior_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -371,11 +389,14 @@
 		set_child_position = false
 		override_dsp_preset = true
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = 
 		[
 			"aztec.TSpawnTunnel.Exterior",
 			"aztec.TSpawnTunnel.Exterior2",
 			"aztec.TSpawnTunnel.Interior",
+			"aztec.RockFalls",
 		]
 		distance_volume_mapping_curve = 
 		[
@@ -477,6 +498,8 @@
 		set_child_position = false
 		volume = 0.200000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_exterior_03.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -605,10 +628,12 @@
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
 		mixgroup = "Aztec"
-		volume = 0.250000
+		volume = 0.500000
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_unfiltered_stereo_mapping_curve = 
 		[
 			
@@ -676,14 +701,14 @@
 			[
 				1.102857,
 				0.660714,
-				0.428356,
-				0.428356,
+				0.724039,
+				0.724039,
 				1.000000,
 				1.000000,
 			],
 			
 			[
-				2.500000,
+				1.678571,
 				1.000000,
 				0.000000,
 				0.000000,
@@ -737,10 +762,12 @@
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
 		mixgroup = "Aztec"
-		volume = 0.010000
+		volume = 0.100000
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_unfiltered_stereo_mapping_curve = 
 		[
 			
@@ -874,6 +901,8 @@
 		set_child_position = false
 		override_dsp_preset = true
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = 
 		[
 			"aztec.BombsiteA.Exterior",
@@ -967,11 +996,13 @@
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
 		mixgroup = "Aztec"
-		volume = 0.060000
+		volume = 0.100000
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
 		reverb_wet = 1.000000
-		vsnd_files_track_01 = "sounds\ambient\aztec2\jungle_mex_exterior_03.vsnd"
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_mex_exterior_02.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
 			
@@ -1092,17 +1123,19 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 27.127846
+		vsnd_duration = 44.454830
 	}
 	aztec.BombsiteA.Exterior2 = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
 		mixgroup = "Aztec"
-		volume = 0.030000
+		volume = 0.100000
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds\ambient\aztec2\swamp_exterior_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1236,6 +1269,8 @@
 		dsp_preset = "reverb_21_outsideStreet"
 		override_dsp_preset = true
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		metadata = "position: birds 0, tree by apartment"
 		soundevent_01 = 
 		[
@@ -1333,6 +1368,8 @@
 		volume = 0.200000
 		set_child_position = false
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_unfiltered_stereo_mapping_curve = 
 		[
 			
@@ -1466,6 +1503,8 @@
 		dsp_preset = "reverb_7_mediumHall"
 		override_dsp_preset = true
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -1561,6 +1600,7 @@
 			"aztec.ThroneRoom.Exterior",
 			"aztec.ThroneRoom.Exterior2",
 			"aztec.ThroneRoom.Interior",
+			"aztec.RockFalls",
 		]
 	}
 	aztec.ThroneRoom.Exterior = 
@@ -1572,6 +1612,8 @@
 		volume = 0.010000
 		set_child_position = false
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -1704,6 +1746,8 @@
 		volume = 0.010000
 		set_child_position = false
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -1836,6 +1880,8 @@
 		volume = 0.500000
 		set_child_position = false
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -1969,6 +2015,8 @@
 		set_child_position = false
 		override_dsp_preset = true
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = 
 		[
 			"aztec.BombsiteB.Exterior",
@@ -2066,6 +2114,8 @@
 		volume = 0.030000
 		set_child_position = false
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -2198,6 +2248,8 @@
 		volume = 0.030000
 		set_child_position = false
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -2327,13 +2379,15 @@
 		use_time_volume_mapping_curve = true
 		use_distance_unfiltered_stereo_mapping_curve = true
 		mixgroup = "Aztec"
-		volume = 0.200000
+		volume = 0.060000
 		dsp_preset = "reverb_20_outsideAlley"
 		set_child_position = false
 		override_dsp_preset = true
 		reverb_wet = 1.000000
-		enable_child_events = false
+		enable_child_events = true
 		position_relative_to_player = true
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -2429,25 +2483,7 @@
 			],
 			
 			[
-				0.454286,
-				0.261261,
-				0.685855,
-				0.685855,
-				3.000000,
 				1.000000,
-			],
-			
-			[
-				1.011429,
-				0.693694,
-				0.535318,
-				0.535318,
-				3.000000,
-				1.000000,
-			],
-			
-			[
-				1.834286,
 				1.000000,
 				0.000000,
 				0.000000,
@@ -2455,20 +2491,24 @@
 				3.000000,
 			],
 		]
-		soundevent_01 = ""
+		soundevent_01 = "aztec.TSpawnToAOutskirt_Swamp"
 		vsnd_duration = 28.388527
 	}
 	aztec.Mid = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
-		use_distance_unfiltered_stereo_mapping_curve = false
+		use_distance_unfiltered_stereo_mapping_curve = true
 		mixgroup = "Aztec"
 		dsp_preset = "reverb_20_outsideAlley"
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		volume = 0.050000
+		pitch = 0.980000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -2508,16 +2548,16 @@
 			],
 			
 			[
-				0.102857,
-				0.670833,
-				-1.977402,
-				-1.977402,
+				0.405714,
+				0.345588,
+				-0.500000,
+				-0.500000,
 				3.000000,
 				1.000000,
 			],
 			
 			[
-				0.505714,
+				2.000000,
 				0.000000,
 				0.000000,
 				0.000000,
@@ -2538,16 +2578,7 @@
 			],
 			
 			[
-				0.094286,
-				0.762500,
-				3.333333,
-				3.333333,
-				3.000000,
-				1.000000,
-			],
-			
-			[
-				0.300000,
+				2.000000,
 				1.000000,
 				0.000000,
 				0.000000,
@@ -2555,16 +2586,41 @@
 				3.000000,
 			],
 		]
+		vsnd_files_track_01 = "sounds/ambient/aztec2/swamp_exterior_01.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.746324,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.757353,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 15.624036
 	}
 	aztec.Mid.Exterior = 
 	{
 		type = "csgo_mega"
-		volume = 0.200000
+		volume = 0.400000
 		use_time_volume_mapping_curve = true
 		use_distance_unfiltered_stereo_mapping_curve = true
 		mixgroup = "Aztec"
 		set_child_position = false
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds\ambient\aztec2\jungle_exterior_03.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -2614,28 +2670,10 @@
 			[
 				0.000000,
 				1.000000,
-				0.000000,
-				0.000000,
+				-0.724105,
+				-0.724105,
 				2.000000,
 				3.000000,
-			],
-			
-			[
-				0.522367,
-				0.626582,
-				-0.561423,
-				-0.561423,
-				3.000000,
-				1.000000,
-			],
-			
-			[
-				1.375347,
-				0.227848,
-				-0.349671,
-				-0.349671,
-				1.000000,
-				1.000000,
 			],
 			
 			[
@@ -2698,6 +2736,8 @@
 		dsp_preset = "reverb_20_outsideAlley"
 		override_dsp_preset = true
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = 
 		[
 			"aztec.TSpawnToBOutskirts.Exterior",
@@ -2795,6 +2835,8 @@
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds\ambient\aztec2\jungle_mex_exterior_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -2927,6 +2969,8 @@
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds\ambient\aztec2\jungle_exterior_04.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -3060,6 +3104,8 @@
 		set_child_position = false
 		override_dsp_preset = true
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = 
 		[
 			"aztec.MidToBAlley.Exterior",
@@ -3157,6 +3203,8 @@
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds\ambient\aztec2\drone_interior_03.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -3289,6 +3337,8 @@
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds\ambient\aztec2\jungle_mex_exterior_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -3421,6 +3471,8 @@
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds\ambient\aztec2\swamp_exterior_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -3554,10 +3606,13 @@
 		set_child_position = false
 		override_dsp_preset = true
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = 
 		[
 			"aztec.MidToBInterior.Exterior",
 			"aztec.MidToBInterior.Interior",
+			"aztec.RockFalls",
 		]
 		distance_volume_mapping_curve = 
 		[
@@ -3659,6 +3714,8 @@
 		volume = 0.640000
 		set_child_position = false
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_unfiltered_stereo_mapping_curve = 
 		[
 			
@@ -3791,6 +3848,8 @@
 		volume = 0.050000
 		set_child_position = false
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -3925,6 +3984,9 @@
 		set_child_position = false
 		override_dsp_preset = true
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		enable_child_events = true
 		vsnd_files_track_01 = "sounds\ambient\aztec2\jungle_mex_exterior_02.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -3983,23 +4045,23 @@
 			[
 				0.145714,
 				0.062500,
-				1.836831,
-				1.836831,
+				0.751050,
+				0.751050,
 				3.000000,
 				1.000000,
 			],
 			
 			[
-				0.374286,
-				0.687500,
-				1.953125,
-				1.953125,
+				0.700000,
+				0.525735,
+				1.097408,
+				1.097408,
 				3.000000,
 				1.000000,
 			],
 			
 			[
-				0.625714,
+				1.000000,
 				1.000000,
 				0.000000,
 				0.000000,
@@ -4046,6 +4108,7 @@
 				3.000000,
 			],
 		]
+		soundevent_01 = "aztec.RockFalls"
 		vsnd_duration = 44.454830
 	}
 	aztec.CTSpawnToBAlley = 
@@ -4059,6 +4122,9 @@
 		set_child_position = false
 		override_dsp_preset = true
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		enable_child_events = true
 		vsnd_files_track_01 = "sounds\ambient\aztec2\jungle_mex_exterior_03.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -4180,6 +4246,7 @@
 				3.000000,
 			],
 		]
+		soundevent_01 = "aztec.RockFalls"
 		vsnd_duration = 27.127846
 	}
 	aztec.ABombTempleInterior = 
@@ -4192,6 +4259,8 @@
 		set_child_position = false
 		override_dsp_preset = true
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -4220,6 +4289,7 @@
 			"aztec.ABombTempleInterior.Interior",
 			"aztec.ABombTempleInterior.ExteriorHole",
 			"aztec.ABombTempleInterior.Birds",
+			"aztec.RockFalls",
 		]
 		fadetime_volume_mapping_curve = 
 		[
@@ -4300,6 +4370,8 @@
 		volume = 0.500000
 		set_child_position = false
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_unfiltered_stereo_mapping_curve = 
 		[
 			
@@ -4432,6 +4504,8 @@
 		volume = 0.020000
 		set_child_position = false
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -4564,6 +4638,8 @@
 		volume = 0.020000
 		set_child_position = false
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_unfiltered_stereo_mapping_curve = 
 		[
 			
@@ -4697,6 +4773,8 @@
 		set_child_position = false
 		override_dsp_preset = true
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -4723,6 +4801,7 @@
 			"aztec.CTSpawnTempleInterior.Exterior",
 			"aztec.CTSpawnTempleInterior.Exterior2",
 			"aztec.CTSpawnTempleInterior.Interior",
+			"aztec.RockFalls",
 		]
 		fadetime_volume_mapping_curve = 
 		[
@@ -4803,6 +4882,8 @@
 		volume = 0.020000
 		set_child_position = false
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -4932,9 +5013,11 @@
 		use_time_volume_mapping_curve = true
 		mixgroup = "Aztec"
 		use_distance_unfiltered_stereo_mapping_curve = true
-		volume = 0.300000
+		volume = 0.400000
 		set_child_position = false
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_unfiltered_stereo_mapping_curve = 
 		[
 			
@@ -5064,9 +5147,12 @@
 		use_time_volume_mapping_curve = true
 		mixgroup = "Aztec"
 		use_distance_unfiltered_stereo_mapping_curve = true
-		volume = 0.010000
+		volume = 0.030000
 		set_child_position = false
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		pitch = 1.000000
 		distance_unfiltered_stereo_mapping_curve = 
 		[
 			
@@ -5204,13 +5290,15 @@
 		use_distance_unfiltered_stereo_mapping_curve = false
 		use_time_volume_mapping_curve = true
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/aztec2/swamp_waterfall.vsnd"
 		distance_volume_mapping_curve = 
 		[
 			
 			[
-				0.000000,
-				1.000000,
+				8.571428,
+				0.577206,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -5218,16 +5306,16 @@
 			],
 			
 			[
-				362.571411,
-				0.360360,
-				-0.001000,
-				-0.001000,
+				260.000000,
+				0.341912,
+				-0.000722,
+				-0.000722,
 				3.000000,
 				1.000000,
 			],
 			
 			[
-				1000.000000,
+				808.571472,
 				0.000000,
 				0.000000,
 				0.000000,
@@ -5325,22 +5413,27 @@
 		volume = 1.000000
 		retrigger_count = -1.000000
 		enable_retrigger = false
-		delay = 10.000000
+		delay = 0.000000
 		use_time_volume_mapping_curve = true
 		use_distance_unfiltered_stereo_mapping_curve = false
 		position_relative_to_player = false
 		position = 
 		[
-			-735.000000,
-			-4343.000000,
-			702.000000,
+			0.000000,
+			0.000000,
+			0.000000,
 		]
 		reverb_wet = 1.000000
 		occlusion_intensity = 1.000000
-		instance_limit = 0.000000
+		instance_limit = 1.000000
 		retrigger_radius = 10000.000000
 		retrigger_interval_min = 50.000000
 		retrigger_interval_max = 50.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		block_duration = 20.000000
+		block_distance = 1000.000000
+		block_match_entity = false
 		vsnd_files_track_01 = "sounds/ambient/aztec2/aztec_music_flute.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -5355,7 +5448,7 @@
 			],
 			
 			[
-				6000.000000,
+				1500.000000,
 				0.000000,
 				0.000000,
 				0.000000,
@@ -5415,7 +5508,7 @@
 			],
 			
 			[
-				3.000000,
+				0.942857,
 				1.000000,
 				0.000000,
 				0.000000,
@@ -5461,6 +5554,8 @@
 			-200.000000,
 			256.000000,
 		]
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -5644,6 +5739,8 @@
 			-129.000000,
 			256.000000,
 		]
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/trop_bird_01.vsnd",
@@ -5757,5 +5854,422 @@
 			],
 		]
 		vsnd_duration = 3.500680
+	}
+	aztec.TSpawnToAOutskirt_Swamp = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = true
+		use_distance_unfiltered_stereo_mapping_curve = true
+		mixgroup = "Aztec"
+		volume = 0.100000
+		dsp_preset = "reverb_20_outsideAlley"
+		set_child_position = false
+		override_dsp_preset = true
+		reverb_wet = 1.000000
+		enable_child_events = false
+		position_relative_to_player = true
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = "sounds/ambient/aztec2/swamp_exterior_01.vsnd"
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.071429,
+				0.720721,
+				-0.440095,
+				-0.440095,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.740000,
+				0.234234,
+				-0.373707,
+				-0.373707,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.454286,
+				0.261261,
+				0.685855,
+				0.685855,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.011429,
+				0.693694,
+				0.535318,
+				0.535318,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.834286,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = ""
+		vsnd_duration = 15.624036
+	}
+	aztec.MidToBInteriorEnclave = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Aztec"
+		use_time_volume_mapping_curve = true
+		enable_child_events = true
+		dsp_preset = "reverb_5_smallRoom"
+		set_child_position = false
+		override_dsp_preset = true
+		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		soundevent_01 = 
+		[
+			"aztec.MidToBInterior.Exterior",
+			"aztec.MidToBInterior.Interior",
+			"aztec.RockFalls",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.045714,
+				0.629167,
+				10.937449,
+				10.937449,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.091429,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.285714,
+				0.816667,
+				-1.072658,
+				-1.072658,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.691429,
+				0.258333,
+				-0.618687,
+				-0.618687,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				1.605714,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+	}
+	aztec.RockFalls = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Aztec"
+		position_relative_to_player = true
+		randomize_position_min_radius = 500.000000
+		randomize_position_max_radius = 1000.000000
+		randomize_position_hemisphere = true
+		enable_retrigger = true
+		retrigger_interval_min = 2.000000
+		retrigger_interval_max = 10.000000
+		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/dust2/rockfall_01.vsnd",
+			"sounds/ambient/dust2/rockfall_02.vsnd",
+			"sounds/ambient/dust2/rockfall_03.vsnd",
+			"sounds/ambient/dust2/rockfall_04.vsnd",
+			"sounds/ambient/dust2/rockfall_05.vsnd",
+			"sounds/ambient/dust2/rockfall_06.vsnd",
+			"sounds/ambient/dust2/rockfall_07.vsnd",
+			"sounds/ambient/dust2/rockfall_08.vsnd",
+			"sounds/ambient/misc/rock1.vsnd",
+			"sounds/ambient/misc/rock2.vsnd",
+			"sounds/ambient/misc/rock3.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 6.997324
+	}
+	aztec.TSpawn.Ambience = 
+	{
+		type = "csgo_mega"
+		use_time_volume_mapping_curve = true
+		mixgroup = "Aztec"
+		enable_child_events = false
+		dsp_preset = "reverb_21_outsideStreet"
+		set_child_position = false
+		override_dsp_preset = true
+		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		volume = 0.100000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = ""
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614286,
+				0.422794,
+				1.000000,
+				1.000000,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.102857,
+				0.670833,
+				-1.977402,
+				-1.977402,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.505714,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_exterior_02.vsnd"
+		vsnd_duration = 28.388527
 	}
 }

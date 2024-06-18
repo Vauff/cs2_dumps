@@ -1,3 +1,4 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	dust2.indoors = 
 	{
@@ -15,6 +16,8 @@
 		use_distance_volume_mapping_curve = true
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		soundevent_01 = 
 		[
@@ -101,6 +104,8 @@
 		use_time_volume_mapping_curve = true
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/dust2/interior_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -217,6 +222,8 @@
 		use_world_position = false
 		set_child_position = false
 		position_relative_to_player = true
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/dust2/rockfall_01.vsnd",
@@ -305,6 +312,8 @@
 		use_time_volume_mapping_curve = true
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/dust2/interior_tunnel_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -404,6 +413,8 @@
 		dsp_preset = "reverb_9_mediumChamber"
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = 
 		[
 			"dust2.indoors",
@@ -505,6 +516,8 @@
 			-0.811211,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/inferno/window_01.vsnd",
@@ -590,6 +603,8 @@
 		dsp_preset = "reverb_21_outsideStreet"
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		fadetime_volume_mapping_curve = 
 		[
 			
@@ -670,6 +685,8 @@
 		pitch_random_min = -0.060000
 		pitch_random_max = 0.060000
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/dust2/wind_sand_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -765,6 +782,8 @@
 		volume = 0.150000
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/wind/csgo_dust_wind_lp_02.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -872,6 +891,8 @@
 		block_distance = 0.000000
 		set_child_position = false
 		position_relative_to_player = true
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/dust2/sand_gust_01.vsnd",
@@ -961,6 +982,8 @@
 		override_dsp_preset = true
 		dsp_preset = "reverb_22_outsideOpen"
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = 
 		[
 			"dust2.Bbomb.distantcity",
@@ -1049,6 +1072,8 @@
 		]
 		use_world_position = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/dust2/distant_city_01.vsnd"
 		fadetime_volume_mapping_curve = 
 		[
@@ -1157,6 +1182,8 @@
 		set_child_position = false
 		volume = 0.700000
 		position_relative_to_player = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/dust2/sand_auto_01.vsnd",
@@ -1252,6 +1279,8 @@
 		use_world_position = true
 		set_child_position = false
 		position_relative_to_player = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/dust2/rockfall_01.vsnd",
@@ -1335,6 +1364,8 @@
 		volume = 1.000000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/dust2/treesandbirds_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1416,6 +1447,8 @@
 		]
 		use_world_position = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/dust2/distant_city_02.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -1512,6 +1545,8 @@
 		override_dsp_preset = true
 		dsp_preset = "reverb_20_outsideAlley"
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = 
 		[
 			"dust2.Bdoors.cablestress",
@@ -1603,6 +1638,8 @@
 		set_child_position = false
 		volume = 0.700000
 		position_relative_to_player = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/dust2/sand_auto_01.vsnd",
@@ -1696,6 +1733,8 @@
 			108.423874,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/dust2/cablestress_01.vsnd",
@@ -1786,6 +1825,8 @@
 		use_world_position = true
 		set_child_position = false
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/dust2/distant_city_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -1897,6 +1938,8 @@
 		use_world_position = true
 		set_child_position = false
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/dust2/rockfall_01.vsnd",
@@ -1983,6 +2026,8 @@
 		override_dsp_preset = true
 		dsp_preset = "reverb_22_outsideOpen"
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = 
 		[
 			"dust2.ABomb.distantcity",
@@ -2069,6 +2114,8 @@
 		]
 		use_world_position = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/dust2/distant_city_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -2178,6 +2225,8 @@
 			198.461182,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/dust2/rockfall_01.vsnd",
@@ -2274,6 +2323,8 @@
 		]
 		use_world_position = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/dust2/sand_basket_01.vsnd",
@@ -2355,6 +2406,8 @@
 		override_dsp_preset = true
 		dsp_preset = "reverb_21_outsideStreet"
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = 
 		[
 			"dust2.LongA.distantcity",
@@ -2443,6 +2496,8 @@
 			177.070541,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/dust2/distant_city_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -2545,6 +2600,8 @@
 		]
 		use_world_position = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/dust2/distant_city_02.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -2646,6 +2703,8 @@
 		]
 		use_world_position = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/dust2/treesandbirds_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -2732,6 +2791,8 @@
 		use_world_position = true
 		set_child_position = false
 		volume = 0.700000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/dust2/sand_auto_01.vsnd",
@@ -2827,6 +2888,8 @@
 		use_world_position = true
 		set_child_position = false
 		position_relative_to_player = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/dust2/rockfall_01.vsnd",
@@ -2912,6 +2975,8 @@
 		override_dsp_preset = true
 		dsp_preset = "reverb_20_outsideAlley"
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = 
 		[
 			"dust2.UnderA.creaks",
@@ -3002,6 +3067,8 @@
 		]
 		use_world_position = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/inferno/window_01.vsnd",
@@ -3087,6 +3154,8 @@
 		override_dsp_preset = true
 		dsp_preset = "reverb_18_mediumConcrete"
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = "dust2.outdoors"
 		distance_volume_mapping_curve = 
 		[
@@ -3160,6 +3229,8 @@
 		enable_child_events = true
 		dsp_preset = "reverb_20_outsideAlley"
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = 
 		[
 			"dust2.MidDoors.sandgust",
@@ -3243,6 +3314,8 @@
 		enable_retrigger = true
 		set_child_position = false
 		position_relative_to_player = true
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/dust2/sand_gust_01.vsnd",
@@ -3332,6 +3405,8 @@
 		override_dsp_preset = true
 		dsp_preset = "reverb_20_outsideAlley"
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = "dust2.outdoors"
 		distance_volume_mapping_curve = 
 		[
@@ -3406,6 +3481,8 @@
 		override_dsp_preset = true
 		dsp_preset = "reverb_11_smallBright"
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = 
 		[
 			"dust2.LowerTunnel.interior",
@@ -3486,6 +3563,8 @@
 		use_time_volume_mapping_curve = true
 		set_child_position = false
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/dust2/interior_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -3591,6 +3670,8 @@
 		use_time_volume_mapping_curve = true
 		set_child_position = false
 		reverb_wet = 0.500000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/dust2/interior_tunnel_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -3692,6 +3773,8 @@
 		]
 		use_world_position = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/dust2/light_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -3772,6 +3855,8 @@
 		]
 		use_world_position = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/dust2/light_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -3847,6 +3932,8 @@
 		override_dsp_preset = true
 		dsp_preset = "reverb_12_mediumBright"
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = 
 		[
 			"dust2.UpperTunnel.wind",
@@ -3924,6 +4011,8 @@
 		use_distance_unfiltered_stereo_mapping_curve = true
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/dust2/wind_alley_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -4020,6 +4109,8 @@
 		override_dsp_preset = true
 		dsp_preset = "reverb_22_outsideOpen"
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = 
 		[
 			"dust2.OutsideTunnel.sandcar",
@@ -4104,6 +4195,8 @@
 		]
 		use_world_position = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/dust2/treesandbirds_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -4190,6 +4283,8 @@
 		]
 		set_child_position = false
 		volume = 0.700000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/dust2/sand_auto_01.vsnd",
@@ -4272,6 +4367,8 @@
 		override_dsp_preset = true
 		dsp_preset = "reverb_21_outsideStreet"
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -4346,6 +4443,8 @@
 		override_dsp_preset = true
 		dsp_preset = "reverb_6_largeRoom"
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = 
 		[
 			"dust2.LongTunnel.rockfalls",
@@ -4424,6 +4523,8 @@
 		use_distance_unfiltered_stereo_mapping_curve = true
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/dust2/wind_alley_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -4526,6 +4627,8 @@
 		enable_retrigger = true
 		set_child_position = false
 		position_relative_to_player = true
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/dust2/sand_gust_01.vsnd",
@@ -4628,6 +4731,8 @@
 		]
 		set_child_position = false
 		position_relative_to_player = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/dust2/rockfall_01.vsnd",
@@ -4713,6 +4818,8 @@
 		override_dsp_preset = true
 		dsp_preset = "reverb_20_outsideAlley"
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = 
 		[
 			"dust2.LongDoors.creaks",
@@ -4797,6 +4904,8 @@
 		]
 		use_world_position = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/dust2/treesandbirds_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -4884,6 +4993,8 @@
 		]
 		use_world_position = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/inferno/window_01.vsnd",
@@ -4969,6 +5080,8 @@
 		override_dsp_preset = true
 		dsp_preset = "reverb_21_outsideStreet"
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = 
 		[
 			"dust2.OutsideLong.distantcity",
@@ -5060,6 +5173,8 @@
 		use_world_position = true
 		set_child_position = false
 		volume = 0.700000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/dust2/sand_auto_01.vsnd",
@@ -5148,6 +5263,8 @@
 		]
 		use_world_position = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/dust2/distant_city_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -5249,6 +5366,8 @@
 		]
 		use_world_position = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/dust2/treesandbirds_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -5324,6 +5443,8 @@
 		override_dsp_preset = true
 		dsp_preset = "reverb_17_smallConcrete"
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = 
 		[
 			"dust2.TopMidTunnel.interior",
@@ -5402,6 +5523,8 @@
 		use_distance_unfiltered_stereo_mapping_curve = true
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/dust2/wind_alley_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -5497,6 +5620,8 @@
 		use_time_volume_mapping_curve = true
 		volume = 0.300000
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/dust2/interior_tunnel_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -5599,6 +5724,8 @@
 		enable_retrigger = true
 		set_child_position = false
 		position_relative_to_player = true
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/dust2/rockfall_01.vsnd",
@@ -5684,6 +5811,8 @@
 		override_dsp_preset = true
 		dsp_preset = "reverb_20_outsideAlley"
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = 
 		[
 			"dust2.TStart.distantcity",
@@ -5773,6 +5902,8 @@
 			123.751556,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/dust2/distant_city_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -5875,6 +6006,8 @@
 		]
 		use_world_position = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/dust2/distant_city_02.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -5976,6 +6109,8 @@
 			192.365799,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/dust2/treesandbirds_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -6046,7 +6181,7 @@
 	{
 		type = "csgo_mega"
 		mixgroup = "Dust2"
-		use_time_volume_mapping_curve = true
+		use_time_volume_mapping_curve = false
 		use_world_position = false
 		position = 
 		[
@@ -6056,6 +6191,8 @@
 		]
 		volume = 0.300000
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/dust2/music_attribution_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -6142,6 +6279,8 @@
 		use_world_position = true
 		set_child_position = false
 		volume = 0.700000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/dust2/sand_auto_01.vsnd",
@@ -6235,6 +6374,8 @@
 		use_world_position = true
 		set_child_position = false
 		volume = 0.700000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/dust2/sand_auto_01.vsnd",
@@ -6322,6 +6463,8 @@
 		]
 		use_world_position = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/dust2/treesandbirds_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -6403,6 +6546,8 @@
 		set_child_position = false
 		volume = 0.300000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/misc/flour_light.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -6478,6 +6623,8 @@
 		dsp_preset = "reverb_20_outsideAlley"
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		fadetime_volume_mapping_curve = 
 		[
 			
@@ -6557,6 +6704,8 @@
 		override_dsp_preset = true
 		dsp_preset = "reverb_17_smallConcrete"
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = "dust2.outdoors"
 		distance_volume_mapping_curve = 
 		[
@@ -6631,6 +6780,8 @@
 		override_dsp_preset = true
 		dsp_preset = "reverb_11_smallBright"
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = 
 		[
 			"dust2.UpperTunnel.wind",
@@ -6716,6 +6867,8 @@
 		use_time_volume_mapping_curve = true
 		occlusion_intensity = 1.000000
 		instance_limit = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/dust2/airplane_01.vsnd",

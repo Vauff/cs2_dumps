@@ -5,7 +5,9 @@ soundevents/game_sounds_physics.vsndevts
 soundevents/game_sounds_ui.vsndevts
 soundevents/game_sounds_weapons.vsndevts
 soundevents/game_sounds_world.vsndevts
+soundevents/game_sounds_stopsoundevents.vsndevts
 soundevents/ambience/game_sounds_amb_common.vsndevts
+soundevents/ambience/game_sounds_anubis.vsndevts
 soundevents/ambience/game_sounds_assault.vsndevts
 soundevents/ambience/game_sounds_aztec.vsndevts
 soundevents/ambience/game_sounds_baggage.vsndevts
@@ -48,6 +50,7 @@ soundevents/vo/agents/game_sounds_balkan.vsndevts
 soundevents/vo/agents/game_sounds_balkan_epic.vsndevts
 soundevents/vo/agents/game_sounds_fbihrt.vsndevts
 soundevents/vo/agents/game_sounds_fbihrt_epic.vsndevts
+soundevents/vo/agents/game_sounds_gsg9.vsndevts
 soundevents/vo/agents/game_sounds_gendarmerie_fem.vsndevts
 soundevents/vo/agents/game_sounds_gendarmerie_fem_epic.vsndevts
 soundevents/vo/agents/game_sounds_gendarmerie_male.vsndevts
@@ -71,7 +74,7 @@ soundevents/vo/agents/game_sounds_seal_fem.vsndevts
 soundevents/vo/agents/game_sounds_swat.vsndevts
 soundevents/vo/agents/game_sounds_swat_epic.vsndevts
 soundevents/vo/agents/game_sounds_swat_fem.vsndevts
-soundevents/game_sounds_music2.vsndevts
+soundevents/music/valve_cs2_01/game_sounds_music.vsndevts
 soundevents/music/meechydarko_01/game_sounds_music.vsndevts
 soundevents/music/hlb_01/game_sounds_music.vsndevts
 soundevents/music/3kliksphilip_01/game_sounds_music.vsndevts
@@ -141,4 +144,10 @@ soundevents/music/sullivanking_01/game_sounds_music.vsndevts
 soundevents/music/knock2_01/game_sounds_music.vsndevts
 soundevents/music/denzelcurry_01/game_sounds_music.vsndevts
 soundevents/music/perfectworld_01/game_sounds_music.vsndevts
+soundevents/music/dryden_01/game_sounds_music.vsndevts
+soundevents/music/isoxo_01/game_sounds_music.vsndevts
+soundevents/music/killscript_01/game_sounds_music.vsndevts
+soundevents/music/knock2_02/game_sounds_music.vsndevts
+soundevents/music/radcat_01/game_sounds_music.vsndevts
+soundevents/music/twerl_01/game_sounds_music.vsndevts
 

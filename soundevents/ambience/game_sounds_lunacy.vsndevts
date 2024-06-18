@@ -1,3 +1,4 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	lunacy.Outside = 
 	{
@@ -17,6 +18,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -122,6 +124,7 @@
 		volume = 0.200000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\tones\lab_loop1.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -257,6 +260,7 @@
 			620.000000,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/tones/equip1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -371,6 +375,7 @@
 			632.000000,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\tones\fan2_loop.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -485,6 +490,7 @@
 			632.000000,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\tones\fan2_loop.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -599,6 +605,7 @@
 			224.000000,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/tones/industrial3_loop.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -713,6 +720,7 @@
 			224.000000,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/tones/industrial2_loop.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -827,6 +835,7 @@
 			284.000000,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/nuke/substation_hum_02.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -941,6 +950,7 @@
 			284.000000,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/nuke/substation_hum_02.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1055,6 +1065,7 @@
 			500.000000,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\nuke\exterior_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1169,6 +1180,7 @@
 			600.000000,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\animal\birds_lp_01_lpf.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1280,6 +1292,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1382,6 +1395,7 @@
 		volume = 0.200000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\tones\lab_loop1.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -1523,6 +1537,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1638,6 +1653,7 @@
 			320.000000,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/tones/equip5.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1748,6 +1764,7 @@
 		volume = 0.200000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\tones\lab_loop1.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -1889,6 +1906,7 @@
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/underground_hall_loop1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -2024,6 +2042,7 @@
 			320.000000,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/tones/equip5.vsnd"
 		distance_volume_mapping_curve = 
 		[

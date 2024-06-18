@@ -1,3 +1,4 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	militia.Outside = 
 	{
@@ -17,6 +18,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = ""
 		distance_volume_mapping_curve = 
 		[
@@ -96,6 +98,7 @@
 		volume = 0.900000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/nature/woodland_ambient_1.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -199,6 +202,7 @@
 		use_time_volume_mapping_curve = false
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/nature/wind_leaves_mild_gust_1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -303,6 +307,7 @@
 		dsp_preset = "core.concrete.large"
 		enable_child_events = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -384,6 +389,7 @@
 		volume = 0.200000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/wind/wind_tunnel1.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -487,6 +493,7 @@
 		use_time_volume_mapping_curve = false
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\wind\smallgust2.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -595,6 +602,7 @@
 			572.771240,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/machines/squeak_2.vsnd",
@@ -687,6 +695,7 @@
 		dsp_preset = "core.concrete.large"
 		enable_child_events = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = ""
 		distance_volume_mapping_curve = 
 		[
@@ -766,6 +775,7 @@
 		volume = 0.900000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/nature/woodland_ambient_1.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -869,6 +879,7 @@
 		use_time_volume_mapping_curve = true
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/wind/wind_gust_01.vsnd",
@@ -983,6 +994,7 @@
 		randomize_position_max_radius = 300.000000
 		use_time_volume_mapping_curve = false
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/misc/wood1.vsnd",
@@ -1066,6 +1078,7 @@
 		use_time_volume_mapping_curve = true
 		dsp_preset = "core.metallic.medium"
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/tones/tunnel_wind_loop.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -1170,6 +1183,7 @@
 		dsp_preset = "core.tunnel.small"
 		enable_child_events = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1250,6 +1264,7 @@
 		volume = 1.000000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/wind/dry_air_short_indoors.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -1352,6 +1367,7 @@
 		randomize_position_max_radius = 300.000000
 		use_time_volume_mapping_curve = false
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/misc/wood1.vsnd",
@@ -1441,6 +1457,7 @@
 		randomize_position_max_radius = 300.000000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/machines/power_transformer_loop_1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1523,6 +1540,7 @@
 		randomize_position_max_radius = 300.000000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/machines/fluorescent_hum_1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1605,6 +1623,7 @@
 		randomize_position_max_radius = 300.000000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/machines/fluorescent_hum_2.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1687,6 +1706,7 @@
 		randomize_position_max_radius = 300.000000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/playonce/machines/refrigerator.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1771,6 +1791,7 @@
 		dsp_preset = "core.null"
 		enable_child_events = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1863,6 +1884,7 @@
 			572.771240,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/machines/squeak_2.vsnd",
@@ -1946,6 +1968,7 @@
 		volume = 0.150000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/machines/electrical_hum_2.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -2055,6 +2078,7 @@
 			-490.000000,
 			-153.000000,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/animal/cricket_chirp_1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -2138,6 +2162,7 @@
 		use_time_volume_mapping_curve = false
 		pitch_random_max = 0.050000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/rodent_scratch_1.vsnd",
@@ -2227,6 +2252,7 @@
 		use_time_volume_mapping_curve = false
 		pitch_random_max = 0.050000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/bird1.vsnd",
@@ -2333,6 +2359,7 @@
 		dsp_preset = "core.concrete.large"
 		enable_child_events = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -2433,6 +2460,7 @@
 			-1144.000000,
 			-124.000000,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/machines/big_truck.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -2515,6 +2543,7 @@
 		randomize_position_max_radius = 300.000000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/machines/big_truck.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -2604,6 +2633,7 @@
 			-1216.000000,
 			320.000000,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/crow_1.vsnd",
@@ -2701,6 +2731,7 @@
 		dsp_preset = "core.concrete.large"
 		enable_child_events = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -2799,6 +2830,7 @@
 			-960.000000,
 			-192.000000,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/nature/Water_StreamLoop3.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -2883,6 +2915,7 @@
 		dsp_preset = "core.concrete.large"
 		enable_child_events = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -2983,6 +3016,7 @@
 			-1320.290039,
 			-263.000000,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/nature/Water_StreamLoop3.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -3065,6 +3099,7 @@
 		randomize_position_max_radius = 0.000000
 		use_time_volume_mapping_curve = false
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/materials/metal_stress1.vsnd",
@@ -3160,6 +3195,7 @@
 			-548.000000,
 			26.979200,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\machines\air_conditioner_loop_1.vsn"
 		distance_volume_mapping_curve = 
 		[
@@ -3244,6 +3280,7 @@
 		dsp_preset = "core.concrete.large"
 		enable_child_events = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -3337,6 +3374,7 @@
 			-1393.310059,
 			-263.000000,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/frog_1.vsnd",
@@ -3426,6 +3464,7 @@
 		dsp_preset = "core.concrete.large"
 		enable_child_events = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -3521,6 +3560,7 @@
 		randomize_position_max_radius = 0.000000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/nature/Water_StreamLoop3.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -3609,6 +3649,7 @@
 			132.000000,
 			-270.381989,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/water/drip_loop1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -3697,6 +3738,7 @@
 			-427.873993,
 			-268.252014,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/water/drip_loop1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -3782,6 +3824,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -3872,6 +3915,7 @@
 		randomize_position_max_radius = 300.000000
 		use_time_volume_mapping_curve = false
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/misc/wood1.vsnd",
@@ -3961,6 +4005,7 @@
 		randomize_position_max_radius = 300.000000
 		use_time_volume_mapping_curve = false
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/misc/rock1.vsnd",
@@ -4050,6 +4095,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -4145,6 +4191,7 @@
 			585.682983,
 			-295.000000,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/rodent_scratch_short_1.vsnd",
@@ -4234,6 +4281,7 @@
 		randomize_position_max_radius = 300.000000
 		use_time_volume_mapping_curve = false
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/misc/wood1.vsnd",
@@ -4326,6 +4374,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -4416,6 +4465,7 @@
 		randomize_position_max_radius = 0.000000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/water/drip_loop1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -4501,6 +4551,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -4583,6 +4634,7 @@
 		use_time_volume_mapping_curve = true
 		dsp_preset = "core.metallic.medium"
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/tones/tunnel_wind_loop.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -4686,6 +4738,7 @@
 		randomize_position_max_radius = 0.000000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\machines\aztec_generator_lp.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -4770,6 +4823,7 @@
 		dsp_preset = "core.tunnel.medium"
 		enable_child_events = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -4862,6 +4916,7 @@
 		dsp_preset = "core.concrete.large"
 		enable_child_events = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = ""
 		distance_volume_mapping_curve = 
 		[
@@ -4949,6 +5004,7 @@
 		dsp_preset = "core.outside.small"
 		enable_child_events = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -5040,6 +5096,7 @@
 		randomize_position_max_radius = 0.000000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/machines/air_conditioner_cycle.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -5123,6 +5180,7 @@
 		use_time_volume_mapping_curve = true
 		pitch_random_max = 0.050000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/crow_1.vsnd",
@@ -5209,6 +5267,7 @@
 		randomize_position_max_radius = 0.000000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\machines\air_conditioner_loop_1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -5291,6 +5350,7 @@
 		randomize_position_max_radius = 0.000000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/nature/Water_StreamLoop3.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -5373,6 +5433,7 @@
 		randomize_position_max_radius = 0.000000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/tones/tunnel_wind_loop.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -5455,6 +5516,7 @@
 		randomize_position_max_radius = 0.000000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/tones/tunnel_wind_loop.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -5539,6 +5601,7 @@
 		dsp_preset = "core.concrete.large"
 		enable_child_events = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -5633,6 +5696,7 @@
 		dsp_preset = "core.outside.small"
 		enable_child_events = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -5733,6 +5797,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -5823,6 +5888,7 @@
 		randomize_position_max_radius = 0.000000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "common\null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -5906,6 +5972,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -6007,6 +6074,7 @@
 			1150.000000,
 			-60.000000,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/machines/TickTock.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -6104,6 +6172,7 @@
 			835.000000,
 			-57.000000,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/machines/60HzHum.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -6201,6 +6270,7 @@
 			857.000000,
 			-74.070000,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/machines/gas_loop_1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -6295,6 +6365,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -6379,6 +6450,7 @@
 		volume = 0.050000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/tones/garage.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -6484,6 +6556,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -6575,6 +6648,7 @@
 		dsp_preset = "core.concrete.large"
 		enable_child_events = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = ""
 		distance_volume_mapping_curve = 
 		[
@@ -6667,6 +6741,7 @@
 			26.000000,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/animal/cricket_chirp_1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -6752,6 +6827,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -6851,6 +6927,7 @@
 			-63.000000,
 			-14.956100,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = ""
 		distance_volume_mapping_curve = 
 		[
@@ -6939,6 +7016,7 @@
 		dsp_preset = "core.concrete.large"
 		enable_child_events = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = ""
 		distance_volume_mapping_curve = 
 		[
@@ -7028,6 +7106,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -7120,6 +7199,7 @@
 		dsp_preset = "core.concrete.large"
 		enable_child_events = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = ""
 		distance_volume_mapping_curve = 
 		[
@@ -7208,6 +7288,7 @@
 		dsp_preset = "core.concrete.large"
 		enable_child_events = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = ""
 		distance_volume_mapping_curve = 
 		[
@@ -7296,6 +7377,7 @@
 		dsp_preset = "core.concrete.large"
 		enable_child_events = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = ""
 		distance_volume_mapping_curve = 
 		[
@@ -7385,6 +7467,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -7476,6 +7559,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -7564,6 +7648,7 @@
 		randomize_position_max_radius = 0.000000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/water/drip_loop1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -7646,6 +7731,7 @@
 		randomize_position_max_radius = 0.000000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/misc/toilet_refill_loop.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -7731,6 +7817,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -7828,6 +7915,7 @@
 		dsp_preset = "core.concrete.large"
 		enable_child_events = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = ""
 		distance_volume_mapping_curve = 
 		[
@@ -7917,6 +8005,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -8002,6 +8091,7 @@
 		dsp_preset = "core.concrete.large"
 		enable_child_events = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -8091,6 +8181,7 @@
 		dsp_preset = "core.outside.large"
 		enable_child_events = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -8190,6 +8281,7 @@
 			640.000000,
 			314.000000,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/bird_flapping_1.vsnd",
@@ -8278,6 +8370,7 @@
 		use_time_volume_mapping_curve = false
 		pitch_random_max = 0.050000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/bird1.vsnd",
@@ -8389,6 +8482,7 @@
 			-1264.000000,
 			-136.000000,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/animal/cricket_chirp_1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -8478,6 +8572,7 @@
 			-1216.000000,
 			320.000000,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/bird1.vsnd",
@@ -8589,6 +8684,7 @@
 			-1088.000000,
 			320.000000,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/bird1.vsnd",
@@ -8694,6 +8790,7 @@
 		use_time_volume_mapping_curve = false
 		pitch_random_max = 0.020000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/animal/cricket_chirp_1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -8783,6 +8880,7 @@
 			-221.496994,
 			62.095100,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/rodent_scratch_1.vsnd",
@@ -8877,6 +8975,7 @@
 			-348.000000,
 			14.827100,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/machines/power_transformer_loop_1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -8965,6 +9064,7 @@
 			-188.000000,
 			7.000000,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/machines/power_transformer_loop_1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -9053,6 +9153,7 @@
 			721.000000,
 			-183.000000,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/machines/power_transformer_loop_1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -9143,6 +9244,7 @@
 			-457.000000,
 			-143.000000,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = ""
 		distance_volume_mapping_curve = 
 		[
@@ -9236,6 +9338,7 @@
 			382.000000,
 			-146.000000,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = ""
 		distance_volume_mapping_curve = 
 		[
@@ -9327,6 +9430,7 @@
 			708.249023,
 			-203.533997,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/machines/power_transformer_loop_1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -9415,6 +9519,7 @@
 			789.333984,
 			-211.662994,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/machines/power_transformer_loop_1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -9504,6 +9609,7 @@
 			-1328.229980,
 			-263.000000,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/animal/cricket_chirp_1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -9579,6 +9685,7 @@
 		volume = 0.400000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/mountain_wind_lp_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -9692,6 +9799,7 @@
 		volume = 0.100000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/mountain_wind_lp_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -9800,6 +9908,7 @@
 			693.000000,
 			-114.000000,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/machines/electrical_hum_2.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -9897,6 +10006,7 @@
 			-860.000000,
 			20.000000,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/machines/fluorescent_hum_1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -9994,6 +10104,7 @@
 			-860.500000,
 			16.000000,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/machines/fluorescent_hum_2.vsnd"
 		distance_volume_mapping_curve = 
 		[

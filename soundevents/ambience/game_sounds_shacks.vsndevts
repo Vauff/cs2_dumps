@@ -1,3 +1,4 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	shacks.ext = 
 	{
@@ -7,6 +8,7 @@
 		set_child_position = false
 		override_dsp_preset = true
 		dsp_preset = "reverb_22_outsideOpen"
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -75,6 +77,7 @@
 		set_child_position = false
 		override_dsp_preset = true
 		dsp_preset = "reverb_22_outsideOpen"
+		distance_effect_mix = 0.000000
 		soundevent_01 = 
 		[
 			"shacks.birds.bg",
@@ -122,6 +125,7 @@
 		set_child_position = false
 		override_dsp_preset = true
 		dsp_preset = "reverb_22_outsideOpen"
+		distance_effect_mix = 0.000000
 		soundevent_01 = 
 		[
 			"shacks.birds.bg",
@@ -169,6 +173,7 @@
 		set_child_position = false
 		override_dsp_preset = true
 		dsp_preset = "reverb_22_outsideOpen"
+		distance_effect_mix = 0.000000
 		soundevent_01 = 
 		[
 			"shacks.birds.bg",
@@ -215,6 +220,7 @@
 		override_dsp_preset = true
 		dsp_preset = "reverb_18_mediumConcrete"
 		use_distance_unfiltered_stereo_mapping_curve = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/shacks_bg_int_lp_01.vsnd"
 		soundevent_01 = "shacks.thunder"
 		fadetime_volume_mapping_curve = 
@@ -308,6 +314,7 @@
 		volume = 0.100000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/shack_belize_birds_lp_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -446,6 +453,7 @@
 		randomize_position_max_radius = 300.000000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/trop_bird_01.vsnd",
@@ -549,6 +557,7 @@
 		use_distance_unfiltered_stereo_mapping_curve = true
 		volume = 0.100000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/wind/tree_sway_wind_lp_02.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -640,6 +649,7 @@
 		use_distance_unfiltered_stereo_mapping_curve = true
 		volume = 0.100000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/wind/tree_sway_wind_lp_03.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -740,6 +750,7 @@
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		use_time_volume_mapping_curve = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/playonce/weather/thunder4.vsnd",
@@ -843,6 +854,7 @@
 			42.515511,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/dock_lp_01.vsnd"
 		fadetime_volume_mapping_curve = 
 		[
@@ -897,6 +909,7 @@
 			0.000000,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/light_waves_lp_01.vsnd"
 		fadetime_volume_mapping_curve = 
 		[
@@ -990,6 +1003,7 @@
 			27.111094,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/light_waves_lp_01.vsnd"
 		fadetime_volume_mapping_curve = 
 		[
@@ -1045,6 +1059,7 @@
 			42.515511,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/dock_lp_01.vsnd"
 		fadetime_volume_mapping_curve = 
 		[
@@ -1110,6 +1125,7 @@
 		use_world_position = false
 		pitch = 1.100000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/machines/steam_loop_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1217,6 +1233,7 @@
 		use_world_position = false
 		pitch = 0.900000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/machines/diesel_1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1317,6 +1334,7 @@
 		set_child_position = false
 		override_dsp_preset = true
 		dsp_preset = "reverb_22_outsideOpen"
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/wind/flag_and_rope_loop.vsnd"
 		soundevent_01 = 
 		[
@@ -1371,6 +1389,7 @@
 			42.515511,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/dock_lp_01.vsnd"
 		fadetime_volume_mapping_curve = 
 		[
@@ -1425,6 +1444,7 @@
 			27.111094,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/light_waves_lp_01.vsnd"
 		fadetime_volume_mapping_curve = 
 		[

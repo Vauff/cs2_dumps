@@ -1,3 +1,4 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	tuscan.TSpawn = 
 	{
@@ -226,6 +227,7 @@
 				3.000000,
 			],
 		]
+		vsnd_duration = 44.309681
 	}
 	tuscan.TSpawn.Waves = 
 	{
@@ -361,6 +363,7 @@
 				3.000000,
 			],
 		]
+		vsnd_duration = 31.572948
 	}
 	tuscan.TSpawn.Waves2 = 
 	{
@@ -496,5 +499,6 @@
 				3.000000,
 			],
 		]
+		vsnd_duration = 31.572948
 	}
 }

@@ -1,3 +1,4 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	canals.Outside = 
 	{
@@ -8,6 +9,7 @@
 		volume = 1.000000
 		enable_child_events = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		fadetime_volume_mapping_curve = 
 		[
 			
@@ -105,6 +107,7 @@
 		volume = 0.150000
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\inferno\exterior_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -217,7 +220,7 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 32.445713
+		vsnd_duration = 145.617798
 	}
 	canals.Outside.Music = 
 	{
@@ -232,6 +235,7 @@
 			151.351120,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\canals\music_canals_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -342,6 +346,7 @@
 		retrigger_interval_max = 60.000000
 		set_child_position = false
 		use_world_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/canals/ambience_canals_bell_bg.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -466,6 +471,7 @@
 			97.089989,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/canals/ambience_canals_traffic_bg.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -568,6 +574,7 @@
 		dsp_preset = "reverb_20_outsideAlley"
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		soundevent_01 = 
 		[
 			"canals.CTStart.Birds",
@@ -675,6 +682,7 @@
 		volume = 0.150000
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\inferno\exterior_02.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -807,6 +815,7 @@
 			65.439293,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/canals/ambience_canals_water_lap_01.vsnd",
@@ -923,6 +932,7 @@
 			87.701515,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\canals\ambience_canals_water_boats.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1032,6 +1042,7 @@
 		enable_retrigger = true
 		retrigger_interval_max = 10.000000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/inferno/window_01.vsnd",
@@ -1160,6 +1171,7 @@
 			101.625900,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/inferno/house_creak_01.vsnd",
@@ -1278,6 +1290,7 @@
 			221.454056,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -1411,6 +1424,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		fadetime_volume_mapping_curve = 
 		[
 			
@@ -1511,6 +1525,7 @@
 		dsp_preset = "core.outside.small"
 		enable_child_events = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -1626,6 +1641,7 @@
 		enable_retrigger = true
 		retrigger_interval_min = 5.000000
 		retrigger_interval_max = 10.000000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/canals/ambience_canals_water_lap_01.vsnd",
@@ -1742,6 +1758,7 @@
 			69.825508,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -1863,6 +1880,7 @@
 		enable_retrigger = true
 		retrigger_interval_min = 5.000000
 		retrigger_interval_max = 10.000000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/canals/ambience_canals_water_lap_01.vsnd",
@@ -1985,6 +2003,7 @@
 		enable_retrigger = true
 		retrigger_interval_min = 5.000000
 		retrigger_interval_max = 10.000000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/canals/ambience_canals_water_lap_01.vsnd",
@@ -2101,6 +2120,7 @@
 			105.655991,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -2216,6 +2236,7 @@
 			79.682877,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -2331,6 +2352,7 @@
 			76.073280,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -2451,6 +2473,7 @@
 		retrigger_interval_min = 3.000000
 		retrigger_interval_max = 15.000000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/inferno/window_01.vsnd",
@@ -2581,6 +2604,7 @@
 		retrigger_interval_min = 3.000000
 		retrigger_interval_max = 15.000000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/inferno/window_01.vsnd",
@@ -2711,6 +2735,7 @@
 		retrigger_interval_min = 3.000000
 		retrigger_interval_max = 15.000000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/inferno/window_01.vsnd",
@@ -2841,6 +2866,7 @@
 		retrigger_interval_min = 3.000000
 		retrigger_interval_max = 15.000000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/inferno/window_01.vsnd",
@@ -2962,6 +2988,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		fadetime_volume_mapping_curve = 
 		[
 			
@@ -3058,6 +3085,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		time_volume_mapping_curve = 
 		[
 			
@@ -3167,6 +3195,7 @@
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
 		volume = 0.300000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/wind/dry_air_short_indoors.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -3298,6 +3327,7 @@
 		volume = 0.150000
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\inferno\exterior_02.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -3428,6 +3458,7 @@
 			220.338013,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/inferno/house_creak_01.vsnd",
@@ -3550,6 +3581,7 @@
 			151.351120,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\canals\music_canals_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -3666,6 +3698,7 @@
 			209.217148,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/misc/flour_light_loud.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -3782,6 +3815,7 @@
 			212.776367,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/misc/flour_light_loud.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -3893,6 +3927,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		fadetime_volume_mapping_curve = 
 		[
 			
@@ -4000,6 +4035,7 @@
 		retrigger_interval_min = 3.000000
 		retrigger_interval_max = 15.000000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -4119,6 +4155,7 @@
 			81.043823,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/canals/ambience_canals_water_lap_01.vsnd",
@@ -4240,6 +4277,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		fadetime_volume_mapping_curve = 
 		[
 			
@@ -4346,6 +4384,7 @@
 			685.404053,
 			131.054855,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/animal/cricket_chirp_1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -4466,6 +4505,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		fadetime_volume_mapping_curve = 
 		[
 			
@@ -4563,6 +4603,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		time_volume_mapping_curve = 
 		[
 			
@@ -4669,6 +4710,7 @@
 		volume = 0.100000
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\inferno\exterior_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -4781,7 +4823,7 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 32.445713
+		vsnd_duration = 145.617798
 	}
 	canals.TStart_Interior.Music = 
 	{
@@ -4796,6 +4838,7 @@
 			151.351120,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\canals\music_canals_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -4907,6 +4950,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		time_volume_mapping_curve = 
 		[
 			
@@ -5014,6 +5058,7 @@
 		retrigger_interval_min = 3.000000
 		retrigger_interval_max = 15.000000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/flies1.vsnd",
@@ -5123,6 +5168,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		fadetime_volume_mapping_curve = 
 		[
 			
@@ -5221,6 +5267,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		fadetime_volume_mapping_curve = 
 		[
 			
@@ -5319,6 +5366,7 @@
 		volume = 0.150000
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\inferno\exterior_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -5431,7 +5479,7 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 32.445713
+		vsnd_duration = 145.617798
 	}
 	canals.Ivy.Cricket = 
 	{
@@ -5444,6 +5492,7 @@
 		enable_retrigger = true
 		retrigger_interval_min = 0.800000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/animal/cricket_chirp_1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -5571,6 +5620,7 @@
 			229.781082,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/inferno/bees_01.vsnd",
@@ -5689,6 +5739,7 @@
 		pitch_random_max = 0.100000
 		volume_random_min = -0.300000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/flies1.vsnd",
@@ -5807,6 +5858,7 @@
 			307.940582,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/bird1.vsnd",
@@ -5931,6 +5983,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		fadetime_volume_mapping_curve = 
 		[
 			
@@ -6027,6 +6080,7 @@
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
 		volume = 0.300000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/wind/dry_air_short_indoors.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -6159,6 +6213,7 @@
 		pitch = 0.900000
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\inferno\exterior_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -6271,7 +6326,7 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 32.445713
+		vsnd_duration = 145.617798
 	}
 	canals.Stairwell.HouseCreaks = 
 	{
@@ -6286,6 +6341,7 @@
 		randomize_position_max_radius = 1000.000000
 		set_child_position = false
 		position_relative_to_player = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/inferno/house_creak_01.vsnd",
@@ -6404,6 +6460,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -6501,6 +6558,7 @@
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
 		volume = 0.300000
+		distance_effect_mix = 0.000000
 		distance_unfiltered_stereo_mapping_curve = 
 		[
 			
@@ -6632,6 +6690,7 @@
 		use_distance_unfiltered_stereo_mapping_curve = true
 		volume = 0.060000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -6744,7 +6803,7 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 32.445713
+		vsnd_duration = 145.617798
 	}
 	canals.BBomb.HouseCreaks = 
 	{
@@ -6764,6 +6823,7 @@
 			289.000000,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -6882,6 +6942,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		fadetime_volume_mapping_curve = 
 		[
 			
@@ -6980,6 +7041,7 @@
 		pitch = 0.950000
 		volume = 0.150000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		distance_unfiltered_stereo_mapping_curve = 
 		[
 			
@@ -7092,7 +7154,7 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 32.445713
+		vsnd_duration = 145.617798
 	}
 	canals.Lobby.Interior = 
 	{
@@ -7102,6 +7164,7 @@
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
 		volume = 0.300000
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -7242,6 +7305,7 @@
 		enable_retrigger = true
 		retrigger_interval_min = 15.000000
 		retrigger_interval_max = 20.000000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/inferno/house_creak_01.vsnd",
@@ -7360,6 +7424,7 @@
 		dsp_preset = "reverb_20_outsideAlley"
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -7457,6 +7522,7 @@
 		volume = 0.300000
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\canals\ambience_canals_water_bg.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -7580,6 +7646,7 @@
 		pitch = 0.900000
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\inferno\exterior_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -7692,7 +7759,7 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 32.445713
+		vsnd_duration = 145.617798
 	}
 	canals.Water.Traffic = 
 	{
@@ -7708,6 +7775,7 @@
 		]
 		use_distance_unfiltered_stereo_mapping_curve = false
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/canals/ambience_canals_traffic_bg.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -7838,6 +7906,7 @@
 		mixgroup = "Canals"
 		enable_child_events = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		fadetime_volume_mapping_curve = 
 		[
 			
@@ -7957,6 +8026,7 @@
 		set_child_position = false
 		use_world_position = false
 		volume = 0.200000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/canals/ambience_canals_water_lap_01.vsnd",
@@ -8079,6 +8149,7 @@
 		retrigger_interval_max = 10.000000
 		set_child_position = false
 		use_world_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/canals/ambience_canals_water_lap_01.vsnd",
@@ -8201,6 +8272,7 @@
 		retrigger_interval_max = 10.000000
 		set_child_position = false
 		use_world_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/canals/ambience_canals_water_lap_01.vsnd",
@@ -8323,6 +8395,7 @@
 		retrigger_interval_max = 10.000000
 		set_child_position = false
 		use_world_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/canals/ambience_canals_water_lap_01.vsnd",
@@ -8446,6 +8519,7 @@
 		retrigger_interval_min = 5.000000
 		set_child_position = false
 		use_world_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/canals/ambience_canals_water_lap_01.vsnd",
@@ -8563,6 +8637,7 @@
 		]
 		set_child_position = false
 		use_world_position = false
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -8675,6 +8750,7 @@
 		retrigger_interval_max = 15.000000
 		set_child_position = false
 		use_world_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/flies1.vsnd",
@@ -8794,6 +8870,7 @@
 		]
 		set_child_position = false
 		use_world_position = false
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -8914,6 +8991,7 @@
 		set_child_position = false
 		use_world_position = false
 		volume = 0.300000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/canals/ambience_canals_water_bridge_01.vsnd",
@@ -9029,6 +9107,7 @@
 		]
 		set_child_position = false
 		use_world_position = false
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -9141,6 +9220,7 @@
 		retrigger_interval_max = 15.000000
 		set_child_position = false
 		use_world_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/flies1.vsnd",
@@ -9261,6 +9341,7 @@
 		set_child_position = false
 		use_world_position = false
 		volume = 0.500000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/canals/ambience_canals_water_bridge_01.vsnd",
@@ -9382,6 +9463,7 @@
 		set_child_position = false
 		use_world_position = false
 		volume = 0.300000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/canals/ambience_canals_water_bridge_01.vsnd",
@@ -9504,6 +9586,7 @@
 		use_distance_unfiltered_stereo_mapping_curve = false
 		use_world_position = false
 		volume = 0.600000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/canals/ambience_canals_water_bridge_01.vsnd",
@@ -9653,6 +9736,7 @@
 		dsp_preset = "reverb_20_outsideAlley"
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		fadetime_volume_mapping_curve = 
 		[
 			
@@ -9753,6 +9837,7 @@
 		use_distance_unfiltered_stereo_mapping_curve = true
 		volume = 0.150000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -9865,7 +9950,7 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 32.445713
+		vsnd_duration = 145.617798
 	}
 	canals.Window = 
 	{
@@ -9876,6 +9961,7 @@
 		dsp_preset = "reverb_6_largeRoom"
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		fadetime_volume_mapping_curve = 
 		[
 			
@@ -9967,6 +10053,7 @@
 		use_distance_unfiltered_stereo_mapping_curve = true
 		volume = 0.150000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -10079,7 +10166,7 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 32.445713
+		vsnd_duration = 145.617798
 	}
 	canals.Courtyard = 
 	{
@@ -10090,6 +10177,7 @@
 		mixgroup = "Canals"
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -10182,6 +10270,7 @@
 		dsp_preset = "reverb_6_largeRoom"
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		fadetime_volume_mapping_curve = 
 		[
 			
@@ -10273,6 +10362,7 @@
 		use_distance_unfiltered_stereo_mapping_curve = true
 		volume = 0.150000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -10385,7 +10475,7 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 32.445713
+		vsnd_duration = 145.617798
 	}
 	canals.Tunnel_Stairs = 
 	{
@@ -10396,6 +10486,7 @@
 		dsp_preset = "reverb_9_mediumChamber"
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		soundevent_01 = 
 		[
 			"canals.Tunnel_Stairs.Exterior",
@@ -10502,6 +10593,7 @@
 		volume = 0.100000
 		pitch = 0.900000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -10614,7 +10706,7 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 32.445713
+		vsnd_duration = 145.617798
 	}
 	canals.Tunnel_Stairs.Interior = 
 	{
@@ -10624,6 +10716,7 @@
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
 		volume = 0.300000
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -10763,6 +10856,7 @@
 		retrigger_interval_max = 10.000000
 		pitch_random_min = -0.100000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/inferno/house_creak_01.vsnd",
@@ -10881,6 +10975,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		fadetime_volume_mapping_curve = 
 		[
 			
@@ -10987,6 +11082,7 @@
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
 		volume = 0.300000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/wind/dry_air_short_indoors.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -11119,6 +11215,7 @@
 		volume = 0.120000
 		pitch = 0.900000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		distance_unfiltered_stereo_mapping_curve = 
 		[
 			
@@ -11231,7 +11328,7 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 32.445713
+		vsnd_duration = 145.617798
 	}
 	canals.Tunnels.HouseCreaks = 
 	{
@@ -11248,6 +11345,7 @@
 			289.000000,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -11373,6 +11471,7 @@
 			118.096146,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/nuke/machine_05.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -11484,6 +11583,7 @@
 		dsp_preset = "reverb_20_outsideAlley"
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		fadetime_volume_mapping_curve = 
 		[
 			
@@ -11581,6 +11681,7 @@
 		volume = 0.150000
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\inferno\exterior_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -11693,7 +11794,7 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 32.445713
+		vsnd_duration = 145.617798
 	}
 	canals.Short.Music = 
 	{
@@ -11708,6 +11809,7 @@
 			151.351120,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\canals\music_canals_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -11819,6 +11921,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		soundevent_01 = 
 		[
 			"canals.Outside",
@@ -11914,6 +12017,7 @@
 		mixgroup = "Canals"
 		volume = 0.100000
 		use_distance_unfiltered_stereo_mapping_curve = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/inferno/exterior_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -11978,7 +12082,7 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 32.445713
+		vsnd_duration = 145.617798
 	}
 	canals.WaterCT.Reverb = 
 	{
@@ -11986,6 +12090,7 @@
 		override_dsp_preset = true
 		dsp_preset = "reverb_21_outsideStreet"
 		mixgroup = "Canals"
+		distance_effect_mix = 0.000000
 	}
 	canals.Water.Reverb = 
 	{
@@ -11993,6 +12098,7 @@
 		override_dsp_preset = true
 		dsp_preset = "reverb_20_outsideAlley"
 		mixgroup = "Canals"
+		distance_effect_mix = 0.000000
 	}
 	canals.CTStart.Seagulls = 
 	{
@@ -12015,6 +12121,7 @@
 		volume_random_min = -0.900000
 		volume_random_max = -0.700000
 		randomize_position_max_radius = 100.000000
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -12143,6 +12250,7 @@
 		volume_random_min = -0.900000
 		volume_random_max = -0.700000
 		randomize_position_max_radius = 100.000000
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -12271,6 +12379,7 @@
 		volume_random_min = -0.900000
 		volume_random_max = -0.700000
 		randomize_position_max_radius = 100.000000
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -12408,6 +12517,7 @@
 		volume_random_min = -0.900000
 		volume_random_max = -0.700000
 		randomize_position_max_radius = 100.000000
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -12537,6 +12647,7 @@
 		volume_random_max = -0.700000
 		randomize_position_min_radius = 0.000000
 		randomize_position_max_radius = 100.000000
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -12665,6 +12776,7 @@
 		volume_random_min = -0.900000
 		volume_random_max = -0.700000
 		randomize_position_max_radius = 100.000000
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -12793,6 +12905,7 @@
 		volume_random_min = -0.900000
 		volume_random_max = -0.700000
 		randomize_position_max_radius = 100.000000
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -12928,6 +13041,7 @@
 		]
 		set_child_position = false
 		randomize_position_max_radius = 100.000000
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -13063,6 +13177,7 @@
 		]
 		set_child_position = false
 		randomize_position_max_radius = 100.000000
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -13200,6 +13315,7 @@
 		volume_random_min = -0.900000
 		volume_random_max = -0.700000
 		randomize_position_max_radius = 100.000000
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -13335,6 +13451,7 @@
 		]
 		set_child_position = false
 		randomize_position_max_radius = 100.000000
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -13460,6 +13577,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		soundevent_01 = 
 		[
 			"canals.Outside",
@@ -13556,6 +13674,7 @@
 		dsp_preset = "reverb_11_smallBright"
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -13654,6 +13773,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			

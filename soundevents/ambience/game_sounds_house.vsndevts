@@ -1,3 +1,4 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	house.CTSpawn = 
 	{
@@ -17,6 +18,7 @@
 		dsp_preset = "reverb_21_outsideStreet"
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -121,6 +123,7 @@
 		volume = 1.000000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/safehouse/safehouse_birdamb.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -256,6 +259,7 @@
 			400.228485,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/machines/truck_idle_loop.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -376,6 +380,7 @@
 		set_child_position = false
 		position_relative_to_player = true
 		retrigger_radius = 10000.000000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/bird1.vsnd",
@@ -508,6 +513,7 @@
 		set_child_position = false
 		position_relative_to_player = true
 		retrigger_radius = 10000.000000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/overhead/plane1.vsnd",
@@ -629,6 +635,7 @@
 			0.000000,
 			0.000000,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -743,6 +750,7 @@
 		volume = 0.300000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/safehouse/safehouse_birdamb.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -874,6 +882,7 @@
 		set_child_position = false
 		position_relative_to_player = true
 		retrigger_radius = 10000.000000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/bird1.vsnd",
@@ -1006,6 +1015,7 @@
 		set_child_position = false
 		position_relative_to_player = true
 		retrigger_radius = 10000.000000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/overhead/plane1.vsnd",
@@ -1121,6 +1131,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1230,6 +1241,7 @@
 		volume = 0.500000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/nature/safehouse_amb_indoor.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -1361,6 +1373,7 @@
 		volume = 0.350000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/tones/roomtone2.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -1502,6 +1515,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1621,6 +1635,7 @@
 		]
 		set_child_position = false
 		pitch = 1.200000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/machines/truck_idle_loop.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1741,6 +1756,7 @@
 		set_child_position = false
 		position_relative_to_player = true
 		retrigger_radius = 10000.000000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/bird1.vsnd",
@@ -1873,6 +1889,7 @@
 		set_child_position = false
 		position_relative_to_player = true
 		retrigger_radius = 10000.000000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/overhead/plane1.vsnd",
@@ -1978,6 +1995,7 @@
 		volume = 1.000000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/safehouse/safehouse_birdamb.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -2115,6 +2133,7 @@
 			215.439774,
 		]
 		retrigger_radius = 2000.000000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/frog_01.vsnd",
@@ -2262,6 +2281,7 @@
 			1247.016113,
 		]
 		retrigger_radius = 3000.000000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/crow_call_01.vsnd",
@@ -2379,6 +2399,7 @@
 		volume = 0.600000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\wind\tree_sway_wind_lp_03.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -2518,6 +2539,7 @@
 		]
 		retrigger_radius = 3000.000000
 		pitch = 1.100000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/crow_call_01.vsnd",
@@ -2651,6 +2673,7 @@
 		]
 		reverb_wet = 0.000000
 		retrigger_radius = 4000.000000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/dove_call_01.vsnd",
@@ -2783,6 +2806,7 @@
 			232.982407,
 		]
 		retrigger_radius = 1200.000000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/animal/cricket_chirp_1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -2917,6 +2941,7 @@
 			250.000000,
 		]
 		retrigger_radius = 1200.000000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/animal/cricket_chirp_1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -3052,6 +3077,7 @@
 		]
 		use_distance_unfiltered_stereo_mapping_curve = true
 		retrigger_radius = 3000.000000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/nature/wind_tree_01.vsnd",
@@ -3213,6 +3239,7 @@
 		]
 		use_distance_unfiltered_stereo_mapping_curve = true
 		retrigger_radius = 3000.000000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/nature/wind_tree_01.vsnd",
@@ -3374,11 +3401,11 @@
 		]
 		use_distance_unfiltered_stereo_mapping_curve = true
 		retrigger_radius = 3000.000000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/nature/wind_tree_01.vsnd",
 			"sounds/ambient/nature/wind_tree_02.vsnd",
-			"sounds/ambient/nature/wind_tree_03.vsnd",
 		]
 		distance_volume_mapping_curve = 
 		[
@@ -3535,6 +3562,7 @@
 		]
 		use_distance_unfiltered_stereo_mapping_curve = true
 		retrigger_radius = 3000.000000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/nature/wind_tree_01.vsnd",
@@ -3696,11 +3724,11 @@
 		]
 		use_distance_unfiltered_stereo_mapping_curve = true
 		retrigger_radius = 3000.000000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/nature/wind_tree_01.vsnd",
 			"sounds/ambient/nature/wind_tree_02.vsnd",
-			"sounds/ambient/nature/wind_tree_03.vsnd",
 		]
 		distance_volume_mapping_curve = 
 		[
@@ -3855,6 +3883,7 @@
 			520.524963,
 			295.877258,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/flies1.vsnd",
@@ -3979,6 +4008,7 @@
 			0.000000,
 		]
 		retrigger_radius = 1000.000000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\wind\tree_sway_wind_lp_03.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -4107,6 +4137,7 @@
 			-59.787231,
 			278.524902,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/safehouse/fireplace_lp.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -4262,6 +4293,7 @@
 			-704.232117,
 			197.303955,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/safehouse/safehouse_lakelap.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -4408,6 +4440,7 @@
 			-2145.027832,
 			298.045746,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/safehouse/safehouse_waterfall.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -4544,7 +4577,7 @@
 	{
 		type = "csgo_mega"
 		mixgroup = "House"
-		volume = 0.900000
+		volume = 0.100000
 		volume_random_min = 0.000000
 		volume_random_max = 0.000000
 		pitch_random_min = -0.300000
@@ -4565,6 +4598,7 @@
 		reverb_wet = 0.000000
 		retrigger_radius = 10000.000000
 		pitch_random_max = 0.200000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/safehouse/safehouse_cow.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -4700,6 +4734,7 @@
 		]
 		reverb_wet = 0.000000
 		retrigger_radius = 10000.000000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/safehouse/safehouse_traffic_01.vsnd",
@@ -4843,6 +4878,7 @@
 			2021.058472,
 			417.960724,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/safehouse/safehouse_crickets.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -4979,7 +5015,7 @@
 	{
 		type = "csgo_mega"
 		mixgroup = "House"
-		volume = 0.900000
+		volume = 0.100000
 		volume_random_min = 0.000000
 		volume_random_max = 0.000000
 		pitch_random_min = -0.300000
@@ -5000,6 +5036,7 @@
 		reverb_wet = 0.000000
 		retrigger_radius = 10000.000000
 		pitch_random_max = 0.200000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/safehouse/safehouse_cow.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -5136,6 +5173,7 @@
 		reverb_wet = 0.000000
 		retrigger_radius = 10000.000000
 		pitch_random_max = 0.200000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/player/footsteps/new/wood_floor_creak_01.vsnd",

@@ -1,3 +1,4 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	mirage.Outside.Generic = 
 	{
@@ -10,6 +11,8 @@
 		override_dsp_preset = true
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -98,6 +101,7 @@
 			"mirage.Outside.Generic.LightWindGust",
 			"mirage.Outside.Generic.TreeBirds",
 			"mirage.Outside.Generic.WindGusts",
+			"Mirage.Outside.Urban",
 		]
 	}
 	mirage.Outside.Generic.LightWind = 
@@ -105,11 +109,13 @@
 		type = "csgo_mega"
 		mixgroup = "Mirage"
 		use_time_volume_mapping_curve = true
-		volume = 0.100000
+		volume = 0.400000
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/desert_lp_01_light_wind.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -242,9 +248,12 @@
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
 		retrigger_radius = 10000.000000
-		reverb_wet = 1.000000
-		pitch = 1.200000
-		vsnd_files_track_01 = "sounds/ambient/atmosphere/desert_lp_08_light_wind_gusts.vsnd"
+		reverb_wet = 0.000000
+		pitch = 1.100000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		reverb_source_wet = 0.000000
+		vsnd_files_track_01 = "sounds/ambient/dust2/wind_sand_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
 			
@@ -365,7 +374,7 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 7.090091
+		vsnd_duration = 70.579208
 	}
 	mirage.Outside.Generic.WindGusts = 
 	{
@@ -382,8 +391,11 @@
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		position_relative_to_player = true
-		reverb_wet = 1.000000
+		reverb_wet = 0.000000
 		randomize_position_min_radius = 2000.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		reverb_source_wet = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/wind/wind_gust_01.vsnd",
@@ -516,8 +528,11 @@
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		position_relative_to_player = true
-		reverb_wet = 1.000000
+		reverb_wet = 0.000000
 		randomize_position_min_radius = 2000.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		reverb_source_wet = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/creatures/dog_bark_distant_01.vsnd",
@@ -648,9 +663,12 @@
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		position_relative_to_player = true
-		reverb_wet = 1.000000
+		reverb_wet = 0.000000
 		randomize_position_min_radius = 4000.000000
 		volume_random_min = 0.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		reverb_source_wet = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/atmosphere/csgo_dust_car_driveby_01.vsnd",
@@ -766,12 +784,14 @@
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
 		mixgroup = "Mirage"
-		volume = 0.700000
+		volume = 0.300000
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
-		pitch = 0.900000
+		pitch = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/desert_lp_04_light_wind.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -912,6 +932,8 @@
 		position_relative_to_player = true
 		reverb_wet = 1.000000
 		randomize_position_min_radius = 2000.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/wind/wind_gust_11.vsnd",
@@ -1046,6 +1068,8 @@
 		position_relative_to_player = true
 		reverb_wet = 1.000000
 		randomize_position_min_radius = 3000.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/playonce/overhead/hel1.vsnd",
@@ -1172,6 +1196,8 @@
 		position_relative_to_player = true
 		reverb_wet = 1.000000
 		randomize_position_min_radius = 2000.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/creatures/dog_bark_distant_01.vsnd",
@@ -1305,6 +1331,8 @@
 		reverb_wet = 1.000000
 		randomize_position_min_radius = 2000.000000
 		volume_random_min = 0.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/machines/truck_drive_by_01.vsnd",
@@ -1431,10 +1459,13 @@
 		override_dsp_preset = true
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = 
 		[
 			"Mirage.Outside.Alley.DogBarks",
 			"Mirage.Outside.Alley.LightWind",
+			"Mirage.Outside.Urban",
 		]
 		distance_volume_mapping_curve = 
 		[
@@ -1518,272 +1549,6 @@
 			],
 		]
 	}
-	Mirage.Outside.Alley.LightWindGust = 
-	{
-		type = "csgo_mega"
-		mixgroup = "Mirage"
-		use_time_volume_mapping_curve = true
-		volume = 0.250000
-		use_distance_unfiltered_stereo_mapping_curve = true
-		set_child_position = false
-		retrigger_radius = 10000.000000
-		reverb_wet = 1.000000
-		vsnd_files_track_01 = "sounds/ambient/atmosphere/desert_lp_08_light_wind_gusts.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				300.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		distance_unfiltered_stereo_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				300.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		fadetime_volume_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				0.522367,
-				0.626582,
-				-0.561423,
-				-0.561423,
-				3.000000,
-				1.000000,
-			],
-			
-			[
-				1.375347,
-				0.227848,
-				-0.349671,
-				-0.349671,
-				1.000000,
-				1.000000,
-			],
-			
-			[
-				2.314286,
-				0.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		time_volume_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				0.145714,
-				0.062500,
-				1.836831,
-				1.836831,
-				3.000000,
-				1.000000,
-			],
-			
-			[
-				0.374286,
-				0.687500,
-				1.953125,
-				1.953125,
-				3.000000,
-				1.000000,
-			],
-			
-			[
-				0.625714,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		vsnd_duration = 7.090091
-	}
-	Mirage.Outside.Alley.LightWindGust2 = 
-	{
-		type = "csgo_mega"
-		mixgroup = "Mirage"
-		use_time_volume_mapping_curve = true
-		use_distance_unfiltered_stereo_mapping_curve = true
-		volume = 0.250000
-		set_child_position = false
-		retrigger_radius = 10000.000000
-		reverb_wet = 1.000000
-		distance_volume_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				300.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		distance_unfiltered_stereo_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				300.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		time_volume_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				0.145714,
-				0.062500,
-				1.836831,
-				1.836831,
-				3.000000,
-				1.000000,
-			],
-			
-			[
-				0.374286,
-				0.687500,
-				1.953125,
-				1.953125,
-				3.000000,
-				1.000000,
-			],
-			
-			[
-				0.625714,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		fadetime_volume_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				0.522367,
-				0.626582,
-				-0.561423,
-				-0.561423,
-				3.000000,
-				1.000000,
-			],
-			
-			[
-				1.375347,
-				0.227848,
-				-0.349671,
-				-0.349671,
-				1.000000,
-				1.000000,
-			],
-			
-			[
-				2.314286,
-				0.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		vsnd_files_track_01 = "sounds/ambient/atmosphere/desert_lp_05_light_wind_gusts.vsnd"
-		vsnd_duration = 8.300544
-	}
 	Mirage.Outside.Alley.DogBarks = 
 	{
 		type = "csgo_mega"
@@ -1801,6 +1566,8 @@
 		position_relative_to_player = true
 		reverb_wet = 1.000000
 		randomize_position_min_radius = 2000.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/creatures/dog_bark_distant_01.vsnd",
@@ -1915,147 +1682,19 @@
 		]
 		vsnd_duration = 4.668186
 	}
-	Mirage.Outside.Alley.DriveBys = 
-	{
-		type = "csgo_mega"
-		mixgroup = "Mirage"
-		use_time_volume_mapping_curve = false
-		volume = 0.200000
-		pitch_random_min = -0.100000
-		pitch_random_max = 0.050000
-		enable_retrigger = true
-		retrigger_interval_min = 5.000000
-		retrigger_interval_max = 20.000000
-		randomize_position_max_radius = 3000.000000
-		set_child_position = false
-		retrigger_radius = 10000.000000
-		position_relative_to_player = true
-		reverb_wet = 1.000000
-		randomize_position_min_radius = 2000.000000
-		volume_random_min = 0.000000
-		vsnd_files_track_01 = 
-		[
-			"sounds/ambient/atmosphere/csgo_dust_car_driveby_01.vsnd",
-			"sounds/ambient/atmosphere/csgo_dust_car_driveby_02.vsnd",
-			"sounds/ambient/atmosphere/csgo_dust_car_driveby_03.vsnd",
-			"sounds/ambient/atmosphere/csgo_dust_car_driveby_04.vsnd",
-			"sounds/ambient/atmosphere/csgo_dust_car_driveby_05.vsnd",
-			"sounds/ambient/atmosphere/csgo_dust_car_driveby_06.vsnd",
-			"sounds/ambient/atmosphere/csgo_dust_car_driveby_07.vsnd",
-		]
-		metadata = "position_random"
-		distance_volume_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				600.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		time_volume_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				0.145714,
-				0.062500,
-				1.836831,
-				1.836831,
-				3.000000,
-				1.000000,
-			],
-			
-			[
-				0.374286,
-				0.687500,
-				1.953125,
-				1.953125,
-				3.000000,
-				1.000000,
-			],
-			
-			[
-				0.625714,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		fadetime_volume_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				0.522367,
-				0.626582,
-				-0.561423,
-				-0.561423,
-				3.000000,
-				1.000000,
-			],
-			
-			[
-				1.375347,
-				0.227848,
-				-0.349671,
-				-0.349671,
-				1.000000,
-				1.000000,
-			],
-			
-			[
-				2.314286,
-				0.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		vsnd_duration = 5.375964
-	}
 	Mirage.Outside.Alley.LightWind = 
 	{
 		type = "csgo_mega"
 		mixgroup = "Mirage"
-		volume = 0.900000
+		volume = 0.400000
 		use_time_volume_mapping_curve = true
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
-		vsnd_files_track_01 = "sounds/ambient/atmosphere/desert_lp_03_light_wind.vsnd"
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		vsnd_files_track_01 = "sounds/ambient/dust2/wind_sand_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
 			
@@ -2176,286 +1815,23 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 5.838798
-	}
-	Mirage.Outside.Palace.MedWind = 
-	{
-		type = "csgo_mega"
-		mixgroup = "Mirage"
-		use_time_volume_mapping_curve = true
-		volume = 0.000000
-		use_distance_unfiltered_stereo_mapping_curve = true
-		set_child_position = false
-		retrigger_radius = 10000.000000
-		reverb_wet = 1.000000
-		vsnd_files_track_01 = "sounds/ambient/atmosphere/desert_lp_11_med_wind.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				300.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		distance_unfiltered_stereo_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				300.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		time_volume_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				0.145714,
-				0.062500,
-				1.637324,
-				1.637324,
-				3.000000,
-				1.000000,
-			],
-			
-			[
-				0.405714,
-				0.664286,
-				1.665608,
-				1.665608,
-				3.000000,
-				1.000000,
-			],
-			
-			[
-				0.708571,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		fadetime_volume_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				0.522367,
-				0.626582,
-				-0.561423,
-				-0.561423,
-				3.000000,
-				1.000000,
-			],
-			
-			[
-				1.375347,
-				0.227848,
-				-0.349671,
-				-0.349671,
-				1.000000,
-				1.000000,
-			],
-			
-			[
-				2.314286,
-				0.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		vsnd_duration = 4.973606
-	}
-	Mirage.Outside.Palace.LightWind = 
-	{
-		type = "csgo_mega"
-		mixgroup = "Mirage"
-		use_time_volume_mapping_curve = true
-		volume = 0.080000
-		use_distance_unfiltered_stereo_mapping_curve = true
-		set_child_position = false
-		retrigger_radius = 10000.000000
-		reverb_wet = 1.000000
-		vsnd_files_track_01 = "sounds/ambient/atmosphere/desert_lp_07_light_wind.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				300.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		distance_unfiltered_stereo_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				300.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		time_volume_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				0.145714,
-				0.062500,
-				1.637324,
-				1.637324,
-				3.000000,
-				1.000000,
-			],
-			
-			[
-				0.405714,
-				0.664286,
-				1.665608,
-				1.665608,
-				3.000000,
-				1.000000,
-			],
-			
-			[
-				0.708571,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		fadetime_volume_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				0.522367,
-				0.626582,
-				-0.561423,
-				-0.561423,
-				3.000000,
-				1.000000,
-			],
-			
-			[
-				1.375347,
-				0.227848,
-				-0.349671,
-				-0.349671,
-				1.000000,
-				1.000000,
-			],
-			
-			[
-				2.314286,
-				0.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		vsnd_duration = 7.339161
+		vsnd_duration = 70.579208
 	}
 	Mirage.Outside.Palace.LightWindGust = 
 	{
 		type = "csgo_mega"
 		mixgroup = "Mirage"
 		use_time_volume_mapping_curve = true
-		volume = 0.600000
+		volume = 0.200000
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 0.000000
 		reverb_source_wet = 0.000000
-		vsnd_files_track_01 = "sounds/ambient/atmosphere/desert_lp_08_light_wind_gusts.vsnd"
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		pitch = 1.100000
+		vsnd_files_track_01 = "sounds/ambient/inferno/exterior_02.vsnd"
 		distance_volume_mapping_curve = 
 		[
 			
@@ -2576,17 +1952,17 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 7.090091
+		vsnd_duration = 37.762447
 	}
 	Mirage.Outside.Palace.WindGusts = 
 	{
 		type = "csgo_mega"
 		mixgroup = "Mirage"
 		use_time_volume_mapping_curve = false
-		volume = 0.000000
+		volume = 0.300000
 		pitch_random_min = -0.050000
 		pitch_random_max = 0.050000
-		enable_retrigger = true
+		enable_retrigger = false
 		retrigger_interval_min = 3.000000
 		retrigger_interval_max = 15.000000
 		randomize_position_max_radius = 3000.000000
@@ -2596,21 +1972,10 @@
 		reverb_wet = 1.000000
 		position_relative_to_player = true
 		use_fadetime_volume_mapping_curve = false
-		vsnd_files_track_01 = 
-		[
-			"sounds/ambient/wind/wind_gust_01.vsnd",
-			"sounds/ambient/wind/wind_gust_02.vsnd",
-			"sounds/ambient/wind/wind_gust_03.vsnd",
-			"sounds/ambient/wind/wind_gust_04.vsnd",
-			"sounds/ambient/wind/wind_gust_05.vsnd",
-			"sounds/ambient/wind/wind_gust_06.vsnd",
-			"sounds/ambient/wind/wind_gust_07.vsnd",
-			"sounds/ambient/wind/wind_gust_08.vsnd",
-			"sounds/ambient/wind/wind_gust_09.vsnd",
-			"sounds/ambient/wind/wind_gust_10_01.vsnd",
-			"sounds/ambient/wind/wind_gust_11.vsnd",
-			"sounds/ambient/wind/wind_gust_12.vsnd",
-		]
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		use_distance_unfiltered_stereo_mapping_curve = true
+		vsnd_files_track_01 = "sounds/ambient/atmosphere/desert_lp_06_light_wind_gusts.vsnd"
 		distance_volume_mapping_curve = 
 		[
 			
@@ -2711,7 +2076,28 @@
 			],
 		]
 		metadata = "position_random"
-		vsnd_duration = 6.447959
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 11.547755
 	}
 	Mirage.Outside.Palace.DogBarks = 
 	{
@@ -2732,6 +2118,8 @@
 		reverb_wet = 1.000000
 		use_fadetime_volume_mapping_curve = false
 		randomize_position_min_radius = 2000.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -2852,21 +2240,28 @@
 		type = "csgo_mega"
 		mixgroup = "Mirage"
 		use_time_volume_mapping_curve = false
-		volume = 0.200000
+		volume = 0.050000
 		pitch_random_min = -0.100000
 		pitch_random_max = 0.050000
 		enable_retrigger = true
 		retrigger_interval_min = 5.000000
 		retrigger_interval_max = 20.000000
-		randomize_position_max_radius = 3000.000000
 		set_child_position = false
 		retrigger_radius = 10000.000000
-		position_relative_to_player = true
+		position_relative_to_player = false
 		volume_random_min = 0.000000
 		volume_random_max = 0.000000
 		reverb_wet = 1.000000
-		randomize_position_min_radius = 2000.000000
 		use_fadetime_volume_mapping_curve = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		position = 
+		[
+			-1235.000000,
+			-2711.000000,
+			83.000000,
+		]
+		use_world_position = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -2992,11 +2387,14 @@
 		override_dsp_preset = true
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = 
 		[
 			"mirage.Outside.Palace_alley_01.DogBarks",
 			"mirage.Outside.Palace_alley_01.LightWindGust",
 			"mirage.Outside.Palace_alley_01.Wood",
+			"Mirage.Outside.Urban",
 		]
 		distance_volume_mapping_curve = 
 		[
@@ -3085,12 +2483,14 @@
 		type = "csgo_mega"
 		mixgroup = "Mirage"
 		use_time_volume_mapping_curve = true
-		volume = 0.800000
+		volume = 0.050000
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
 		retrigger_radius = 10000.000000
-		reverb_wet = 1.000000
-		vsnd_files_track_01 = "sounds/ambient/atmosphere/desert_lp_08_light_wind_gusts.vsnd"
+		reverb_wet = 0.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		vsnd_files_track_01 = "sounds/ambient/atmosphere/desert_lp_12_med_wind.vsnd"
 		distance_volume_mapping_curve = 
 		[
 			
@@ -3211,7 +2611,7 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 7.090091
+		vsnd_duration = 8.434195
 	}
 	mirage.Outside.Palace_alley_01.DogBarks = 
 	{
@@ -3230,6 +2630,8 @@
 		position_relative_to_player = true
 		reverb_wet = 1.000000
 		randomize_position_min_radius = 2000.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/creatures/dog_bark_distant_01.vsnd",
@@ -3369,6 +2771,8 @@
 		]
 		use_world_position = true
 		pitch = 1.100000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/misc/wood1.vsnd",
@@ -3490,6 +2894,8 @@
 		override_dsp_preset = true
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -3603,6 +3009,8 @@
 		retrigger_radius = 10000.000000
 		reverb_wet = 0.000000
 		reverb_source_wet = 0.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		fadetime_volume_mapping_curve = 
 		[
 			
@@ -3737,6 +3145,8 @@
 		retrigger_radius = 10000.000000
 		reverb_wet = 0.000000
 		reverb_source_wet = 0.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		fadetime_volume_mapping_curve = 
 		[
 			
@@ -3876,6 +3286,8 @@
 		retrigger_radius = 10000.000000
 		position_relative_to_player = true
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		fadetime_volume_mapping_curve = 
 		[
 			
@@ -4002,6 +3414,8 @@
 		retrigger_radius = 10000.000000
 		reverb_wet = 0.000000
 		reverb_source_wet = 0.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		fadetime_volume_mapping_curve = 
 		[
 			
@@ -4130,6 +3544,8 @@
 		retrigger_radius = 10000.000000
 		reverb_wet = 0.000000
 		reverb_source_wet = 0.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		fadetime_volume_mapping_curve = 
 		[
 			
@@ -4258,6 +3674,8 @@
 		retrigger_radius = 10000.000000
 		reverb_wet = 0.000000
 		reverb_source_wet = 0.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		fadetime_volume_mapping_curve = 
 		[
 			
@@ -4380,6 +3798,8 @@
 		override_dsp_preset = true
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = 
 		[
 			"mirage.Inside.Tunnel.AirConditioner",
@@ -4492,6 +3912,8 @@
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/corridor_room_tone_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -4633,6 +4055,8 @@
 		volume = 0.200000
 		position_relative_to_player = true
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/rodent_scratch_short_1.vsnd",
@@ -4757,6 +4181,8 @@
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/water/drip_loop1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -4885,6 +4311,8 @@
 		retrigger_radius = 10000.000000
 		position_relative_to_player = true
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/flies1.vsnd",
@@ -5011,6 +4439,8 @@
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/machines/electrical_hum_2.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -5138,6 +4568,8 @@
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/machines/amb_bank_air_conditioner.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -5245,11 +4677,16 @@
 		type = "csgo_mega"
 		mixgroup = "Mirage"
 		use_time_volume_mapping_curve = true
-		volume = 0.100000
+		volume = 0.000000
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		block_duration = 2.000000
+		block_distance = 100.000000
+		block_match_entity = false
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/corridor_room_tone_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -5373,139 +4810,6 @@
 		]
 		vsnd_duration = 6.340952
 	}
-	mirage.Inside.Quiet.RoomTone2 = 
-	{
-		type = "csgo_mega"
-		mixgroup = "Mirage"
-		use_time_volume_mapping_curve = true
-		volume = 0.200000
-		use_distance_unfiltered_stereo_mapping_curve = true
-		set_child_position = false
-		retrigger_radius = 10000.000000
-		reverb_wet = 1.000000
-		vsnd_files_track_01 = "sounds/ambient/atmosphere/corridor_room_tone_02.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				300.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		distance_unfiltered_stereo_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				300.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		time_volume_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				0.140000,
-				0.129464,
-				1.875000,
-				1.875000,
-				3.000000,
-				1.000000,
-			],
-			
-			[
-				0.357143,
-				0.669643,
-				1.404090,
-				1.404090,
-				1.000000,
-				1.000000,
-			],
-			
-			[
-				0.760000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		fadetime_volume_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				0.485714,
-				0.799107,
-				-0.612877,
-				-0.612877,
-				3.000000,
-				1.000000,
-			],
-			
-			[
-				1.325714,
-				0.187500,
-				-0.527712,
-				-0.527712,
-				1.000000,
-				1.000000,
-			],
-			
-			[
-				2.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		vsnd_duration = 8.653605
-	}
 	mirage.Inside.Quiet.LightWindGust = 
 	{
 		type = "csgo_mega"
@@ -5516,7 +4820,10 @@
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
-		vsnd_files_track_01 = "sounds/ambient/atmosphere/desert_lp_08_light_wind_gusts.vsnd"
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		pitch = 1.100000
+		vsnd_files_track_01 = "sounds/ambient/italy/italy_outdoors_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
 			
@@ -5611,25 +4918,25 @@
 			],
 			
 			[
-				0.140000,
-				0.129464,
-				1.875000,
-				1.875000,
+				0.085714,
+				0.346154,
+				2.770725,
+				2.770725,
 				3.000000,
 				1.000000,
 			],
 			
 			[
-				0.357143,
-				0.669643,
-				1.404090,
-				1.404090,
+				0.294286,
+				0.815385,
+				1.264343,
+				1.264343,
 				1.000000,
 				1.000000,
 			],
 			
 			[
-				0.760000,
+				0.602857,
 				1.000000,
 				0.000000,
 				0.000000,
@@ -5637,7 +4944,7 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 7.090091
+		vsnd_duration = 70.402901
 	}
 	mirage.Inside.Quiet.Wood = 
 	{
@@ -5648,14 +4955,16 @@
 		pitch_random_min = -0.150000
 		pitch_random_max = 0.050000
 		enable_retrigger = true
-		retrigger_interval_min = 15.000000
-		retrigger_interval_max = 25.000000
+		retrigger_interval_min = 3.000000
+		retrigger_interval_max = 7.000000
 		randomize_position_max_radius = 1000.000000
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		position_relative_to_player = true
 		reverb_wet = 1.000000
 		randomize_position_min_radius = 500.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/inferno/house_creak_01.vsnd",
@@ -5772,16 +5081,18 @@
 		type = "csgo_mega"
 		mixgroup = "Mirage"
 		use_time_volume_mapping_curve = true
-		volume = 0.000000
+		volume = 0.100000
 		position = 
 		[
-			-628.663208,
-			-1003.970886,
-			-24.395500,
+			-566.456909,
+			-932.430298,
+			-99.009949,
 		]
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/machines/electrical_hum_2.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -5789,23 +5100,14 @@
 			[
 				0.000000,
 				1.000000,
-				0.000000,
-				0.000000,
+				-0.006014,
+				-0.006014,
 				2.000000,
 				3.000000,
 			],
 			
 			[
-				232.857147,
-				0.286996,
-				-0.002000,
-				-0.002000,
-				3.000000,
-				1.000000,
-			],
-			
-			[
-				500.000000,
+				287.142853,
 				0.000000,
 				0.000000,
 				0.000000,
@@ -5909,6 +5211,8 @@
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/machines/electrical_hum_2.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -6030,6 +5334,8 @@
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/corridor_room_tone_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -6163,6 +5469,8 @@
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/desert_lp_06_light_wind_gusts.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -6297,6 +5605,8 @@
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/desert_lp_08_light_wind_gusts.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -6436,6 +5746,8 @@
 		retrigger_radius = 10000.000000
 		position_relative_to_player = true
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/inferno/house_creak_01.vsnd",
@@ -6569,6 +5881,8 @@
 			20.000000,
 			0.000000,
 		]
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/machines/electrical_hum_2.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -6702,6 +6016,8 @@
 			-20.000000,
 			-20.000000,
 		]
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/machines/electrical_hum_2.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -6818,12 +6134,14 @@
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
 		mixgroup = "Mirage"
-		volume = 0.200000
+		volume = 0.050000
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
-		vsnd_files_track_01 = "sounds/ambient/atmosphere/desert_lp_03_light_wind.vsnd"
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		vsnd_files_track_01 = "sounds/ambient/inferno/exterior_02.vsnd"
 		distance_volume_mapping_curve = 
 		[
 			
@@ -6944,19 +6262,22 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 5.838798
+		vsnd_duration = 37.762447
 	}
 	mirage.Inside.Quiet_03.RoomTone = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
 		mixgroup = "Mirage"
-		volume = 0.040000
+		volume = 0.020000
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
-		vsnd_files_track_01 = "sounds/ambient/atmosphere/corridor_room_tone_02.vsnd"
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		pitch = 0.900000
+		vsnd_files_track_01 = "sounds/ambient/atmosphere/desert_lp_12_med_wind.vsnd"
 		distance_volume_mapping_curve = 
 		[
 			
@@ -7077,7 +6398,7 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 8.653605
+		vsnd_duration = 8.434195
 	}
 	mirage.Inside.Quiet_03.LightWindGust = 
 	{
@@ -7089,6 +6410,8 @@
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/desert_lp_05_light_wind_gusts.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -7228,6 +6551,8 @@
 		retrigger_radius = 10000.000000
 		position_relative_to_player = true
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/inferno/house_creak_01.vsnd",
@@ -7356,6 +6681,8 @@
 		position_relative_to_player = true
 		reverb_wet = 1.000000
 		randomize_position_min_radius = 2000.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/wind/wind_gust_01.vsnd",
@@ -7488,6 +6815,8 @@
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/machines/electrical_hum_2.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -7609,6 +6938,8 @@
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/corridor_room_tone_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -7742,6 +7073,8 @@
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/corridor_room_tone_02.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -7875,6 +7208,8 @@
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/desert_lp_08_light_wind_gusts.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -8014,6 +7349,8 @@
 		retrigger_radius = 10000.000000
 		position_relative_to_player = true
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/inferno/house_creak_01.vsnd",
@@ -8140,6 +7477,8 @@
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/machines/electrical_hum_2.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -8262,6 +7601,8 @@
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/corridor_room_tone_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -8395,6 +7736,8 @@
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/corridor_room_tone_02.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -8528,6 +7871,8 @@
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/desert_lp_08_light_wind_gusts.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -8667,6 +8012,8 @@
 		retrigger_radius = 10000.000000
 		position_relative_to_player = true
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/inferno/house_creak_01.vsnd",
@@ -8798,6 +8145,8 @@
 			0.000000,
 			0.000000,
 		]
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/machines/electrical_hum_2.vsnd"
 		metadata = "65dB"
 		distance_volume_mapping_curve = 
@@ -8926,6 +8275,8 @@
 		retrigger_radius = 10000.000000
 		position_relative_to_player = true
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/rodent_scratch_short_1.vsnd",
@@ -9044,6 +8395,8 @@
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/corridor_room_tone_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -9177,6 +8530,8 @@
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/corridor_room_tone_02.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -9310,6 +8665,8 @@
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/desert_lp_08_light_wind_gusts.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -9450,6 +8807,8 @@
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/machines/electrical_hum_2.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -9603,6 +8962,8 @@
 		override_dsp_preset = true
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = 
 		[
 			"mirage.Suite_01.RoomTone",
@@ -9708,11 +9069,13 @@
 		type = "csgo_mega"
 		mixgroup = "Mirage"
 		use_time_volume_mapping_curve = true
-		volume = 0.400000
+		volume = 0.200000
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/corridor_room_tone_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -9852,6 +9215,8 @@
 		retrigger_radius = 10000.000000
 		position_relative_to_player = true
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -9979,6 +9344,8 @@
 		position_relative_to_player = true
 		reverb_wet = 1.000000
 		randomize_position_min_radius = 2000.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/wind/wind_gust_01.vsnd",
@@ -10106,6 +9473,8 @@
 		override_dsp_preset = true
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -10200,7 +9569,6 @@
 		[
 			"mirage.Inside.Apartment.Flies",
 			"mirage.Inside.Apartment.LightWind",
-			"mirage.Inside.Apartment.RoomTone",
 			"mirage.Inside.Apartment.Wood",
 			"mirage.Inside.Apartment.TVStatic2",
 			"mirage.Fridge",
@@ -10212,13 +9580,15 @@
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
 		mixgroup = "Mirage"
-		volume = 0.300000
+		volume = 0.000000
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
-		pitch = 0.900000
-		vsnd_files_track_01 = "sounds/ambient/atmosphere/corridor_room_tone_02.vsnd"
+		pitch = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		vsnd_files_track_01 = "sounds/ambient/atmosphere/csgo_dust_indoors_lp_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
 			
@@ -10268,31 +9638,13 @@
 				0.000000,
 				1.000000,
 				0.000000,
-				-0.072290,
+				-0.496454,
 				0.000000,
 				0.000000,
 			],
 			
 			[
-				1.271429,
-				0.908088,
-				-0.144958,
-				-0.144958,
-				3.000000,
-				1.000000,
-			],
-			
-			[
-				3.500000,
-				0.492647,
-				-0.243549,
-				-0.243549,
-				1.000000,
-				1.000000,
-			],
-			
-			[
-				5.000000,
+				2.014286,
 				0.000000,
 				0.000000,
 				0.000000,
@@ -10339,19 +9691,21 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 8.653605
+		vsnd_duration = 5.697823
 	}
 	mirage.Inside.Apartment.LightWind = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
 		mixgroup = "Mirage"
-		volume = 0.200000
+		volume = 0.100000
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
-		vsnd_files_track_01 = "sounds/ambient/atmosphere/desert_lp_03_light_wind.vsnd"
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		vsnd_files_track_01 = "sounds/ambient/italy/italy_outdoors_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
 			
@@ -10472,7 +9826,7 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 5.838798
+		vsnd_duration = 70.402901
 	}
 	mirage.Inside.Apartment.Flies = 
 	{
@@ -10490,6 +9844,8 @@
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/flies1.vsnd",
@@ -10615,6 +9971,8 @@
 		retrigger_radius = 10000.000000
 		position_relative_to_player = true
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/inferno/house_creak_01.vsnd",
@@ -10741,6 +10099,8 @@
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/machines/electrical_hum_2.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -10877,6 +10237,8 @@
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/machines/electrical_hum_2.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -11003,13 +10365,15 @@
 		use_time_volume_mapping_curve = true
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/machines/tv_static_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
 			
 			[
 				0.000000,
-				1.000000,
+				0.680412,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -11019,8 +10383,8 @@
 			[
 				150.857147,
 				0.349776,
-				-0.003333,
-				-0.003333,
+				-0.002268,
+				-0.002268,
 				3.000000,
 				1.000000,
 			],
@@ -11077,6 +10441,7 @@
 			],
 		]
 		metadata = "vol 7"
+		vsnd_duration = 1.369116
 	}
 	mirage.Fridge = 
 	{
@@ -11100,6 +10465,8 @@
 			20.000000,
 			0.000000,
 		]
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/machines/fluorescent_hum_1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -11211,6 +10578,8 @@
 		position_relative_to_player = true
 		reverb_wet = 1.000000
 		randomize_position_min_radius = 2000.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -11338,6 +10707,8 @@
 		mixgroup = "Ambient"
 		volume = 0.100000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/machines/truck_idle_loop.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -11398,6 +10769,8 @@
 		use_fadetime_volume_mapping_curve = false
 		retrigger_interval_min = 0.340000
 		retrigger_interval_max = 0.340000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/machines/ceilingfan_clink_01.vsnd",
@@ -11497,6 +10870,7 @@
 				3.000000,
 			],
 		]
+		vsnd_duration = 0.567959
 	}
 	mirage.Shop.Fan_West = 
 	{
@@ -11525,6 +10899,8 @@
 		use_fadetime_volume_mapping_curve = false
 		retrigger_interval_min = 0.340000
 		retrigger_interval_max = 0.340000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/machines/ceilingfan_clink_01.vsnd",
@@ -11624,6 +11000,7 @@
 				3.000000,
 			],
 		]
+		vsnd_duration = 0.567959
 	}
 	mirage.Shop.Fan_East = 
 	{
@@ -11652,6 +11029,8 @@
 		use_fadetime_volume_mapping_curve = false
 		retrigger_interval_min = 0.340000
 		retrigger_interval_max = 0.340000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/machines/ceilingfan_clink_01.vsnd",
@@ -11751,6 +11130,7 @@
 				3.000000,
 			],
 		]
+		vsnd_duration = 0.567959
 	}
 	mirage.Suite_01.Windows1 = 
 	{
@@ -11783,6 +11163,8 @@
 		volume_random_max = 0.000000
 		pitch_random_min = -0.070000
 		pitch_random_max = 0.050000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/bird1.vsnd",
@@ -11923,6 +11305,8 @@
 		volume_random_max = 0.000000
 		pitch_random_min = -0.070000
 		pitch_random_max = 0.050000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/bird1.vsnd",
@@ -12063,6 +11447,8 @@
 		volume_random_max = 0.000000
 		pitch_random_min = -0.070000
 		pitch_random_max = 0.050000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/bird1.vsnd",
@@ -12183,6 +11569,8 @@
 		override_dsp_preset = true
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -12283,6 +11671,8 @@
 		override_dsp_preset = true
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -12369,7 +11759,6 @@
 			"mirage.Outside.Generic.DogBarks",
 			"mirage.Outside.Generic.DriveBys",
 			"mirage.Outside.Generic.LightWind",
-			"mirage.Outside.Generic.LightWindGust",
 			"mirage.Outside.Generic.TreeBirds",
 			"mirage.Outside.Generic.WindGusts",
 		]
@@ -12385,6 +11774,8 @@
 		override_dsp_preset = true
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -12496,13 +11887,12 @@
 		override_dsp_preset = true
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = 
 		[
 			"mirage.Inside.Quiet.ElectricHum",
-			"mirage.Inside.Quiet.ElectricHum2",
 			"mirage.Inside.Quiet.LightWindGust",
-			"mirage.Inside.Quiet.RoomTone",
-			"mirage.Inside.Quiet.RoomTone2",
 			"mirage.Inside.Quiet.Wood",
 			"Mirage.Inside.Quiet.DogBarks",
 		]
@@ -12579,16 +11969,16 @@
 			],
 			
 			[
-				0.045714,
-				0.629167,
-				10.937449,
-				10.937449,
+				0.542857,
+				0.474227,
+				1.000000,
+				1.000000,
 				3.000000,
 				1.000000,
 			],
 			
 			[
-				0.091429,
+				1.000000,
 				1.000000,
 				0.000000,
 				0.000000,
@@ -12604,11 +11994,13 @@
 		use_time_volume_mapping_curve = true
 		dsp_preset = "reverb_21_outsideStreet"
 		enable_child_events = true
-		set_child_position = true
+		set_child_position = false
 		override_dsp_preset = true
 		retrigger_radius = 10000.000000
 		position_relative_to_player = true
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -12709,6 +12101,8 @@
 		override_dsp_preset = true
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -12818,6 +12212,8 @@
 		override_dsp_preset = true
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = 
 		[
 			"mirage.Inside.Quiet_04.ElectricHum",
@@ -12928,6 +12324,8 @@
 		override_dsp_preset = true
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -13039,6 +12437,8 @@
 		override_dsp_preset = true
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -13144,19 +12544,19 @@
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
 		mixgroup = "Mirage"
-		dsp_preset = "reverb_12_mediumBright"
+		dsp_preset = "reverb_9_mediumChamber"
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
 		retrigger_radius = 10000.000000
 		reverb_wet = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = 
 		[
 			"mirage.Inside.Quiet_03.ElectricHum",
 			"mirage.Inside.Quiet_03.LightWind",
-			"mirage.Inside.Quiet_03.LightWindGust",
 			"mirage.Inside.Quiet_03.RoomTone",
-			"mirage.Inside.Quiet_03.WindGusts",
 			"mirage.Inside.Quiet_03.Wood",
 		]
 		distance_volume_mapping_curve = 
@@ -13259,7 +12659,7 @@
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
 		retrigger_radius = 10000.000000
-		reverb_wet = 1.000000
+		reverb_wet = 0.000000
 		use_world_position = true
 		position = 
 		[
@@ -13267,6 +12667,9 @@
 			788.000000,
 			-19.000000,
 		]
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		reverb_source_wet = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/dust2/treesandbirds_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -13419,6 +12822,8 @@
 		enable_child_events = true
 		override_dsp_preset = true
 		dsp_preset = "reverb_20_outsideAlley"
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -13580,6 +12985,8 @@
 		]
 		block_matching_events = false
 		block_match_entity = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/dust2/treesandbirds_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -13711,5 +13118,142 @@
 			],
 		]
 		vsnd_duration = 22.886417
+	}
+	Mirage.Outside.Urban = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Mirage"
+		volume = 0.100000
+		use_time_volume_mapping_curve = true
+		use_distance_unfiltered_stereo_mapping_curve = true
+		set_child_position = false
+		retrigger_radius = 10000.000000
+		reverb_wet = 0.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		pitch = 1.200000
+		reverb_source_wet = 0.000000
+		vsnd_files_track_01 = "sounds/ambient/italy/italy_outdoors_01.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.546392,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.536082,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.145714,
+				0.062500,
+				0.967689,
+				0.967689,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				0.702857,
+				0.680147,
+				1.097408,
+				1.097408,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.522367,
+				0.626582,
+				-0.561423,
+				-0.561423,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.375347,
+				0.227848,
+				-0.349671,
+				-0.349671,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.314286,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 70.402901
 	}
 }

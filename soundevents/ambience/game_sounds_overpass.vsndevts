@@ -1,25 +1,32 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	overpass.Inside = 
 	{
 		type = "csgo_mega"
 		enable_child_events = true
 		override_dsp_preset = true
-		dsp_preset = "reverb_12_mediumBright"
+		dsp_preset = "reverb_11_smallBright"
 		mixgroup = "Overpass"
 		enable_retrigger = false
 		use_time_volume_mapping_curve = true
 		set_child_position = false
 		block_duration = 0.010000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = 
 		[
 			"overpass.Inside.Fan",
 			"overpass.Inside.Hall",
 			"overpass.Inside.Pipes",
 			"overpass.Inside.Stress",
-			"overpass.UnderTrain",
 			"overpass.Inside.TSide.WaterDrip",
 			"overpass.Inside.Sparks",
 			"overpass.Inside.Light",
+			"overpass.Inside.Drips1",
+			"overpass.Inside.Drips2",
+			"overpass.Inside.Drips3",
+			"overpass.Inside.DripsBucket",
+			"overpass.Inside.City",
 		]
 		distance_volume_mapping_curve = 
 		[
@@ -120,6 +127,8 @@
 		mixgroup = "Overpass"
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -185,7 +194,7 @@
 			
 			[
 				0.000000,
-				1.000000,
+				0.511029,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -194,7 +203,7 @@
 			
 			[
 				300.000000,
-				1.000000,
+				0.511029,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -247,6 +256,8 @@
 		randomize_position_max_radius = 1000.000000
 		set_child_position = false
 		position_relative_to_player = true
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/misc/metal_str1.vsnd",
@@ -369,6 +380,8 @@
 		randomize_position_max_radius = 1000.000000
 		set_child_position = false
 		position_relative_to_player = true
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/playonce/tones/pipes.vsnd",
@@ -480,6 +493,8 @@
 			-801.000000,
 			304.000000,
 		]
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		time_volume_mapping_curve = 
 		[
 			
@@ -610,6 +625,8 @@
 		use_time_volume_mapping_curve = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		metadata = ""
 		distance_volume_mapping_curve = 
 		[
@@ -678,8 +695,9 @@
 			"overpass.Inside.TSide.Steam",
 			"overpass.Inside.TSide.Stress",
 			"overpass.Inside.TSide.Transformer",
-			"overpass.UnderTrain",
 			"overpass.Inside.TSide.WaterDrip",
+			"overpass.Inside.Tside.Drips1",
+			"overpass.Inside.Tside.City",
 		]
 		time_volume_mapping_curve = 
 		[
@@ -720,6 +738,8 @@
 		use_distance_unfiltered_stereo_mapping_curve = true
 		mixgroup = "Overpass"
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/underground_hall_loop1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -847,6 +867,8 @@
 		randomize_position_max_radius = 1000.000000
 		set_child_position = false
 		position_relative_to_player = true
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/misc/metal_str1.vsnd",
@@ -969,6 +991,8 @@
 		randomize_position_max_radius = 1000.000000
 		set_child_position = false
 		position_relative_to_player = true
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/playonce/tones/pipes.vsnd",
@@ -1079,6 +1103,8 @@
 			-2469.000000,
 			386.000000,
 		]
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		time_volume_mapping_curve = 
 		[
 			
@@ -1195,6 +1221,8 @@
 			-2076.000000,
 			392.000000,
 		]
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/amb_steam_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1211,14 +1239,14 @@
 			[
 				150.857147,
 				0.243243,
-				-0.001250,
-				-0.001250,
+				-0.002544,
+				-0.002544,
 				3.000000,
 				1.000000,
 			],
 			
 			[
-				800.000000,
+				393.142853,
 				0.000000,
 				0.000000,
 				0.000000,
@@ -1232,7 +1260,7 @@
 			
 			[
 				0.000000,
-				0.000000,
+				0.875000,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -1240,25 +1268,7 @@
 			],
 			
 			[
-				0.140000,
-				0.129464,
-				1.875000,
-				1.875000,
-				3.000000,
-				1.000000,
-			],
-			
-			[
-				0.357143,
-				0.669643,
-				1.404090,
-				1.404090,
-				1.000000,
-				1.000000,
-			],
-			
-			[
-				0.760000,
+				0.100000,
 				1.000000,
 				0.000000,
 				0.000000,
@@ -1323,22 +1333,24 @@
 		position_relative_to_player = true
 		volume_random_min = -0.020000
 		reverb_wet = 0.800000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
+			"sounds/ambient/overpass/overpass_bird_01.vsnd",
+			"sounds/ambient/overpass/overpass_bird_02.vsnd",
 			"sounds/ambient/overpass/overpass_bird_03.vsnd",
 			"sounds/ambient/overpass/overpass_bird_04.vsnd",
 			"sounds/ambient/overpass/overpass_bird_05.vsnd",
 			"sounds/ambient/overpass/overpass_bird_06.vsnd",
 			"sounds/ambient/overpass/overpass_bird_07.vsnd",
 			"sounds/ambient/overpass/overpass_bird_08.vsnd",
+			"sounds/ambient/overpass/overpass_bird_09.vsnd",
 			"sounds/ambient/overpass/overpass_bird_10.vsnd",
-			"sounds/ambient/overpass/overpass_bird_15.vsnd",
-			"sounds/ambient/overpass/overpass_bird_17.vsnd",
-			"sounds/ambient/overpass/overpass_bird_18.vsnd",
-			"sounds/ambient/overpass/overpass_bird_19.vsnd",
-			"sounds/ambient/overpass/overpass_bird_21.vsnd",
-			"sounds/ambient/overpass/overpass_bird_22.vsnd",
-			"sounds/ambient/overpass/overpass_bird_23.vsnd",
+			"sounds/ambient/overpass/overpass_bird_11.vsnd",
+			"sounds/ambient/overpass/overpass_bird_12.vsnd",
+			"sounds/ambient/overpass/overpass_bird_13.vsnd",
+			"sounds/ambient/overpass/overpass_bird_14.vsnd",
 		]
 		distance_volume_mapping_curve = 
 		[
@@ -1449,6 +1461,8 @@
 			-3168.000000,
 			600.000000,
 		]
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/machines/truck_drive_by_01.vsnd",
@@ -1561,6 +1575,8 @@
 		randomize_position_max_radius = 1000.000000
 		set_child_position = false
 		position_relative_to_player = true
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/overhead/plane1.vsnd",
@@ -1669,6 +1685,8 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		time_volume_mapping_curve = 
 		[
 			
@@ -1768,6 +1786,7 @@
 			"overpass.CTSpawn.Birds",
 			"overpass.Canal.Traffic",
 			"overpass.Canal.Siren",
+			"overpass.CTSpawn.ForestAmb",
 		]
 		metadata = "Birds_positionoverride_2_Traffic_positionoverride_3"
 	}
@@ -1779,6 +1798,8 @@
 		use_distance_unfiltered_stereo_mapping_curve = true
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/amb_bank_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1906,6 +1927,8 @@
 			1012.000000,
 			530.000000,
 		]
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/machines/truck_idle_loop.vsnd"
 		metadata = "position_0"
 		distance_volume_mapping_curve = 
@@ -2013,6 +2036,8 @@
 			675.000000,
 			524.000000,
 		]
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		metadata = "position_1"
 		distance_volume_mapping_curve = 
 		[
@@ -2028,7 +2053,7 @@
 			
 			[
 				500.000000,
-				0.000000,
+				0.132353,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -2122,6 +2147,8 @@
 			0.000000,
 			0.000000,
 		]
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -2222,6 +2249,7 @@
 			"overpass.TSpawn.Tree",
 			"overpass.TSpawn.Birds",
 			"overpass.Traffic_new",
+			"de_overpass.techno",
 		]
 		metadata = "Traffic_positionoverride_3"
 	}
@@ -2233,6 +2261,8 @@
 		volume = 0.200000
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -2352,7 +2382,7 @@
 		type = "csgo_mega"
 		mixgroup = "Overpass"
 		use_time_volume_mapping_curve = true
-		volume = 0.000000
+		volume = 0.400000
 		set_child_position = false
 		position = 
 		[
@@ -2360,6 +2390,10 @@
 			-3558.000000,
 			324.000000,
 		]
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		occlusion_intensity = 1.000000
+		pitch = 1.100000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -2481,6 +2515,8 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -2591,6 +2627,8 @@
 		use_time_volume_mapping_curve = true
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/amb_bank_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -2718,6 +2756,8 @@
 			56.983040,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -2825,6 +2865,8 @@
 			-341.000000,
 			174.000000,
 		]
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -2937,6 +2979,8 @@
 			411.000000,
 		]
 		position_relative_to_player = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -3050,6 +3094,8 @@
 		randomize_position_max_radius = 1000.000000
 		set_child_position = false
 		position_relative_to_player = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -3162,6 +3208,8 @@
 		randomize_position_max_radius = 1000.000000
 		set_child_position = false
 		position_relative_to_player = true
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -3270,6 +3318,8 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -3375,6 +3425,8 @@
 		use_distance_unfiltered_stereo_mapping_curve = true
 		volume = 0.250000
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -3502,6 +3554,8 @@
 			64.093811,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		metadata = ""
 		distance_volume_mapping_curve = 
 		[
@@ -3608,6 +3662,8 @@
 		randomize_position_max_radius = 1000.000000
 		set_child_position = false
 		position_relative_to_player = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/flies1.vsnd",
@@ -3718,6 +3774,8 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = 
 		[
 			"overpass.Canal.Bank",
@@ -3828,6 +3886,8 @@
 		mixgroup = "Overpass"
 		enable_retrigger = false
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/amb_bank_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -3956,6 +4016,8 @@
 			-343.564697,
 			204.565659,
 		]
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/machines/generator_smooth_lp.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -4077,6 +4139,8 @@
 			411.000000,
 		]
 		position_relative_to_player = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/materials/metal_stress1.vsnd",
@@ -4189,6 +4253,8 @@
 		randomize_position_max_radius = 1000.000000
 		set_child_position = false
 		position_relative_to_player = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/flies1.vsnd",
@@ -4298,6 +4364,8 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = 
 		[
 			"overpass.Park.Flies",
@@ -4305,6 +4373,9 @@
 			"overpass.Airplanes",
 			"overpass.Birds",
 			"overpass.Birds_Distant",
+			"overpass.Park.Bank",
+			"overpass.Park.Fan1",
+			"overpass.Park.Fan2",
 		]
 		distance_volume_mapping_curve = 
 		[
@@ -4405,6 +4476,8 @@
 		volume = 0.300000
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/wind/tree_sway_wind_lp_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -4531,6 +4604,8 @@
 		randomize_position_max_radius = 1000.000000
 		set_child_position = false
 		position_relative_to_player = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -4641,6 +4716,8 @@
 		set_child_position = false
 		override_dsp_preset = true
 		reverb_wet = 0.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -4740,8 +4817,7 @@
 			"overpass.Park.Fountain.TreeSway",
 			"overpass.Park.Fountain.TreeSway_02",
 			"overpass.Birds_Distant",
-			"overpass.Park.Fountain.Construction_Beep",
-			"overpass.Park.Fountain.Construction_Crane",
+			"overpass.Park.Fountain.WaterLap",
 		]
 	}
 	overpass.Park.Fountain.Flies = 
@@ -4756,6 +4832,8 @@
 		randomize_position_max_radius = 1000.000000
 		set_child_position = false
 		position_relative_to_player = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -4862,8 +4940,10 @@
 		mixgroup = "Overpass"
 		use_time_volume_mapping_curve = true
 		use_distance_unfiltered_stereo_mapping_curve = true
-		volume = 0.400000
+		volume = 0.300000
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -4987,6 +5067,8 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -5081,6 +5163,7 @@
 		[
 			"overpass.Park.Toilet.Toilet",
 			"overpass.Park.Toilet.Tree",
+			"overpass.Park.Toilet.Vending",
 		]
 	}
 	overpass.Park.Toilet.Tree = 
@@ -5088,9 +5171,12 @@
 		type = "csgo_mega"
 		mixgroup = "Overpass"
 		use_time_volume_mapping_curve = true
-		volume = 0.100000
+		volume = 0.200000
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		pitch = 0.900000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -5210,9 +5296,9 @@
 		type = "csgo_mega"
 		mixgroup = "Overpass"
 		use_time_volume_mapping_curve = true
-		volume = 0.500000
+		volume = 0.200000
 		enable_retrigger = true
-		retrigger_interval_min = 10.000000
+		retrigger_interval_min = 15.000000
 		retrigger_interval_max = 50.000000
 		set_child_position = false
 		position = 
@@ -5221,6 +5307,8 @@
 			-251.250000,
 			472.000000,
 		]
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -5344,6 +5432,8 @@
 			708.000000,
 		]
 		position_relative_to_player = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/bird1.vsnd",
@@ -5478,6 +5568,8 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = 
 		[
 			"overpass.Canal.Bank",
@@ -5587,6 +5679,8 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		soundevent_01 = 
 		[
 			"overpass.Canal.Bank",
@@ -5695,6 +5789,8 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		time_volume_mapping_curve = 
 		[
 			
@@ -5803,6 +5899,8 @@
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
 		mixgroup = "Overpass"
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/misc/techno_overpass.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -5810,17 +5908,17 @@
 			[
 				0.000000,
 				1.000000,
-				0.000000,
-				0.000000,
+				-0.002068,
+				-0.002068,
 				2.000000,
 				3.000000,
 			],
 			
 			[
-				650.000000,
+				1000.000000,
 				0.000000,
-				0.000000,
-				0.000000,
+				-0.000984,
+				-0.000984,
 				2.000000,
 				3.000000,
 			],
@@ -5846,13 +5944,16 @@
 				3.000000,
 			],
 		]
+		metadata = "music"
 		vsnd_duration = 6.311610
 	}
 	overpass.TrainBell = 
 	{
 		type = "csgo_mega"
-		mixgroup = "Ambient"
+		mixgroup = "World"
 		volume = 0.500000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/de_overpass_trainbell.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -5919,7 +6020,7 @@
 	overpass.UnderTrain = 
 	{
 		type = "csgo_mega"
-		mixgroup = "Ambient"
+		mixgroup = "Overpass"
 		position = 
 		[
 			-1903.723511,
@@ -5932,6 +6033,8 @@
 		retrigger_interval_min = 30.000000
 		retrigger_interval_max = 30.000000
 		enable_child_events = true
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/machines/train_underpass1.vsnd",
@@ -6037,6 +6140,8 @@
 		set_child_position = false
 		position_relative_to_player = false
 		delay = 1.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/dust2/sand_gust_01.vsnd",
@@ -6163,6 +6268,8 @@
 		enable_child_events = true
 		set_child_position = false
 		occlusion_intensity = 0.400000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/machines/train_overpass.vsnd",
@@ -6230,6 +6337,8 @@
 			-1910.655762,
 			832.529907,
 		]
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -6346,6 +6455,8 @@
 			-2734.557617,
 			837.544739,
 		]
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -6447,22 +6558,24 @@
 	overpass.Inside.TSide.WaterDrip = 
 	{
 		type = "csgo_mega"
-		mixgroup = "Ambient"
-		volume = 0.500000
-		volume_random_min = 0.000000
-		pitch_random_min = -0.020000
+		mixgroup = "Overpass"
+		volume = 0.070000
+		volume_random_min = -0.020000
+		pitch_random_min = -0.040000
 		volume_random_max = 0.050000
 		use_fadetime_volume_mapping_curve = false
+		distance_effect_mix = 0.000000
+		reverb_wet = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
-			"sounds/ambient/overpass/overpass_waterdrip_03.vsnd",
-			"sounds/ambient/overpass/overpass_waterdrip_04.vsnd",
-			"sounds/ambient/overpass/overpass_waterdrip_05.vsnd",
-			"sounds/ambient/overpass/overpass_waterdrip_06.vsnd",
-			"sounds/ambient/overpass/overpass_waterdrip_07.vsnd",
-			"sounds/ambient/overpass/overpass_waterdrip_09.vsnd",
-			"sounds/ambient/overpass/overpass_waterdrip_11.vsnd",
-			"sounds/ambient/overpass/overpass_waterdrip_14.vsnd",
+			"sounds/ambient/overpass/waterdrip_01.vsnd",
+			"sounds/ambient/overpass/waterdrip_02.vsnd",
+			"sounds/ambient/overpass/waterdrip_03.vsnd",
+			"sounds/ambient/overpass/waterdrip_04.vsnd",
+			"sounds/ambient/overpass/waterdrip_05.vsnd",
+			"sounds/ambient/overpass/waterdrip_06.vsnd",
+			"sounds/ambient/overpass/waterdrip_07.vsnd",
 		]
 		distance_volume_mapping_curve = 
 		[
@@ -6470,23 +6583,14 @@
 			[
 				0.000000,
 				1.000000,
-				0.000000,
-				0.000000,
+				-0.001349,
+				-0.001349,
 				2.000000,
 				3.000000,
 			],
 			
 			[
-				348.000000,
-				0.409449,
-				-0.001429,
-				-0.001429,
-				1.000000,
-				1.000000,
-			],
-			
-			[
-				700.000000,
+				481.885712,
 				0.000000,
 				0.000000,
 				0.000000,
@@ -6494,12 +6598,12 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 0.652925
+		vsnd_duration = 0.105669
 	}
 	overpass.Inside.Sparks = 
 	{
 		type = "csgo_mega"
-		mixgroup = "Ambient"
+		mixgroup = "Overpass"
 		volume = 0.300000
 		volume_random_min = 0.000000
 		pitch_random_min = -0.020000
@@ -6507,6 +6611,9 @@
 		block_duration = 1.000000
 		block_distance = 50.000000
 		reverb_wet = 0.700000
+		distance_effect_mix = 0.000000
+		occlusion_intensity = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/overpass/overpass_shortcircuit_01.vsnd",
@@ -6532,14 +6639,14 @@
 			[
 				194.000000,
 				0.263780,
-				-0.001429,
-				-0.001429,
+				-0.002717,
+				-0.002717,
 				3.000000,
 				1.000000,
 			],
 			
 			[
-				700.000000,
+				368.000000,
 				0.000000,
 				0.000000,
 				0.000000,
@@ -6554,7 +6661,7 @@
 		type = "csgo_mega"
 		mixgroup = "Overpass"
 		use_time_volume_mapping_curve = true
-		volume = 0.045000
+		volume = 0.020000
 		use_distance_unfiltered_stereo_mapping_curve = false
 		set_child_position = false
 		position = 
@@ -6566,6 +6673,8 @@
 		enable_retrigger = true
 		retrigger_interval_min = 15.000000
 		retrigger_interval_max = 25.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -6718,11 +6827,15 @@
 		set_child_position = false
 		position = 
 		[
-			-1785.202148,
-			-3727.574707,
-			612.125305,
+			-1361.900635,
+			-3947.987549,
+			620.406067,
 		]
 		position_relative_to_player = false
+		distance_effect_mix = 0.000000
+		occlusion_intensity = 1.000000
+		reverb_wet = 1.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/bird1.vsnd",
@@ -6877,6 +6990,8 @@
 		retrigger_interval_max = 15.000000
 		retrigger_radius = 10000.000000
 		volume_random_min = -0.050000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/train/carhonk_distant_01.vsnd",
@@ -6995,6 +7110,8 @@
 			818.981689,
 			389.500000,
 		]
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/machines/fluorescent_hum_1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -7113,6 +7230,8 @@
 		set_child_position = false
 		position_relative_to_player = true
 		volume_random_min = 0.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/overpass/overpass_bird_03.vsnd",
@@ -7222,118 +7341,6 @@
 		]
 		vsnd_duration = 2.603515
 	}
-	overpass.Park.Fountain.Construction_Beep = 
-	{
-		type = "csgo_mega"
-		mixgroup = "ambient"
-		volume = 0.300000
-		enable_retrigger = true
-		retrigger_interval_min = 25.000000
-		retrigger_interval_max = 30.000000
-		retrigger_radius = 100000.000000
-		use_fadetime_volume_mapping_curve = false
-		position = 
-		[
-			-2762.291992,
-			-4682.052246,
-			728.826416,
-		]
-		reverb_wet = 0.900000
-		randomize_position_min_radius = 100.000000
-		randomize_position_max_radius = 300.000000
-		vsnd_files_track_01 = "sounds/ambient/playonce/misc/truck_backup1.vsnd"
-		distance_volume_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				1800.000000,
-				0.846457,
-				-0.000333,
-				-0.000333,
-				3.000000,
-				1.000000,
-			],
-			
-			[
-				3000.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		vsnd_duration = 9.910476
-	}
-	overpass.Park.Fountain.Construction_Crane = 
-	{
-		type = "csgo_mega"
-		mixgroup = "ambient"
-		volume = 0.100000
-		enable_retrigger = true
-		retrigger_interval_min = 15.000000
-		retrigger_interval_max = 30.000000
-		retrigger_radius = 100000.000000
-		use_fadetime_volume_mapping_curve = false
-		position = 
-		[
-			-2762.291992,
-			-4682.052246,
-			728.826416,
-		]
-		reverb_wet = 0.900000
-		randomize_position_min_radius = 100.000000
-		randomize_position_max_radius = 700.000000
-		vsnd_files_track_01 = 
-		[
-			"sounds/ambient/atmosphere/cs_metalscrapeverb02.vsnd",
-			"sounds/ambient/atmosphere/cs_metalscrapeverb04.vsnd",
-			"sounds/ambient/atmosphere/cs_metalscrapeverb05.vsnd",
-			"sounds/ambient/atmosphere/cs_metalscrapeverb07.vsnd",
-			"sounds/ambient/atmosphere/cs_metalscrapeverb08.vsnd",
-			"sounds/ambient/atmosphere/cs_metalscrapeverb10.vsnd",
-		]
-		distance_volume_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				1800.000000,
-				0.846457,
-				-0.000333,
-				-0.000333,
-				3.000000,
-				1.000000,
-			],
-			
-			[
-				3000.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		vsnd_duration = 4.749796
-	}
 	overpass.Canal.Traffic = 
 	{
 		type = "csgo_mega"
@@ -7342,7 +7349,7 @@
 		enable_retrigger = true
 		retrigger_interval_min = 6.000000
 		retrigger_interval_max = 25.000000
-		volume = 0.050000
+		volume = 0.025000
 		randomize_position_max_radius = 500.000000
 		set_child_position = false
 		position_relative_to_player = false
@@ -7355,6 +7362,9 @@
 		]
 		volume_random_min = 0.000000
 		retrigger_radius = 100000.000000
+		distance_effect_mix = 0.000000
+		volume_random_max = 0.025000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/train/carhonk_distant_01.vsnd",
@@ -7480,6 +7490,8 @@
 		]
 		volume_random_min = 0.000000
 		retrigger_radius = 100000.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/overpass/overpass_siren.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -7572,5 +7584,1191 @@
 			],
 		]
 		vsnd_duration = 21.801361
+	}
+	overpass.CTSpawn.ForestAmb = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Overpass"
+		volume = 1.000000
+		use_distance_unfiltered_stereo_mapping_curve = false
+		use_time_volume_mapping_curve = true
+		set_child_position = false
+		distance_effect_mix = 0.000000
+		position = 
+		[
+			-1477.163086,
+			-3922.358643,
+			633.156616,
+		]
+		retrigger_radius = 10000.000000
+		restrict_source_reverb = true
+		vsnd_files_track_01 = "sounds/ambient/dust2/treesandbirds_01.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				2000.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 22.886417
+	}
+	overpass.TSpawn.Under = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Overpass"
+		use_time_volume_mapping_curve = true
+		dsp_preset = "reverb_9_mediumChamber"
+		enable_child_events = true
+		set_child_position = false
+		override_dsp_preset = true
+		position = 
+		[
+			0.000000,
+			0.000000,
+			0.000000,
+		]
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		soundevent_01 = 
+		[
+			"overpass.TSpawn.Bank",
+			"overpass.TSpawn.Truck",
+			"overpass.Traffic",
+			"overpass.Airplanes",
+			"overpass.Inside.TSide.Steam",
+			"overpass.TSpawn.Tree",
+			"overpass.TSpawn.Birds",
+			"overpass.Traffic_new",
+		]
+		metadata = "Traffic_positionoverride_3"
+	}
+	overpass.Park.Bank = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Overpass"
+		volume = 0.150000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		distance_effect_mix = 0.000000
+		use_time_volume_mapping_curve = true
+		restrict_source_reverb = true
+		vsnd_files_track_01 = "sounds/ambient/atmosphere/amb_bank_02.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 6.517823
+	}
+	overpass.Park.Fan1 = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Overpass"
+		volume = 0.300000
+		position = 
+		[
+			-3637.453857,
+			-428.173584,
+			578.937195,
+		]
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		vsnd_files_track_01 = "sounds/ambient/nuke/vent_01.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-0.004920,
+				-0.004920,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				400.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 8.050703
+	}
+	overpass.Park.Fan2 = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Overpass"
+		volume = 0.300000
+		position = 
+		[
+			-2316.838135,
+			106.635994,
+			480.596161,
+		]
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		vsnd_files_track_01 = "sounds/ambient/nuke/vent_01.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-0.004920,
+				-0.004920,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				400.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 8.050703
+	}
+	overpass.Park.Toilet.Vending = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Overpass"
+		enable_retrigger = true
+		retrigger_interval_min = 10.000000
+		retrigger_interval_max = 10.000000
+		retrigger_radius = 10000.000000
+		position = 
+		[
+			-3399.337646,
+			-621.783142,
+			541.952393,
+		]
+		volume = 0.300000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		vsnd_files_track_01 = "sounds/ambient/nuke/machine_05.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-0.004917,
+				-0.004917,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				700.000000,
+				0.000000,
+				-0.000749,
+				-0.000749,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.025050,
+				-1.025050,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 10.005351
+	}
+	overpass.Inside.Drips1 = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Overpass"
+		reverb_wet = 1.000000
+		volume = 0.300000
+		distance_effect_mix = 0.000000
+		position = 
+		[
+			-1731.159424,
+			-1612.114502,
+			108.243294,
+		]
+		enable_retrigger = true
+		retrigger_interval_min = 1.000000
+		retrigger_interval_max = 2.500000
+		restrict_source_reverb = true
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-0.007339,
+				-0.007339,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/water/distant_drip1.vsnd",
+			"sounds/ambient/water/distant_drip2.vsnd",
+			"sounds/ambient/water/distant_drip3.vsnd",
+			"sounds/ambient/water/distant_drip4.vsnd",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.396277,
+				-1.396277,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.062540
+	}
+	overpass.Inside.Drips2 = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Overpass"
+		reverb_wet = 1.000000
+		volume = 0.300000
+		distance_effect_mix = 0.000000
+		position = 
+		[
+			-1729.261963,
+			-1489.300659,
+			107.566467,
+		]
+		enable_retrigger = true
+		retrigger_interval_min = 1.000000
+		retrigger_interval_max = 2.500000
+		restrict_source_reverb = true
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-0.007339,
+				-0.007339,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/water/distant_drip1.vsnd",
+			"sounds/ambient/water/distant_drip2.vsnd",
+			"sounds/ambient/water/distant_drip3.vsnd",
+			"sounds/ambient/water/distant_drip4.vsnd",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.396277,
+				-1.396277,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.062540
+	}
+	overpass.Inside.Drips3 = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Overpass"
+		reverb_wet = 1.000000
+		volume = 0.300000
+		distance_effect_mix = 0.000000
+		position = 
+		[
+			-1850.755249,
+			-1583.517212,
+			109.047272,
+		]
+		enable_retrigger = true
+		retrigger_interval_min = 1.000000
+		retrigger_interval_max = 2.500000
+		pitch_random_min = -0.100000
+		pitch_random_max = 0.100000
+		restrict_source_reverb = true
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-0.007339,
+				-0.007339,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/water/distant_drip1.vsnd",
+			"sounds/ambient/water/distant_drip2.vsnd",
+			"sounds/ambient/water/distant_drip3.vsnd",
+			"sounds/ambient/water/distant_drip4.vsnd",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.396277,
+				-1.396277,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.062540
+	}
+	overpass.Inside.Tside.Drips1 = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Overpass"
+		reverb_wet = 1.000000
+		volume = 0.100000
+		distance_effect_mix = 0.000000
+		position = 
+		[
+			-1513.077271,
+			-2225.087646,
+			344.000488,
+		]
+		enable_retrigger = true
+		restrict_source_reverb = true
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-0.007339,
+				-0.007339,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/water/distant_drip1.vsnd",
+			"sounds/ambient/water/distant_drip2.vsnd",
+			"sounds/ambient/water/distant_drip3.vsnd",
+			"sounds/ambient/water/distant_drip4.vsnd",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.396277,
+				-1.396277,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.062540
+	}
+	overpass.Inside.Tside.City = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Overpass"
+		use_time_volume_mapping_curve = true
+		volume = 0.200000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		pitch = 0.800000
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = "sounds/ambient/atmosphere/amb_bank_01.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 6.670318
+	}
+	overpass.Park.Fountain.WaterLap = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Overpass"
+		volume = 0.100000
+		position = 
+		[
+			-2535.899902,
+			-1975.240967,
+			541.016174,
+		]
+		enable_retrigger = true
+		retrigger_interval_min = 5.000000
+		retrigger_interval_max = 7.000000
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/canals/ambience_canals_water_lap_01.vsnd",
+			"sounds/ambient/canals/ambience_canals_water_lap_02.vsnd",
+			"sounds/ambient/canals/ambience_canals_water_lap_03.vsnd",
+			"sounds/ambient/canals/ambience_canals_water_lap_04.vsnd",
+			"sounds/ambient/canals/ambience_canals_water_lap_05.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-0.003306,
+				-0.003306,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				400.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.025050,
+				-1.025050,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.542857,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 6.954762
+	}
+	overpass.Inside.DripsBucket = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Overpass"
+		reverb_wet = 1.000000
+		volume = 0.300000
+		distance_effect_mix = 0.000000
+		position = 
+		[
+			-2326.500488,
+			1163.965454,
+			366.093445,
+		]
+		enable_retrigger = true
+		pitch_random_min = -0.100000
+		pitch_random_max = 0.100000
+		retrigger_interval_min = 1.700000
+		retrigger_interval_max = 1.800000
+		restrict_source_reverb = true
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-0.007339,
+				-0.007339,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/ambient/weather/rain_drip1.vsnd",
+			"sounds/ambient/weather/rain_drip2.vsnd",
+			"sounds/ambient/weather/rain_drip3.vsnd",
+			"sounds/ambient/weather/rain_drip4.vsnd",
+			"sounds/ambient/weather/rain_drip5.vsnd",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.396277,
+				-1.396277,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.419955
+	}
+	overpass.Inside.City = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Overpass"
+		volume = 0.150000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		use_time_volume_mapping_curve = true
+		set_child_position = false
+		distance_effect_mix = 0.000000
+		restrict_source_reverb = true
+		pitch = 0.800000
+		vsnd_files_track_01 = "sounds/ambient/atmosphere/amb_bank_01.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.764706,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.761029,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.614939,
+				0.756410,
+				-0.533563,
+				-0.533563,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				1.465714,
+				0.217949,
+				-0.317145,
+				-0.317145,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				3.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				1.417088,
+				2.000000,
+				1.000000,
+			],
+			
+			[
+				0.323186,
+				0.457983,
+				0.450868,
+				0.450868,
+				1.000000,
+				1.000000,
+			],
+			
+			[
+				2.217943,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 6.670318
 	}
 }

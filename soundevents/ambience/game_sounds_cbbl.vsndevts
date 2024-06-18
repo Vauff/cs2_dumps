@@ -1,3 +1,4 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	cbbl.Indoors.Rocks = 
 	{
@@ -15,6 +16,7 @@
 		use_time_volume_mapping_curve = true
 		set_child_position = false
 		position_relative_to_player = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/misc/rock1.vsnd",
@@ -131,6 +133,7 @@
 		volume = 0.400000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/tones/roomtone2.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -263,6 +266,7 @@
 		volume = 0.200000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/wind/wind1.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -404,6 +408,7 @@
 		enable_child_events = true
 		dsp_preset = "reverb_22_outsideOpen"
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -505,6 +510,7 @@
 		volume = 0.100000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/machines/lab_loop1.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -637,6 +643,7 @@
 		dsp_preset = "reverb_6_largeRoom"
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -744,6 +751,7 @@
 		dsp_preset = "reverb_6_largeRoom"
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -851,6 +859,7 @@
 		volume = 0.400000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/wind/wind1.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -981,6 +990,7 @@
 		use_time_volume_mapping_curve = false
 		set_child_position = false
 		position_relative_to_player = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/bird1.vsnd",
@@ -1112,6 +1122,7 @@
 		use_time_volume_mapping_curve = false
 		set_child_position = false
 		position_relative_to_player = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/misc/clank1.vsnd",
@@ -1226,6 +1237,7 @@
 		use_time_volume_mapping_curve = false
 		set_child_position = false
 		position_relative_to_player = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/misc/rock1.vsnd",
@@ -1340,6 +1352,7 @@
 		use_time_volume_mapping_curve = false
 		set_child_position = false
 		position_relative_to_player = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/animal/crow.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1450,6 +1463,7 @@
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
 		position_relative_to_player = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/overhead/plane1.vsnd",
@@ -1587,6 +1601,7 @@
 		set_child_position = false
 		dsp_preset = "reverb_22_outsideOpen"
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[

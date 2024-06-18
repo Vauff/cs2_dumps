@@ -1,3 +1,4 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	shoots.Outdoors = 
 	{
@@ -17,6 +18,7 @@
 		dsp_preset = "reverb_21_outsideStreet"
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -129,6 +131,7 @@
 		volume = 0.500000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/shoots/shoots_exterior_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -241,6 +244,7 @@
 				3.000000,
 			],
 		]
+		vsnd_duration = 28.650545
 	}
 	shoots.Outdoors.Amb2 = 
 	{
@@ -250,6 +254,7 @@
 		volume = 0.440000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/shoots/shoots_exterior_02.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -362,6 +367,7 @@
 				3.000000,
 			],
 		]
+		vsnd_duration = 14.271338
 	}
 	shoots.Outdoors.Birds = 
 	{
@@ -380,6 +386,7 @@
 		use_time_volume_mapping_curve = true
 		set_child_position = false
 		position_relative_to_player = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/shoots_jungle_bird_01.vsnd",
@@ -499,6 +506,7 @@
 		use_time_volume_mapping_curve = true
 		set_child_position = false
 		position_relative_to_player = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/playonce/weather/thunder_distant_01.vsnd",
@@ -618,6 +626,7 @@
 		dsp_preset = "reverb_4_smallCarpetRoom"
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -725,6 +734,7 @@
 		volume = 0.500000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/shoots/shoots_exterior_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -846,6 +856,7 @@
 				3.000000,
 			],
 		]
+		vsnd_duration = 28.650545
 	}
 	shoots.Indoors.Amb2 = 
 	{
@@ -855,6 +866,7 @@
 		volume = 0.300000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/shoots/shoots_exterior_02.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -976,6 +988,7 @@
 				3.000000,
 			],
 		]
+		vsnd_duration = 14.271338
 	}
 	shoots.Indoors.Thunder = 
 	{
@@ -995,6 +1008,7 @@
 		set_child_position = false
 		retrigger_radius = 10000.000000
 		position_relative_to_player = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/playonce/weather/thunder_distant_01.vsnd",
@@ -1122,6 +1136,7 @@
 		enable_child_events = true
 		dsp_preset = "reverb_21_outsideStreet"
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1219,7 +1234,6 @@
 			"shoots.Outdoors.Amb2",
 			"shoots.Outdoors.Birds",
 			"shoots.Outdoors.Thunder",
-			"shoots.Outdoors.Cockatoo",
 			"shoots.Mid.WaterGush",
 		]
 		vsnd_duration = 0.100045
@@ -1243,6 +1257,7 @@
 		override_dsp_preset = true
 		position_relative_to_player = false
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1368,16 +1383,17 @@
 		retrigger_interval_max = 20.000000
 		position_relative_to_player = true
 		volume_random_max = -0.700000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
-			"sounds/player/footsteps/wood_floor_creak_01.vsnd",
-			"sounds/player/footsteps/wood_floor_creak_02.vsnd",
-			"sounds/player/footsteps/wood_floor_creak_03.vsnd",
-			"sounds/player/footsteps/wood_floor_creak_04.vsnd",
-			"sounds/player/footsteps/wood_floor_creak_05.vsnd",
-			"sounds/player/footsteps/wood_floor_creak_06.vsnd",
-			"sounds/player/footsteps/wood_floor_creak_07.vsnd",
-			"sounds/player/footsteps/wood_floor_creak_08.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_01.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_02.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_03.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_04.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_05.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_06.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_07.vsnd",
+			"sounds/player/footsteps/new/wood_floor_creak_08.vsnd",
 		]
 		distance_volume_mapping_curve = 
 		[
@@ -1489,6 +1505,7 @@
 		enable_retrigger = true
 		retrigger_interval_min = 10.000000
 		retrigger_interval_max = 30.000000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/rodent_scratch_short_1.vsnd",
@@ -1612,6 +1629,7 @@
 		enable_child_events = true
 		dsp_preset = "reverb_4_smallCarpetRoom"
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1721,6 +1739,7 @@
 		mixgroup = "Shoots"
 		use_distance_unfiltered_stereo_mapping_curve = true
 		volume = 0.200000
+		distance_effect_mix = 0.000000
 		distance_unfiltered_stereo_mapping_curve = 
 		[
 			
@@ -1854,6 +1873,7 @@
 		enable_retrigger = true
 		retrigger_interval_min = 10.000000
 		retrigger_interval_max = 30.000000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/rodent_scratch_short_1.vsnd",
@@ -1970,6 +1990,7 @@
 		retrigger_interval_min = 2.000000
 		retrigger_interval_max = 2.000000
 		volume_random_max = 0.100000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/machines/squeak_2.vsnd",
@@ -2104,6 +2125,7 @@
 			1277.098755,
 			163.934052,
 		]
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -2215,6 +2237,7 @@
 		enable_child_events = true
 		dsp_preset = "reverb_4_smallCarpetRoom"
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -2327,6 +2350,7 @@
 			164.110504,
 		]
 		use_time_volume_mapping_curve = true
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -2406,6 +2430,7 @@
 		]
 		use_time_volume_mapping_curve = true
 		pitch = 0.980000
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -2485,6 +2510,7 @@
 		randomize_position_max_radius = 100.000000
 		volume = 0.090000
 		volume_random_min = -0.030000
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/shoots/shoots_cockatoo_01.vsnd",
@@ -2516,6 +2542,7 @@
 				3.000000,
 			],
 		]
+		vsnd_duration = 5.102721
 	}
 	shoots.Mid.WaterStream = 
 	{
@@ -2529,6 +2556,7 @@
 			0.000000,
 			0.000000,
 		]
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -2608,6 +2636,7 @@
 				3.000000,
 			],
 		]
+		vsnd_duration = 13.500000
 	}
 	shoots.Mid.WaterGush = 
 	{
@@ -2621,6 +2650,7 @@
 			620.479614,
 			-0.313232,
 		]
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			
@@ -2673,6 +2703,7 @@
 				3.000000,
 			],
 		]
+		vsnd_duration = 7.900612
 	}
 	shoots.Outdoors.CricketBed = 
 	{
@@ -2682,6 +2713,7 @@
 		volume = 0.100000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/shoots/shoots_cricketbed.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -2794,6 +2826,7 @@
 				3.000000,
 			],
 		]
+		vsnd_duration = 20.243015
 	}
 	shoots.Indoors.CricketBed = 
 	{
@@ -2803,6 +2836,7 @@
 		volume = 0.100000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds/ambient/shoots/shoots_cricketbed.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -2915,6 +2949,7 @@
 				3.000000,
 			],
 		]
+		vsnd_duration = 20.243015
 	}
 	shoots.Mid.WaterGutter = 
 	{
@@ -2931,6 +2966,7 @@
 		enable_retrigger = true
 		retrigger_interval_min = 3.000000
 		retrigger_interval_max = 5.000000
+		distance_effect_mix = 0.000000
 		distance_volume_mapping_curve = 
 		[
 			

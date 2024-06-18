@@ -1,3 +1,4 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	Door.de_nuke_unlock_01 = 
 	{
@@ -5,9 +6,9 @@
 		volume = 0.699707
 		pitch = 1.000000
 		use_distance_volume_mapping_curve = true
-		reverb_wet = 0.300000
+		reverb_wet = 1.000000
 		mixgroup = "World"
-		occlusion_intensity = 0.500000
+		occlusion_intensity = 0.800000
 		display_broadcast = true
 		position_offset = 
 		[
@@ -15,6 +16,13 @@
 			0.000000,
 			0.000000,
 		]
+		use_fadetime_volume_mapping_curve = false
+		reverb_source_wet = 1.000000
+		instance_limit = 1.000000
+		block_duration = 0.300000
+		block_distance = 100.000000
+		restrict_source_reverb = true
+		occlusion_frequency_scale = 0.970000
 		vsnd_files_track_01 = "sounds/doors/metal_door_open_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -37,6 +45,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.553764
 	}
 	Door.de_nuke_unlock_02 = 
@@ -45,9 +74,9 @@
 		volume = 0.699707
 		pitch = 1.000000
 		use_distance_volume_mapping_curve = true
-		reverb_wet = 0.300000
+		reverb_wet = 1.000000
 		mixgroup = "World"
-		occlusion_intensity = 0.500000
+		occlusion_intensity = 0.800000
 		display_broadcast = true
 		position_offset = 
 		[
@@ -55,6 +84,13 @@
 			0.000000,
 			0.000000,
 		]
+		use_fadetime_volume_mapping_curve = false
+		reverb_source_wet = 1.000000
+		instance_limit = 1.000000
+		block_duration = 0.300000
+		block_distance = 100.000000
+		restrict_source_reverb = true
+		occlusion_frequency_scale = 0.970000
 		vsnd_files_track_01 = "sounds/doors/metal_door_open_02.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -77,6 +113,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.662404
 	}
 	Door.de_nuke_unlock_03 = 
@@ -85,9 +142,9 @@
 		volume = 0.699707
 		pitch = 1.000000
 		use_distance_volume_mapping_curve = true
-		reverb_wet = 0.300000
+		reverb_wet = 1.000000
 		mixgroup = "World"
-		occlusion_intensity = 0.500000
+		occlusion_intensity = 0.800000
 		display_broadcast = true
 		position_offset = 
 		[
@@ -95,6 +152,13 @@
 			0.000000,
 			0.000000,
 		]
+		use_fadetime_volume_mapping_curve = false
+		reverb_source_wet = 1.000000
+		instance_limit = 1.000000
+		block_duration = 0.300000
+		block_distance = 100.000000
+		restrict_source_reverb = true
+		occlusion_frequency_scale = 0.970000
 		vsnd_files_track_01 = 
 		[
 			"sounds/doors/metal_door_open_02.vsnd",
@@ -121,6 +185,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.662404
 	}
 	Door.de_nuke_move_01 = 
@@ -129,9 +214,9 @@
 		volume = 0.299805
 		pitch = 1.000000
 		use_distance_volume_mapping_curve = true
-		reverb_wet = 0.300000
+		reverb_wet = 1.000000
 		mixgroup = "World"
-		occlusion_intensity = 0.500000
+		occlusion_intensity = 0.800000
 		display_broadcast = true
 		position_offset = 
 		[
@@ -139,6 +224,13 @@
 			0.000000,
 			60.000000,
 		]
+		use_fadetime_volume_mapping_curve = false
+		reverb_source_wet = 1.000000
+		instance_limit = 1.000000
+		block_duration = 0.300000
+		block_distance = 100.000000
+		restrict_source_reverb = true
+		occlusion_frequency_scale = 0.970000
 		vsnd_files_track_01 = "sounds/doors/metal_door_move_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -161,6 +253,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.392109
 	}
 	Door.de_nuke_move_02 = 
@@ -169,9 +282,9 @@
 		volume = 0.299805
 		pitch = 1.000000
 		use_distance_volume_mapping_curve = true
-		reverb_wet = 0.300000
+		reverb_wet = 1.000000
 		mixgroup = "World"
-		occlusion_intensity = 0.500000
+		occlusion_intensity = 0.800000
 		display_broadcast = true
 		position_offset = 
 		[
@@ -179,6 +292,13 @@
 			0.000000,
 			60.000000,
 		]
+		use_fadetime_volume_mapping_curve = false
+		reverb_source_wet = 1.000000
+		instance_limit = 1.000000
+		block_duration = 0.300000
+		block_distance = 100.000000
+		restrict_source_reverb = true
+		occlusion_frequency_scale = 0.970000
 		vsnd_files_track_01 = "sounds/doors/metal_door_move_02.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -201,6 +321,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.459977
 	}
 	Door.de_nuke_move_03 = 
@@ -209,9 +350,9 @@
 		volume = 0.299805
 		pitch = 1.000000
 		use_distance_volume_mapping_curve = true
-		reverb_wet = 0.300000
+		reverb_wet = 1.000000
 		mixgroup = "World"
-		occlusion_intensity = 0.500000
+		occlusion_intensity = 0.800000
 		display_broadcast = true
 		position_offset = 
 		[
@@ -219,6 +360,13 @@
 			0.000000,
 			60.000000,
 		]
+		use_fadetime_volume_mapping_curve = false
+		reverb_source_wet = 1.000000
+		instance_limit = 1.000000
+		block_duration = 0.300000
+		block_distance = 100.000000
+		restrict_source_reverb = true
+		occlusion_frequency_scale = 0.970000
 		vsnd_files_track_01 = 
 		[
 			"sounds/doors/metal_door_move_01.vsnd",
@@ -245,6 +393,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.459977
 	}
 	Door.de_nuke_full_close_01 = 
@@ -253,9 +422,9 @@
 		volume = 0.399902
 		pitch = 1.000000
 		use_distance_volume_mapping_curve = true
-		reverb_wet = 0.300000
+		reverb_wet = 1.000000
 		mixgroup = "World"
-		occlusion_intensity = 0.500000
+		occlusion_intensity = 0.800000
 		display_broadcast = true
 		position_offset = 
 		[
@@ -263,6 +432,13 @@
 			0.000000,
 			0.000000,
 		]
+		use_fadetime_volume_mapping_curve = false
+		reverb_source_wet = 1.000000
+		instance_limit = 1.000000
+		block_duration = 0.300000
+		block_distance = 100.000000
+		restrict_source_reverb = true
+		occlusion_frequency_scale = 0.970000
 		vsnd_files_track_01 = "sounds/doors/metal_door_full_close_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -285,6 +461,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.691746
 	}
 	Door.de_nuke_full_close_02 = 
@@ -293,9 +490,9 @@
 		volume = 0.399902
 		pitch = 1.000000
 		use_distance_volume_mapping_curve = true
-		reverb_wet = 0.300000
+		reverb_wet = 1.000000
 		mixgroup = "World"
-		occlusion_intensity = 0.500000
+		occlusion_intensity = 0.800000
 		display_broadcast = true
 		position_offset = 
 		[
@@ -303,6 +500,13 @@
 			0.000000,
 			0.000000,
 		]
+		use_fadetime_volume_mapping_curve = false
+		reverb_source_wet = 1.000000
+		instance_limit = 1.000000
+		block_duration = 0.300000
+		block_distance = 100.000000
+		restrict_source_reverb = true
+		occlusion_frequency_scale = 0.970000
 		vsnd_files_track_01 = "sounds/doors/metal_door_full_close_02.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -325,6 +529,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.701179
 	}
 	Door.de_nuke_full_close_03 = 
@@ -333,9 +558,9 @@
 		volume = 0.399902
 		pitch = 1.000000
 		use_distance_volume_mapping_curve = true
-		reverb_wet = 0.300000
+		reverb_wet = 1.000000
 		mixgroup = "World"
-		occlusion_intensity = 0.500000
+		occlusion_intensity = 0.800000
 		display_broadcast = true
 		position_offset = 
 		[
@@ -343,6 +568,13 @@
 			0.000000,
 			0.000000,
 		]
+		use_fadetime_volume_mapping_curve = false
+		reverb_source_wet = 1.000000
+		instance_limit = 1.000000
+		block_duration = 0.300000
+		block_distance = 100.000000
+		restrict_source_reverb = true
+		occlusion_frequency_scale = 0.970000
 		vsnd_files_track_01 = 
 		[
 			"sounds/doors/metal_door_full_close_01.vsnd",
@@ -369,6 +601,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.701179
 	}
 	Door.de_nuke_full_open_01 = 
@@ -377,16 +630,23 @@
 		volume = 0.250000
 		pitch = 1.075000
 		use_distance_volume_mapping_curve = true
-		reverb_wet = 0.300000
+		reverb_wet = 1.000000
 		mixgroup = "World"
-		occlusion_intensity = 0.500000
+		occlusion_intensity = 0.800000
 		display_broadcast = true
 		position_offset = 
 		[
-			60.000000,
+			0.000000,
 			0.000000,
 			60.000000,
 		]
+		use_fadetime_volume_mapping_curve = false
+		reverb_source_wet = 1.000000
+		instance_limit = 1.000000
+		block_duration = 0.300000
+		block_distance = 100.000000
+		restrict_source_reverb = true
+		occlusion_frequency_scale = 0.970000
 		vsnd_files_track_01 = "sounds/doors/metal_door_full_open_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -409,6 +669,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.650680
 	}
 	Door.de_nuke_full_open_02 = 
@@ -417,16 +698,23 @@
 		volume = 0.250000
 		pitch = 1.075000
 		use_distance_volume_mapping_curve = true
-		reverb_wet = 0.300000
+		reverb_wet = 1.000000
 		mixgroup = "World"
-		occlusion_intensity = 0.500000
+		occlusion_intensity = 0.800000
 		display_broadcast = true
 		position_offset = 
 		[
-			60.000000,
+			0.000000,
 			0.000000,
 			60.000000,
 		]
+		use_fadetime_volume_mapping_curve = false
+		reverb_source_wet = 1.000000
+		instance_limit = 1.000000
+		block_duration = 0.300000
+		block_distance = 100.000000
+		restrict_source_reverb = true
+		occlusion_frequency_scale = 0.970000
 		vsnd_files_track_01 = "sounds/doors/metal_door_full_open_02.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -449,6 +737,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.556848
 	}
 	Door.de_nuke_full_open_03 = 
@@ -457,16 +766,23 @@
 		volume = 0.250000
 		pitch = 1.075000
 		use_distance_volume_mapping_curve = true
-		reverb_wet = 0.300000
+		reverb_wet = 1.000000
 		mixgroup = "World"
-		occlusion_intensity = 0.500000
+		occlusion_intensity = 0.800000
 		display_broadcast = true
 		position_offset = 
 		[
-			60.000000,
+			0.000000,
 			0.000000,
 			60.000000,
 		]
+		use_fadetime_volume_mapping_curve = false
+		reverb_source_wet = 1.000000
+		instance_limit = 1.000000
+		block_duration = 0.300000
+		block_distance = 100.000000
+		restrict_source_reverb = true
+		occlusion_frequency_scale = 0.970000
 		vsnd_files_track_01 = 
 		[
 			"sounds/doors/metal_door_full_close_01.vsnd",
@@ -486,6 +802,27 @@
 			
 			[
 				1400.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
 				0.000000,
 				0.000000,
 				0.000000,
@@ -503,8 +840,13 @@
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
 		mixgroup = "World"
-		occlusion_intensity = 1.000000
+		occlusion_intensity = 0.800000
 		display_broadcast = true
+		use_fadetime_volume_mapping_curve = false
+		instance_limit = 1.000000
+		block_duration = 0.300000
+		block_distance = 100.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/doors/metal_door_full_close_01.vsnd",
@@ -524,6 +866,27 @@
 			
 			[
 				1400.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
 				0.000000,
 				0.000000,
 				0.000000,
@@ -541,8 +904,13 @@
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
 		mixgroup = "World"
-		occlusion_intensity = 1.000000
+		occlusion_intensity = 0.800000
 		display_broadcast = true
+		use_fadetime_volume_mapping_curve = false
+		instance_limit = 1.000000
+		block_duration = 0.300000
+		block_distance = 100.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/doors/metal_door_full_close_01.vsnd",
@@ -569,6 +937,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.701179
 	}
 	Door.training_move = 
@@ -579,7 +968,10 @@
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
 		mixgroup = "World"
-		occlusion_intensity = 1.000000
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		instance_limit = 1.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/doors/metal_door_move_01.vsnd",
@@ -607,6 +999,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.496122
 	}
 	DoorHandles.Locked1 = 
@@ -617,7 +1030,10 @@
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
 		mixgroup = "World"
-		occlusion_intensity = 1.000000
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/doors/latchlocked2.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -640,6 +1056,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.543560
 	}
 	Buttons.snd8 = 
@@ -650,6 +1087,10 @@
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
 		mixgroup = "World"
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/buttons/button8.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -672,6 +1113,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.637778
 	}
 	Buttons.snd9 = 
@@ -682,6 +1144,10 @@
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
 		mixgroup = "World"
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/buttons/button9.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -704,6 +1170,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.274354
 	}
 	tr.C4Explode = 
@@ -714,6 +1201,10 @@
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
 		mixgroup = "World"
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/training/firewerks_burst_02.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -736,6 +1227,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 6.190159
 	}
 	tr.BellImpact = 
@@ -746,6 +1258,10 @@
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
 		mixgroup = "World"
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/training/bell_impact.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -768,6 +1284,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 3.324399
 	}
 	tr.BellNormal = 
@@ -778,6 +1315,10 @@
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
 		mixgroup = "World"
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/training/bell_normal.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -800,6 +1341,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 3.324399
 	}
 	tr.Countdown = 
@@ -810,6 +1372,10 @@
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
 		mixgroup = "World"
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/training/countdown.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -832,6 +1398,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 3.012789
 	}
 	tr.GalleryStop = 
@@ -842,6 +1429,10 @@
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
 		mixgroup = "World"
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/training/gallery_stop.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -864,6 +1455,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 1.502041
 	}
 	tr.Highscore = 
@@ -874,6 +1486,10 @@
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
 		mixgroup = "World"
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/training/highscore.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -896,6 +1512,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 2.782948
 	}
 	tr.LightOn = 
@@ -906,6 +1543,10 @@
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
 		mixgroup = "World"
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/training/light_on.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -928,6 +1569,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.722313
 	}
 	tr.LowScore = 
@@ -938,6 +1600,10 @@
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
 		mixgroup = "World"
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/training/lowscore.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -960,6 +1626,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 1.703039
 	}
 	tr.PointScored = 
@@ -970,6 +1657,10 @@
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
 		mixgroup = "World"
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/training/pointscored.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -992,6 +1683,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.624898
 	}
 	tr.Popup = 
@@ -1002,6 +1714,10 @@
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
 		mixgroup = "World"
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/training/popup.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1024,6 +1740,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.605170
 	}
 	tr.PuckFail = 
@@ -1034,6 +1771,10 @@
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
 		mixgroup = "World"
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/training/puck_fail.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1056,6 +1797,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.498866
 	}
 	tr.Score100 = 
@@ -1066,6 +1828,10 @@
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
 		mixgroup = "World"
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/training/score100.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1088,6 +1854,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 2.722903
 	}
 	tr.ScoreRegular = 
@@ -1098,6 +1885,10 @@
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
 		mixgroup = "World"
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/training/scoreregular.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1120,6 +1911,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 3.955828
 	}
 	tr.Startwam = 
@@ -1130,6 +1942,10 @@
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
 		mixgroup = "World"
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/training/startwam.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1152,6 +1968,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 2.679478
 	}
 	tr.TimerBell = 
@@ -1162,6 +1999,10 @@
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
 		mixgroup = "World"
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/training/timer_bell.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1178,6 +2019,27 @@
 			[
 				4000.000000,
 				0.107586,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -1194,6 +2056,10 @@
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
 		mixgroup = "World"
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/training/timer_bell.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1216,6 +2082,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.327075
 	}
 	coop.HitRangeTarget_Red = 
@@ -1226,6 +2113,10 @@
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
 		mixgroup = "World"
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/training/timer_bell.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1242,6 +2133,27 @@
 			[
 				4000.000000,
 				0.098276,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -1258,6 +2170,10 @@
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
 		mixgroup = "World"
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/training/timer_bell.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1280,6 +2196,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.327075
 	}
 	coop_cementplant.mission2_computer_press = 
@@ -1290,6 +2227,10 @@
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
 		mixgroup = "World"
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/ambient/nuke/machine_office_04.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1312,6 +2253,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 5.760000
 	}
 	coop_cementplant.mission2_computer_waiting = 
@@ -1322,6 +2284,10 @@
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
 		mixgroup = "World"
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/ambient/nuke/machine_office_06.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1344,6 +2310,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 4.693333
 	}
 	coop_compound.big_explode = 
@@ -1354,6 +2341,10 @@
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
 		mixgroup = "World"
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/weapons/c4/c4_explode1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1376,6 +2367,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 5.979161
 	}
 	drone.engine = 
@@ -1386,6 +2398,10 @@
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
 		mixgroup = "World"
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/vehicles/drone_loop_02.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1408,6 +2424,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 	}
 	security_door.open = 
 	{
@@ -1417,7 +2454,10 @@
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
 		mixgroup = "World"
-		occlusion_intensity = 1.000000
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/buttons/lever6.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1440,6 +2480,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.943061
 	}
 	coop.c4_beep_normal = 
@@ -1450,6 +2511,10 @@
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
 		mixgroup = "World"
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/weapons/c4/c4_beep2.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1466,6 +2531,27 @@
 			[
 				4000.000000,
 				0.098276,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -1482,6 +2568,10 @@
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
 		mixgroup = "World"
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/weapons/c4/c4_beep2.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1504,18 +2594,45 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.151383
 	}
 	Chicken.Death = 
 	{
 		type = "csgo_mega"
-		volume = 1.000000
+		volume = 0.500000
 		pitch = 1.000000
 		mixgroup = "World"
-		block_distance = 69.000000
+		block_distance = 10000.000000
 		block_duration = 1.000000
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
+		occlusion_intensity = 0.800000
+		reverb_source_wet = 0.000000
+		block_match_entity = false
+		use_fadetime_volume_mapping_curve = false
+		instance_limit = 1.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/creatures/chicken_death_01.vsnd",
@@ -1543,6 +2660,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.702630
 	}
 	Chicken.FlapWings = 
@@ -1551,10 +2689,15 @@
 		volume = 1.000000
 		pitch = 1.000000
 		mixgroup = "World"
-		block_distance = 69.000000
-		block_duration = 1.000000
+		block_distance = 10000.000000
+		block_duration = 5.000000
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
+		occlusion_intensity = 0.800000
+		reverb_source_wet = 0.000000
+		use_fadetime_volume_mapping_curve = false
+		instance_limit = 1.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/animal/bird_flapping_3.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1577,6 +2720,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 3.067801
 	}
 	Chicken.Fly = 
@@ -1585,10 +2749,16 @@
 		volume = 0.500000
 		pitch = 1.000000
 		mixgroup = "World"
-		block_distance = 69.000000
-		block_duration = 1.000000
+		block_distance = 10000.000000
+		block_duration = 5.000000
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
+		occlusion_intensity = 0.800000
+		reverb_source_wet = 0.000000
+		block_match_entity = false
+		use_fadetime_volume_mapping_curve = false
+		instance_limit = 1.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/ambient/creatures/chicken_fly_long.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1611,6 +2781,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 1.621973
 	}
 	Chicken.Idle = 
@@ -1619,10 +2810,16 @@
 		volume = 0.200000
 		pitch = 1.000000
 		mixgroup = "World"
-		block_distance = 69.000000
-		block_duration = 1.000000
+		block_distance = 10000.000000
+		block_duration = 15.000000
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
+		occlusion_intensity = 0.800000
+		reverb_source_wet = 0.000000
+		block_match_entity = false
+		use_fadetime_volume_mapping_curve = false
+		instance_limit = 1.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/creatures/chicken_idle_01.vsnd",
@@ -1652,18 +2849,45 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 2.497120
 	}
 	Chicken.Panic = 
 	{
 		type = "csgo_mega"
-		volume = 0.899902
+		volume = 0.500000
 		pitch = 1.000000
 		mixgroup = "World"
-		block_distance = 69.000000
-		block_duration = 1.000000
+		block_distance = 10000.000000
+		block_duration = 5.000000
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
+		occlusion_intensity = 0.800000
+		reverb_source_wet = 0.000000
+		block_match_entity = false
+		use_fadetime_volume_mapping_curve = false
+		instance_limit = 1.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/creatures/chicken_panic_01.vsnd",
@@ -1692,6 +2916,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 1.563016
 	}
 	Chicken.ZombieRez = 
@@ -1704,6 +2949,11 @@
 		block_duration = 1.000000
 		use_distance_volume_mapping_curve = true
 		reverb_wet = 0.300000
+		occlusion_intensity = 0.800000
+		reverb_source_wet = 0.000000
+		use_fadetime_volume_mapping_curve = false
+		instance_limit = 1.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = "sounds/physics/destruction/smash_rockcollapse1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1726,6 +2976,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 3.208526
 	}
 	water_flood_finished_loop = 
@@ -1736,6 +3007,10 @@
 		mixgroup = "World"
 		block_duration = 0.300000
 		use_distance_volume_mapping_curve = true
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/ambient/water/water_flow_loop1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1767,6 +3042,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 5.247778
 	}
 	container_sparks = 
@@ -1777,6 +3073,10 @@
 		mixgroup = "World"
 		block_duration = 0.300000
 		use_distance_volume_mapping_curve = true
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		instance_limit = 1.000000
+		restrict_source_reverb = true
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/energy/weld1.vsnd",
@@ -1812,6 +3112,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 1.541224
 	}
 	floodgate_move_short = 
@@ -1822,6 +3143,10 @@
 		mixgroup = "World"
 		block_duration = 0.300000
 		use_distance_volume_mapping_curve = true
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/ambient/machines/floodgate_move_short1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1853,6 +3178,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 4.759864
 	}
 	floodgate_stop = 
@@ -1863,6 +3209,10 @@
 		mixgroup = "World"
 		block_duration = 0.300000
 		use_distance_volume_mapping_curve = true
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/ambient/machines/floodgate_stop1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1894,6 +3244,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 3.357551
 	}
 	floodgate_klaxon = 
@@ -1904,6 +3275,10 @@
 		mixgroup = "World"
 		block_duration = 0.300000
 		use_distance_volume_mapping_curve = true
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1935,6 +3310,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.100045
 	}
 	water_flood_in = 
@@ -1945,6 +3341,10 @@
 		mixgroup = "World"
 		block_duration = 0.300000
 		use_distance_volume_mapping_curve = true
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/ambient/playonce/water/water_pump_drainin1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1976,6 +3376,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 15.678458
 	}
 	pipe_water_drip = 
@@ -1986,6 +3407,10 @@
 		mixgroup = "World"
 		block_duration = 0.300000
 		use_distance_volume_mapping_curve = true
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/ambient/water/drip_loop1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -2017,6 +3442,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 13.250158
 	}
 	train_move = 
@@ -2027,6 +3473,10 @@
 		mixgroup = "World"
 		block_duration = 0.300000
 		use_distance_volume_mapping_curve = true
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/ambient/playonce/machines/train_freight_loop1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -2058,6 +3508,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 19.924807
 	}
 	train_wheels = 
@@ -2068,6 +3539,11 @@
 		mixgroup = "World"
 		block_duration = 0.300000
 		use_distance_volume_mapping_curve = true
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		use_time_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/ambient/machines/razor_train_wheels_loop1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -2099,6 +3575,48 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 5.043900
 	}
 	boxcar_door_move = 
@@ -2109,7 +3627,10 @@
 		mixgroup = "World"
 		block_duration = 0.300000
 		use_distance_volume_mapping_curve = true
-		occlusion_intensity = 1.000000
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/doors/door_metal_gate_move1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -2141,6 +3662,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 1.462948
 	}
 	boxcar_door_stop1 = 
@@ -2151,7 +3693,10 @@
 		mixgroup = "World"
 		block_duration = 0.300000
 		use_distance_volume_mapping_curve = true
-		occlusion_intensity = 1.000000
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/doors/door_metal_thin_open1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -2183,6 +3728,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.708980
 	}
 	boxcar_door_stop2 = 
@@ -2193,7 +3759,10 @@
 		mixgroup = "World"
 		block_duration = 0.300000
 		use_distance_volume_mapping_curve = true
-		occlusion_intensity = 1.000000
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/doors/door_metal_thin_close2.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -2225,6 +3794,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.624853
 	}
 	heli_pass = 
@@ -2235,6 +3825,10 @@
 		mixgroup = "World"
 		block_duration = 0.300000
 		use_distance_volume_mapping_curve = true
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/ambient/playonce/machines/heli_pass_quick1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -2262,6 +3856,27 @@
 				0.000000,
 				-0.000275,
 				-0.000275,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
 				2.000000,
 				3.000000,
 			],
@@ -2276,6 +3891,10 @@
 		mixgroup = "World"
 		block_duration = 0.300000
 		use_distance_volume_mapping_curve = true
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/ambient/playonce/machines/heli_pass_quick1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -2307,6 +3926,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 14.748140
 	}
 	helicopter_main = 
@@ -2317,6 +3957,10 @@
 		mixgroup = "World"
 		block_duration = 0.300000
 		use_distance_volume_mapping_curve = true
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/vehicles/loud_helicopter_lp_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -2344,6 +3988,27 @@
 				0.000000,
 				-0.000275,
 				-0.000275,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
 				2.000000,
 				3.000000,
 			],
@@ -2357,6 +4022,10 @@
 		mixgroup = "World"
 		block_duration = 0.300000
 		use_distance_volume_mapping_curve = true
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/vehicles/loud_helicopter_sweeten_lp_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -2388,6 +4057,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 	}
 	helicopter_main_training = 
 	{
@@ -2397,6 +4087,10 @@
 		mixgroup = "World"
 		block_duration = 0.300000
 		use_distance_volume_mapping_curve = true
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/vehicles/loud_helicopter_lp_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -2428,6 +4122,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 	}
 	helicopter_sweetner_training = 
 	{
@@ -2437,6 +4152,10 @@
 		mixgroup = "World"
 		block_duration = 0.300000
 		use_distance_volume_mapping_curve = true
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/vehicles/loud_helicopter_sweeten_lp_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -2468,6 +4187,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 	}
 	body_fall_1 = 
 	{
@@ -2477,6 +4217,10 @@
 		mixgroup = "World"
 		block_duration = 0.300000
 		use_distance_volume_mapping_curve = true
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/physics/body/body_medium_impact_hard1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -2508,6 +4252,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 0.459070
 	}
 	substation_generators = 
@@ -2518,7 +4283,10 @@
 		mixgroup = "World"
 		block_duration = 0.300000
 		use_distance_volume_mapping_curve = true
-		occlusion_intensity = 1.000000
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = "sounds/ambient/atmosphere/indoor2.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -2550,6 +4318,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 3.640635
 	}
 	CoopCompound.ExplodeDistant1 = 
@@ -2560,6 +4349,10 @@
 		mixgroup = "World"
 		block_duration = 0.300000
 		use_distance_volume_mapping_curve = true
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/weapons/flashbang/flashbang_explode1_distant.vsnd",
@@ -2595,6 +4388,27 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 2.655782
 	}
 	CoopCompound.ExplodeDistant2 = 
@@ -2605,6 +4419,10 @@
 		mixgroup = "World"
 		block_duration = 0.300000
 		use_distance_volume_mapping_curve = true
+		occlusion_intensity = 0.800000
+		use_fadetime_volume_mapping_curve = false
+		restrict_source_reverb = true
+		instance_limit = 1.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/weapons/molotov/molotov_detonate_1_distant.vsnd",
@@ -2641,6 +4459,672 @@
 				3.000000,
 			],
 		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 		vsnd_duration = 3.715193
+	}
+	Door.de_vertigo_full_close = 
+	{
+		type = "csgo_mega"
+		volume = 1.000000
+		pitch = 1.000000
+		use_distance_volume_mapping_curve = true
+		reverb_wet = 0.300000
+		mixgroup = "World"
+		occlusion_intensity = 0.800000
+		display_broadcast = true
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			0.000000,
+		]
+		use_fadetime_volume_mapping_curve = true
+		reverb_source_wet = 0.300000
+		instance_limit = 1.000000
+		block_duration = 0.300000
+		block_distance = 100.000000
+		restrict_source_reverb = true
+		vsnd_files_track_01 = 
+		[
+			"sounds/doors/door_plastic_full_close_01.vsnd",
+			"sounds/doors/door_plastic_full_close_02.vsnd",
+			"sounds/doors/door_plastic_full_close_03.vsnd",
+			"sounds/doors/door_plastic_full_close_04.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1400.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.970249
+	}
+	Door.de_vertigo_full_open = 
+	{
+		type = "csgo_mega"
+		volume = 0.399902
+		pitch = 1.000000
+		use_distance_volume_mapping_curve = true
+		reverb_wet = 0.300000
+		mixgroup = "World"
+		occlusion_intensity = 0.800000
+		display_broadcast = true
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			0.000000,
+		]
+		use_fadetime_volume_mapping_curve = true
+		reverb_source_wet = 0.300000
+		instance_limit = 1.000000
+		block_duration = 0.300000
+		block_distance = 100.000000
+		restrict_source_reverb = true
+		vsnd_files_track_01 = "sounds/doors/door_plastic_full_open_01.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1400.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.333243
+	}
+	Door.de_vertigo_start_close = 
+	{
+		type = "csgo_mega"
+		volume = 0.399902
+		pitch = 1.000000
+		use_distance_volume_mapping_curve = true
+		reverb_wet = 0.300000
+		mixgroup = "World"
+		occlusion_intensity = 0.800000
+		display_broadcast = true
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			0.000000,
+		]
+		use_fadetime_volume_mapping_curve = true
+		reverb_source_wet = 0.300000
+		instance_limit = 1.000000
+		block_duration = 0.300000
+		block_distance = 100.000000
+		restrict_source_reverb = true
+		vsnd_files_track_01 = 
+		[
+			"sounds/doors/door_plastic_start_close_01.vsnd",
+			"sounds/doors/door_plastic_start_close_02.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1400.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.230930
+	}
+	Door.de_vertigo_start_open = 
+	{
+		type = "csgo_mega"
+		volume = 0.399902
+		pitch = 1.000000
+		use_distance_volume_mapping_curve = true
+		reverb_wet = 0.300000
+		mixgroup = "World"
+		occlusion_intensity = 0.800000
+		display_broadcast = true
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			0.000000,
+		]
+		use_fadetime_volume_mapping_curve = true
+		reverb_source_wet = 0.300000
+		instance_limit = 1.000000
+		block_duration = 0.300000
+		block_distance = 100.000000
+		restrict_source_reverb = true
+		vsnd_files_track_01 = "sounds/doors/door_plastic_start_open_01.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1400.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.264104
+	}
+	Door.wood_full_close = 
+	{
+		type = "csgo_mega"
+		volume = 1.000000
+		pitch = 1.100000
+		use_distance_volume_mapping_curve = true
+		reverb_wet = 0.300000
+		mixgroup = "World"
+		occlusion_intensity = 0.800000
+		display_broadcast = true
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			0.000000,
+		]
+		use_fadetime_volume_mapping_curve = true
+		reverb_source_wet = 0.300000
+		instance_limit = 1.000000
+		block_duration = 0.300000
+		block_distance = 100.000000
+		restrict_source_reverb = true
+		vsnd_files_track_01 = "sounds/doors/door_wood_full_close_02.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1400.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.471973
+	}
+	Door.wood_full_open = 
+	{
+		type = "csgo_mega"
+		volume = 1.000000
+		pitch = 1.000000
+		use_distance_volume_mapping_curve = true
+		reverb_wet = 0.300000
+		mixgroup = "World"
+		occlusion_intensity = 0.800000
+		display_broadcast = true
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			0.000000,
+		]
+		use_fadetime_volume_mapping_curve = true
+		reverb_source_wet = 0.300000
+		instance_limit = 1.000000
+		block_duration = 0.300000
+		block_distance = 100.000000
+		restrict_source_reverb = true
+		vsnd_files_track_01 = "sounds/doors/door_wood_full_open_01.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1400.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.049320
+	}
+	Door.wood_start_open = 
+	{
+		type = "csgo_mega"
+		volume = 1.000000
+		pitch = 1.400000
+		use_distance_volume_mapping_curve = true
+		reverb_wet = 0.300000
+		mixgroup = "World"
+		occlusion_intensity = 0.000000
+		display_broadcast = true
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			0.000000,
+		]
+		use_fadetime_volume_mapping_curve = true
+		reverb_source_wet = 0.300000
+		instance_limit = 1.000000
+		block_duration = 0.300000
+		block_distance = 100.000000
+		restrict_source_reverb = true
+		vsnd_files_track_01 = 
+		[
+			"sounds/doors/door_wood_start_open_01.vsnd",
+			"sounds/doors/door_wood_start_close_01.vsnd",
+		]
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1400.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.646984
+	}
+	Door.wood_start_close = 
+	{
+		type = "csgo_mega"
+		volume = 1.000000
+		pitch = 1.000000
+		use_distance_volume_mapping_curve = true
+		reverb_wet = 0.300000
+		mixgroup = "World"
+		occlusion_intensity = 0.800000
+		display_broadcast = true
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			0.000000,
+		]
+		use_fadetime_volume_mapping_curve = true
+		reverb_source_wet = 0.300000
+		instance_limit = 1.000000
+		block_duration = 0.300000
+		block_distance = 100.000000
+		restrict_source_reverb = true
+		vsnd_files_track_01 = "sounds/doors/door_wood_start_close_01.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				1400.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.646984
+	}
+	Balloon.Pop = 
+	{
+		type = "csgo_mega"
+		volume = 2.000000
+		pitch = 1.100000
+		mixgroup = "World"
+		block_distance = 10000.000000
+		block_duration = 0.200000
+		use_distance_volume_mapping_curve = true
+		reverb_wet = 0.300000
+		occlusion_intensity = 0.800000
+		reverb_source_wet = 0.000000
+		block_match_entity = true
+		use_fadetime_volume_mapping_curve = false
+		instance_limit = 1.000000
+		restrict_source_reverb = true
+		delay = 0.050000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		pitch_random_min = -0.030000
+		pitch_random_max = 0.030000
+		vsnd_files_track_01 = "sounds/ambient/atmosphere/balloon_pop_01.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			
+			[
+				42.857143,
+				1.000000,
+				0.000000,
+				-0.000686,
+				2.000000,
+				0.000000,
+			],
+			
+			[
+				1500.000000,
+				0.000000,
+				-0.000679,
+				-0.000679,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				-1.691176,
+				-1.691176,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				0.300000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				120.857147,
+				0.984615,
+				-0.003333,
+				-0.003333,
+				3.000000,
+				1.000000,
+			],
+			
+			[
+				300.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.077324
 	}
 }

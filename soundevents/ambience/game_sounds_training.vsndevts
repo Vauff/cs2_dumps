@@ -1,3 +1,4 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	training.Intro = 
 	{
@@ -17,6 +18,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = ""
 		distance_volume_mapping_curve = 
 		[
@@ -97,6 +99,7 @@
 		volume = 0.800000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\wind\tree_sway_wind_lp_03.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -192,6 +195,7 @@
 		volume = 0.500000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\wind\tree_sway_wind_lp_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -300,6 +304,7 @@
 			243.937469,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\machines\power_transformer_loop_1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -382,6 +387,7 @@
 		randomize_position_max_radius = 300.000000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/bird1.vsnd",
@@ -483,6 +489,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = ""
 		distance_volume_mapping_curve = 
 		[
@@ -562,6 +569,7 @@
 		volume = 0.900000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\wind\tree_sway_wind_lp_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -657,6 +665,7 @@
 		volume = 0.450000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\nature\woodland_ambient_1.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -759,6 +768,7 @@
 		randomize_position_max_radius = 300.000000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/bird1.vsnd",
@@ -865,6 +875,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = ""
 		distance_volume_mapping_curve = 
 		[
@@ -945,6 +956,7 @@
 		volume = 0.500000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\wind\tree_sway_wind_lp_03.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -1040,6 +1052,7 @@
 		volume = 0.300000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\nature\woodland_ambient_1.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -1148,6 +1161,7 @@
 			243.937469,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\machines\power_transformer_loop_1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -1230,6 +1244,7 @@
 		randomize_position_max_radius = 300.000000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/bird1.vsnd",
@@ -1331,6 +1346,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = ""
 		distance_volume_mapping_curve = 
 		[
@@ -1410,6 +1426,7 @@
 		volume = 0.900000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\wind\tree_sway_wind_lp_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -1512,6 +1529,7 @@
 		randomize_position_max_radius = 300.000000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/bird1.vsnd",
@@ -1600,7 +1618,7 @@
 		]
 		vsnd_duration = 9.682993
 	}
-	training.OutdoorTransition2.Amb  = 
+	"training.OutdoorTransition2.Amb " = 
 	{
 		type = "csgo_mega"
 		mixgroup = "Training"
@@ -1608,6 +1626,7 @@
 		volume = 0.550000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\nature\woodland_ambient_1.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -1713,6 +1732,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = ""
 		distance_volume_mapping_curve = 
 		[
@@ -1792,6 +1812,7 @@
 		volume = 0.400000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\nature\woodland_ambient_1.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -1887,6 +1908,7 @@
 		volume = 0.700000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\wind\tree_sway_wind_lp_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -1989,6 +2011,7 @@
 		randomize_position_max_radius = 300.000000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/bird1.vsnd",
@@ -2095,6 +2118,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = ""
 		distance_volume_mapping_curve = 
 		[
@@ -2175,6 +2199,7 @@
 		volume = 0.400000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\nature\woodland_ambient_1.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -2277,6 +2302,7 @@
 		randomize_position_max_radius = 300.000000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/bird1.vsnd",
@@ -2373,6 +2399,7 @@
 		volume = 0.700000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\wind\tree_sway_wind_lp_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -2481,6 +2508,7 @@
 			167.552872,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\machines\electrical_hum_2.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -2566,6 +2594,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = ""
 		distance_volume_mapping_curve = 
 		[
@@ -2645,6 +2674,7 @@
 		volume = 0.550000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\wind\tree_sway_wind_lp_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -2740,6 +2770,7 @@
 		volume = 0.350000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\nature\woodland_ambient_1.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -2842,6 +2873,7 @@
 		randomize_position_max_radius = 300.000000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/bird1.vsnd",
@@ -2948,6 +2980,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = ""
 		distance_volume_mapping_curve = 
 		[
@@ -3028,6 +3061,7 @@
 		volume = 0.300000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\wind\tree_sway_wind_lp_02.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -3123,6 +3157,7 @@
 		volume = 0.300000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\wind\tree_sway_wind_lp_03.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -3218,6 +3253,7 @@
 		volume = 0.150000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\tones\roomtone3.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -3326,6 +3362,7 @@
 			220.459686,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\machines\fluorescent_hum_1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -3411,6 +3448,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = ""
 		distance_volume_mapping_curve = 
 		[
@@ -3492,6 +3530,7 @@
 		volume = 0.100000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\animal\birds_lp_01_lpf.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -3587,6 +3626,7 @@
 		volume = 0.100000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\animal\birds_lp_02_lpf.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -3681,6 +3721,7 @@
 		volume = 0.200000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\tones\roomtone3.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -3777,6 +3818,7 @@
 		use_time_volume_mapping_curve = true
 		pitch = 0.900000
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\machines\gas_loop_1.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -3885,6 +3927,7 @@
 			258.603912,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\machines\power_transformer_loop_1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -3970,6 +4013,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = ""
 		distance_volume_mapping_curve = 
 		[
@@ -4050,6 +4094,7 @@
 		volume = 0.100000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\animal\birds_lp_01_lpf.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -4145,6 +4190,7 @@
 		volume = 0.100000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\animal\birds_lp_02_lpf.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -4239,6 +4285,7 @@
 		volume = 0.200000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\tones\roomtone3.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -4347,6 +4394,7 @@
 			216.292511,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\machines\fluorescent_hum_1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -4432,6 +4480,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = ""
 		distance_volume_mapping_curve = 
 		[
@@ -4511,6 +4560,7 @@
 		volume = 0.800000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\wind\tree_sway_wind_lp_03.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -4606,6 +4656,7 @@
 		volume = 0.500000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\wind\tree_sway_wind_lp_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -4714,6 +4765,7 @@
 			229.234985,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\machines\fluorescent_hum_1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -4799,6 +4851,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = ""
 		distance_volume_mapping_curve = 
 		[
@@ -4880,6 +4933,7 @@
 		volume = 0.200000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\animal\birds_lp_01_lpf.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -4975,6 +5029,7 @@
 		volume = 0.200000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\animal\birds_lp_02_lpf.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -5069,6 +5124,7 @@
 		volume = 0.200000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\tones\roomtone3.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -5177,6 +5233,7 @@
 			235.574631,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\machines\fluorescent_hum_1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -5265,6 +5322,7 @@
 			250.564087,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\machines\fluorescent_hum_1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -5350,6 +5408,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = ""
 		distance_volume_mapping_curve = 
 		[
@@ -5431,6 +5490,7 @@
 		volume = 0.150000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\animal\birds_lp_02_lpf.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -5525,6 +5585,7 @@
 		volume = 0.200000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\nature\woodland_ambient_1.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -5633,6 +5694,7 @@
 			236.029633,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\machines\power_transformer_loop_1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -5721,6 +5783,7 @@
 			247.944458,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\machines\power_transformer_loop_1.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -5796,6 +5859,7 @@
 		volume = 0.100000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\animal\birds_lp_02_lpf.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -5900,6 +5964,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = ""
 		distance_volume_mapping_curve = 
 		[
@@ -5980,6 +6045,7 @@
 		volume = 0.400000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\nature\woodland_ambient_1.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -6075,6 +6141,7 @@
 		volume = 0.900000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\wind\tree_sway_wind_lp_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -6177,6 +6244,7 @@
 		randomize_position_max_radius = 300.000000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/bird1.vsnd",
@@ -6286,6 +6354,7 @@
 			168.468536,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\machines\electrical_hum_2.vsnd"
 		distance_volume_mapping_curve = 
 		[
@@ -6371,6 +6440,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = ""
 		distance_volume_mapping_curve = 
 		[
@@ -6450,6 +6520,7 @@
 		volume = 0.900000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\wind\tree_sway_wind_lp_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -6552,6 +6623,7 @@
 		randomize_position_max_radius = 300.000000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/bird1.vsnd",
@@ -6648,6 +6720,7 @@
 		volume = 0.400000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\nature\woodland_ambient_1.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -6753,6 +6826,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = ""
 		distance_volume_mapping_curve = 
 		[
@@ -6832,6 +6906,7 @@
 		volume = 0.500000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\wind\tree_sway_wind_lp_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -6927,6 +7002,7 @@
 		volume = 0.300000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\nature\woodland_ambient_1.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -7029,6 +7105,7 @@
 		randomize_position_max_radius = 300.000000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/bird1.vsnd",
@@ -7135,6 +7212,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = ""
 		distance_volume_mapping_curve = 
 		[
@@ -7214,6 +7292,7 @@
 		volume = 0.800000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\wind\tree_sway_wind_lp_01.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -7309,6 +7388,7 @@
 		volume = 0.300000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\nature\woodland_ambient_1.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -7411,6 +7491,7 @@
 		randomize_position_max_radius = 300.000000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = 
 		[
 			"sounds/ambient/animal/bird1.vsnd",
@@ -7517,6 +7598,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = ""
 		distance_volume_mapping_curve = 
 		[
@@ -7595,6 +7677,7 @@
 		volume = 0.250000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\animal\birds_lp_01_lpf.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -7690,6 +7773,7 @@
 		volume = 0.200000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\animal\birds_lp_02_lpf.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -7794,6 +7878,7 @@
 		enable_child_events = true
 		set_child_position = false
 		override_dsp_preset = true
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = ""
 		distance_volume_mapping_curve = 
 		[
@@ -7874,6 +7959,7 @@
 		volume = 0.150000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\animal\birds_lp_01_lpf.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -7969,6 +8055,7 @@
 		volume = 0.100000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\animal\birds_lp_02_lpf.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -8063,6 +8150,7 @@
 		volume = 0.200000
 		use_time_volume_mapping_curve = true
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\nature\woodland_ambient_1.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
@@ -8171,6 +8259,7 @@
 			243.471771,
 		]
 		set_child_position = false
+		distance_effect_mix = 0.000000
 		vsnd_files_track_01 = "sounds\ambient\machines\power_transformer_loop_1.vsnd"
 		distance_volume_mapping_curve = 
 		[
