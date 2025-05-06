@@ -1,24 +1,22 @@
 <!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	Music.Background.halflife_alyx_01 = 
+	Music.Background.austinwintory_04 = 
 	{
 		type = "csgo_music"
 		volume = 0.800000
 		volume_convar = "snd_menumusic_volume"
 		stop_music = "true"
-		vsnd_files = "sounds/music/halflife_alyx_01/mainmenu.vsnd"
-		vsnd_duration = 187.794281
+		vsnd_files = "sounds/music/austinwintory_04/mainmenu.vsnd"
 	}
-	Music.MVPPreview.halflife_alyx_01 = 
+	Music.MVPPreview.austinwintory_04 = 
 	{
 		type = "csgo_music"
 		volume = 0.800000
 		volume_convar = "snd_menumusic_volume"
 		stop_music = "true"
-		vsnd_files = "sounds/music/halflife_alyx_01/roundmvpanthem_01.vsnd"
-		vsnd_duration = 16.692245
+		vsnd_files = "sounds/music/austinwintory_04/roundmvpanthem_01.vsnd"
 	}
-	Music.Selection.halflife_alyx_01 = 
+	Music.Selection.austinwintory_04 = 
 	{
 		type = "csgo_music"
 		volume = 0.800000
@@ -27,11 +25,10 @@
 		volume_fade_out_input_max = 1.000000
 		stop_match_end = "true"
 		stop_loading = "true"
-		vsnd_files = "sounds/music/halflife_alyx_01/chooseteam.vsnd"
+		vsnd_files = "sounds/music/austinwintory_04/chooseteam.vsnd"
 		join_non_mvp_group = "true"
-		vsnd_duration = 32.731430
 	}
-	Music.MatchFound.halflife_alyx_01 = 
+	Music.MatchFound.austinwintory_04 = 
 	{
 		type = "csgo_music"
 		volume = 0.900000
@@ -48,62 +45,48 @@
 		loop_track = "true"
 		should_queue_track = "true"
 		update_track_syncpoint_index = "true"
-		startpoint_01 = 5.940000
-		startpoint_02 = 5.940000
-		startpoint_03 = 5.940000
-		endpoint_01 = 24.950000
-		endpoint_02 = 24.950000
-		endpoint_03 = 24.950000
+		startpoint_01 = 0.000000
+		startpoint_02 = 0.000000
+		endpoint_01 = 11.610000
+		endpoint_02 = 9.670000
 		vsnd_files = 
 		[
-			"sounds/music/halflife_alyx_01/startround_01.vsnd",
-			"sounds/music/halflife_alyx_01/startround_02.vsnd",
-			"sounds/music/halflife_alyx_01/startround_03.vsnd",
+			"sounds/music/austinwintory_04/startround_01.vsnd",
+			"sounds/music/austinwintory_04/startround_02.vsnd",
 		]
 		syncpoints_01 = 
 		[
-			5.940000,
-			8.316000,
-			10.693000,
-			13.069000,
-			15.445000,
-			17.821000,
-			20.198000,
-			22.574000,
-			24.950000,
+			0.960000,
+			1.930000,
+			2.900000,
+			3.870000,
+			4.830000,
+			5.800000,
+			6.770000,
+			7.740000,
+			8.700000,
+			9.670000,
+			10.640000,
 		]
 		syncpoints_02 = 
 		[
-			5.940000,
-			8.316000,
-			10.693000,
-			13.069000,
-			15.445000,
-			17.821000,
-			20.198000,
-			22.574000,
-			24.950000,
+			0.960000,
+			1.930000,
+			2.900000,
+			3.870000,
+			4.830000,
+			5.800000,
+			6.770000,
+			7.740000,
+			8.700000,
 		]
-		syncpoints_03 = 
-		[
-			5.940000,
-			8.316000,
-			10.693000,
-			13.069000,
-			15.445000,
-			17.821000,
-			20.198000,
-			22.574000,
-			24.950000,
-		]
-		vsnd_duration = 25.025307
 	}
-	Music.LoadingScreen.halflife_alyx_01 = 
+	Music.LoadingScreen.austinwintory_04 = 
 	{
 		type = "csgo_music"
 		volume = 0.900000
 		volume_convar = "snd_menumusic_volume"
-		sync_action_to_startround = 1
+		sync_action_to_startround = 0
 		priority = 2.000000
 		priority_override = "true"
 		volume_fade_initial_input_min = 4.000000
@@ -114,21 +97,18 @@
 		loop_track = "true"
 		should_queue_track = "true"
 		stop_start_round = "true"
-		startpoint_01 = 0.594000
-		startpoint_02 = 0.594000
-		startpoint_03 = 0.594000
+		startpoint_01 = 0.490000
+		startpoint_02 = 0.490000
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
 		vsnd_files = 
 		[
-			"sounds/music/halflife_alyx_01/startaction_01.vsnd",
-			"sounds/music/halflife_alyx_01/startaction_02.vsnd",
-			"sounds/music/halflife_alyx_01/startaction_03.vsnd",
+			"sounds/music/austinwintory_04/startaction_01.vsnd",
+			"sounds/music/austinwintory_04/startaction_02.vsnd",
 		]
-		vsnd_duration = 24.973061
 	}
-	Music.StartRound.halflife_alyx_01 = 
+	Music.StartRound.austinwintory_04 = 
 	{
 		type = "csgo_music"
 		volume = 0.900000
@@ -146,62 +126,48 @@
 		should_queue_track = "true"
 		update_track_syncpoint_index = "true"
 		join_non_mvp_group = "true"
-		startpoint_01 = 5.940000
-		startpoint_02 = 5.940000
-		startpoint_03 = 5.940000
-		endpoint_01 = 24.950000
-		endpoint_02 = 24.950000
-		endpoint_03 = 24.950000
+		startpoint_01 = 0.000000
+		startpoint_02 = 0.000000
+		endpoint_01 = 11.610000
+		endpoint_02 = 9.670000
 		vsnd_files = 
 		[
-			"sounds/music/halflife_alyx_01/startround_01.vsnd",
-			"sounds/music/halflife_alyx_01/startround_02.vsnd",
-			"sounds/music/halflife_alyx_01/startround_03.vsnd",
+			"sounds/music/austinwintory_04/startround_01.vsnd",
+			"sounds/music/austinwintory_04/startround_02.vsnd",
 		]
 		syncpoints_01 = 
 		[
-			5.940000,
-			8.316000,
-			10.693000,
-			13.069000,
-			15.445000,
-			17.821000,
-			20.198000,
-			22.574000,
-			24.950000,
+			0.960000,
+			1.930000,
+			2.900000,
+			3.870000,
+			4.830000,
+			5.800000,
+			6.770000,
+			7.740000,
+			8.700000,
+			9.670000,
+			10.640000,
 		]
 		syncpoints_02 = 
 		[
-			5.940000,
-			8.316000,
-			10.693000,
-			13.069000,
-			15.445000,
-			17.821000,
-			20.198000,
-			22.574000,
-			24.950000,
+			0.960000,
+			1.930000,
+			2.900000,
+			3.870000,
+			4.830000,
+			5.800000,
+			6.770000,
+			7.740000,
+			8.700000,
 		]
-		syncpoints_03 = 
-		[
-			5.940000,
-			8.316000,
-			10.693000,
-			13.069000,
-			15.445000,
-			17.821000,
-			20.198000,
-			22.574000,
-			24.950000,
-		]
-		vsnd_duration = 25.025307
 	}
-	Music.StartAction.halflife_alyx_01 = 
+	Music.StartAction.austinwintory_04 = 
 	{
 		type = "csgo_music"
 		volume = 0.900000
 		volume_convar = "snd_roundaction_volume"
-		sync_action_to_startround = 1
+		sync_action_to_startround = 0
 		priority = 2.000000
 		priority_override = "true"
 		volume_fade_initial_input_min = 4.000000
@@ -214,21 +180,18 @@
 		should_queue_track = "true"
 		stop_start_round = "true"
 		join_non_mvp_group = "true"
-		startpoint_01 = 0.594000
-		startpoint_02 = 0.594000
-		startpoint_03 = 0.594000
+		startpoint_01 = 0.490000
+		startpoint_02 = 0.490000
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
 		vsnd_files = 
 		[
-			"sounds/music/halflife_alyx_01/startaction_01.vsnd",
-			"sounds/music/halflife_alyx_01/startaction_02.vsnd",
-			"sounds/music/halflife_alyx_01/startaction_03.vsnd",
+			"sounds/music/austinwintory_04/startaction_01.vsnd",
+			"sounds/music/austinwintory_04/startaction_02.vsnd",
 		]
-		vsnd_duration = 24.973061
 	}
-	Music.StartRound_GG.halflife_alyx_01 = 
+	Music.StartRound_GG.austinwintory_04 = 
 	{
 		type = "csgo_music"
 		volume = 0.900000
@@ -247,62 +210,48 @@
 		should_queue_track = "true"
 		update_track_syncpoint_index = "true"
 		join_non_mvp_group = "true"
-		startpoint_01 = 5.940000
-		startpoint_02 = 5.940000
-		startpoint_03 = 5.940000
-		endpoint_01 = 24.950000
-		endpoint_02 = 24.950000
-		endpoint_03 = 24.950000
+		startpoint_01 = 0.000000
+		startpoint_02 = 0.000000
+		endpoint_01 = 11.610000
+		endpoint_02 = 9.670000
 		vsnd_files = 
 		[
-			"sounds/music/halflife_alyx_01/startround_01.vsnd",
-			"sounds/music/halflife_alyx_01/startround_02.vsnd",
-			"sounds/music/halflife_alyx_01/startround_03.vsnd",
+			"sounds/music/austinwintory_04/startround_01.vsnd",
+			"sounds/music/austinwintory_04/startround_02.vsnd",
 		]
 		syncpoints_01 = 
 		[
-			5.940000,
-			8.316000,
-			10.693000,
-			13.069000,
-			15.445000,
-			17.821000,
-			20.198000,
-			22.574000,
-			24.950000,
+			0.960000,
+			1.930000,
+			2.900000,
+			3.870000,
+			4.830000,
+			5.800000,
+			6.770000,
+			7.740000,
+			8.700000,
+			9.670000,
+			10.640000,
 		]
 		syncpoints_02 = 
 		[
-			5.940000,
-			8.316000,
-			10.693000,
-			13.069000,
-			15.445000,
-			17.821000,
-			20.198000,
-			22.574000,
-			24.950000,
+			0.960000,
+			1.930000,
+			2.900000,
+			3.870000,
+			4.830000,
+			5.800000,
+			6.770000,
+			7.740000,
+			8.700000,
 		]
-		syncpoints_03 = 
-		[
-			5.940000,
-			8.316000,
-			10.693000,
-			13.069000,
-			15.445000,
-			17.821000,
-			20.198000,
-			22.574000,
-			24.950000,
-		]
-		vsnd_duration = 25.025307
 	}
-	Music.BombPlanted.halflife_alyx_01 = 
+	Music.BombPlanted.austinwintory_04 = 
 	{
 		type = "csgo_music"
 		volume = 0.800000
 		volume_convar = "snd_mapobjective_volume"
-		vsnd_files = "sounds/music/halflife_alyx_01/bombplanted.vsnd"
+		vsnd_files = "sounds/music/austinwintory_04/bombplanted.vsnd"
 		priority = 3.000000
 		volume_fade_initial_input_min = 1.000000
 		volume_fade_initial_input_max = 6.000000
@@ -318,33 +267,31 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
-		vsnd_duration = 43.728981
 	}
-	Music.BombTenSecCount.halflife_alyx_01 = 
+	Music.BombTenSecCount.austinwintory_04 = 
 	{
 		type = "csgo_music"
 		volume = 0.900000
 		volume_convar = "snd_tensecondwarning_volume"
-		vsnd_files = "sounds/music/halflife_alyx_01/bombtenseccount.vsnd"
+		vsnd_files = "sounds/music/austinwintory_04/bombtenseccount.vsnd"
 		priority = 3.000000
 		volume_fade_out_input_max = 0.500000
 		should_queue_track = "true"
 		stop_bomb_planted = "true"
 		join_non_mvp_group = "true"
-		startpoint_01 = 0.594000
+		startpoint_01 = 0.160000
 		startpoint_02 = 0.000000
 		startpoint_03 = 0.000000
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
-		vsnd_duration = 18.364082
 	}
-	Music.GotHostage.halflife_alyx_01 = 
+	Music.GotHostage.austinwintory_04 = 
 	{
 		type = "csgo_music"
 		volume = 0.800000
 		volume_convar = "snd_mapobjective_volume"
-		vsnd_files = "sounds/music/halflife_alyx_01/bombplanted.vsnd"
+		vsnd_files = "sounds/music/austinwintory_04/bombplanted.vsnd"
 		priority = 3.000000
 		volume_fade_initial_input_min = 1.000000
 		volume_fade_initial_input_max = 7.000000
@@ -362,14 +309,13 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
-		vsnd_duration = 43.728981
 	}
-	Music.HostageNearRescue.halflife_alyx_01 = 
+	Music.HostageNearRescue.austinwintory_04 = 
 	{
 		type = "csgo_music"
 		volume = 0.800000
 		volume_convar = "snd_tensecondwarning_volume"
-		vsnd_files = "sounds/music/halflife_alyx_01/bombtenseccount.vsnd"
+		vsnd_files = "sounds/music/austinwintory_04/bombtenseccount.vsnd"
 		priority = 3.000000
 		volume_fade_initial_input_min = 1.000000
 		volume_fade_initial_input_max = 7.000000
@@ -379,26 +325,25 @@
 		stop_at_time = 4.000000
 		stop_got_hostage = "true"
 		join_non_mvp_group = "true"
-		startpoint_01 = 0.594000
+		startpoint_01 = 0.160000
 		startpoint_02 = 0.000000
 		startpoint_03 = 0.000000
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
-		vsnd_duration = 18.364082
 	}
-	Music.TenSecCount.halflife_alyx_01 = 
+	Music.TenSecCount.austinwintory_04 = 
 	{
 		type = "csgo_music"
 		volume = 0.900000
 		volume_convar = "snd_tensecondwarning_volume"
-		vsnd_files = "sounds/music/halflife_alyx_01/roundtenseccount.vsnd"
+		vsnd_files = "sounds/music/austinwintory_04/roundtenseccount.vsnd"
 		priority = 3.000000
 		volume_fade_out_input_max = 0.500000
 		should_queue_track = "true"
 		stop_start_round = "true"
 		join_non_mvp_group = "true"
-		startpoint_01 = 0.594000
+		startpoint_01 = 0.160000
 		startpoint_02 = 0.000000
 		startpoint_03 = 0.000000
 		endpoint_01 = 0.000000
@@ -416,14 +361,13 @@
 		[
 			0.000000,
 		]
-		vsnd_duration = 17.893877
 	}
-	Music.WonRound.halflife_alyx_01 = 
+	Music.WonRound.austinwintory_04 = 
 	{
 		type = "csgo_music"
 		volume = 1.000000
 		volume_convar = "snd_roundend_volume"
-		vsnd_files = "sounds/music/halflife_alyx_01/wonround.vsnd"
+		vsnd_files = "sounds/music/austinwintory_04/wonround.vsnd"
 		priority = 4.000000
 		stop_music_except_mvp = "true"
 		volume_fade_out_input_max = 1.600000
@@ -450,14 +394,13 @@
 		[
 			0.000000,
 		]
-		vsnd_duration = 11.833469
 	}
-	Music.LostRound.halflife_alyx_01 = 
+	Music.LostRound.austinwintory_04 = 
 	{
 		type = "csgo_music"
 		volume = 1.000000
 		volume_convar = "snd_roundend_volume"
-		vsnd_files = "sounds/music/halflife_alyx_01/lostround.vsnd"
+		vsnd_files = "sounds/music/austinwintory_04/lostround.vsnd"
 		priority = 4.000000
 		stop_music_except_mvp = "true"
 		volume_fade_out_input_max = 1.600000
@@ -484,22 +427,20 @@
 		[
 			0.000000,
 		]
-		vsnd_duration = 10.762449
 	}
-	Music.DeathCam.halflife_alyx_01 = 
+	Music.DeathCam.austinwintory_04 = 
 	{
 		type = "csgo_music"
 		volume = 1.000000
 		mixgroup = "DuckingMusic"
 		volume_convar = "snd_deathcamera_volume"
-		vsnd_files = "sounds/music/halflife_alyx_01/deathcam.vsnd"
+		vsnd_files = "sounds/music/austinwintory_04/deathcam.vsnd"
 		check_for_classic_deathcam = "true"
 		stop_start_round = "true"
 		stop_won_mvp = "true"
 		join_non_mvp_group = "true"
-		vsnd_duration = 6.608980
 	}
-	Music.MVPAnthem.halflife_alyx_01 = 
+	Music.MVPAnthem.austinwintory_04 = 
 	{
 		type = "csgo_music"
 		volume = 0.900000
@@ -531,27 +472,25 @@
 		]
 		vsnd_files = 
 		[
-			"sounds/music/halflife_alyx_01/roundmvpanthem_01.vsnd",
+			"sounds/music/austinwintory_04/roundmvpanthem_01.vsnd",
 		]
-		vsnd_duration = 16.692245
 	}
-	Music.MatchStart.halflife_alyx_01 = 
+	Music.MatchStart.austinwintory_04 = 
 	{
 		type = "csgo_music"
 		volume = 0.800000
 		mixgroup = "SelectedMusic"
 		volume_convar = "snd_menumusic_volume"
 		volume_fade_out_input_max = 1.000000
-		volume_fade_initial_input_min = 4.000000
-		volume_fade_initial_input_max = 12.000000
+		volume_fade_initial_input_min = 9.000000
+		volume_fade_initial_input_max = 9.000000
 		volume_fade_initial_input_map_min = 1.000000
 		volume_fade_initial_input_map_max = 0.100000
 		stop_music = "true"
 		join_non_mvp_group = "true"
-		vsnd_files = "sounds/music/halflife_alyx_01/startofmatch.vsnd"
-		vsnd_duration = 12.483334
+		vsnd_files = "sounds/music/austinwintory_04/startofmatch.vsnd"
 	}
-	Music.MatchEnd.halflife_alyx_01 = 
+	Music.MatchEnd.austinwintory_04 = 
 	{
 		type = "csgo_music"
 		volume = 0.800000
@@ -561,7 +500,7 @@
 		stop_won_mvp = "true"
 		should_queue_track = "true"
 		join_non_mvp_group = "true"
-		vsnd_files = "sounds/music/halflife_alyx_01/endofmatch.vsnd"
+		vsnd_files = "sounds/music/austinwintory_04/endofmatch.vsnd"
 		startpoint_01 = 0.000000
 		startpoint_02 = 0.000000
 		startpoint_03 = 0.000000
@@ -580,6 +519,5 @@
 		[
 			0.000000,
 		]
-		vsnd_duration = 45.989933
 	}
 }

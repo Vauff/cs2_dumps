@@ -1,24 +1,22 @@
 <!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	Music.Background.valve_csgo_02 = 
+	Music.Background.dren_03 = 
 	{
 		type = "csgo_music"
 		volume = 0.800000
 		volume_convar = "snd_menumusic_volume"
 		stop_music = "true"
-		vsnd_files = "sounds/music/valve_csgo_02/mainmenu.vsnd"
-		vsnd_duration = 51.173878
+		vsnd_files = "sounds/music/dren_03/mainmenu.vsnd"
 	}
-	Music.MVPPreview.valve_csgo_02 = 
+	Music.MVPPreview.dren_03 = 
 	{
 		type = "csgo_music"
 		volume = 0.800000
 		volume_convar = "snd_menumusic_volume"
 		stop_music = "true"
-		vsnd_files = "sounds/music/valve_csgo_02/roundmvpanthem_01.vsnd"
-		vsnd_duration = 12.564898
+		vsnd_files = "sounds/music/dren_03/roundmvpanthem_01.vsnd"
 	}
-	Music.Selection.valve_csgo_02 = 
+	Music.Selection.dren_03 = 
 	{
 		type = "csgo_music"
 		volume = 0.800000
@@ -27,11 +25,10 @@
 		volume_fade_out_input_max = 1.000000
 		stop_match_end = "true"
 		stop_loading = "true"
-		vsnd_files = "sounds/music/valve_csgo_02/chooseteam.vsnd"
+		vsnd_files = "sounds/music/dren_03/chooseteam.vsnd"
 		join_non_mvp_group = "true"
-		vsnd_duration = 18.494694
 	}
-	Music.MatchFound.valve_csgo_02 = 
+	Music.MatchFound.dren_03 = 
 	{
 		type = "csgo_music"
 		volume = 0.900000
@@ -49,43 +46,53 @@
 		should_queue_track = "true"
 		update_track_syncpoint_index = "true"
 		startpoint_01 = 0.000000
-		endpoint_01 = 32.195000
+		startpoint_02 = 0.000000
+		startpoint_03 = 0.000000
+		endpoint_01 = 12.630000
+		endpoint_02 = 16.842000
+		endpoint_03 = 16.842000
 		vsnd_files = 
 		[
-			"sounds/music/valve_csgo_02/startround_01.vsnd",
+			"sounds/music/dren_03/startround_01.vsnd",
+			"sounds/music/dren_03/startround_02.vsnd",
+			"sounds/music/dren_03/startround_03.vsnd",
 		]
 		syncpoints_01 = 
 		[
-			2.927000,
-			4.390000,
-			5.854000,
-			7.317000,
-			8.780000,
-			10.244000,
-			11.707000,
-			13.171000,
-			14.634000,
-			16.098000,
-			17.561000,
-			19.024000,
-			20.488000,
-			21.951000,
-			23.415000,
-			24.878000,
-			26.341000,
-			27.805000,
-			29.268000,
-			30.732000,
-			32.195000,
+			2.105000,
+			4.211000,
+			6.316000,
+			8.421000,
+			10.526000,
+			12.632000,
 		]
-		vsnd_duration = 34.037552
+		syncpoints_02 = 
+		[
+			2.105000,
+			6.316000,
+			8.421000,
+			10.526000,
+			14.737000,
+			16.842000,
+		]
+		syncpoints_03 = 
+		[
+			2.105000,
+			4.211000,
+			6.316000,
+			8.421000,
+			10.526000,
+			12.632000,
+			14.737000,
+			16.842000,
+		]
 	}
-	Music.LoadingScreen.valve_csgo_02 = 
+	Music.LoadingScreen.dren_03 = 
 	{
 		type = "csgo_music"
 		volume = 0.900000
 		volume_convar = "snd_menumusic_volume"
-		sync_action_to_startround = 1
+		sync_action_to_startround = 0
 		priority = 2.000000
 		priority_override = "true"
 		volume_fade_initial_input_min = 4.000000
@@ -96,17 +103,20 @@
 		loop_track = "true"
 		should_queue_track = "true"
 		stop_start_round = "true"
-		startpoint_01 = 0.510000
+		startpoint_01 = 1.053000
+		startpoint_02 = 1.053000
+		startpoint_03 = 1.184000
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
 		vsnd_files = 
 		[
-			"sounds/music/valve_csgo_02/startaction_01.vsnd",
+			"sounds/music/dren_03/startaction_01.vsnd",
+			"sounds/music/dren_03/startaction_02.vsnd",
+			"sounds/music/dren_03/startaction_03.vsnd",
 		]
-		vsnd_duration = 36.466938
 	}
-	Music.StartRound.valve_csgo_02 = 
+	Music.StartRound.dren_03 = 
 	{
 		type = "csgo_music"
 		volume = 0.900000
@@ -125,43 +135,53 @@
 		update_track_syncpoint_index = "true"
 		join_non_mvp_group = "true"
 		startpoint_01 = 0.000000
-		endpoint_01 = 32.195000
+		startpoint_02 = 0.000000
+		startpoint_03 = 0.000000
+		endpoint_01 = 12.630000
+		endpoint_02 = 16.842000
+		endpoint_03 = 16.842000
 		vsnd_files = 
 		[
-			"sounds/music/valve_csgo_02/startround_01.vsnd",
+			"sounds/music/dren_03/startround_01.vsnd",
+			"sounds/music/dren_03/startround_02.vsnd",
+			"sounds/music/dren_03/startround_03.vsnd",
 		]
 		syncpoints_01 = 
 		[
-			2.927000,
-			4.390000,
-			5.854000,
-			7.317000,
-			8.780000,
-			10.244000,
-			11.707000,
-			13.171000,
-			14.634000,
-			16.098000,
-			17.561000,
-			19.024000,
-			20.488000,
-			21.951000,
-			23.415000,
-			24.878000,
-			26.341000,
-			27.805000,
-			29.268000,
-			30.732000,
-			32.195000,
+			2.105000,
+			4.211000,
+			6.316000,
+			8.421000,
+			10.526000,
+			12.632000,
 		]
-		vsnd_duration = 34.037552
+		syncpoints_02 = 
+		[
+			2.105000,
+			6.316000,
+			8.421000,
+			10.526000,
+			14.737000,
+			16.842000,
+		]
+		syncpoints_03 = 
+		[
+			2.105000,
+			4.211000,
+			6.316000,
+			8.421000,
+			10.526000,
+			12.632000,
+			14.737000,
+			16.842000,
+		]
 	}
-	Music.StartAction.valve_csgo_02 = 
+	Music.StartAction.dren_03 = 
 	{
 		type = "csgo_music"
 		volume = 0.900000
 		volume_convar = "snd_roundaction_volume"
-		sync_action_to_startround = 1
+		sync_action_to_startround = 0
 		priority = 2.000000
 		priority_override = "true"
 		volume_fade_initial_input_min = 4.000000
@@ -174,17 +194,20 @@
 		should_queue_track = "true"
 		stop_start_round = "true"
 		join_non_mvp_group = "true"
-		startpoint_01 = 0.510000
+		startpoint_01 = 1.053000
+		startpoint_02 = 1.053000
+		startpoint_03 = 1.184000
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
 		vsnd_files = 
 		[
-			"sounds/music/valve_csgo_02/startaction_01.vsnd",
+			"sounds/music/dren_03/startaction_01.vsnd",
+			"sounds/music/dren_03/startaction_02.vsnd",
+			"sounds/music/dren_03/startaction_03.vsnd",
 		]
-		vsnd_duration = 36.466938
 	}
-	Music.StartRound_GG.valve_csgo_02 = 
+	Music.StartRound_GG.dren_03 = 
 	{
 		type = "csgo_music"
 		volume = 0.900000
@@ -204,43 +227,53 @@
 		update_track_syncpoint_index = "true"
 		join_non_mvp_group = "true"
 		startpoint_01 = 0.000000
-		endpoint_01 = 32.195000
+		startpoint_02 = 0.000000
+		startpoint_03 = 0.000000
+		endpoint_01 = 12.630000
+		endpoint_02 = 16.842000
+		endpoint_03 = 16.842000
 		vsnd_files = 
 		[
-			"sounds/music/valve_csgo_02/startround_01.vsnd",
+			"sounds/music/dren_03/startround_01.vsnd",
+			"sounds/music/dren_03/startround_02.vsnd",
+			"sounds/music/dren_03/startround_03.vsnd",
 		]
 		syncpoints_01 = 
 		[
-			2.927000,
-			4.390000,
-			5.854000,
-			7.317000,
-			8.780000,
-			10.244000,
-			11.707000,
-			13.171000,
-			14.634000,
-			16.098000,
-			17.561000,
-			19.024000,
-			20.488000,
-			21.951000,
-			23.415000,
-			24.878000,
-			26.341000,
-			27.805000,
-			29.268000,
-			30.732000,
-			32.195000,
+			2.105000,
+			4.211000,
+			6.316000,
+			8.421000,
+			10.526000,
+			12.632000,
 		]
-		vsnd_duration = 34.037552
+		syncpoints_02 = 
+		[
+			2.105000,
+			6.316000,
+			8.421000,
+			10.526000,
+			14.737000,
+			16.842000,
+		]
+		syncpoints_03 = 
+		[
+			2.105000,
+			4.211000,
+			6.316000,
+			8.421000,
+			10.526000,
+			12.632000,
+			14.737000,
+			16.842000,
+		]
 	}
-	Music.BombPlanted.valve_csgo_02 = 
+	Music.BombPlanted.dren_03 = 
 	{
 		type = "csgo_music"
 		volume = 0.800000
 		volume_convar = "snd_mapobjective_volume"
-		vsnd_files = "sounds/music/valve_csgo_02/bombplanted.vsnd"
+		vsnd_files = "sounds/music/dren_03/bombplanted.vsnd"
 		priority = 3.000000
 		volume_fade_initial_input_min = 1.000000
 		volume_fade_initial_input_max = 6.000000
@@ -256,33 +289,31 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
-		vsnd_duration = 37.955917
 	}
-	Music.BombTenSecCount.valve_csgo_02 = 
+	Music.BombTenSecCount.dren_03 = 
 	{
 		type = "csgo_music"
 		volume = 0.900000
 		volume_convar = "snd_tensecondwarning_volume"
-		vsnd_files = "sounds/music/valve_csgo_02/bombtenseccount.vsnd"
+		vsnd_files = "sounds/music/dren_03/bombtenseccount.vsnd"
 		priority = 3.000000
 		volume_fade_out_input_max = 0.500000
 		should_queue_track = "true"
 		stop_bomb_planted = "true"
 		join_non_mvp_group = "true"
-		startpoint_01 = 1.526000
+		startpoint_01 = 0.000000
 		startpoint_02 = 0.000000
 		startpoint_03 = 0.000000
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
-		vsnd_duration = 13.217959
 	}
-	Music.GotHostage.valve_csgo_02 = 
+	Music.GotHostage.dren_03 = 
 	{
 		type = "csgo_music"
 		volume = 0.800000
 		volume_convar = "snd_mapobjective_volume"
-		vsnd_files = "sounds/music/valve_csgo_02/bombplanted.vsnd"
+		vsnd_files = "sounds/music/dren_03/bombplanted.vsnd"
 		priority = 3.000000
 		volume_fade_initial_input_min = 1.000000
 		volume_fade_initial_input_max = 7.000000
@@ -300,14 +331,13 @@
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
-		vsnd_duration = 37.955917
 	}
-	Music.HostageNearRescue.valve_csgo_02 = 
+	Music.HostageNearRescue.dren_03 = 
 	{
 		type = "csgo_music"
 		volume = 0.800000
 		volume_convar = "snd_tensecondwarning_volume"
-		vsnd_files = "sounds/music/valve_csgo_02/bombtenseccount.vsnd"
+		vsnd_files = "sounds/music/dren_03/bombtenseccount.vsnd"
 		priority = 3.000000
 		volume_fade_initial_input_min = 1.000000
 		volume_fade_initial_input_max = 7.000000
@@ -317,26 +347,25 @@
 		stop_at_time = 4.000000
 		stop_got_hostage = "true"
 		join_non_mvp_group = "true"
-		startpoint_01 = 1.526000
+		startpoint_01 = 0.000000
 		startpoint_02 = 0.000000
 		startpoint_03 = 0.000000
 		endpoint_01 = 0.000000
 		endpoint_02 = 0.000000
 		endpoint_03 = 0.000000
-		vsnd_duration = 13.217959
 	}
-	Music.TenSecCount.valve_csgo_02 = 
+	Music.TenSecCount.dren_03 = 
 	{
 		type = "csgo_music"
 		volume = 0.900000
 		volume_convar = "snd_tensecondwarning_volume"
-		vsnd_files = "sounds/music/valve_csgo_02/roundtenseccount.vsnd"
+		vsnd_files = "sounds/music/dren_03/roundtenseccount.vsnd"
 		priority = 3.000000
 		volume_fade_out_input_max = 0.500000
 		should_queue_track = "true"
 		stop_start_round = "true"
 		join_non_mvp_group = "true"
-		startpoint_01 = 1.526000
+		startpoint_01 = 0.000000
 		startpoint_02 = 0.000000
 		startpoint_03 = 0.000000
 		endpoint_01 = 0.000000
@@ -354,14 +383,13 @@
 		[
 			0.000000,
 		]
-		vsnd_duration = 19.853062
 	}
-	Music.WonRound.valve_csgo_02 = 
+	Music.WonRound.dren_03 = 
 	{
 		type = "csgo_music"
 		volume = 1.000000
 		volume_convar = "snd_roundend_volume"
-		vsnd_files = "sounds/music/valve_csgo_02/wonround.vsnd"
+		vsnd_files = "sounds/music/dren_03/wonround.vsnd"
 		priority = 4.000000
 		stop_music_except_mvp = "true"
 		volume_fade_out_input_max = 1.600000
@@ -388,14 +416,13 @@
 		[
 			0.000000,
 		]
-		vsnd_duration = 12.564898
 	}
-	Music.LostRound.valve_csgo_02 = 
+	Music.LostRound.dren_03 = 
 	{
 		type = "csgo_music"
 		volume = 1.000000
 		volume_convar = "snd_roundend_volume"
-		vsnd_files = "sounds/music/valve_csgo_02/lostround.vsnd"
+		vsnd_files = "sounds/music/dren_03/lostround.vsnd"
 		priority = 4.000000
 		stop_music_except_mvp = "true"
 		volume_fade_out_input_max = 1.600000
@@ -422,22 +449,20 @@
 		[
 			0.000000,
 		]
-		vsnd_duration = 12.225307
 	}
-	Music.DeathCam.valve_csgo_02 = 
+	Music.DeathCam.dren_03 = 
 	{
 		type = "csgo_music"
 		volume = 1.000000
 		mixgroup = "DuckingMusic"
 		volume_convar = "snd_deathcamera_volume"
-		vsnd_files = "sounds/music/valve_csgo_02/deathcam.vsnd"
+		vsnd_files = "sounds/music/dren_03/deathcam.vsnd"
 		check_for_classic_deathcam = "true"
 		stop_start_round = "true"
 		stop_won_mvp = "true"
 		join_non_mvp_group = "true"
-		vsnd_duration = 3.474286
 	}
-	Music.MVPAnthem.valve_csgo_02 = 
+	Music.MVPAnthem.dren_03 = 
 	{
 		type = "csgo_music"
 		volume = 0.900000
@@ -469,27 +494,25 @@
 		]
 		vsnd_files = 
 		[
-			"sounds/music/valve_csgo_02/roundmvpanthem_01.vsnd",
+			"sounds/music/dren_03/roundmvpanthem_01.vsnd",
 		]
-		vsnd_duration = 12.564898
 	}
-	Music.MatchStart.valve_csgo_02 = 
+	Music.MatchStart.dren_03 = 
 	{
 		type = "csgo_music"
 		volume = 0.800000
 		mixgroup = "SelectedMusic"
 		volume_convar = "snd_menumusic_volume"
 		volume_fade_out_input_max = 1.000000
-		volume_fade_initial_input_min = 5.000000
-		volume_fade_initial_input_max = 8.000000
+		volume_fade_initial_input_min = 9.000000
+		volume_fade_initial_input_max = 9.000000
 		volume_fade_initial_input_map_min = 1.000000
 		volume_fade_initial_input_map_max = 0.100000
 		stop_music = "true"
 		join_non_mvp_group = "true"
-		vsnd_files = "sounds/music/valve_csgo_02/startofmatch.vsnd"
-		vsnd_duration = 51.135262
+		vsnd_files = "sounds/music/dren_03/startofmatch.vsnd"
 	}
-	Music.MatchEnd.valve_csgo_02 = 
+	Music.MatchEnd.dren_03 = 
 	{
 		type = "csgo_music"
 		volume = 0.800000
@@ -499,7 +522,7 @@
 		stop_won_mvp = "true"
 		should_queue_track = "true"
 		join_non_mvp_group = "true"
-		vsnd_files = "sounds/music/valve_csgo_02/endofmatch.vsnd"
+		vsnd_files = "sounds/music/dren_03/endofmatch.vsnd"
 		startpoint_01 = 0.000000
 		startpoint_02 = 0.000000
 		startpoint_03 = 0.000000
@@ -518,6 +541,5 @@
 		[
 			0.000000,
 		]
-		vsnd_duration = 51.135262
 	}
 }

@@ -86,8 +86,8 @@ soundevents/music/noisia_01/game_sounds_music.vsndevts
 soundevents/music/robertallaire_01/game_sounds_music.vsndevts
 soundevents/music/sasha_01/game_sounds_music.vsndevts
 soundevents/music/seanmurray_01/game_sounds_music.vsndevts
-soundevents/music/valve_csgo_01/game_sounds_music.vsndevts
-soundevents/music/valve_csgo_02/game_sounds_music.vsndevts
+soundevents/music/valve_01/game_sounds_music.vsndevts
+soundevents/music/valve_02/game_sounds_music.vsndevts
 soundevents/music/skog_01/game_sounds_music.vsndevts
 soundevents/music/midnightriders_01/game_sounds_music.vsndevts
 soundevents/music/mattlange_01/game_sounds_music.vsndevts
@@ -125,7 +125,7 @@ soundevents/music/dren_02/game_sounds_music.vsndevts
 soundevents/music/theverkkars_01/game_sounds_music.vsndevts
 soundevents/music/scarlxrd_01/game_sounds_music.vsndevts
 soundevents/music/halo_01/game_sounds_music.vsndevts
-soundevents/music/halflife_alyx_01/game_sounds_music.vsndevts
+soundevents/music/hlalyx_01/game_sounds_music.vsndevts
 soundevents/music/austinwintory_02/game_sounds_music.vsndevts
 soundevents/music/amontobin_01/game_sounds_music.vsndevts
 soundevents/music/scarlxrd_02/game_sounds_music.vsndevts
@@ -150,4 +150,13 @@ soundevents/music/killscript_01/game_sounds_music.vsndevts
 soundevents/music/knock2_02/game_sounds_music.vsndevts
 soundevents/music/radcat_01/game_sounds_music.vsndevts
 soundevents/music/twerl_01/game_sounds_music.vsndevts
+soundevents/music/austinwintory_04/game_sounds_music.vsndevts
+soundevents/music/benbromfield_01/game_sounds_music.vsndevts
+soundevents/music/danielsadowski_05/game_sounds_music.vsndevts
+soundevents/music/dren_03/game_sounds_music.vsndevts
+soundevents/music/mattlevine_02/game_sounds_music.vsndevts
+soundevents/music/sammarshall_02/game_sounds_music.vsndevts
+soundevents/music/timhuling_02/game_sounds_music.vsndevts
+soundevents/music/treeadams_01/game_sounds_music.vsndevts
+soundevents/music/perfectworld_02/game_sounds_music.vsndevts
 
