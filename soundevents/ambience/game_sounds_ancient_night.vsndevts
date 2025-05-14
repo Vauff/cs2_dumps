@@ -1,147 +1,6 @@
 <!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-	aztec.Birds = 
-	{
-		type = "csgo_mega"
-		pitch_random_min = -0.150000
-		pitch_random_max = 0.050000
-		volume = 0.500000
-		use_time_volume_mapping_curve = true
-		enable_retrigger = true
-		retrigger_interval_min = 11.000000
-		retrigger_interval_max = 18.000000
-		randomize_position_max_radius = 4000.000000
-		mixgroup = "Aztec"
-		set_child_position = false
-		position_relative_to_player = true
-		reverb_wet = 1.000000
-		randomize_position_min_radius = 2000.000000
-		retrigger_radius = 10000.000000
-		volume_random_max = 0.100000
-		distance_effect_mix = 0.000000
-		restrict_source_reverb = true
-		vsnd_files_track_01 = 
-		[
-			"sounds/ambient/animal/trop_bird_01.vsnd",
-			"sounds/ambient/animal/trop_bird_02.vsnd",
-			"sounds/ambient/animal/trop_bird_03.vsnd",
-			"sounds/ambient/animal/trop_bird_04.vsnd",
-			"sounds/ambient/animal/trop_bird_05.vsnd",
-			"sounds/ambient/animal/trop_bird_06.vsnd",
-			"sounds/ambient/animal/trop_bird_07.vsnd",
-			"sounds/ambient/animal/trop_bird_08.vsnd",
-			"sounds/ambient/animal/trop_bird_09.vsnd",
-			"sounds/ambient/animal/trop_bird_10.vsnd",
-			"sounds/ambient/animal/shoots_jungle_bird_01.vsnd",
-			"sounds/ambient/animal/shoots_jungle_bird_02.vsnd",
-			"sounds/ambient/animal/shoots_jungle_bird_03.vsnd",
-			"sounds/ambient/animal/shoots_jungle_bird_04.vsnd",
-			"sounds/ambient/animal/shoots_jungle_bird_05.vsnd",
-			"sounds/ambient/animal/shoots_jungle_bird_06.vsnd",
-			"sounds/ambient/animal/shoots_jungle_bird_07.vsnd",
-		]
-		distance_volume_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				600.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		time_volume_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				0.037143,
-				0.375000,
-				8.052884,
-				8.052884,
-				3.000000,
-				1.000000,
-			],
-			
-			[
-				0.111429,
-				0.897321,
-				1.061894,
-				1.061894,
-				3.000000,
-				1.000000,
-			],
-			
-			[
-				0.625714,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		fadetime_volume_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				0.522367,
-				0.626582,
-				-0.561423,
-				-0.561423,
-				3.000000,
-				1.000000,
-			],
-			
-			[
-				1.375347,
-				0.227848,
-				-0.349671,
-				-0.349671,
-				1.000000,
-				1.000000,
-			],
-			
-			[
-				2.314286,
-				0.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		vsnd_duration = 3.790023
-	}
-	aztec.TSpawn = 
+	ancient_night.TSpawn = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
@@ -177,10 +36,9 @@
 		]
 		soundevent_01 = 
 		[
-			"aztec.TSpawn.Exterior",
-			"aztec.Birds",
-			"aztec.Tspawn.Waterfall",
-			"aztec.TSpawn.Ambience",
+			"ancient_night.TSpawn.Exterior",
+			"ancient_night.Tspawn.Waterfall",
+			"ancient_night.TSpawn.Ambience",
 		]
 		time_volume_mapping_curve = 
 		[
@@ -245,10 +103,10 @@
 		vsnd_files_track_01 = "sounds/common/null.vsnd"
 		vsnd_duration = 0.100045
 	}
-	aztec.TSpawn.Exterior = 
+	ancient_night.TSpawn.Exterior = 
 	{
 		type = "csgo_mega"
-		volume = 0.200000
+		volume = 0.100000
 		use_time_volume_mapping_curve = true
 		use_distance_unfiltered_stereo_mapping_curve = true
 		mixgroup = "Aztec"
@@ -379,7 +237,7 @@
 		]
 		vsnd_duration = 15.624036
 	}
-	aztec.TSpawnTunnel = 
+	ancient_night.TSpawnTunnel = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
@@ -393,10 +251,10 @@
 		restrict_source_reverb = true
 		soundevent_01 = 
 		[
-			"aztec.TSpawnTunnel.Exterior",
-			"aztec.TSpawnTunnel.Exterior2",
-			"aztec.TSpawnTunnel.Interior",
-			"aztec.RockFalls",
+			"ancient_night.TSpawnTunnel.Exterior",
+			"ancient_night.TSpawnTunnel.Exterior2",
+			"ancient_night.TSpawnTunnel.Interior",
+			"ancient_night.RockFalls",
 		]
 		distance_volume_mapping_curve = 
 		[
@@ -489,18 +347,18 @@
 			],
 		]
 	}
-	aztec.TSpawnTunnel.Exterior = 
+	ancient_night.TSpawnTunnel.Exterior = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
 		mixgroup = "Aztec"
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
-		volume = 0.200000
+		volume = 0.060000
 		reverb_wet = 1.000000
 		distance_effect_mix = 0.000000
 		restrict_source_reverb = true
-		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_exterior_03.vsnd"
+		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_night_exterior_02.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
 			
@@ -621,25 +479,25 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 32.825306
 	}
-	aztec.TSpawnTunnel.Interior = 
+	ancient_night.TSpawnTunnel.Interior = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
 		mixgroup = "Aztec"
-		volume = 0.500000
+		volume = 0.200000
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
 		reverb_wet = 1.000000
 		distance_effect_mix = 0.000000
 		restrict_source_reverb = true
+		pitch = 0.900000
 		distance_unfiltered_stereo_mapping_curve = 
 		[
 			
 			[
-				0.000000,
-				1.000000,
+				0.955414,
+				0.493506,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -648,7 +506,7 @@
 			
 			[
 				300.000000,
-				1.000000,
+				0.337662,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -757,17 +615,18 @@
 		]
 		vsnd_duration = 33.494217
 	}
-	aztec.TSpawnTunnel.Exterior2 = 
+	ancient_night.TSpawnTunnel.Exterior2 = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
 		mixgroup = "Aztec"
-		volume = 0.100000
+		volume = 0.025000
 		use_distance_unfiltered_stereo_mapping_curve = true
 		set_child_position = false
 		reverb_wet = 1.000000
 		distance_effect_mix = 0.000000
 		restrict_source_reverb = true
+		pitch = 0.950000
 		distance_unfiltered_stereo_mapping_curve = 
 		[
 			
@@ -891,7 +750,7 @@
 		]
 		vsnd_duration = 15.624036
 	}
-	aztec.BombsiteA = 
+	ancient_night.BombsiteA = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
@@ -905,9 +764,8 @@
 		restrict_source_reverb = true
 		soundevent_01 = 
 		[
-			"aztec.BombsiteA.Exterior",
-			"aztec.BombsiteA.Exterior2",
-			"aztec.Birds",
+			"ancient_night.BombsiteA.Exterior",
+			"ancient_night.BombsiteA.Exterior2",
 		]
 		distance_volume_mapping_curve = 
 		[
@@ -991,7 +849,7 @@
 			],
 		]
 	}
-	aztec.BombsiteA.Exterior = 
+	ancient_night.BombsiteA.Exterior = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
@@ -1002,7 +860,7 @@
 		reverb_wet = 1.000000
 		distance_effect_mix = 0.000000
 		restrict_source_reverb = true
-		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_mex_exterior_02.vsnd"
+		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_night_mex_exterior_03.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
 			
@@ -1038,7 +896,7 @@
 			
 			[
 				300.000000,
-				1.000000,
+				0.809524,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -1123,9 +981,8 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 44.454830
 	}
-	aztec.BombsiteA.Exterior2 = 
+	ancient_night.BombsiteA.Exterior2 = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
@@ -1151,7 +1008,7 @@
 			
 			[
 				300.000000,
-				1.000000,
+				0.619048,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -1259,7 +1116,7 @@
 		]
 		vsnd_duration = 15.624036
 	}
-	aztec.CTSpawn = 
+	ancient_night.CTSpawn = 
 	{
 		type = "csgo_mega"
 		mixgroup = "Aztec"
@@ -1272,11 +1129,7 @@
 		distance_effect_mix = 0.000000
 		restrict_source_reverb = true
 		metadata = "position: birds 0, tree by apartment"
-		soundevent_01 = 
-		[
-			"aztec.CTSpawn.Exterior",
-			"aztec.Birds",
-		]
+		soundevent_01 = "ancient_night.CTSpawn.Exterior"
 		distance_volume_mapping_curve = 
 		[
 			
@@ -1359,13 +1212,13 @@
 			],
 		]
 	}
-	aztec.CTSpawn.Exterior = 
+	ancient_night.CTSpawn.Exterior = 
 	{
 		type = "csgo_mega"
 		mixgroup = "Aztec"
 		use_time_volume_mapping_curve = true
 		use_distance_unfiltered_stereo_mapping_curve = true
-		volume = 0.200000
+		volume = 0.150000
 		set_child_position = false
 		reverb_wet = 1.000000
 		distance_effect_mix = 0.000000
@@ -1383,8 +1236,8 @@
 			],
 			
 			[
-				300.000000,
-				1.000000,
+				299.999969,
+				0.935065,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -1405,14 +1258,14 @@
 			
 			[
 				300.000000,
-				1.000000,
+				0.497835,
 				0.000000,
 				0.000000,
 				2.000000,
 				3.000000,
 			],
 		]
-		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_mex_exterior_02.vsnd"
+		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_night_mex_exterior_03.vsnd"
 		fadetime_volume_mapping_curve = 
 		[
 			
@@ -1491,9 +1344,8 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 44.454830
 	}
-	aztec.ThroneRoom = 
+	ancient_night.ThroneRoom = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
@@ -1597,13 +1449,13 @@
 		]
 		soundevent_01 = 
 		[
-			"aztec.ThroneRoom.Exterior",
-			"aztec.ThroneRoom.Exterior2",
-			"aztec.ThroneRoom.Interior",
-			"aztec.RockFalls",
+			"ancient_night.ThroneRoom.Exterior",
+			"ancient_night.ThroneRoom.Exterior2",
+			"ancient_night.ThroneRoom.Interior",
+			"ancient_night.RockFalls",
 		]
 	}
-	aztec.ThroneRoom.Exterior = 
+	ancient_night.ThroneRoom.Exterior = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
@@ -1734,10 +1586,9 @@
 				3.000000,
 			],
 		]
-		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_mex_exterior_02.vsnd"
-		vsnd_duration = 44.454830
+		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_night_mex_exterior_03.vsnd"
 	}
-	aztec.ThroneRoom.Exterior2 = 
+	ancient_night.ThroneRoom.Exterior2 = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
@@ -1868,10 +1719,9 @@
 				3.000000,
 			],
 		]
-		vsnd_files_track_01 = "sounds/ambient/aztec2/swamp_exterior_01.vsnd"
-		vsnd_duration = 15.624036
+		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_night_mex_exterior_01.vsnd"
 	}
-	aztec.ThroneRoom.Interior = 
+	ancient_night.ThroneRoom.Interior = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
@@ -1896,7 +1746,7 @@
 			
 			[
 				300.000000,
-				1.000000,
+				0.653680,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -1917,7 +1767,7 @@
 			
 			[
 				300.000000,
-				1.000000,
+				0.441558,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -2005,7 +1855,7 @@
 		vsnd_files_track_01 = "sounds/ambient/aztec2/drone_interior_01.vsnd"
 		vsnd_duration = 17.552652
 	}
-	aztec.BombsiteB = 
+	ancient_night.BombsiteB = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
@@ -2019,9 +1869,8 @@
 		restrict_source_reverb = true
 		soundevent_01 = 
 		[
-			"aztec.BombsiteB.Exterior",
-			"aztec.BombsiteB.Exterior2",
-			"aztec.Birds",
+			"ancient_night.BombsiteB.Exterior",
+			"ancient_night.BombsiteB.Exterior2",
 		]
 		distance_volume_mapping_curve = 
 		[
@@ -2105,7 +1954,7 @@
 			],
 		]
 	}
-	aztec.BombsiteB.Exterior = 
+	ancient_night.BombsiteB.Exterior = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
@@ -2158,7 +2007,7 @@
 				3.000000,
 			],
 		]
-		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_mex_exterior_01.vsnd"
+		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_night_mex_exterior_01.vsnd"
 		fadetime_volume_mapping_curve = 
 		[
 			
@@ -2237,9 +2086,8 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 55.025036
 	}
-	aztec.BombsiteB.Exterior2 = 
+	ancient_night.BombsiteB.Exterior2 = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
@@ -2373,7 +2221,7 @@
 		]
 		vsnd_duration = 15.624036
 	}
-	aztec.TSpawnToAOutskirt = 
+	ancient_night.TSpawnToAOutskirt = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
@@ -2414,7 +2262,7 @@
 			
 			[
 				0.000000,
-				1.000000,
+				0.320346,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -2423,14 +2271,14 @@
 			
 			[
 				300.000000,
-				1.000000,
+				0.316017,
 				0.000000,
 				0.000000,
 				2.000000,
 				3.000000,
 			],
 		]
-		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_exterior_02.vsnd"
+		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_night_exterior_02.vsnd"
 		fadetime_volume_mapping_curve = 
 		[
 			
@@ -2491,10 +2339,9 @@
 				3.000000,
 			],
 		]
-		soundevent_01 = "aztec.TSpawnToAOutskirt_Swamp"
-		vsnd_duration = 28.388527
+		soundevent_01 = "ancient_night.TSpawnToAOutskirt_Swamp"
 	}
-	aztec.Mid = 
+	ancient_night.Mid = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
@@ -2507,7 +2354,7 @@
 		reverb_wet = 1.000000
 		distance_effect_mix = 0.000000
 		restrict_source_reverb = true
-		volume = 0.050000
+		volume = 0.100000
 		pitch = 0.980000
 		distance_volume_mapping_curve = 
 		[
@@ -2530,11 +2377,7 @@
 				3.000000,
 			],
 		]
-		soundevent_01 = 
-		[
-			"aztec.Mid.Exterior",
-			"aztec.Birds",
-		]
+		soundevent_01 = "ancient_night.Mid.Exterior"
 		fadetime_volume_mapping_curve = 
 		[
 			
@@ -2610,7 +2453,7 @@
 		]
 		vsnd_duration = 15.624036
 	}
-	aztec.Mid.Exterior = 
+	ancient_night.Mid.Exterior = 
 	{
 		type = "csgo_mega"
 		volume = 0.400000
@@ -2621,7 +2464,7 @@
 		reverb_wet = 1.000000
 		distance_effect_mix = 0.000000
 		restrict_source_reverb = true
-		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_exterior_03.vsnd"
+		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_night_exterior_03.vsnd"
 		distance_volume_mapping_curve = 
 		[
 			
@@ -2636,7 +2479,7 @@
 			
 			[
 				300.000000,
-				1.000000,
+				0.177489,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -2724,9 +2567,8 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 32.825306
 	}
-	aztec.TSpawnToBOutskirts = 
+	ancient_night.TSpawnToBOutskirts = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
@@ -2740,9 +2582,8 @@
 		restrict_source_reverb = true
 		soundevent_01 = 
 		[
-			"aztec.TSpawnToBOutskirts.Exterior",
-			"aztec.TSpawnToBOutskirts.Exterior2",
-			"aztec.Birds",
+			"ancient_night.TSpawnToBOutskirts.Exterior",
+			"ancient_night.TSpawnToBOutskirts.Exterior2",
 		]
 		distance_volume_mapping_curve = 
 		[
@@ -2826,7 +2667,7 @@
 			],
 		]
 	}
-	aztec.TSpawnToBOutskirts.Exterior = 
+	ancient_night.TSpawnToBOutskirts.Exterior = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
@@ -2837,7 +2678,13 @@
 		reverb_wet = 1.000000
 		distance_effect_mix = 0.000000
 		restrict_source_reverb = true
-		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_mex_exterior_01.vsnd"
+		position = 
+		[
+			674.227417,
+			-1747.993774,
+			-81.517151,
+		]
+		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_night_exterior_02.vsnd"
 		distance_unfiltered_stereo_mapping_curve = 
 		[
 			
@@ -2852,7 +2699,7 @@
 			
 			[
 				300.000000,
-				1.000000,
+				0.303030,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -2958,9 +2805,8 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 55.025036
 	}
-	aztec.TSpawnToBOutskirts.Exterior2 = 
+	ancient_night.TSpawnToBOutskirts.Exterior2 = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
@@ -2986,7 +2832,7 @@
 			
 			[
 				300.000000,
-				1.000000,
+				0.493506,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -3007,7 +2853,7 @@
 			
 			[
 				300.000000,
-				1.000000,
+				0.614719,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -3094,7 +2940,7 @@
 		]
 		vsnd_duration = 24.746191
 	}
-	aztec.MidToBAlley = 
+	ancient_night.MidToBAlley = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
@@ -3108,9 +2954,9 @@
 		restrict_source_reverb = true
 		soundevent_01 = 
 		[
-			"aztec.MidToBAlley.Exterior",
-			"aztec.MidToBAlley.Exterior2",
-			"aztec.MidToBAlley.Interior",
+			"ancient_night.MidToBAlley.Exterior",
+			"ancient_night.MidToBAlley.Exterior2",
+			"ancient_night.MidToBAlley.Interior",
 		]
 		distance_volume_mapping_curve = 
 		[
@@ -3194,7 +3040,7 @@
 			],
 		]
 	}
-	aztec.MidToBAlley.Interior = 
+	ancient_night.MidToBAlley.Interior = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
@@ -3328,7 +3174,7 @@
 		]
 		vsnd_duration = 33.494217
 	}
-	aztec.MidToBAlley.Exterior = 
+	ancient_night.MidToBAlley.Exterior = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
@@ -3339,7 +3185,7 @@
 		reverb_wet = 1.000000
 		distance_effect_mix = 0.000000
 		restrict_source_reverb = true
-		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_mex_exterior_01.vsnd"
+		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_night_mex_exterior_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
 			
@@ -3460,9 +3306,8 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 55.025036
 	}
-	aztec.MidToBAlley.Exterior2 = 
+	ancient_night.MidToBAlley.Exterior2 = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
@@ -3596,7 +3441,7 @@
 		]
 		vsnd_duration = 15.624036
 	}
-	aztec.MidToBInterior = 
+	ancient_night.MidToBInterior = 
 	{
 		type = "csgo_mega"
 		mixgroup = "Aztec"
@@ -3610,9 +3455,9 @@
 		restrict_source_reverb = true
 		soundevent_01 = 
 		[
-			"aztec.MidToBInterior.Exterior",
-			"aztec.MidToBInterior.Interior",
-			"aztec.RockFalls",
+			"ancient_night.MidToBInterior.Exterior",
+			"ancient_night.MidToBInterior.Interior",
+			"ancient_night.RockFalls",
 		]
 		distance_volume_mapping_curve = 
 		[
@@ -3705,7 +3550,7 @@
 			],
 		]
 	}
-	aztec.MidToBInterior.Interior = 
+	ancient_night.MidToBInterior.Interior = 
 	{
 		type = "csgo_mega"
 		mixgroup = "Aztec"
@@ -3839,7 +3684,7 @@
 		]
 		vsnd_duration = 39.831837
 	}
-	aztec.MidToBInterior.Exterior = 
+	ancient_night.MidToBInterior.Exterior = 
 	{
 		type = "csgo_mega"
 		mixgroup = "Aztec"
@@ -3970,10 +3815,9 @@
 				3.000000,
 			],
 		]
-		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_mex_exterior_01.vsnd"
-		vsnd_duration = 55.025036
+		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_night_mex_exterior_01.vsnd"
 	}
-	aztec.CTSpawnToAAlley = 
+	ancient_night.CTSpawnToAAlley = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
@@ -3987,7 +3831,7 @@
 		distance_effect_mix = 0.000000
 		restrict_source_reverb = true
 		enable_child_events = true
-		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_mex_exterior_02.vsnd"
+		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_night_mex_exterior_03.vsnd"
 		distance_volume_mapping_curve = 
 		[
 			
@@ -4002,7 +3846,7 @@
 			
 			[
 				300.000000,
-				1.000000,
+				0.558442,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -4108,10 +3952,9 @@
 				3.000000,
 			],
 		]
-		soundevent_01 = "aztec.RockFalls"
-		vsnd_duration = 44.454830
+		soundevent_01 = "ancient_night.RockFalls"
 	}
-	aztec.CTSpawnToBAlley = 
+	ancient_night.CTSpawnToBAlley = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
@@ -4125,7 +3968,7 @@
 		distance_effect_mix = 0.000000
 		restrict_source_reverb = true
 		enable_child_events = true
-		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_mex_exterior_03.vsnd"
+		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_night_mex_exterior_01.vsnd"
 		distance_volume_mapping_curve = 
 		[
 			
@@ -4140,7 +3983,7 @@
 			
 			[
 				300.000000,
-				1.000000,
+				0.597403,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -4161,7 +4004,7 @@
 			
 			[
 				300.000000,
-				1.000000,
+				0.883117,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -4246,10 +4089,9 @@
 				3.000000,
 			],
 		]
-		soundevent_01 = "aztec.RockFalls"
-		vsnd_duration = 27.127846
+		soundevent_01 = "ancient_night.RockFalls"
 	}
-	aztec.ABombTempleInterior = 
+	ancient_night.ABombTempleInterior = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
@@ -4284,12 +4126,10 @@
 		]
 		soundevent_01 = 
 		[
-			"aztec.ABombTempleInterior.Exterior",
-			"aztec.ABombTempleInterior.Exterior2",
-			"aztec.ABombTempleInterior.Interior",
-			"aztec.ABombTempleInterior.ExteriorHole",
-			"aztec.ABombTempleInterior.Birds",
-			"aztec.RockFalls",
+			"ancient_night.ABombTempleInterior.Exterior2",
+			"ancient_night.ABombTempleInterior.Interior",
+			"ancient_night.ABombTempleInterior.ExteriorHole",
+			"ancient_night.RockFalls",
 		]
 		fadetime_volume_mapping_curve = 
 		[
@@ -4361,13 +4201,13 @@
 			],
 		]
 	}
-	aztec.ABombTempleInterior.Interior = 
+	ancient_night.ABombTempleInterior.Interior = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
 		mixgroup = "Aztec"
 		use_distance_unfiltered_stereo_mapping_curve = true
-		volume = 0.500000
+		volume = 0.200000
 		set_child_position = false
 		reverb_wet = 1.000000
 		distance_effect_mix = 0.000000
@@ -4495,13 +4335,13 @@
 		]
 		vsnd_duration = 16.328094
 	}
-	aztec.ABombTempleInterior.Exterior = 
+	ancient_night.ABombTempleInterior.Exterior = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
 		mixgroup = "Aztec"
 		use_distance_unfiltered_stereo_mapping_curve = true
-		volume = 0.020000
+		volume = 0.100000
 		set_child_position = false
 		reverb_wet = 1.000000
 		distance_effect_mix = 0.000000
@@ -4548,7 +4388,7 @@
 				3.000000,
 			],
 		]
-		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_mex_exterior_01.vsnd"
+		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_night_mex_exterior_01.vsnd"
 		fadetime_volume_mapping_curve = 
 		[
 			
@@ -4627,15 +4467,14 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 55.025036
 	}
-	aztec.ABombTempleInterior.Exterior2 = 
+	ancient_night.ABombTempleInterior.Exterior2 = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
 		mixgroup = "Aztec"
 		use_distance_unfiltered_stereo_mapping_curve = true
-		volume = 0.020000
+		volume = 0.060000
 		set_child_position = false
 		reverb_wet = 1.000000
 		distance_effect_mix = 0.000000
@@ -4645,7 +4484,7 @@
 			
 			[
 				0.000000,
-				1.000000,
+				0.519481,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -4653,8 +4492,8 @@
 			],
 			
 			[
-				300.000000,
-				1.000000,
+				299.999969,
+				0.805195,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -4763,7 +4602,7 @@
 		]
 		vsnd_duration = 15.624036
 	}
-	aztec.CTSpawnTempleInterior = 
+	ancient_night.CTSpawnTempleInterior = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
@@ -4798,10 +4637,10 @@
 		]
 		soundevent_01 = 
 		[
-			"aztec.CTSpawnTempleInterior.Exterior",
-			"aztec.CTSpawnTempleInterior.Exterior2",
-			"aztec.CTSpawnTempleInterior.Interior",
-			"aztec.RockFalls",
+			"ancient_night.CTSpawnTempleInterior.Exterior",
+			"ancient_night.CTSpawnTempleInterior.Exterior2",
+			"ancient_night.CTSpawnTempleInterior.Interior",
+			"ancient_night.RockFalls",
 		]
 		fadetime_volume_mapping_curve = 
 		[
@@ -4873,7 +4712,7 @@
 			],
 		]
 	}
-	aztec.CTSpawnTempleInterior.Exterior = 
+	ancient_night.CTSpawnTempleInterior.Exterior = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
@@ -4926,7 +4765,7 @@
 				3.000000,
 			],
 		]
-		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_mex_exterior_02.vsnd"
+		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_night_mex_exterior_01.vsnd"
 		fadetime_volume_mapping_curve = 
 		[
 			
@@ -5005,9 +4844,8 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 44.454830
 	}
-	aztec.CTSpawnTempleInterior.Interior = 
+	ancient_night.CTSpawnTempleInterior.Interior = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
@@ -5141,7 +4979,7 @@
 		]
 		vsnd_duration = 16.328094
 	}
-	aztec.CTSpawnTempleInterior.Exterior2 = 
+	ancient_night.CTSpawnTempleInterior.Exterior2 = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
@@ -5276,7 +5114,7 @@
 		]
 		vsnd_duration = 15.624036
 	}
-	aztec.Tspawn.Waterfall = 
+	ancient_night.Tspawn.Waterfall = 
 	{
 		type = "csgo_mega"
 		mixgroup = "Ambient"
@@ -5406,7 +5244,7 @@
 		]
 		vsnd_duration = 5.507528
 	}
-	aztec.Tspawn.Music = 
+	ancient_night.Tspawn.Music = 
 	{
 		type = "csgo_mega"
 		mixgroup = "Ambient"
@@ -5539,13 +5377,13 @@
 		]
 		vsnd_duration = 51.428570
 	}
-	aztec.ABombTempleInterior.ExteriorHole = 
+	ancient_night.ABombTempleInterior.ExteriorHole = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
 		mixgroup = "Aztec"
 		use_distance_unfiltered_stereo_mapping_curve = true
-		volume = 0.070000
+		volume = 1.000000
 		set_child_position = false
 		reverb_wet = 1.000000
 		position = 
@@ -5569,26 +5407,26 @@
 			],
 			
 			[
-				316.285706,
-				0.927928,
-				-0.001132,
-				-0.001132,
+				226.433136,
+				0.428571,
+				-0.000974,
+				-0.000974,
 				3.000000,
 				1.000000,
 			],
 			
 			[
-				509.142853,
-				0.423423,
-				-0.001466,
-				-0.001466,
+				462.420410,
+				0.549784,
+				-0.000682,
+				-0.000682,
 				1.000000,
 				1.000000,
 			],
 			
 			[
-				900.000000,
-				0.072072,
+				658.280273,
+				0.134199,
 				0.000000,
 				0.000000,
 				2.000000,
@@ -5608,33 +5446,33 @@
 			],
 			
 			[
-				230.000000,
-				0.531532,
-				-0.001173,
-				-0.001173,
+				246.815292,
+				0.122694,
+				-0.001580,
+				-0.001580,
 				3.000000,
 				1.000000,
 			],
 			
 			[
-				307.142853,
-				0.283784,
-				-0.001768,
-				-0.001768,
+				407.643311,
+				0.000000,
+				-0.000485,
+				-0.000485,
 				1.000000,
 				1.000000,
 			],
 			
 			[
 				500.000000,
-				0.054054,
+				0.000000,
 				0.000000,
 				0.000000,
 				2.000000,
 				3.000000,
 			],
 		]
-		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_exterior_02.vsnd"
+		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_night_exterior_02.vsnd"
 		fadetime_volume_mapping_curve = 
 		[
 			
@@ -5713,149 +5551,8 @@
 				3.000000,
 			],
 		]
-		vsnd_duration = 28.388527
 	}
-	aztec.ABombTempleInterior.Birds = 
-	{
-		type = "csgo_mega"
-		pitch_random_min = -0.150000
-		pitch_random_max = 0.050000
-		volume = 0.050000
-		use_time_volume_mapping_curve = true
-		enable_retrigger = true
-		retrigger_interval_min = 8.000000
-		retrigger_interval_max = 20.000000
-		randomize_position_max_radius = 20.000000
-		mixgroup = "Aztec"
-		set_child_position = false
-		position_relative_to_player = false
-		reverb_wet = 1.000000
-		randomize_position_min_radius = 0.000000
-		retrigger_radius = 10000.000000
-		volume_random_max = 0.000000
-		position = 
-		[
-			-2368.000000,
-			-129.000000,
-			256.000000,
-		]
-		distance_effect_mix = 0.000000
-		restrict_source_reverb = true
-		vsnd_files_track_01 = 
-		[
-			"sounds/ambient/animal/trop_bird_01.vsnd",
-			"sounds/ambient/animal/trop_bird_02.vsnd",
-			"sounds/ambient/animal/trop_bird_03.vsnd",
-			"sounds/ambient/animal/trop_bird_04.vsnd",
-			"sounds/ambient/animal/trop_bird_05.vsnd",
-			"sounds/ambient/animal/trop_bird_06.vsnd",
-			"sounds/ambient/animal/trop_bird_07.vsnd",
-			"sounds/ambient/animal/trop_bird_08.vsnd",
-			"sounds/ambient/animal/trop_bird_09.vsnd",
-			"sounds/ambient/animal/trop_bird_10.vsnd",
-		]
-		distance_volume_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				1500.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		time_volume_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				0.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				0.037143,
-				0.375000,
-				8.052884,
-				8.052884,
-				3.000000,
-				1.000000,
-			],
-			
-			[
-				0.111429,
-				0.897321,
-				1.061894,
-				1.061894,
-				3.000000,
-				1.000000,
-			],
-			
-			[
-				0.625714,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		fadetime_volume_mapping_curve = 
-		[
-			
-			[
-				0.000000,
-				1.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-			
-			[
-				0.522367,
-				0.626582,
-				-0.561423,
-				-0.561423,
-				3.000000,
-				1.000000,
-			],
-			
-			[
-				1.375347,
-				0.227848,
-				-0.349671,
-				-0.349671,
-				1.000000,
-				1.000000,
-			],
-			
-			[
-				2.314286,
-				0.000000,
-				0.000000,
-				0.000000,
-				2.000000,
-				3.000000,
-			],
-		]
-		vsnd_duration = 3.500680
-	}
-	aztec.TSpawnToAOutskirt_Swamp = 
+	ancient_night.TSpawnToAOutskirt_Swamp = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
@@ -5867,7 +5564,6 @@
 		override_dsp_preset = true
 		reverb_wet = 1.000000
 		enable_child_events = false
-		position_relative_to_player = true
 		distance_effect_mix = 0.000000
 		restrict_source_reverb = true
 		distance_volume_mapping_curve = 
@@ -5994,7 +5690,7 @@
 		soundevent_01 = ""
 		vsnd_duration = 15.624036
 	}
-	aztec.MidToBInteriorEnclave = 
+	ancient_night.MidToBInteriorEnclave = 
 	{
 		type = "csgo_mega"
 		mixgroup = "Aztec"
@@ -6008,9 +5704,9 @@
 		restrict_source_reverb = true
 		soundevent_01 = 
 		[
-			"aztec.MidToBInterior.Exterior",
-			"aztec.MidToBInterior.Interior",
-			"aztec.RockFalls",
+			"ancient_night.MidToBInterior.Exterior",
+			"ancient_night.MidToBInterior.Interior",
+			"ancient_night.RockFalls",
 		]
 		distance_volume_mapping_curve = 
 		[
@@ -6103,7 +5799,7 @@
 			],
 		]
 	}
-	aztec.RockFalls = 
+	ancient_night.RockFalls = 
 	{
 		type = "csgo_mega"
 		mixgroup = "Aztec"
@@ -6174,7 +5870,7 @@
 		]
 		vsnd_duration = 6.997324
 	}
-	aztec.TSpawn.Ambience = 
+	ancient_night.TSpawn.Ambience = 
 	{
 		type = "csgo_mega"
 		use_time_volume_mapping_curve = true
@@ -6182,11 +5878,13 @@
 		enable_child_events = false
 		dsp_preset = "reverb_21_outsideStreet"
 		set_child_position = false
-		override_dsp_preset = true
-		reverb_wet = 1.000000
+		override_dsp_preset = false
+		reverb_wet = 0.000000
 		distance_effect_mix = 0.000000
 		restrict_source_reverb = true
-		volume = 0.100000
+		volume = 0.160000
+		use_distance_unfiltered_stereo_mapping_curve = true
+		use_distance_volume_mapping_curve = true
 		distance_volume_mapping_curve = 
 		[
 			
@@ -6269,7 +5967,27 @@
 				3.000000,
 			],
 		]
-		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_exterior_02.vsnd"
-		vsnd_duration = 28.388527
+		vsnd_files_track_01 = "sounds/ambient/aztec2/jungle_night_exterior_02.vsnd"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			
+			[
+				0.000000,
+				0.688312,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+			
+			[
+				300.000000,
+				0.688312,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
 	}
 }
